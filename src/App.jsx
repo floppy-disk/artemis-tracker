@@ -464,7 +464,7 @@ export default function App() {
         <ProgressBar />
         {data.milestones.length > 0 && <Stats milestones={data.milestones} />}
         
-        <FetchIndicator fetchState={fetchState} data={data} />
+        <FetchIndicator fetchState={fetchState} data={data} update={data.update} />
 
         <div style={{ height: 12 }} />
 

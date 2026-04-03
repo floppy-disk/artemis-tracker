@@ -10,7 +10,6 @@ const __dirname = path.dirname(__filename);
 import { calculateMissionDay } from '../src/validation.js';
 
 const dataPath = path.join(__dirname, '../public/data.json');
-const workflowPath = path.join(__dirname, '../.github/workflows/tracker-update.yml');
 
 // Initialize Gemini Client
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
@@ -206,45 +205,6 @@ function mergeMilestones(base, updates) {
   return merged;
 }
 
-function calculateNextCron(milestones) {
-  const now = Date.now();
-  const upcoming = milestones.filter(m => !m.completed && new Date(m.time).getTime() > now);
-  
-  let intervalMinutes = 60 * 6; // Default to every 6 hours
-
-  if (upcoming.length > 0) {
-    const nextTime = new Date(upcoming[0].time).getTime();
-    const diffHours = (nextTime - now) / (1000 * 60 * 60);
-
-    if (diffHours < 2) {
-      intervalMinutes = 15; // Every 15 mins
-    } else if (diffHours < 12) {
-      intervalMinutes = 60; // Every 1 hour
-    } else if (diffHours < 24) {
-      intervalMinutes = 60 * 3; // Every 3 hours
-    }
-  }
-  return intervalMinutes;
-}
-
-function updateWorkflowCron(intervalMinutes) {
-  if (!fs.existsSync(workflowPath)) {
-    console.warn("Workflow file not found. Skipping cron update.");
-    return;
-  }
-  
-  let cronStr = "0 */6 * * *"; // default
-  if (intervalMinutes === 15) cronStr = "*/15 * * * *";
-  else if (intervalMinutes === 60) cronStr = "0 * * * *";
-  else if (intervalMinutes === 60 * 3) cronStr = "0 */3 * * *";
-  else if (intervalMinutes === 60 * 6) cronStr = "0 */6 * * *";
-
-  console.log(`Updating workflow cron to: ${cronStr} (every ${intervalMinutes} minutes)`);
-  let content = fs.readFileSync(workflowPath, 'utf-8');
-  // Regex to find the cron line
-  content = content.replace(/cron:\s*['"]?.*['"]?/, `cron: '${cronStr}'`);
-  fs.writeFileSync(workflowPath, content);
-}
 
 async function main() {
   let data;

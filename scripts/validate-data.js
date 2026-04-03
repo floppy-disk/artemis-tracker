@@ -1,4 +1,4 @@
-
+/* global process */
 import fs from 'fs';
 import { validateMilestone, validateHistory } from '../src/validation.js';
 
