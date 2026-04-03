@@ -60,8 +60,10 @@ function METClock() {
   );
 }
 
-function FetchIndicator({ fetchState, update }) {
-  const { status, lastSuccess, lastError, countdown } = fetchState;
+function FetchIndicator({ fetchState, data }) {
+  const { status, lastError: fetchError, countdown } = fetchState;
+  const { update, lastError } = data;
+  
   const colors = {
     idle: "#5a8a9a",
     fetching: "#7fdbca",
@@ -72,13 +74,14 @@ function FetchIndicator({ fetchState, update }) {
     idle: countdown > 0 ? `Next poll in ${Math.ceil(countdown / 1000)}s` : "Idle",
     fetching: "Fetching…",
     success: "Updated",
-    error: lastError ? `Error: ${lastError.slice(0, 40)}` : "Fetch failed",
+    error: fetchError ? `Error: ${fetchError.slice(0, 40)}` : "Fetch failed",
   };
   return (
     <div style={{
       display: "flex", alignItems: "center", justifyContent: "center",
       gap: 8, padding: "6px 0", fontSize: 11, color: colors[status],
       fontFamily: "mono, 'Courier New', monospace", transition: "color 0.3s",
+      flexWrap: "wrap",
     }}>
       <span style={{
         width: 6, height: 6, borderRadius: "50%", background: colors[status],
@@ -87,9 +90,16 @@ function FetchIndicator({ fetchState, update }) {
         flexShrink: 0,
       }} />
       <span>{labels[status]}</span>
-      {update?.fetchedAt && status !== "fetching" && (
-        <span style={{ color: "#3d5a6e" }}>
-          · last: {new Date(update.fetchedAt).toLocaleTimeString()}
+      
+      {update?.fetchedAt && (
+        <span style={{ color: "#5a8a9a" }}>
+          · last: {new Date(update.fetchedAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+        </span>
+      )}
+
+      {lastError && (
+        <span title={lastError} style={{ color: "#ff5353", background: "rgba(255,83,83,0.1)", padding: "1px 6px", borderRadius: 4, cursor: "help" }}>
+          ⚠️ Pipeline Fail
         </span>
       )}
     </div>
@@ -355,7 +365,7 @@ function UpdateLog({ history }) {
 
 // ━━━ APP ━━━
 export default function App() {
-  const [data, setData] = useState({ update: null, milestones: [], history: [] });
+  const [data, setData] = useState({ update: null, milestones: [], history: [], lastError: null });
   const [pollInterval, setPollInterval] = useState(60000);
   const [fetchState, setFetchState] = useState({
     status: "idle", // idle | fetching | success | error
@@ -454,7 +464,7 @@ export default function App() {
         <ProgressBar />
         {data.milestones.length > 0 && <Stats milestones={data.milestones} />}
         
-        <FetchIndicator fetchState={fetchState} update={data.update} />
+        <FetchIndicator fetchState={fetchState} data={data} />
 
         <div style={{ height: 12 }} />
 

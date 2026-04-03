@@ -25,15 +25,6 @@
   },
   "milestones": [
     {
-      "id": "prox-ops",
-      "label": "PROXIMITY OPS",
-      "detail": "Manual piloting demonstrations and life support tests were successfully conducted in high Earth orbit.",
-      "time": "2026-04-01T00:00:00.000Z",
-      "day": 2,
-      "icon": "🎯",
-      "completed": true
-    },
-    {
       "id": "launch",
       "label": "LAUNCH",
       "detail": "SLS liftoff from Pad 39B",
@@ -67,6 +58,15 @@
       "time": "2026-04-02T16:00:00.000Z",
       "day": 1,
       "icon": "🔥",
+      "completed": true
+    },
+    {
+      "id": "prox-ops",
+      "label": "PROXIMITY OPS",
+      "detail": "Manual piloting demonstrations and life support tests were successfully conducted in high Earth orbit.",
+      "time": "2026-04-02T20:00:00.000Z",
+      "day": 1,
+      "icon": "🎯",
       "completed": true
     },
     {
@@ -112,7 +112,7 @@
       "label": "Communications Blackout Behind Moon",
       "detail": "Temporary loss of communications with Earth as Orion passes behind the Moon.",
       "time": "2026-04-03T18:02:04.912Z",
-      "day": 1,
+      "day": 3,
       "icon": "📡",
       "completed": false,
       "isNew": true

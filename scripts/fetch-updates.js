@@ -81,10 +81,14 @@ async function generateWithFallback(params, models = ['gemini-3-flash-preview', 
 
 async function fetchNews() {
   console.log("Step 1: Searching for latest Artemis II news...");
-  const searchPrompt = `Search for the absolute latest news regarding the NASA Artemis II mission (launched April 1 2026). 
+  const launchTime = "2026-04-01T22:35:00Z";
+  const searchPrompt = `Search for the absolute latest news regarding the NASA Artemis II mission (launched ${launchTime}). 
   Focus on: current mission status, crew health, and any milestones recently reached or upcoming soon. 
   Include numeric factual values if available (distance, velocity).
-  Today's date/time is ${new Date().toISOString()}.`;
+  Today's date/time is ${new Date().toISOString()}.
+  Mission Day 1: April 1 22:35Z to April 2 22:35Z
+  Mission Day 2: April 2 22:35Z to April 3 22:35Z
+  Mission Day 3: April 3 22:35Z to April 4 22:35Z`;
 
   const searchResponse = await generateWithFallback({
     contents: searchPrompt,
@@ -106,7 +110,9 @@ async function fetchNews() {
   3. If you find new milestones, add them with unique IDs and ALWAYS provide a brief description in updatedDetail.
   4. Ensure all times are in ISO 8601 format and include a specific time zone offset (e.g. +00:00 or Z).
   5. Check for new times/ETAs for upcoming milestones to ensure they are always up to date.
-  6. Extract numeric, factual values for telemetry (distance, velocity, etc) and store them.`;
+  6. Extract numeric, factual values for telemetry (distance, velocity, etc) and store them.
+  7. IMPORTANT: Calculate the mission 'day' strictly based on the launch time of 2026-04-01T22:35:00Z. 
+     Day 1 is first 24h, Day 2 is 24-48h, etc. Ensure 'day' and 'time' are consistent.`;
 
   const finalResponse = await generateWithFallback({
     contents: formatPrompt,
@@ -138,6 +144,7 @@ function mergeMilestones(base, updates) {
     if (upd.updatedDetail && upd.updatedDetail.length > 0) {
       copy.detail = upd.updatedDetail;
     }
+    if (upd.day) copy.day = upd.day;
     return copy;
   });
   
@@ -158,7 +165,10 @@ function mergeMilestones(base, updates) {
       isNew: true,
     });
   });
-  merged.sort((a, b) => new Date(a.time).getTime() - new Date(b.time).getTime());
+  merged.sort((a, b) => {
+    if (a.day !== b.day) return a.day - b.day;
+    return new Date(a.time).getTime() - new Date(b.time).getTime();
+  });
   return merged;
 }
 
@@ -203,9 +213,10 @@ function updateWorkflowCron(intervalMinutes) {
 }
 
 async function main() {
+  let data;
   try {
     const rawData = fs.readFileSync(dataPath, 'utf-8');
-    const data = JSON.parse(rawData);
+    data = JSON.parse(rawData);
 
     const update = await fetchNews();
     
@@ -217,6 +228,7 @@ async function main() {
     delete newUpdateObj.milestoneUpdates; // save space
     
     data.update = newUpdateObj;
+    data.lastError = null; // Clear previous error
     
     // Add to history (keep last 20)
     data.history = [newUpdateObj, ...(data.history || [])].slice(0, 20);
@@ -231,6 +243,10 @@ async function main() {
 
   } catch (err) {
     console.error("Error during fetch:", err);
+    if (data) {
+      data.lastError = err.message;
+      fs.writeFileSync(dataPath, JSON.stringify(data, null, 2));
+    }
     process.exit(1);
   }
 }
