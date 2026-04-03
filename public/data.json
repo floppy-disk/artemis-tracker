@@ -1,0 +1,285 @@
+{
+  "update": {
+    "status": "nominal",
+    "statusLabel": "Outbound Coast",
+    "currentPhase": "Orion is currently on a translunar trajectory toward the Moon following a successful TLI burn.",
+    "headline": "Artemis II crew cruises toward the Moon after completing the critical Translunar Injection maneuver.",
+    "details": [
+      "The 5-minute and 55-second TLI burn was successfully executed at 7:49 p.m. EDT on Flight Day 2.",
+      "Crew members Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are reported to be in excellent health.",
+      "A minor issue with the spacecraft's waste management system was identified and resolved by mission control and the crew.",
+      "The spacecraft has surpassed 100,000 miles from Earth and is maintaining a velocity of approximately 39,428 km/h."
+    ],
+    "sources": [
+      "NASA Johnson Space Center Briefing",
+      "Artemis II Flight Day 3 Mission Update"
+    ],
+    "alertMessage": null,
+    "crewStatus": "The crew is in excellent health and high spirits; they are currently capturing high-resolution imagery of Earth.",
+    "lastEvent": "Completion of the Translunar Injection (TLI) burn to depart Earth's orbit.",
+    "nextEvent": "Lunar flyby and lunar far-side communication loss scheduled for April 6.",
+    "telemetry": {
+      "distanceFromEarth": 160934,
+      "distanceFromMoon": null,
+      "missionElapsedDay": 3,
+      "velocity": 39428
+    },
+    "fetchedAt": "2026-04-03T18:15:17.228Z"
+  },
+  "milestones": [
+    {
+      "id": "launch",
+      "label": "LAUNCH",
+      "detail": "SLS liftoff from Pad 39B",
+      "time": "2026-04-01T22:35:00.000Z",
+      "day": 1,
+      "icon": "🚀",
+      "completed": true
+    },
+    {
+      "id": "core-sep",
+      "label": "CORE STAGE SEPARATION",
+      "detail": "MECO & core stage jettison",
+      "time": "2026-04-01T22:36:00.000Z",
+      "day": 1,
+      "icon": "⚡",
+      "completed": true
+    },
+    {
+      "id": "solar-deploy",
+      "label": "SOLAR ARRAY DEPLOY",
+      "detail": "Four Orion solar wings extended",
+      "time": "2026-04-01T22:37:00.000Z",
+      "day": 1,
+      "icon": "☀️",
+      "completed": true
+    },
+    {
+      "id": "perigee-raise",
+      "label": "PERIGEE RAISE",
+      "detail": "Orion performed perigee raise and apogee raise burns.",
+      "time": "2026-04-02T16:00:00.000Z",
+      "day": 1,
+      "icon": "🔥",
+      "completed": true
+    },
+    {
+      "id": "tli",
+      "label": "TRANSLUNAR INJECTION",
+      "detail": "Engine firing increased velocity to 24,500 mph to escape Earth's gravity.",
+      "time": "2026-04-02T23:49:00.000Z",
+      "day": 2,
+      "icon": "🌙",
+      "highlight": true,
+      "completed": true
+    },
+    {
+      "id": "icps-sep",
+      "label": "ICPS SEPARATION",
+      "detail": "Upper stage jettisoned",
+      "time": "2026-04-03T02:00:00.000Z",
+      "day": 2,
+      "icon": "🔗"
+    },
+    {
+      "id": "prox-ops",
+      "label": "PROXIMITY OPS",
+      "detail": "Manual piloting demonstrations and life support tests were successfully conducted in high Earth orbit.",
+      "time": "2026-04-03T04:00:00.000Z",
+      "day": 2,
+      "icon": "🎯",
+      "completed": true
+    },
+    {
+      "id": "avatar-checkout",
+      "label": "AVATAR Scientific Payload Checkout",
+      "detail": "Testing 'organ-on-a-chip' technology to study deep space radiation effects on bone marrow cells.",
+      "time": "2026-04-03T16:00:00.000Z",
+      "day": 3,
+      "icon": "🔬",
+      "completed": true,
+      "isNew": true
+    },
+    {
+      "id": "earth-photography",
+      "label": "Earth Photography by Crew",
+      "detail": "Crew captures high-resolution imagery of Earth from deep space.",
+      "time": "2026-04-03T16:00:00.000Z",
+      "day": 3,
+      "icon": "📸",
+      "completed": true,
+      "isNew": true
+    },
+    {
+      "id": "comms-blackout",
+      "label": "Communications Blackout Behind Moon",
+      "detail": "Temporary loss of communications with Earth as Orion passes behind the Moon.",
+      "time": "2026-04-03T18:02:04.912Z",
+      "day": 1,
+      "icon": "📡",
+      "completed": false,
+      "isNew": true
+    },
+    {
+      "id": "lunar-soi",
+      "label": "LUNAR SPHERE OF INFLUENCE",
+      "detail": "Moon's gravity becomes dominant",
+      "time": "2026-04-06T00:00:00.000Z",
+      "day": 5,
+      "icon": "🌑"
+    },
+    {
+      "id": "distance-record",
+      "label": "Farthest Distance from Earth Record",
+      "detail": "Orion surpasses the maximum distance from Earth of previous Apollo missions.",
+      "time": "2026-04-06T04:00:00.000Z",
+      "day": 6,
+      "icon": "🗺️",
+      "completed": false,
+      "isNew": true
+    },
+    {
+      "id": "lunar-observation",
+      "label": "Lunar Surface Observation",
+      "detail": "Crew performs visual observations and photography of the lunar surface.",
+      "time": "2026-04-06T04:00:00.000Z",
+      "day": 6,
+      "icon": "🔭",
+      "completed": false,
+      "isNew": true
+    },
+    {
+      "id": "lunar-flyby",
+      "label": "LUNAR FLYBY",
+      "detail": "~4,112 mi from Moon's far side",
+      "time": "2026-04-06T12:00:00.000Z",
+      "day": 6,
+      "icon": "🌕",
+      "highlight": true
+    },
+    {
+      "id": "farthest-human-distance",
+      "label": "Human Distance Record",
+      "detail": "Expected to reach 252,799 miles from Earth, breaking the Apollo 13 record.",
+      "time": "2026-04-06T18:00:00.000Z",
+      "day": 6,
+      "icon": "📏",
+      "completed": false,
+      "isNew": true
+    },
+    {
+      "id": "earthrise",
+      "label": "EARTHRISE PHOTO OPS",
+      "detail": "Crew photographs Earthrise",
+      "time": "2026-04-07T04:00:00.000Z",
+      "day": 6,
+      "icon": "🌍"
+    },
+    {
+      "id": "iss-conversation",
+      "label": "ISS Crew Conversation",
+      "detail": "Scheduled outreach event with crew members currently aboard the International Space Station.",
+      "time": "2026-04-07T04:00:00.000Z",
+      "day": 7,
+      "icon": "💬",
+      "completed": false,
+      "isNew": true
+    },
+    {
+      "id": "return-coast",
+      "label": "RETURN COAST",
+      "detail": "Free-return trajectory to Earth",
+      "time": "2026-04-08T00:00:00.000Z",
+      "day": 7,
+      "icon": "↩️"
+    },
+    {
+      "id": "reentry",
+      "label": "RE-ENTRY",
+      "detail": "Skip re-entry at ~5,000°F",
+      "time": "2026-04-11T00:00:00.000Z",
+      "day": 10,
+      "icon": "🔥"
+    },
+    {
+      "id": "splashdown",
+      "label": "SPLASHDOWN",
+      "detail": "Pacific Ocean recovery",
+      "time": "2026-04-11T12:00:00.000Z",
+      "day": 10,
+      "icon": "🌊",
+      "highlight": true
+    }
+  ],
+  "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Outbound Coast",
+      "currentPhase": "Orion is currently on a translunar trajectory toward the Moon following a successful TLI burn.",
+      "headline": "Artemis II crew cruises toward the Moon after completing the critical Translunar Injection maneuver.",
+      "details": [
+        "The 5-minute and 55-second TLI burn was successfully executed at 7:49 p.m. EDT on Flight Day 2.",
+        "Crew members Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are reported to be in excellent health.",
+        "A minor issue with the spacecraft's waste management system was identified and resolved by mission control and the crew.",
+        "The spacecraft has surpassed 100,000 miles from Earth and is maintaining a velocity of approximately 39,428 km/h."
+      ],
+      "sources": [
+        "NASA Johnson Space Center Briefing",
+        "Artemis II Flight Day 3 Mission Update"
+      ],
+      "alertMessage": null,
+      "crewStatus": "The crew is in excellent health and high spirits; they are currently capturing high-resolution imagery of Earth.",
+      "lastEvent": "Completion of the Translunar Injection (TLI) burn to depart Earth's orbit.",
+      "nextEvent": "Lunar flyby and lunar far-side communication loss scheduled for April 6.",
+      "telemetry": {
+        "distanceFromEarth": 160934,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 3,
+        "velocity": 39428
+      },
+      "fetchedAt": "2026-04-03T18:15:17.228Z"
+    },
+    {
+      "status": "nominal",
+      "statusLabel": "On Trajectory",
+      "currentPhase": "Outbound coast toward the Moon",
+      "headline": "Artemis II crew completes Translunar Injection burn, leaving Earth's orbit for the first time in over 50 years.",
+      "details": [
+        "Completed a nearly six-minute TLI burn on April 2 at 7:49 p.m. EDT, accelerating Orion toward the Moon.",
+        "The four-person crew successfully resolved a minor blinking fault light on the spacecraft’s toilet system.",
+        "Life-support systems were verified as fully functional during a 24-hour High Earth Orbit phase.",
+        "Commander Reid Wiseman has begun transmitting high-resolution photography of Earth from the spacecraft."
+      ],
+      "sources": [
+        "NASA",
+        "CSA",
+        "Mission Control Houston"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and high spirits.",
+      "lastEvent": "Completion of the Translunar Injection (TLI) burn to transition to a lunar trajectory.",
+      "nextEvent": "Lunar flyby at a distance of 4,600 miles beyond the lunar far side on April 6.",
+      "fetchedAt": "2026-04-03T18:04:53.291Z"
+    },
+    {
+      "status": "nominal",
+      "statusLabel": "On Track",
+      "currentPhase": "En route to the Moon on Flight Day 3",
+      "headline": "Artemis II crew and Orion spacecraft, named 'Integrity,' are speeding toward the Moon after a successful translunar injection burn.",
+      "details": [
+        "Mission is proceeding according to plan on Flight Day 3 of its approximately 10-day test flight.",
+        "Crew members are in good spirits, actively monitored for health, and using exercise devices.",
+        "Orion has deployed solar arrays and completed in-orbit checkouts and maneuvers.",
+        "The NASA ARCHeR study is collecting data on crew adaptation to deep space."
+      ],
+      "sources": [
+        "NASA Artemis II Mission Updates"
+      ],
+      "alertMessage": null,
+      "crewStatus": "The four-person crew is in good spirits, actively monitoring their health, and using a flywheel exercise device to maintain physical well-being. NASA's ARCHeR study is assessing their adaptation to deep space.",
+      "lastEvent": "A pivotal five-minute, 50-second Translunar Injection (TLI) burn was executed on April 2, propelling Orion and its crew out of Earth's orbit and onto a trajectory toward the Moon.",
+      "nextEvent": "On Monday, April 6, the crew is expected to surpass the record for the farthest distance humans have ever traveled from Earth.",
+      "fetchedAt": "2026-04-03T18:02:04.912Z"
+    }
+  ]
+}
