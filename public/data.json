@@ -26,7 +26,7 @@
   "milestones": [
     {
       "id": "launch",
-      "label": "LAUNCH",
+      "label": "Launch",
       "detail": "SLS liftoff from Pad 39B",
       "time": "2026-04-01T22:35:00.000Z",
       "day": 1,
@@ -35,7 +35,7 @@
     },
     {
       "id": "core-sep",
-      "label": "CORE STAGE SEPARATION",
+      "label": "Core Stage Separation",
       "detail": "MECO & core stage jettison",
       "time": "2026-04-01T22:36:00.000Z",
       "day": 1,
@@ -44,7 +44,7 @@
     },
     {
       "id": "solar-deploy",
-      "label": "SOLAR ARRAY DEPLOY",
+      "label": "Solar Array Deploy",
       "detail": "Four Orion solar wings extended",
       "time": "2026-04-01T22:37:00.000Z",
       "day": 1,
@@ -53,7 +53,7 @@
     },
     {
       "id": "perigee-raise",
-      "label": "PERIGEE RAISE",
+      "label": "Perigee Raise",
       "detail": "Orion performed perigee raise and apogee raise burns.",
       "time": "2026-04-02T16:00:00.000Z",
       "day": 1,
@@ -62,7 +62,7 @@
     },
     {
       "id": "prox-ops",
-      "label": "PROXIMITY OPS",
+      "label": "Proximity Ops",
       "detail": "Manual piloting demonstrations and life support tests were successfully conducted in high Earth orbit.",
       "time": "2026-04-02T20:00:00.000Z",
       "day": 1,
@@ -71,7 +71,7 @@
     },
     {
       "id": "tli",
-      "label": "TRANSLUNAR INJECTION",
+      "label": "Translunar Injection",
       "detail": "Engine firing increased velocity to 24,500 mph to escape Earth's gravity.",
       "time": "2026-04-03T00:00:00.000Z",
       "day": 2,
@@ -81,7 +81,7 @@
     },
     {
       "id": "icps-sep",
-      "label": "ICPS SEPARATION",
+      "label": "ICPS Separation",
       "detail": "Upper stage jettisoned",
       "time": "2026-04-03T02:00:00.000Z",
       "day": 2,
@@ -92,7 +92,7 @@
       "label": "AVATAR Scientific Payload Checkout",
       "detail": "Testing 'organ-on-a-chip' technology to study deep space radiation effects on bone marrow cells.",
       "time": "2026-04-03T16:00:00.000Z",
-      "day": 3,
+      "day": 2,
       "icon": "🔬",
       "completed": true,
       "isNew": true
@@ -102,7 +102,7 @@
       "label": "Earth Photography by Crew",
       "detail": "Crew captures high-resolution imagery of Earth from deep space.",
       "time": "2026-04-03T16:00:00.000Z",
-      "day": 3,
+      "day": 2,
       "icon": "📸",
       "completed": true,
       "isNew": true
@@ -112,37 +112,28 @@
       "label": "Communications Blackout Behind Moon",
       "detail": "Temporary loss of communications with Earth as Orion passes behind the Moon.",
       "time": "2026-04-03T18:02:04.912Z",
-      "day": 3,
+      "day": 2,
       "icon": "📡",
       "completed": false,
       "isNew": true
     },
     {
       "id": "outbound-correction-burn",
-      "label": "OUTBOUND-CORRECTION-BURN",
+      "label": "Outbound Correction Burn",
       "detail": "First outbound trajectory correction (OTC) burn to fine-tune the path to the Moon.",
       "time": "2026-04-03T22:49:00.000Z",
-      "day": 1,
+      "day": 3,
       "icon": "📌",
       "completed": false,
       "isNew": true
     },
     {
       "id": "lunar-soi",
-      "label": "LUNAR SPHERE OF INFLUENCE",
+      "label": "Lunar Sphere of Influence",
       "detail": "Moon's gravity will become the dominant force acting on the spacecraft.",
       "time": "2026-04-05T00:00:00.000Z",
-      "day": 5,
+      "day": 4,
       "icon": "🌑"
-    },
-    {
-      "id": "lunar-flyby",
-      "label": "LUNAR FLYBY",
-      "detail": "Orion will pass 4,000 to 6,000 miles above the lunar far side.",
-      "time": "2026-04-06T00:00:00.000Z",
-      "day": 6,
-      "icon": "🌕",
-      "highlight": true
     },
     {
       "id": "human-distance-record",
@@ -155,11 +146,20 @@
       "isNew": true
     },
     {
+      "id": "lunar-flyby",
+      "label": "Lunar Flyby",
+      "detail": "Orion will pass 4,000 to 6,000 miles above the lunar far side.",
+      "time": "2026-04-06T00:00:00.000Z",
+      "day": 5,
+      "icon": "🌕",
+      "highlight": true
+    },
+    {
       "id": "distance-record",
       "label": "Farthest Distance from Earth Record",
       "detail": "Orion surpasses the maximum distance from Earth of previous Apollo missions.",
       "time": "2026-04-06T04:00:00.000Z",
-      "day": 6,
+      "day": 5,
       "icon": "🗺️",
       "completed": false,
       "isNew": true
@@ -169,7 +169,7 @@
       "label": "Lunar Surface Observation",
       "detail": "Crew performs visual observations and photography of the lunar surface.",
       "time": "2026-04-06T04:00:00.000Z",
-      "day": 6,
+      "day": 5,
       "icon": "🔭",
       "completed": false,
       "isNew": true
@@ -179,14 +179,14 @@
       "label": "Human Distance Record",
       "detail": "Expected to reach 252,799 miles from Earth, breaking the Apollo 13 record.",
       "time": "2026-04-06T18:00:00.000Z",
-      "day": 6,
+      "day": 5,
       "icon": "📏",
       "completed": false,
       "isNew": true
     },
     {
       "id": "earthrise",
-      "label": "EARTHRISE PHOTO OPS",
+      "label": "Earthrise Photo Ops",
       "detail": "Crew photographs Earthrise",
       "time": "2026-04-07T04:00:00.000Z",
       "day": 6,
@@ -197,14 +197,14 @@
       "label": "ISS Crew Conversation",
       "detail": "Scheduled outreach event with crew members currently aboard the International Space Station.",
       "time": "2026-04-07T04:00:00.000Z",
-      "day": 7,
+      "day": 6,
       "icon": "💬",
       "completed": false,
       "isNew": true
     },
     {
       "id": "return-coast",
-      "label": "RETURN COAST",
+      "label": "Return Coast",
       "detail": "Free-return trajectory to Earth",
       "time": "2026-04-08T00:00:00.000Z",
       "day": 7,
@@ -212,16 +212,16 @@
     },
     {
       "id": "splashdown",
-      "label": "SPLASHDOWN",
+      "label": "Splashdown",
       "detail": "Final splashdown in the Pacific Ocean off the coast of San Diego.",
       "time": "2026-04-10T00:00:00.000Z",
-      "day": 10,
+      "day": 9,
       "icon": "🌊",
       "highlight": true
     },
     {
       "id": "reentry",
-      "label": "RE-ENTRY",
+      "label": "Re-entry",
       "detail": "Skip re-entry at ~5,000°F",
       "time": "2026-04-11T00:00:00.000Z",
       "day": 10,

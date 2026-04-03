@@ -22,6 +22,10 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node scripts/fetch-updates.js
+      - name: Run Validation Tests
+        run: npm test -- --run
+      - name: Final Data Validation
+        run: node scripts/validate-data.js
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"

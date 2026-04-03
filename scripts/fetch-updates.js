@@ -7,6 +7,8 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+import { calculateMissionDay } from '../src/validation.js';
+
 const dataPath = path.join(__dirname, '../public/data.json');
 const workflowPath = path.join(__dirname, '../.github/workflows/tracker-update.yml');
 
@@ -127,6 +129,23 @@ async function fetchNews() {
   return JSON.parse(resultText);
 }
 
+function toTitleCase(str) {
+  if (!str) return str;
+  const PROPER_NOUNS = ["ISS", "TLI", "SLS", "MECO", "ICPS", "EDT", "NASA", "CSA", "AVATAR", "OTC"];
+  return str.split(/\s+/).map(word => {
+    const clean = word.replace(/[^a-zA-Z]/g, "");
+    if (PROPER_NOUNS.includes(clean)) return word;
+    if (word.includes("-")) {
+        return word.split("-").map(part => {
+            if (part.length === 0) return part;
+            if (!isNaN(part)) return part;
+            return part.charAt(0).toUpperCase() + part.slice(1).toLowerCase();
+        }).join("-");
+    }
+    return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+  }).join(" ");
+}
+
 function mergeMilestones(base, updates) {
   if (!Array.isArray(updates) || updates.length === 0) return base;
   const merged = base.map((m) => {
@@ -136,15 +155,26 @@ function mergeMilestones(base, updates) {
     if (upd.completed === true) copy.completed = true;
     if (upd.completedTime) {
       const d = new Date(upd.completedTime);
-      if (!isNaN(d.getTime())) copy.time = d.toISOString();
+      if (!isNaN(d.getTime())) {
+          copy.time = d.toISOString();
+          copy.day = calculateMissionDay(copy.time);
+      }
     } else if (upd.updatedTime) {
       const d = new Date(upd.updatedTime);
-      if (!isNaN(d.getTime())) copy.time = d.toISOString();
+      if (!isNaN(d.getTime())) {
+          copy.time = d.toISOString();
+          copy.day = calculateMissionDay(copy.time);
+      }
     }
     if (upd.updatedDetail && upd.updatedDetail.length > 0) {
       copy.detail = upd.updatedDetail;
     }
-    if (upd.day) copy.day = upd.day;
+    // Only trust AI 'day' if we don't have a time, but we usually have time
+    if (!copy.time && upd.day) copy.day = upd.day;
+    
+    // Ensure Title Case
+    copy.label = toTitleCase(copy.label);
+    
     return copy;
   });
   
@@ -154,12 +184,16 @@ function mergeMilestones(base, updates) {
     if (base.find((m) => m.id === upd.id)) return;
     const t = new Date(upd.completedTime || upd.updatedTime || Date.now());
     if (isNaN(t.getTime())) return;
+    
+    const timeStr = t.toISOString();
+    const day = calculateMissionDay(timeStr);
+    
     merged.push({
       id: upd.id, 
-      label: upd.label || upd.id.toUpperCase(),
+      label: toTitleCase(upd.label || upd.id.replace(/-/g, " ")),
       detail: upd.updatedDetail || "",
-      time: t.toISOString(), 
-      day: upd.day || 1,
+      time: timeStr, 
+      day: day,
       icon: upd.icon || "📌",
       completed: !!upd.completed, 
       isNew: true,
