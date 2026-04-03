@@ -3,28 +3,28 @@
     "status": "nominal",
     "statusLabel": "Nominal Operations",
     "currentPhase": "Outbound Coast",
-    "headline": "Artemis II crew officially moonbound after successful Translunar Injection burn.",
+    "headline": "Artemis II crew enters deep space for the first time in over 50 years after successful Translunar Injection.",
     "details": [
-      "Orion executed a critical 5 minute and 55 second TLI burn to break free from Earth's gravitational pull.",
-      "Crew is currently performing medical demonstrations, including CPR simulations and space adaptation assessments.",
-      "The Waste Management System (toilet) was successfully troubleshot on Day 1 and is fully operational.",
-      "Orion is following a free-return trajectory toward the Moon with a lunar flyby expected on April 6."
+      "Orion spacecraft 'Integrity' is transiting toward the Moon following a 5-minute 50-second TLI burn on April 2.",
+      "Crew is testing critical hardware including the flywheel exercise device and Orion Optical Communications System.",
+      "Minor issues with cabin pressure indications and waste management have been successfully resolved by the crew and ground teams.",
+      "The crew is currently preparing for the Outbound Trajectory Correction-1 (OTC-1) burn to refine their lunar approach."
     ],
     "sources": [
-      "NASA",
-      "CSA"
+      "NASA Mission Control Center (MCC-H)",
+      "NASA Artemis II Mission Status Report"
     ],
     "alertMessage": null,
-    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Specialists Christina Koch and Jeremy Hansen are in good health and high spirits.",
-    "lastEvent": "Translunar Injection (TLI) burn completed at 23:49Z on April 2, 2026.",
-    "nextEvent": "Outbound Trajectory Correction (OTC-1) scheduled for April 3 at 22:49Z.",
+    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and spirits.",
+    "lastEvent": "Completion of the Translunar Injection (TLI) burn on April 2 at 23:49Z.",
+    "nextEvent": "Outbound Trajectory Correction-1 (OTC-1) burn scheduled for 22:49Z.",
     "telemetry": {
-      "distanceFromEarth": 160773,
+      "distanceFromEarth": 160774,
       "distanceFromMoon": 260311,
       "missionElapsedDay": 2,
-      "velocity": 38624
+      "velocity": 39429
     },
-    "fetchedAt": "2026-04-03T20:00:39.172Z"
+    "fetchedAt": "2026-04-03T20:27:35.747Z"
   },
   "milestones": [
     {
@@ -66,7 +66,7 @@
     {
       "id": "prox-ops",
       "label": "Proximity Ops",
-      "detail": "Manual piloting demonstrations and life support tests were successfully conducted in high Earth orbit.",
+      "detail": "Pilot Victor Glover manually navigated Orion near the spent ICPS stage.",
       "time": "2026-04-02T20:00:00.000Z",
       "day": 1,
       "icon": "🎯",
@@ -75,7 +75,7 @@
     {
       "id": "tli",
       "label": "Translunar Injection",
-      "detail": "Burn lasted 5:55 and increased velocity to 39,428 km/h.",
+      "detail": "Successful main engine fire accelerated the crew out of Earth's gravity well.",
       "time": "2026-04-02T23:49:00.000Z",
       "day": 2,
       "icon": "🌙",
@@ -232,6 +232,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Nominal Operations",
+      "currentPhase": "Outbound Coast",
+      "headline": "Artemis II crew enters deep space for the first time in over 50 years after successful Translunar Injection.",
+      "details": [
+        "Orion spacecraft 'Integrity' is transiting toward the Moon following a 5-minute 50-second TLI burn on April 2.",
+        "Crew is testing critical hardware including the flywheel exercise device and Orion Optical Communications System.",
+        "Minor issues with cabin pressure indications and waste management have been successfully resolved by the crew and ground teams.",
+        "The crew is currently preparing for the Outbound Trajectory Correction-1 (OTC-1) burn to refine their lunar approach."
+      ],
+      "sources": [
+        "NASA Mission Control Center (MCC-H)",
+        "NASA Artemis II Mission Status Report"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and spirits.",
+      "lastEvent": "Completion of the Translunar Injection (TLI) burn on April 2 at 23:49Z.",
+      "nextEvent": "Outbound Trajectory Correction-1 (OTC-1) burn scheduled for 22:49Z.",
+      "telemetry": {
+        "distanceFromEarth": 160774,
+        "distanceFromMoon": 260311,
+        "missionElapsedDay": 2,
+        "velocity": 39429
+      },
+      "fetchedAt": "2026-04-03T20:27:35.747Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Nominal Operations",
