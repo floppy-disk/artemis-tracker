@@ -1,30 +1,30 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Nominal",
-    "currentPhase": "Trans-lunar coast phase",
-    "headline": "Artemis II trajectory precise enough to cancel scheduled correction burn on Flight Day 3.",
+    "statusLabel": "Nominal Cruise",
+    "currentPhase": "Trans-lunar cruise",
+    "headline": "Artemis II passes 100,000 miles from Earth as trajectory precision cancels first correction burn.",
     "details": [
-      "Orion's trajectory following Translunar Injection was so accurate that mission control canceled the OTC-1 burn.",
-      "The crew performed a successful deep-space CPR medical demonstration and continues microgravity adaptation.",
-      "Technical issues with the Waste Management System and a false cabin leak indication have been fully resolved.",
-      "The spacecraft remains on a free-return trajectory that uses lunar gravity to swing back toward Earth."
+      "Mission Control canceled the OTC-1 burn as Orion is already on a precise free-return trajectory.",
+      "Crew successfully performed a zero-gravity CPR demonstration and space adaptation tests.",
+      "Engineers and crew managed a potable water valve issue by transitioning to contingency storage bags.",
+      "The Universal Waste Management System is fully operational following successful plumbing repairs by the crew."
     ],
     "sources": [
-      "NASA Johnson Space Center Flight Control",
-      "Artemis II Flight Operations Report"
+      "NASA Mission Status Report",
+      "Artemis II Flight Director's Log"
     ],
     "alertMessage": null,
-    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and adapting well to deep space.",
-    "lastEvent": "Completion of the Translunar Injection (TLI) burn, making the crew the first to leave Earth orbit since 1972.",
-    "nextEvent": "Lunar closest approach at approximately 4,700 miles above the far side on April 6.",
+    "crewStatus": "Crew is in excellent health and high spirits; currently performing photography and medical demos.",
+    "lastEvent": "Translunar Injection (TLI) burn on April 2 successfully sent Orion toward the Moon.",
+    "nextEvent": "Entry into the Lunar Sphere of Influence",
     "telemetry": {
-      "distanceFromEarth": 160770,
-      "distanceFromMoon": 260317,
+      "distanceFromEarth": 160934,
+      "distanceFromMoon": 241401,
       "missionElapsedDay": 3,
-      "velocity": null
+      "velocity": 38624
     },
-    "fetchedAt": "2026-04-03T21:32:48.178Z"
+    "fetchedAt": "2026-04-03T22:32:09.565Z"
   },
   "milestones": [
     {
@@ -75,7 +75,7 @@
     {
       "id": "tli",
       "label": "Translunar Injection",
-      "detail": "Successful 5-minute 50-second engine burn increased velocity by 868 mph to break Earth orbit.",
+      "detail": "Successful 5-minute engine burn to break Earth orbit.",
       "time": "2026-04-02T23:49:00.000Z",
       "day": 2,
       "icon": "🌙",
@@ -102,8 +102,8 @@
     },
     {
       "id": "earth-photography",
-      "label": "Earth Photography by Crew",
-      "detail": "Crew captures high-resolution imagery of Earth from deep space.",
+      "label": "Earth Photography By Crew",
+      "detail": "High-resolution imagery of Earth's continents and South Pole captured.",
       "time": "2026-04-03T16:00:00.000Z",
       "day": 2,
       "icon": "📸",
@@ -113,7 +113,7 @@
     {
       "id": "cpr-demo",
       "label": "Deep Space Cpr Demo",
-      "detail": "Crew conducted a medical emergency procedure drill to test life-saving protocols in microgravity.",
+      "detail": "Zero-gravity medical protocol testing completed by the crew.",
       "time": "2026-04-03T19:30:00.000Z",
       "day": 2,
       "icon": "🩺",
@@ -123,11 +123,11 @@
     {
       "id": "otc-1",
       "label": "Outbound Trajectory Correction (OTC-1)",
-      "detail": "Burn canceled; Orion's trajectory is within nominal parameters and requires no correction.",
-      "time": "2026-04-03T22:49:00.000Z",
-      "day": 3,
+      "detail": "Burn canceled; trajectory is sufficiently precise without correction.",
+      "time": "2026-04-03T22:31:00.000Z",
+      "day": 2,
       "icon": "🚀",
-      "completed": false,
+      "completed": true,
       "isNew": true
     },
     {
@@ -171,7 +171,7 @@
     {
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
-      "detail": "Closest lunar approach and flyby maneuvers.",
+      "detail": "Planned pass 4,700 miles above the lunar far side; first humans to see it since 1972.",
       "time": "2026-04-06T12:00:00.000Z",
       "day": 5,
       "icon": "🌕",
@@ -232,6 +232,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Nominal Cruise",
+      "currentPhase": "Trans-lunar cruise",
+      "headline": "Artemis II passes 100,000 miles from Earth as trajectory precision cancels first correction burn.",
+      "details": [
+        "Mission Control canceled the OTC-1 burn as Orion is already on a precise free-return trajectory.",
+        "Crew successfully performed a zero-gravity CPR demonstration and space adaptation tests.",
+        "Engineers and crew managed a potable water valve issue by transitioning to contingency storage bags.",
+        "The Universal Waste Management System is fully operational following successful plumbing repairs by the crew."
+      ],
+      "sources": [
+        "NASA Mission Status Report",
+        "Artemis II Flight Director's Log"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Crew is in excellent health and high spirits; currently performing photography and medical demos.",
+      "lastEvent": "Translunar Injection (TLI) burn on April 2 successfully sent Orion toward the Moon.",
+      "nextEvent": "Entry into the Lunar Sphere of Influence",
+      "telemetry": {
+        "distanceFromEarth": 160934,
+        "distanceFromMoon": 241401,
+        "missionElapsedDay": 3,
+        "velocity": 38624
+      },
+      "fetchedAt": "2026-04-03T22:32:09.565Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Nominal",
