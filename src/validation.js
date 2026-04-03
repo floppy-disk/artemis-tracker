@@ -126,7 +126,7 @@ export function validateHistory(history) {
     const next = history[i + 1];
     
     if (current.statusLabel === next.statusLabel && current.currentPhase === next.currentPhase) {
-        const isNominal = current.statusLabel.toLowerCase().includes("nominal");
+        const isNominal = current.statusLabel.toLowerCase().includes("nominal") || current.currentPhase.toLowerCase().includes("coast");
         if (!isNominal) {
             errors.push(`History entries at index ${i} and ${i+1} have identical statusLabel and currentPhase: "${current.statusLabel}" / "${current.currentPhase}"`);
             continue;
@@ -134,7 +134,7 @@ export function validateHistory(history) {
     }
     
     if (current.currentPhase === next.currentPhase && current.currentPhase.length > 10) {
-         const isNominal = current.currentPhase.toLowerCase().includes("nominal");
+         const isNominal = current.currentPhase.toLowerCase().includes("nominal") || current.currentPhase.toLowerCase().includes("coast");
          if (!isNominal) {
             errors.push(`History entries at index ${i} and ${i+1} have identical currentPhase: "${current.currentPhase}"`);
          }

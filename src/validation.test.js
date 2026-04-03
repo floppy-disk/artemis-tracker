@@ -114,18 +114,20 @@ describe('Mission Data Validation', () => {
   describe('History Validation', () => {
     it('detects repetitive history entries unless they are nominal', () => {
       const history = [
-        { statusLabel: "Outbound Coast", currentPhase: "Outbound coasting trajectory" },
-        { statusLabel: "Outbound Coast", currentPhase: "Outbound coasting trajectory" }
+        { statusLabel: "Emergency Evacuation", currentPhase: "Leaving Spacecraft" },
+        { statusLabel: "Emergency Evacuation", currentPhase: "Leaving Spacecraft" }
       ];
       const errors = validateHistory(history);
       expect(errors).toHaveLength(1);
       expect(errors[0]).toContain('identical statusLabel and currentPhase');
     });
 
-    it('allows "Nominal" statuses to repeat', () => {
+    it('allows "Nominal" or "Coast" statuses to repeat', () => {
         const history = [
           { statusLabel: "All Systems Nominal", currentPhase: "All Systems Nominal" },
-          { statusLabel: "All Systems Nominal", currentPhase: "All Systems Nominal" }
+          { statusLabel: "All Systems Nominal", currentPhase: "All Systems Nominal" },
+          { statusLabel: "Outbound Coast", currentPhase: "Outbound Coast" },
+          { statusLabel: "Outbound Coast", currentPhase: "Outbound Coast" }
         ];
         const errors = validateHistory(history);
         expect(errors).toHaveLength(0);
