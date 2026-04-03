@@ -1,6 +1,6 @@
 /* global process */
 import fs from 'fs';
-import { validateMilestone, validateHistory } from '../src/validation.js';
+import { validateMilestone, validateMilestonesSimilarity, validateHistory } from '../src/validation.js';
 
 const rawData = fs.readFileSync('./public/data.json', 'utf-8');
 const data = JSON.parse(rawData);
@@ -14,6 +14,10 @@ data.milestones.forEach(m => {
         milestoneErrors += errors.length;
     }
 });
+
+const similarityErrors = validateMilestonesSimilarity(data.milestones);
+similarityErrors.forEach(err => console.log(`- Similarity: ${err}`));
+milestoneErrors += similarityErrors.length;
 
 console.log("\nChecking History...");
 const historyErrors = validateHistory(data.history);

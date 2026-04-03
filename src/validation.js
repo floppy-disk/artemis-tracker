@@ -82,6 +82,42 @@ export function validateMilestone(m) {
   return errors;
 }
 
+export function validateMilestonesSimilarity(milestones) {
+    const errors = [];
+    for (let i = 0; i < milestones.length; i++) {
+        for (let j = i + 1; j < milestones.length; j++) {
+            const m1 = milestones[i];
+            const m2 = milestones[j];
+
+            const timeDiff = Math.abs(new Date(m1.time).getTime() - new Date(m2.time).getTime());
+            const sameTime = timeDiff < 60000; // within 1 minute
+
+            const labelSim = calculateSimilarity(m1.label, m2.label);
+            const detailSim = calculateSimilarity(m1.detail, m2.detail);
+
+            if (sameTime && (labelSim > 0.5 || detailSim > 0.5)) {
+                errors.push(`Milestones "${m1.id}" and "${m2.id}" are very similar and occur at the same time: ${m1.time}`);
+            } else if (labelSim > 0.8 && detailSim > 0.8) {
+                errors.push(`Milestones "${m1.id}" and "${m2.id}" are extremely similar even if times differ.`);
+            }
+        }
+    }
+    return errors;
+}
+
+function calculateSimilarity(s1, s2) {
+    if (!s1 || !s2) return 0;
+    const words1 = new Set(s1.toLowerCase().split(/\W+/).filter(w => w.length >= 3));
+    const words2 = new Set(s2.toLowerCase().split(/\W+/).filter(w => w.length >= 3));
+    
+    if (words1.size === 0 || words2.size === 0) return 0;
+    
+    const intersection = new Set([...words1].filter(x => words2.has(x)));
+    const union = new Set([...words1, ...words2]);
+    
+    return intersection.size / Math.min(words1.size, words2.size); // Overlap coefficient
+}
+
 export function validateHistory(history) {
   const errors = [];
   if (!Array.isArray(history)) return errors;

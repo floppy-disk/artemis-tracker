@@ -1,6 +1,6 @@
 
 import { describe, it, expect } from 'vitest';
-import { calculateMissionDay, isTitleCase, validateMilestone, validateHistory } from './validation.js';
+import { calculateMissionDay, isTitleCase, validateMilestone, validateMilestonesSimilarity, validateHistory } from './validation.js';
 
 describe('Mission Data Validation', () => {
   describe('Mission Day Calculation', () => {
@@ -46,6 +46,67 @@ describe('Mission Data Validation', () => {
             day: 3
         };
         const errors = validateMilestone(goodMilestone);
+        expect(errors).toHaveLength(0);
+    });
+  });
+
+  describe('Milestone Similarity Validation', () => {
+    it('detects duplicate milestones with same time and similar label', () => {
+        const milestones = [
+            {
+                id: "outbound-correction-burn",
+                label: "Outbound Correction Burn",
+                detail: "First outbound trajectory correction (OTC) burn to fine-tune the path to the Moon.",
+                time: "2026-04-03T22:49:00.000Z"
+            },
+            {
+                id: "otc-1",
+                label: "Outbound Trajectory Correction (OTC-1)",
+                detail: "An 8-second burn to refine path for lunar flyby.",
+                time: "2026-04-03T22:49:00.000Z"
+            }
+        ];
+        const errors = validateMilestonesSimilarity(milestones);
+        expect(errors).toHaveLength(1);
+        expect(errors[0]).toContain('very similar and occur at the same time');
+    });
+
+    it('detects extremely similar milestones with different times', () => {
+        const milestones = [
+            {
+                id: "m1",
+                label: "Human Distance Record",
+                detail: "Crew expected to surpass the Apollo 13 record distance from Earth.",
+                time: "2026-04-06T00:00:00.000Z"
+            },
+            {
+                id: "m2",
+                label: "Human Distance Record Break",
+                detail: "Crew expected to surpass the Apollo 13 record distance from Earth today.",
+                time: "2026-04-06T12:00:00.000Z"
+            }
+        ];
+        const errors = validateMilestonesSimilarity(milestones);
+        expect(errors).toHaveLength(1);
+        expect(errors[0]).toContain('extremely similar even if times differ');
+    });
+
+    it('allows different milestones at the same time', () => {
+        const milestones = [
+            {
+                id: "m1",
+                label: "Lunar Flyby",
+                detail: "Closest approach to the lunar surface.",
+                time: "2026-04-06T00:00:00.000Z"
+            },
+            {
+                id: "m2",
+                label: "Communications Blackout",
+                detail: "Loss of signal while behind the Moon.",
+                time: "2026-04-06T00:00:00.000Z"
+            }
+        ];
+        const errors = validateMilestonesSimilarity(milestones);
         expect(errors).toHaveLength(0);
     });
   });

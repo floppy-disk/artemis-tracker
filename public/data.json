@@ -121,16 +121,6 @@
       "isNew": true
     },
     {
-      "id": "outbound-correction-burn",
-      "label": "Outbound Correction Burn",
-      "detail": "First outbound trajectory correction (OTC) burn to fine-tune the path to the Moon.",
-      "time": "2026-04-03T22:49:00.000Z",
-      "day": 3,
-      "icon": "📌",
-      "completed": false,
-      "isNew": true
-    },
-    {
       "id": "otc-1",
       "label": "Outbound Trajectory Correction (OTC-1)",
       "detail": "An 8-second burn to refine path for lunar flyby.",

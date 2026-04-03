@@ -80,7 +80,7 @@ async function generateWithFallback(params, models = ['gemini-3-flash-preview', 
   }
 }
 
-async function fetchNews() {
+async function fetchNews(existingMilestones = []) {
   console.log("Step 1: Searching for latest Artemis II news...");
   const launchTime = "2026-04-01T22:35:00Z";
   const searchPrompt = `Search for the absolute latest news regarding the NASA Artemis II mission (launched ${launchTime}). 
@@ -101,18 +101,25 @@ async function fetchNews() {
   const rawInfo = searchResponse.text;
   console.log("Step 2: Formatting search results into JSON...");
 
+  const milestonesList = existingMilestones.map(m => `- ${m.label} (ID: ${m.id}, Time: ${m.time})`).join("\n");
+
   const formatPrompt = `Based on the following mission information, generate a briefing in strict JSON format.
   
   MISSION INFO: ${rawInfo}
+  
+  Existing Milestones:
+  ${milestonesList}
   
   Rules:
   1. Status must be "nominal", "caution", "warning", or "emergency".
   2. milestoneUpdates can include known IDs: launch, core-sep, solar-deploy, perigee-raise, tli, icps-sep, prox-ops, lunar-soi, lunar-flyby, earthrise, return-coast, reentry, splashdown.
   3. If you find new milestones, add them with unique IDs and ALWAYS provide a brief description in updatedDetail.
-  4. Ensure all times are in ISO 8601 format and include a specific time zone offset (e.g. +00:00 or Z).
-  5. Check for new times/ETAs for upcoming milestones to ensure they are always up to date.
-  6. Extract numeric, factual values for telemetry (distance, velocity, etc) and store them.
-  7. IMPORTANT: Calculate the mission 'day' strictly based on the launch time of 2026-04-01T22:35:00Z. 
+  4. DO NOT create new milestones that are extremely similar or redundant with the Existing Milestones list above. 
+     If a milestone in the news is already in the list, update it by ID instead of creating a new one.
+  5. Ensure all times are in ISO 8601 format and include a specific time zone offset (e.g. +00:00 or Z).
+  6. Check for new times/ETAs for upcoming milestones to ensure they are always up to date.
+  7. Extract numeric, factual values for telemetry (distance, velocity, etc) and store them.
+  8. IMPORTANT: Calculate the mission 'day' strictly based on the launch time of 2026-04-01T22:35:00Z. 
      Day 1 is first 24h, Day 2 is 24-48h, etc. Ensure 'day' and 'time' are consistent.`;
 
   const finalResponse = await generateWithFallback({
@@ -212,7 +219,7 @@ async function main() {
     const rawData = fs.readFileSync(dataPath, 'utf-8');
     data = JSON.parse(rawData);
 
-    const update = await fetchNews();
+    const update = await fetchNews(data.milestones);
     
     // Merge updates
     const newUpdateObj = {
