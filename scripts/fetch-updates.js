@@ -120,7 +120,8 @@ async function fetchNews(existingMilestones = []) {
   6. Check for new times/ETAs for upcoming milestones to ensure they are always up to date.
   7. Extract numeric, factual values for telemetry (distance, velocity, etc) and store them.
   8. IMPORTANT: Calculate the mission 'day' strictly based on the launch time of 2026-04-01T22:35:00Z. 
-     Day 1 is first 24h, Day 2 is 24-48h, etc. Ensure 'day' and 'time' are consistent.`;
+     Day 1 is first 24h, Day 2 is 24-48h, etc. Ensure 'day' and 'time' are consistent.
+  9. DO NOT schedule lunar events (like lunar orbit, flyby, or communications blackout) before the spacecraft reaches the Moon on Day 5.`;
 
   const finalResponse = await generateWithFallback({
     contents: formatPrompt,

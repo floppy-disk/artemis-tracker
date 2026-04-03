@@ -111,16 +111,6 @@
       "isNew": true
     },
     {
-      "id": "comms-blackout",
-      "label": "Communications Blackout Behind Moon",
-      "detail": "Temporary loss of communications with Earth as Orion passes behind the Moon.",
-      "time": "2026-04-03T18:02:04.912Z",
-      "day": 2,
-      "icon": "📡",
-      "completed": false,
-      "isNew": true
-    },
-    {
       "id": "otc-1",
       "label": "Outbound Trajectory Correction (OTC-1)",
       "detail": "An 8-second burn to refine path for lunar flyby.",
