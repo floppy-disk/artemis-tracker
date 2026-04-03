@@ -1,29 +1,27 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Mission Nominal",
-    "currentPhase": "Outbound Coast",
-    "headline": "Artemis II crew is healthy and successfully en route to the Moon on Flight Day 3.",
+    "statusLabel": "All Systems Nominal",
+    "currentPhase": "Outbound coasting trajectory towards the Moon",
+    "headline": "The Artemis II mission is performing well following the successful completion of the translunar injection burn.",
     "details": [
-      "The Orion spacecraft is coasting toward the Moon at a velocity of 19,512 km/h.",
-      "Crew members conducted successful medical demonstrations today, including CPR and choking-response procedures.",
-      "All systems are reported operational, including the Orion flywheel exercise device and the recently repaired toilet system.",
-      "The crew is approximately 214,626 km from Earth and 176,145 km from the Moon."
+      "Crew is in good health and has successfully acclimated to the space environment.",
+      "The Integrity spacecraft is on a precise trajectory toward the Moon.",
+      "Operations currently focus on cabin configuration and spacecraft system checkouts.",
+      "A minor operational issue with the spacecraft's waste management system was successfully resolved."
     ],
     "sources": [
-      "NASA Artemis II Mission Updates",
-      "Flight Mission Control Report"
+      "NASA Artemis II Mission Updates"
     ],
-    "crewStatus": "All four crew members are in excellent health and high spirits.",
-    "lastEvent": "First trajectory correction burn (OTC-1) to fine-tune the lunar path.",
-    "nextEvent": "Lunar sphere of influence entry on Flight Day 5.",
+    "crewStatus": "All four crew members are in good health and have completed their first deep space rest period.",
+    "lastEvent": "Translunar Injection (TLI) burn completed on April 2, 2026.",
+    "nextEvent": "Outbound trajectory correction (OTC) burn on April 3, 2026.",
     "telemetry": {
-      "distanceFromEarth": 214626,
-      "distanceFromMoon": 176145,
-      "missionElapsedDay": 3,
-      "velocity": 19512
+      "distanceFromEarth": 160773,
+      "distanceFromMoon": 260311,
+      "missionElapsedDay": 3
     },
-    "fetchedAt": "2026-04-03T18:51:36.629Z"
+    "fetchedAt": "2026-04-03T19:36:23.023Z"
   },
   "milestones": [
     {
@@ -75,7 +73,7 @@
       "id": "tli",
       "label": "TRANSLUNAR INJECTION",
       "detail": "Engine firing increased velocity to 24,500 mph to escape Earth's gravity.",
-      "time": "2026-04-02T23:49:00.000Z",
+      "time": "2026-04-03T00:00:00.000Z",
       "day": 2,
       "icon": "🌙",
       "highlight": true,
@@ -116,6 +114,16 @@
       "time": "2026-04-03T18:02:04.912Z",
       "day": 1,
       "icon": "📡",
+      "completed": false,
+      "isNew": true
+    },
+    {
+      "id": "outbound-correction-burn",
+      "label": "OUTBOUND-CORRECTION-BURN",
+      "detail": "First outbound trajectory correction (OTC) burn to fine-tune the path to the Moon.",
+      "time": "2026-04-03T22:49:00.000Z",
+      "day": 1,
+      "icon": "📌",
       "completed": false,
       "isNew": true
     },
@@ -221,6 +229,30 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "All Systems Nominal",
+      "currentPhase": "Outbound coasting trajectory towards the Moon",
+      "headline": "The Artemis II mission is performing well following the successful completion of the translunar injection burn.",
+      "details": [
+        "Crew is in good health and has successfully acclimated to the space environment.",
+        "The Integrity spacecraft is on a precise trajectory toward the Moon.",
+        "Operations currently focus on cabin configuration and spacecraft system checkouts.",
+        "A minor operational issue with the spacecraft's waste management system was successfully resolved."
+      ],
+      "sources": [
+        "NASA Artemis II Mission Updates"
+      ],
+      "crewStatus": "All four crew members are in good health and have completed their first deep space rest period.",
+      "lastEvent": "Translunar Injection (TLI) burn completed on April 2, 2026.",
+      "nextEvent": "Outbound trajectory correction (OTC) burn on April 3, 2026.",
+      "telemetry": {
+        "distanceFromEarth": 160773,
+        "distanceFromMoon": 260311,
+        "missionElapsedDay": 3
+      },
+      "fetchedAt": "2026-04-03T19:36:23.023Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Mission Nominal",
