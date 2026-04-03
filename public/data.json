@@ -1,27 +1,30 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "All Systems Nominal",
-    "currentPhase": "Outbound coasting trajectory towards the Moon",
-    "headline": "The Artemis II mission is performing well following the successful completion of the translunar injection burn.",
+    "statusLabel": "Nominal Operations",
+    "currentPhase": "Outbound Coast",
+    "headline": "Artemis II crew officially moonbound after successful Translunar Injection burn.",
     "details": [
-      "Crew is in good health and has successfully acclimated to the space environment.",
-      "The Integrity spacecraft is on a precise trajectory toward the Moon.",
-      "Operations currently focus on cabin configuration and spacecraft system checkouts.",
-      "A minor operational issue with the spacecraft's waste management system was successfully resolved."
+      "Orion executed a critical 5 minute and 55 second TLI burn to break free from Earth's gravitational pull.",
+      "Crew is currently performing medical demonstrations, including CPR simulations and space adaptation assessments.",
+      "The Waste Management System (toilet) was successfully troubleshot on Day 1 and is fully operational.",
+      "Orion is following a free-return trajectory toward the Moon with a lunar flyby expected on April 6."
     ],
     "sources": [
-      "NASA Artemis II Mission Updates"
+      "NASA",
+      "CSA"
     ],
-    "crewStatus": "All four crew members are in good health and have completed their first deep space rest period.",
-    "lastEvent": "Translunar Injection (TLI) burn completed on April 2, 2026.",
-    "nextEvent": "Outbound trajectory correction (OTC) burn on April 3, 2026.",
+    "alertMessage": null,
+    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Specialists Christina Koch and Jeremy Hansen are in good health and high spirits.",
+    "lastEvent": "Translunar Injection (TLI) burn completed at 23:49Z on April 2, 2026.",
+    "nextEvent": "Outbound Trajectory Correction (OTC-1) scheduled for April 3 at 22:49Z.",
     "telemetry": {
       "distanceFromEarth": 160773,
       "distanceFromMoon": 260311,
-      "missionElapsedDay": 3
+      "missionElapsedDay": 2,
+      "velocity": 38624
     },
-    "fetchedAt": "2026-04-03T19:36:23.023Z"
+    "fetchedAt": "2026-04-03T20:00:39.172Z"
   },
   "milestones": [
     {
@@ -72,8 +75,8 @@
     {
       "id": "tli",
       "label": "Translunar Injection",
-      "detail": "Engine firing increased velocity to 24,500 mph to escape Earth's gravity.",
-      "time": "2026-04-03T00:00:00.000Z",
+      "detail": "Burn lasted 5:55 and increased velocity to 39,428 km/h.",
+      "time": "2026-04-02T23:49:00.000Z",
       "day": 2,
       "icon": "🌙",
       "highlight": true,
@@ -128,9 +131,19 @@
       "isNew": true
     },
     {
+      "id": "otc-1",
+      "label": "Outbound Trajectory Correction (OTC-1)",
+      "detail": "An 8-second burn to refine path for lunar flyby.",
+      "time": "2026-04-03T22:49:00.000Z",
+      "day": 3,
+      "icon": "🚀",
+      "completed": false,
+      "isNew": true
+    },
+    {
       "id": "lunar-soi",
-      "label": "Lunar Sphere of Influence",
-      "detail": "Moon's gravity will become the dominant force acting on the spacecraft.",
+      "label": "Lunar Sphere Of Influence",
+      "detail": "Entry into the Moon's gravitational sphere of influence.",
       "time": "2026-04-05T00:00:00.000Z",
       "day": 4,
       "icon": "🌑"
@@ -148,7 +161,7 @@
     {
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
-      "detail": "Orion will pass 4,000 to 6,000 miles above the lunar far side.",
+      "detail": "Closest lunar approach and flyby maneuvers.",
       "time": "2026-04-06T00:00:00.000Z",
       "day": 5,
       "icon": "🌕",
@@ -229,6 +242,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Nominal Operations",
+      "currentPhase": "Outbound Coast",
+      "headline": "Artemis II crew officially moonbound after successful Translunar Injection burn.",
+      "details": [
+        "Orion executed a critical 5 minute and 55 second TLI burn to break free from Earth's gravitational pull.",
+        "Crew is currently performing medical demonstrations, including CPR simulations and space adaptation assessments.",
+        "The Waste Management System (toilet) was successfully troubleshot on Day 1 and is fully operational.",
+        "Orion is following a free-return trajectory toward the Moon with a lunar flyby expected on April 6."
+      ],
+      "sources": [
+        "NASA",
+        "CSA"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Specialists Christina Koch and Jeremy Hansen are in good health and high spirits.",
+      "lastEvent": "Translunar Injection (TLI) burn completed at 23:49Z on April 2, 2026.",
+      "nextEvent": "Outbound Trajectory Correction (OTC-1) scheduled for April 3 at 22:49Z.",
+      "telemetry": {
+        "distanceFromEarth": 160773,
+        "distanceFromMoon": 260311,
+        "missionElapsedDay": 2,
+        "velocity": 38624
+      },
+      "fetchedAt": "2026-04-03T20:00:39.172Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "All Systems Nominal",
@@ -348,5 +388,6 @@
       "nextEvent": "On Monday, April 6, the crew is expected to surpass the record for the farthest distance humans have ever traveled from Earth.",
       "fetchedAt": "2026-04-03T18:02:04.912Z"
     }
-  ]
+  ],
+  "lastError": null
 }
