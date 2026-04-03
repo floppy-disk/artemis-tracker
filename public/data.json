@@ -2,29 +2,29 @@
   "update": {
     "status": "nominal",
     "statusLabel": "Nominal",
-    "currentPhase": "Translunar Coast",
-    "headline": "Orion speeds toward the Moon on Flight Day 3 following successful Translunar Injection.",
+    "currentPhase": "Trans-lunar coast phase",
+    "headline": "Artemis II trajectory precise enough to cancel scheduled correction burn on Flight Day 3.",
     "details": [
-      "The crew of Orion Integrity completed a 5-minute 55-second TLI burn to reach escape velocity.",
-      "Mission activities include human health research (AVATAR study) and space adaptation exercises.",
-      "Engineers resolved minor issues with a toilet system controller and a water tank valve position.",
-      "Orion is on a free-return trajectory with a lunar flyby scheduled for April 6."
+      "Orion's trajectory following Translunar Injection was so accurate that mission control canceled the OTC-1 burn.",
+      "The crew performed a successful deep-space CPR medical demonstration and continues microgravity adaptation.",
+      "Technical issues with the Waste Management System and a false cabin leak indication have been fully resolved.",
+      "The spacecraft remains on a free-return trajectory that uses lunar gravity to swing back toward Earth."
     ],
     "sources": [
-      "NASA Artemis II Mission Update",
-      "Artemis II Flight Journal - Flight Day 3"
+      "NASA Johnson Space Center Flight Control",
+      "Artemis II Flight Operations Report"
     ],
     "alertMessage": null,
-    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and high spirits.",
-    "lastEvent": "Successful completion of the Translunar Injection (TLI) burn at 23:49 UTC on April 2.",
-    "nextEvent": "First Outbound Trajectory Correction (OTC-1) burn to refine Orion's path.",
+    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and adapting well to deep space.",
+    "lastEvent": "Completion of the Translunar Injection (TLI) burn, making the crew the first to leave Earth orbit since 1972.",
+    "nextEvent": "Lunar closest approach at approximately 4,700 miles above the far side on April 6.",
     "telemetry": {
-      "distanceFromEarth": 160774,
-      "distanceFromMoon": 260311,
-      "missionElapsedDay": 2,
-      "velocity": 39428
+      "distanceFromEarth": 160770,
+      "distanceFromMoon": 260317,
+      "missionElapsedDay": 3,
+      "velocity": null
     },
-    "fetchedAt": "2026-04-03T20:35:40.845Z"
+    "fetchedAt": "2026-04-03T21:32:48.178Z"
   },
   "milestones": [
     {
@@ -75,7 +75,7 @@
     {
       "id": "tli",
       "label": "Translunar Injection",
-      "detail": "The 5-minute 55-second burn successfully accelerated the spacecraft to escape velocity of 24,500 mph.",
+      "detail": "Successful 5-minute 50-second engine burn increased velocity by 868 mph to break Earth orbit.",
       "time": "2026-04-02T23:49:00.000Z",
       "day": 2,
       "icon": "🌙",
@@ -111,9 +111,19 @@
       "isNew": true
     },
     {
+      "id": "cpr-demo",
+      "label": "Deep Space Cpr Demo",
+      "detail": "Crew conducted a medical emergency procedure drill to test life-saving protocols in microgravity.",
+      "time": "2026-04-03T19:30:00.000Z",
+      "day": 2,
+      "icon": "🩺",
+      "completed": true,
+      "isNew": true
+    },
+    {
       "id": "otc-1",
       "label": "Outbound Trajectory Correction (OTC-1)",
-      "detail": "An 8-second burn to refine path for lunar flyby.",
+      "detail": "Burn canceled; Orion's trajectory is within nominal parameters and requires no correction.",
       "time": "2026-04-03T22:49:00.000Z",
       "day": 3,
       "icon": "🚀",
@@ -222,6 +232,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Nominal",
+      "currentPhase": "Trans-lunar coast phase",
+      "headline": "Artemis II trajectory precise enough to cancel scheduled correction burn on Flight Day 3.",
+      "details": [
+        "Orion's trajectory following Translunar Injection was so accurate that mission control canceled the OTC-1 burn.",
+        "The crew performed a successful deep-space CPR medical demonstration and continues microgravity adaptation.",
+        "Technical issues with the Waste Management System and a false cabin leak indication have been fully resolved.",
+        "The spacecraft remains on a free-return trajectory that uses lunar gravity to swing back toward Earth."
+      ],
+      "sources": [
+        "NASA Johnson Space Center Flight Control",
+        "Artemis II Flight Operations Report"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and adapting well to deep space.",
+      "lastEvent": "Completion of the Translunar Injection (TLI) burn, making the crew the first to leave Earth orbit since 1972.",
+      "nextEvent": "Lunar closest approach at approximately 4,700 miles above the far side on April 6.",
+      "telemetry": {
+        "distanceFromEarth": 160770,
+        "distanceFromMoon": 260317,
+        "missionElapsedDay": 3,
+        "velocity": null
+      },
+      "fetchedAt": "2026-04-03T21:32:48.178Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Nominal",
