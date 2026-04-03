@@ -1,37 +1,37 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Outbound Coast",
-    "currentPhase": "Orion is currently on a translunar trajectory toward the Moon following a successful TLI burn.",
-    "headline": "Artemis II crew cruises toward the Moon after completing the critical Translunar Injection maneuver.",
+    "statusLabel": "Nominal Operations",
+    "currentPhase": "Translunar Coast",
+    "headline": "Artemis II crew enters flight day three on a free-return trajectory toward the Moon.",
     "details": [
-      "The 5-minute and 55-second TLI burn was successfully executed at 7:49 p.m. EDT on Flight Day 2.",
-      "Crew members Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are reported to be in excellent health.",
-      "A minor issue with the spacecraft's waste management system was identified and resolved by mission control and the crew.",
-      "The spacecraft has surpassed 100,000 miles from Earth and is maintaining a velocity of approximately 39,428 km/h."
+      "Translunar Injection burn successfully increased velocity by 867 mph to reach lunar trajectory.",
+      "Crew currently testing fly-wheel exercise equipment and conducting zero-gravity CPR demonstrations.",
+      "Minor water dispenser issue identified; crew utilizing manual bagging methods as a temporary solution.",
+      "Confirmed false cabin pressurization alarm; spacecraft systems are otherwise performing nearly flawlessly."
     ],
     "sources": [
-      "NASA Johnson Space Center Briefing",
-      "Artemis II Flight Day 3 Mission Update"
+      "NASA Mission Control Center",
+      "Artemis II Flight Operations Report"
     ],
     "alertMessage": null,
-    "crewStatus": "The crew is in excellent health and high spirits; they are currently capturing high-resolution imagery of Earth.",
-    "lastEvent": "Completion of the Translunar Injection (TLI) burn to depart Earth's orbit.",
-    "nextEvent": "Lunar flyby and lunar far-side communication loss scheduled for April 6.",
+    "crewStatus": "The four-person crew is in excellent health and high spirits, currently focused on deep-space operations and medical research.",
+    "lastEvent": "Successful completion of the Translunar Injection (TLI) burn on the evening of April 2.",
+    "nextEvent": "Outbound Trajectory Correction burn (OTC-1) scheduled for 6:49 PM EDT to fine-tune path toward the Moon.",
     "telemetry": {
-      "distanceFromEarth": 160934,
-      "distanceFromMoon": null,
+      "distanceFromEarth": 160774,
+      "distanceFromMoon": 260311,
       "missionElapsedDay": 3,
       "velocity": 39428
     },
-    "fetchedAt": "2026-04-03T18:15:17.228Z"
+    "fetchedAt": "2026-04-03T19:30:24.213Z"
   },
   "milestones": [
     {
       "id": "launch",
       "label": "LAUNCH",
-      "detail": "SLS liftoff from Pad 39B",
-      "time": "2026-04-01T22:35:00.000Z",
+      "detail": "Space Launch System (SLS) and Orion launched successfully from Kennedy Space Center.",
+      "time": "2026-04-01T12:00:00.000Z",
       "day": 1,
       "icon": "🚀",
       "completed": true
@@ -66,8 +66,8 @@
     {
       "id": "tli",
       "label": "TRANSLUNAR INJECTION",
-      "detail": "Engine firing increased velocity to 24,500 mph to escape Earth's gravity.",
-      "time": "2026-04-02T23:49:00.000Z",
+      "detail": "5-minute, 50-second burn committing the crew to a lunar trajectory.",
+      "time": "2026-04-02T22:00:00.000Z",
       "day": 2,
       "icon": "🌙",
       "highlight": true,
@@ -212,6 +212,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Nominal Operations",
+      "currentPhase": "Translunar Coast",
+      "headline": "Artemis II crew enters flight day three on a free-return trajectory toward the Moon.",
+      "details": [
+        "Translunar Injection burn successfully increased velocity by 867 mph to reach lunar trajectory.",
+        "Crew currently testing fly-wheel exercise equipment and conducting zero-gravity CPR demonstrations.",
+        "Minor water dispenser issue identified; crew utilizing manual bagging methods as a temporary solution.",
+        "Confirmed false cabin pressurization alarm; spacecraft systems are otherwise performing nearly flawlessly."
+      ],
+      "sources": [
+        "NASA Mission Control Center",
+        "Artemis II Flight Operations Report"
+      ],
+      "alertMessage": null,
+      "crewStatus": "The four-person crew is in excellent health and high spirits, currently focused on deep-space operations and medical research.",
+      "lastEvent": "Successful completion of the Translunar Injection (TLI) burn on the evening of April 2.",
+      "nextEvent": "Outbound Trajectory Correction burn (OTC-1) scheduled for 6:49 PM EDT to fine-tune path toward the Moon.",
+      "telemetry": {
+        "distanceFromEarth": 160774,
+        "distanceFromMoon": 260311,
+        "missionElapsedDay": 3,
+        "velocity": 39428
+      },
+      "fetchedAt": "2026-04-03T19:30:24.213Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Outbound Coast",
