@@ -1,30 +1,28 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Nominal Cruise",
-    "currentPhase": "Trans-lunar cruise",
-    "headline": "Artemis II passes 100,000 miles from Earth as trajectory precision cancels first correction burn.",
+    "statusLabel": "Nominal Flight",
+    "currentPhase": "Trans-lunar coast",
+    "headline": "Artemis II crew continues deep space transit toward the Moon with spacecraft systems performing as expected.",
     "details": [
-      "Mission Control canceled the OTC-1 burn as Orion is already on a precise free-return trajectory.",
-      "Crew successfully performed a zero-gravity CPR demonstration and space adaptation tests.",
-      "Engineers and crew managed a potable water valve issue by transitioning to contingency storage bags.",
-      "The Universal Waste Management System is fully operational following successful plumbing repairs by the crew."
+      "Mission control successfully canceled the first planned outbound trajectory correction burn due to precise navigation.",
+      "The four-person crew is in good health and adapting to the deep space environment.",
+      "Operations have focused on space adaptation, CPR demonstrations, and preparations for upcoming lunar observations.",
+      "Minor logistical adjustments are being managed regarding equipment and the waste management system."
     ],
     "sources": [
-      "NASA Mission Status Report",
-      "Artemis II Flight Director's Log"
+      "NASA Mission Control Center",
+      "Johnson Space Center Flight Operations"
     ],
-    "alertMessage": null,
-    "crewStatus": "Crew is in excellent health and high spirits; currently performing photography and medical demos.",
-    "lastEvent": "Translunar Injection (TLI) burn on April 2 successfully sent Orion toward the Moon.",
-    "nextEvent": "Entry into the Lunar Sphere of Influence",
+    "crewStatus": "The crew is healthy and successfully transitioning into deep-space operational routines.",
+    "lastEvent": "Deep Space CPR Demo (completed April 3, 2026)",
+    "nextEvent": "Lunar Sphere of Influence entry",
     "telemetry": {
-      "distanceFromEarth": 160934,
-      "distanceFromMoon": 241401,
+      "distanceFromEarth": 160773,
       "missionElapsedDay": 3,
-      "velocity": 38624
+      "velocity": 260311
     },
-    "fetchedAt": "2026-04-03T22:32:09.565Z"
+    "fetchedAt": "2026-04-03T23:32:04.940Z"
   },
   "milestones": [
     {
@@ -123,7 +121,7 @@
     {
       "id": "otc-1",
       "label": "Outbound Trajectory Correction (OTC-1)",
-      "detail": "Burn canceled; trajectory is sufficiently precise without correction.",
+      "detail": "Flight controllers canceled the first outbound trajectory correction burn as the spacecraft is on the correct flight path.",
       "time": "2026-04-03T22:31:00.000Z",
       "day": 2,
       "icon": "🚀",
@@ -232,6 +230,31 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Nominal Flight",
+      "currentPhase": "Trans-lunar coast",
+      "headline": "Artemis II crew continues deep space transit toward the Moon with spacecraft systems performing as expected.",
+      "details": [
+        "Mission control successfully canceled the first planned outbound trajectory correction burn due to precise navigation.",
+        "The four-person crew is in good health and adapting to the deep space environment.",
+        "Operations have focused on space adaptation, CPR demonstrations, and preparations for upcoming lunar observations.",
+        "Minor logistical adjustments are being managed regarding equipment and the waste management system."
+      ],
+      "sources": [
+        "NASA Mission Control Center",
+        "Johnson Space Center Flight Operations"
+      ],
+      "crewStatus": "The crew is healthy and successfully transitioning into deep-space operational routines.",
+      "lastEvent": "Deep Space CPR Demo (completed April 3, 2026)",
+      "nextEvent": "Lunar Sphere of Influence entry",
+      "telemetry": {
+        "distanceFromEarth": 160773,
+        "missionElapsedDay": 3,
+        "velocity": 260311
+      },
+      "fetchedAt": "2026-04-03T23:32:04.940Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Nominal Cruise",
