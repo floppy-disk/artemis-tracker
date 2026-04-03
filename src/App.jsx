@@ -60,7 +60,7 @@ function METClock() {
   );
 }
 
-function FetchIndicator({ fetchState }) {
+function FetchIndicator({ fetchState, update }) {
   const { status, lastSuccess, lastError, countdown } = fetchState;
   const colors = {
     idle: "#5a8a9a",
@@ -87,9 +87,9 @@ function FetchIndicator({ fetchState }) {
         flexShrink: 0,
       }} />
       <span>{labels[status]}</span>
-      {lastSuccess && status !== "fetching" && (
+      {update?.fetchedAt && status !== "fetching" && (
         <span style={{ color: "#3d5a6e" }}>
-          · last: {new Date(lastSuccess).toLocaleTimeString()}
+          · last: {new Date(update.fetchedAt).toLocaleTimeString()}
         </span>
       )}
     </div>
@@ -454,7 +454,7 @@ export default function App() {
         <ProgressBar />
         {data.milestones.length > 0 && <Stats milestones={data.milestones} />}
         
-        <FetchIndicator fetchState={fetchState} />
+        <FetchIndicator fetchState={fetchState} update={data.update} />
 
         <div style={{ height: 12 }} />
 

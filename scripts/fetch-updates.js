@@ -229,10 +229,6 @@ async function main() {
     fs.writeFileSync(dataPath, JSON.stringify(data, null, 2));
     console.log("data.json updated successfully.");
 
-    // Dynamic scheduling
-    const nextInterval = calculateNextCron(data.milestones);
-    updateWorkflowCron(nextInterval);
-
   } catch (err) {
     console.error("Error during fetch:", err);
     process.exit(1);
