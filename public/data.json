@@ -1,32 +1,40 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Outbound Coast",
-    "currentPhase": "Orion is currently on a translunar trajectory toward the Moon following a successful TLI burn.",
-    "headline": "Artemis II crew cruises toward the Moon after completing the critical Translunar Injection maneuver.",
+    "statusLabel": "Mission Nominal",
+    "currentPhase": "Outbound Coast",
+    "headline": "Artemis II crew is healthy and successfully en route to the Moon on Flight Day 3.",
     "details": [
-      "The 5-minute and 55-second TLI burn was successfully executed at 7:49 p.m. EDT on Flight Day 2.",
-      "Crew members Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are reported to be in excellent health.",
-      "A minor issue with the spacecraft's waste management system was identified and resolved by mission control and the crew.",
-      "The spacecraft has surpassed 100,000 miles from Earth and is maintaining a velocity of approximately 39,428 km/h."
+      "The Orion spacecraft is coasting toward the Moon at a velocity of 19,512 km/h.",
+      "Crew members conducted successful medical demonstrations today, including CPR and choking-response procedures.",
+      "All systems are reported operational, including the Orion flywheel exercise device and the recently repaired toilet system.",
+      "The crew is approximately 214,626 km from Earth and 176,145 km from the Moon."
     ],
     "sources": [
-      "NASA Johnson Space Center Briefing",
-      "Artemis II Flight Day 3 Mission Update"
+      "NASA Artemis II Mission Updates",
+      "Flight Mission Control Report"
     ],
-    "alertMessage": null,
-    "crewStatus": "The crew is in excellent health and high spirits; they are currently capturing high-resolution imagery of Earth.",
-    "lastEvent": "Completion of the Translunar Injection (TLI) burn to depart Earth's orbit.",
-    "nextEvent": "Lunar flyby and lunar far-side communication loss scheduled for April 6.",
+    "crewStatus": "All four crew members are in excellent health and high spirits.",
+    "lastEvent": "First trajectory correction burn (OTC-1) to fine-tune the lunar path.",
+    "nextEvent": "Lunar sphere of influence entry on Flight Day 5.",
     "telemetry": {
-      "distanceFromEarth": 160934,
-      "distanceFromMoon": null,
+      "distanceFromEarth": 214626,
+      "distanceFromMoon": 176145,
       "missionElapsedDay": 3,
-      "velocity": 39428
+      "velocity": 19512
     },
-    "fetchedAt": "2026-04-03T18:15:17.228Z"
+    "fetchedAt": "2026-04-03T18:51:36.629Z"
   },
   "milestones": [
+    {
+      "id": "prox-ops",
+      "label": "PROXIMITY OPS",
+      "detail": "Manual piloting demonstrations and life support tests were successfully conducted in high Earth orbit.",
+      "time": "2026-04-01T00:00:00.000Z",
+      "day": 2,
+      "icon": "🎯",
+      "completed": true
+    },
     {
       "id": "launch",
       "label": "LAUNCH",
@@ -82,15 +90,6 @@
       "icon": "🔗"
     },
     {
-      "id": "prox-ops",
-      "label": "PROXIMITY OPS",
-      "detail": "Manual piloting demonstrations and life support tests were successfully conducted in high Earth orbit.",
-      "time": "2026-04-03T04:00:00.000Z",
-      "day": 2,
-      "icon": "🎯",
-      "completed": true
-    },
-    {
       "id": "avatar-checkout",
       "label": "AVATAR Scientific Payload Checkout",
       "detail": "Testing 'organ-on-a-chip' technology to study deep space radiation effects on bone marrow cells.",
@@ -123,10 +122,29 @@
     {
       "id": "lunar-soi",
       "label": "LUNAR SPHERE OF INFLUENCE",
-      "detail": "Moon's gravity becomes dominant",
-      "time": "2026-04-06T00:00:00.000Z",
+      "detail": "Moon's gravity will become the dominant force acting on the spacecraft.",
+      "time": "2026-04-05T00:00:00.000Z",
       "day": 5,
       "icon": "🌑"
+    },
+    {
+      "id": "lunar-flyby",
+      "label": "LUNAR FLYBY",
+      "detail": "Orion will pass 4,000 to 6,000 miles above the lunar far side.",
+      "time": "2026-04-06T00:00:00.000Z",
+      "day": 6,
+      "icon": "🌕",
+      "highlight": true
+    },
+    {
+      "id": "human-distance-record",
+      "label": "Human Distance Record",
+      "detail": "Crew expected to surpass the Apollo 13 record distance from Earth.",
+      "time": "2026-04-06T00:00:00.000Z",
+      "day": 5,
+      "icon": "🚀",
+      "completed": false,
+      "isNew": true
     },
     {
       "id": "distance-record",
@@ -147,15 +165,6 @@
       "icon": "🔭",
       "completed": false,
       "isNew": true
-    },
-    {
-      "id": "lunar-flyby",
-      "label": "LUNAR FLYBY",
-      "detail": "~4,112 mi from Moon's far side",
-      "time": "2026-04-06T12:00:00.000Z",
-      "day": 6,
-      "icon": "🌕",
-      "highlight": true
     },
     {
       "id": "farthest-human-distance",
@@ -194,24 +203,50 @@
       "icon": "↩️"
     },
     {
+      "id": "splashdown",
+      "label": "SPLASHDOWN",
+      "detail": "Final splashdown in the Pacific Ocean off the coast of San Diego.",
+      "time": "2026-04-10T00:00:00.000Z",
+      "day": 10,
+      "icon": "🌊",
+      "highlight": true
+    },
+    {
       "id": "reentry",
       "label": "RE-ENTRY",
       "detail": "Skip re-entry at ~5,000°F",
       "time": "2026-04-11T00:00:00.000Z",
       "day": 10,
       "icon": "🔥"
-    },
-    {
-      "id": "splashdown",
-      "label": "SPLASHDOWN",
-      "detail": "Pacific Ocean recovery",
-      "time": "2026-04-11T12:00:00.000Z",
-      "day": 10,
-      "icon": "🌊",
-      "highlight": true
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Mission Nominal",
+      "currentPhase": "Outbound Coast",
+      "headline": "Artemis II crew is healthy and successfully en route to the Moon on Flight Day 3.",
+      "details": [
+        "The Orion spacecraft is coasting toward the Moon at a velocity of 19,512 km/h.",
+        "Crew members conducted successful medical demonstrations today, including CPR and choking-response procedures.",
+        "All systems are reported operational, including the Orion flywheel exercise device and the recently repaired toilet system.",
+        "The crew is approximately 214,626 km from Earth and 176,145 km from the Moon."
+      ],
+      "sources": [
+        "NASA Artemis II Mission Updates",
+        "Flight Mission Control Report"
+      ],
+      "crewStatus": "All four crew members are in excellent health and high spirits.",
+      "lastEvent": "First trajectory correction burn (OTC-1) to fine-tune the lunar path.",
+      "nextEvent": "Lunar sphere of influence entry on Flight Day 5.",
+      "telemetry": {
+        "distanceFromEarth": 214626,
+        "distanceFromMoon": 176145,
+        "missionElapsedDay": 3,
+        "velocity": 19512
+      },
+      "fetchedAt": "2026-04-03T18:51:36.629Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Outbound Coast",
