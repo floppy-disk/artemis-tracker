@@ -373,7 +373,7 @@ export default function App() {
       const controller = new AbortController();
       const timeoutId = setTimeout(() => controller.abort(), 10000);
       const timestamp = new Date().getTime(); // Prevent caching
-      const response = await fetch(`/data.json?t=${timestamp}`, { signal: controller.signal });
+      const response = await fetch(`data.json?t=${timestamp}`, { signal: controller.signal });
       clearTimeout(timeoutId);
       
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
