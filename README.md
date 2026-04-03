@@ -1,16 +1,69 @@
-# React + Vite
+# Artemis II Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time, AI-powered mission tracker for NASA's Artemis II lunar flyby. This project provides a visually immersive dashboard that automatically stays up-to-date with the latest mission news, telemetry, and milestones using Google's Gemini AI.
 
-Currently, two official plugins are available:
+## 🚀 How It Works
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This is a **serverless, automated tracker** that functions through a coordinated flow between a static frontend and an AI-driven background process:
 
-## React Compiler
+### 1. The Frontend (React + Vite)
+- **Real-Time Dashboard:** Displays a Mission Elapsed Time (MET) clock, progress bar, and mission stats.
+- **Dynamic Polling:** The browser automatically polls a static `public/data.json` file every minute to ensure the UI stays updated without a page refresh.
+- **Visuals:** Features a procedural starfield and high-contrast, mission-control inspired UI elements.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 2. The AI Update Engine (Node.js + Gemini)
+- **Discovery:** A script (`scripts/fetch-updates.js`) uses Google's Gemini Pro with Google Search to find the absolute latest news regarding Artemis II.
+- **Structuring:** The AI takes raw search results and converts them into a strict, validated JSON schema that the frontend understands.
+- **Milestone Management:** The script intelligently merges new AI-discovered events with existing mission milestones.
 
-## Expanding the ESLint configuration
+### 3. Automation (GitHub Actions)
+- **Fixed Schedule:** A GitHub Action (`.github/workflows/tracker-update.yml`) runs the AI update engine once every hour.
+- **Data Persistence:** After fetching new data, the Action automatically commits the updated `data.json` back to the repository, which triggers a new deployment to GitHub Pages.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React, Vite, CSS-in-JS (Vanilla styles).
+- **AI:** Google Gemini API (Pro & Flash models).
+- **Automation:** GitHub Actions.
+- **Deployment:** GitHub Pages.
+- **Data:** Flat-file JSON database.
+
+---
+
+## 💻 Local Development
+
+### Prerequisites
+- Node.js (v20+)
+- A [Google Gemini API Key](https://aistudio.google.com/app/apikey)
+
+### Setup
+1. Clone the repository.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Create a `.env` file (or set your environment variable):
+   ```bash
+   GEMINI_API_KEY=your_key_here
+   ```
+
+### Running the App
+```bash
+npm run dev
+```
+
+### Manually Fetching Updates
+To test the AI discovery locally:
+```bash
+node scripts/fetch-updates.js
+```
+
+---
+
+## 🛰 Mission Details
+- **Crew:** Reid Wiseman, Victor Glover, Christina Koch, Jeremy Hansen.
+- **Duration:** ~10 Days.
+- **Distance:** ~685,000 miles.
+- **Launch Date:** April 1, 2026.
