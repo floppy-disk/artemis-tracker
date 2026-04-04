@@ -1,28 +1,30 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Mission Nominal",
-    "currentPhase": "Translunar coast toward the Moon",
-    "headline": "Artemis II crew remains in good health as Orion continues its precise trajectory toward the lunar flyby.",
+    "statusLabel": "Nominal Operations",
+    "currentPhase": "Translunar Coast",
+    "headline": "Christina Koch sets record as the farthest woman to travel from Earth as Orion continues lunar transit.",
     "details": [
-      "Orion's trajectory is so precise that the first planned Outbound Trajectory Correction burn was cancelled.",
-      "The crew successfully performed medical demonstrations, including a microgravity CPR procedure test.",
-      "Minor issues with the waste management system and water dispenser have been resolved.",
-      "The crew is sharing high-resolution imagery of Earth from deep space."
+      "Orion has surpassed 100,000 miles from Earth and is maintaining a high-precision trajectory toward the Moon.",
+      "Flight controllers cancelled the OTC-1 burn maneuver because the initial Translunar Injection was exceptionally accurate.",
+      "The crew successfully performed microgravity medical demonstrations, including CPR practice and diagnostic equipment testing.",
+      "Testing of the Orion Optical Communications system successfully transmitted high-definition video back to Earth."
     ],
     "sources": [
-      "NASA Artemis II Mission Updates",
-      "Canadian Space Agency (CSA) Press Release"
+      "NASA Mission Control Center",
+      "Artemis II Flight Status Report April 4 04:24 UTC"
     ],
-    "crewStatus": "The crew of four is in good health and high spirits.",
-    "lastEvent": "Live CSA downlink event with Jeremy Hansen.",
-    "nextEvent": "Lunar sphere of influence entry on April 5.",
+    "alertMessage": null,
+    "crewStatus": "Commander Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in good health and high spirits.",
+    "lastEvent": "Cancellation of the OTC-1 trajectory correction burn due to high mission precision.",
+    "nextEvent": "Entry into the Lunar Sphere of Influence followed by lunar flyby and observation.",
     "telemetry": {
-      "distanceFromEarth": 160774,
+      "distanceFromEarth": 160934,
+      "distanceFromMoon": null,
       "missionElapsedDay": 3,
-      "velocity": 36000
+      "velocity": null
     },
-    "fetchedAt": "2026-04-04T02:00:31.467Z"
+    "fetchedAt": "2026-04-04T04:25:22.932Z"
   },
   "milestones": [
     {
@@ -73,7 +75,7 @@
     {
       "id": "tli",
       "label": "Translunar Injection",
-      "detail": "Successful 5-minute engine burn to break Earth orbit.",
+      "detail": "Engine firing of 5 minutes and 49 seconds committed the crew to the Moon.",
       "time": "2026-04-02T23:49:00.000Z",
       "day": 2,
       "icon": "🌙",
@@ -101,7 +103,7 @@
     {
       "id": "earth-photography",
       "label": "Earth Photography By Crew",
-      "detail": "High-resolution imagery of Earth's continents and South Pole captured.",
+      "detail": "Crew captured images of Earth's auroras and zodiacal light.",
       "time": "2026-04-03T16:00:00.000Z",
       "day": 2,
       "icon": "📸",
@@ -111,7 +113,7 @@
     {
       "id": "cpr-demo",
       "label": "Deep Space Cpr Demo",
-      "detail": "Zero-gravity medical protocol testing completed by the crew.",
+      "detail": "Crew successfully practiced CPR techniques in a microgravity environment.",
       "time": "2026-04-03T19:30:00.000Z",
       "day": 2,
       "icon": "🩺",
@@ -119,9 +121,19 @@
       "isNew": true
     },
     {
+      "id": "woman-distance-record",
+      "label": "Female Distance Record",
+      "detail": "Christina Koch officially became the farthest woman to ever travel from Earth.",
+      "time": "2026-04-03T20:00:00.000Z",
+      "day": 2,
+      "icon": "👩‍🚀",
+      "completed": true,
+      "isNew": true
+    },
+    {
       "id": "otc-1",
       "label": "Outbound Trajectory Correction (OTC-1)",
-      "detail": "OTC-1 maneuver was skipped by mission control due to highly precise trajectory.",
+      "detail": "Burn cancelled by flight controllers as the current trajectory is within optimal parameters.",
       "time": "2026-04-03T22:31:00.000Z",
       "day": 2,
       "icon": "🚀",
@@ -230,6 +242,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Nominal Operations",
+      "currentPhase": "Translunar Coast",
+      "headline": "Christina Koch sets record as the farthest woman to travel from Earth as Orion continues lunar transit.",
+      "details": [
+        "Orion has surpassed 100,000 miles from Earth and is maintaining a high-precision trajectory toward the Moon.",
+        "Flight controllers cancelled the OTC-1 burn maneuver because the initial Translunar Injection was exceptionally accurate.",
+        "The crew successfully performed microgravity medical demonstrations, including CPR practice and diagnostic equipment testing.",
+        "Testing of the Orion Optical Communications system successfully transmitted high-definition video back to Earth."
+      ],
+      "sources": [
+        "NASA Mission Control Center",
+        "Artemis II Flight Status Report April 4 04:24 UTC"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in good health and high spirits.",
+      "lastEvent": "Cancellation of the OTC-1 trajectory correction burn due to high mission precision.",
+      "nextEvent": "Entry into the Lunar Sphere of Influence followed by lunar flyby and observation.",
+      "telemetry": {
+        "distanceFromEarth": 160934,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 3,
+        "velocity": null
+      },
+      "fetchedAt": "2026-04-04T04:25:22.932Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Mission Nominal",
