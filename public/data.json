@@ -1,28 +1,28 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Nominal Flight",
-    "currentPhase": "Trans-lunar coast",
-    "headline": "Artemis II crew continues deep space transit toward the Moon with spacecraft systems performing as expected.",
+    "statusLabel": "Mission Nominal",
+    "currentPhase": "Translunar coast toward the Moon",
+    "headline": "Artemis II crew remains in good health as Orion continues its precise trajectory toward the lunar flyby.",
     "details": [
-      "Mission control successfully canceled the first planned outbound trajectory correction burn due to precise navigation.",
-      "The four-person crew is in good health and adapting to the deep space environment.",
-      "Operations have focused on space adaptation, CPR demonstrations, and preparations for upcoming lunar observations.",
-      "Minor logistical adjustments are being managed regarding equipment and the waste management system."
+      "Orion's trajectory is so precise that the first planned Outbound Trajectory Correction burn was cancelled.",
+      "The crew successfully performed medical demonstrations, including a microgravity CPR procedure test.",
+      "Minor issues with the waste management system and water dispenser have been resolved.",
+      "The crew is sharing high-resolution imagery of Earth from deep space."
     ],
     "sources": [
-      "NASA Mission Control Center",
-      "Johnson Space Center Flight Operations"
+      "NASA Artemis II Mission Updates",
+      "Canadian Space Agency (CSA) Press Release"
     ],
-    "crewStatus": "The crew is healthy and successfully transitioning into deep-space operational routines.",
-    "lastEvent": "Deep Space CPR Demo (completed April 3, 2026)",
-    "nextEvent": "Lunar Sphere of Influence entry",
+    "crewStatus": "The crew of four is in good health and high spirits.",
+    "lastEvent": "Live CSA downlink event with Jeremy Hansen.",
+    "nextEvent": "Lunar sphere of influence entry on April 5.",
     "telemetry": {
-      "distanceFromEarth": 160773,
+      "distanceFromEarth": 160774,
       "missionElapsedDay": 3,
-      "velocity": 260311
+      "velocity": 36000
     },
-    "fetchedAt": "2026-04-03T23:32:04.940Z"
+    "fetchedAt": "2026-04-04T02:00:31.467Z"
   },
   "milestones": [
     {
@@ -121,7 +121,7 @@
     {
       "id": "otc-1",
       "label": "Outbound Trajectory Correction (OTC-1)",
-      "detail": "Flight controllers canceled the first outbound trajectory correction burn as the spacecraft is on the correct flight path.",
+      "detail": "OTC-1 maneuver was skipped by mission control due to highly precise trajectory.",
       "time": "2026-04-03T22:31:00.000Z",
       "day": 2,
       "icon": "🚀",
@@ -230,6 +230,31 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Mission Nominal",
+      "currentPhase": "Translunar coast toward the Moon",
+      "headline": "Artemis II crew remains in good health as Orion continues its precise trajectory toward the lunar flyby.",
+      "details": [
+        "Orion's trajectory is so precise that the first planned Outbound Trajectory Correction burn was cancelled.",
+        "The crew successfully performed medical demonstrations, including a microgravity CPR procedure test.",
+        "Minor issues with the waste management system and water dispenser have been resolved.",
+        "The crew is sharing high-resolution imagery of Earth from deep space."
+      ],
+      "sources": [
+        "NASA Artemis II Mission Updates",
+        "Canadian Space Agency (CSA) Press Release"
+      ],
+      "crewStatus": "The crew of four is in good health and high spirits.",
+      "lastEvent": "Live CSA downlink event with Jeremy Hansen.",
+      "nextEvent": "Lunar sphere of influence entry on April 5.",
+      "telemetry": {
+        "distanceFromEarth": 160774,
+        "missionElapsedDay": 3,
+        "velocity": 36000
+      },
+      "fetchedAt": "2026-04-04T02:00:31.467Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Nominal Flight",
