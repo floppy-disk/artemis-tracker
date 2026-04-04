@@ -1,37 +1,37 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Nominal",
-    "currentPhase": "Outbound Coast Phase",
-    "headline": "Artemis II passes halfway point to the Moon as crew resolves minor technical hurdles.",
+    "statusLabel": "Record Breaking",
+    "currentPhase": "Trans-Lunar cruising phase on a free-return trajectory.",
+    "headline": "Artemis II breaks Apollo 13 human distance record as Orion cruises toward the Moon.",
     "details": [
-      "Orion has successfully crossed the equidistance mark between Earth and the Moon on Day 4.",
-      "A blockage in the wastewater vent nozzle caused by ice was cleared using heaters and solar orientation.",
-      "The crew performed a zero-gravity CPR demonstration and deep-space medical equipment testing.",
-      "Mission Control resolved a remote software issue with the crew's personal computing devices."
+      "At 23:05 UTC, the Orion spacecraft Integrity surpassed the 248,655-mile distance record from Earth set by Apollo 13 in 1970.",
+      "Engineers successfully resolved an ice blockage in the Orion urine vent by using heaters and orienting the spacecraft toward the sun.",
+      "The crew remains in excellent health and has been conducting medical response drills and scientific checkouts of the AVATAR radiation payload.",
+      "The spacecraft is currently 406,773 km from Earth, traveling deeper into space than any previous human-rated vehicle."
     ],
     "sources": [
-      "NASA Mission Control Update",
-      "Artemis II Flight Journal"
+      "NASA Mission Control Daily Briefing",
+      "Artemis II Mission Management Team Update"
     ],
     "alertMessage": null,
-    "crewStatus": "Excellent health and high spirits; focusing on space adaptation and lunar observations.",
-    "lastEvent": "Successful restoration of the Orion waste management system functionality.",
-    "nextEvent": "Entering the Lunar Sphere of Influence on Mission Day 5.",
+    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and high spirits.",
+    "lastEvent": "Surpassed the all-time human distance record from Earth at 23:05 UTC.",
+    "nextEvent": "Lunar Flyby and communications blackout while passing the lunar far side.",
     "telemetry": {
-      "distanceFromEarth": 271978,
-      "distanceFromMoon": 178154,
+      "distanceFromEarth": 406773,
+      "distanceFromMoon": null,
       "missionElapsedDay": 4,
-      "velocity": 6759
+      "velocity": null
     },
-    "fetchedAt": "2026-04-04T22:28:23.088Z"
+    "fetchedAt": "2026-04-04T23:30:27.321Z"
   },
   "milestones": [
     {
       "id": "launch",
       "label": "Launch",
       "detail": "SLS liftoff from Pad 39B",
-      "time": "2026-04-01T22:35:00.000Z",
+      "time": "2026-04-01T22:35:12.000Z",
       "day": 1,
       "icon": "🚀",
       "completed": true
@@ -131,16 +131,6 @@
       "isNew": true
     },
     {
-      "id": "equal-dist",
-      "label": "Lunar Distance Equalization",
-      "detail": "Orion passed the halfway point of its outbound journey to the Moon.",
-      "time": "2026-04-04T04:00:00.000Z",
-      "day": 3,
-      "icon": "🌓",
-      "completed": true,
-      "isNew": true
-    },
-    {
       "id": "csa-downlink",
       "label": "CSA Live Downlink",
       "detail": "Live broadcast event featuring images of the lunar surface visible from the Orion spacecraft.",
@@ -151,9 +141,19 @@
       "isNew": true
     },
     {
+      "id": "equal-dist",
+      "label": "Lunar Distance Equalization",
+      "detail": "Orion became closer to the Moon than Earth on Saturday morning.",
+      "time": "2026-04-04T08:00:00.000Z",
+      "day": 3,
+      "icon": "🌓",
+      "completed": true,
+      "isNew": true
+    },
+    {
       "id": "woman-distance-record",
       "label": "Female Distance Record",
-      "detail": "Christina Koch officially surpassed the 70,000-mile mark, becoming the farthest woman from Earth.",
+      "detail": "Christina Koch officially set the record for the farthest distance a woman has traveled from Earth.",
       "time": "2026-04-04T12:00:00.000Z",
       "day": 3,
       "icon": "👩‍🚀",
@@ -163,7 +163,7 @@
     {
       "id": "toilet-fix",
       "label": "Waste System Resolution",
-      "detail": "Wastewater vent blockage cleared by orienting the port toward the sun.",
+      "detail": "Ground controllers successfully melted ice in the wastewater vent nozzle using solar heating.",
       "time": "2026-04-04T12:00:00.000Z",
       "day": 3,
       "icon": "📌",
@@ -177,6 +177,16 @@
       "time": "2026-04-04T18:00:00.000Z",
       "day": 3,
       "icon": "🩺",
+      "completed": true,
+      "isNew": true
+    },
+    {
+      "id": "human-distance-record",
+      "label": "Human Distance Record",
+      "detail": "Orion officially surpassed the record set by the Apollo 13 crew in 1970.",
+      "time": "2026-04-04T23:05:00.000Z",
+      "day": 4,
+      "icon": "🚀",
       "completed": true,
       "isNew": true
     },
@@ -197,16 +207,6 @@
       "time": "2026-04-05T22:00:00.000Z",
       "day": 4,
       "icon": "🌑"
-    },
-    {
-      "id": "human-distance-record",
-      "label": "Human Distance Record",
-      "detail": "Crew expected to surpass the Apollo 13 record distance from Earth.",
-      "time": "2026-04-06T00:00:00.000Z",
-      "day": 5,
-      "icon": "🚀",
-      "completed": false,
-      "isNew": true
     },
     {
       "id": "distance-record",
@@ -284,24 +284,51 @@
       "icon": "↩️"
     },
     {
-      "id": "splashdown",
-      "label": "Splashdown",
-      "detail": "Final splashdown in the Pacific Ocean off the coast of San Diego.",
-      "time": "2026-04-10T20:00:00.000Z",
-      "day": 9,
-      "icon": "🌊",
-      "highlight": true
-    },
-    {
       "id": "reentry",
       "label": "Re-entry",
       "detail": "Skip re-entry at ~5,000°F",
       "time": "2026-04-11T00:00:00.000Z",
       "day": 10,
       "icon": "🔥"
+    },
+    {
+      "id": "splashdown",
+      "label": "Splashdown",
+      "detail": "Final splashdown in the Pacific Ocean off the coast of San Diego.",
+      "time": "2026-04-11T16:00:00.000Z",
+      "day": 10,
+      "icon": "🌊",
+      "highlight": true
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Record Breaking",
+      "currentPhase": "Trans-Lunar cruising phase on a free-return trajectory.",
+      "headline": "Artemis II breaks Apollo 13 human distance record as Orion cruises toward the Moon.",
+      "details": [
+        "At 23:05 UTC, the Orion spacecraft Integrity surpassed the 248,655-mile distance record from Earth set by Apollo 13 in 1970.",
+        "Engineers successfully resolved an ice blockage in the Orion urine vent by using heaters and orienting the spacecraft toward the sun.",
+        "The crew remains in excellent health and has been conducting medical response drills and scientific checkouts of the AVATAR radiation payload.",
+        "The spacecraft is currently 406,773 km from Earth, traveling deeper into space than any previous human-rated vehicle."
+      ],
+      "sources": [
+        "NASA Mission Control Daily Briefing",
+        "Artemis II Mission Management Team Update"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and high spirits.",
+      "lastEvent": "Surpassed the all-time human distance record from Earth at 23:05 UTC.",
+      "nextEvent": "Lunar Flyby and communications blackout while passing the lunar far side.",
+      "telemetry": {
+        "distanceFromEarth": 406773,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 4,
+        "velocity": null
+      },
+      "fetchedAt": "2026-04-04T23:30:27.321Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Nominal",
@@ -805,31 +832,6 @@
         "velocity": 36000
       },
       "fetchedAt": "2026-04-04T02:00:31.467Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Nominal Flight",
-      "currentPhase": "Trans-lunar coast",
-      "headline": "Artemis II crew continues deep space transit toward the Moon with spacecraft systems performing as expected.",
-      "details": [
-        "Mission control successfully canceled the first planned outbound trajectory correction burn due to precise navigation.",
-        "The four-person crew is in good health and adapting to the deep space environment.",
-        "Operations have focused on space adaptation, CPR demonstrations, and preparations for upcoming lunar observations.",
-        "Minor logistical adjustments are being managed regarding equipment and the waste management system."
-      ],
-      "sources": [
-        "NASA Mission Control Center",
-        "Johnson Space Center Flight Operations"
-      ],
-      "crewStatus": "The crew is healthy and successfully transitioning into deep-space operational routines.",
-      "lastEvent": "Deep Space CPR Demo (completed April 3, 2026)",
-      "nextEvent": "Lunar Sphere of Influence entry",
-      "telemetry": {
-        "distanceFromEarth": 160773,
-        "missionElapsedDay": 3,
-        "velocity": 260311
-      },
-      "fetchedAt": "2026-04-03T23:32:04.940Z"
     }
   ],
   "lastError": null
