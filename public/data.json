@@ -1,30 +1,29 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Nominal",
-    "currentPhase": "Coasting to the Moon",
-    "headline": "The Artemis II mission is successfully on a free-return trajectory and the crew has passed the equidistance point between Earth and the Moon.",
+    "statusLabel": "Mission Nominal",
+    "currentPhase": "Trans-Lunar Coast",
+    "headline": "Orion continues its journey toward the Moon, having officially crossed the halfway point of the outbound transit.",
     "details": [
-      "Orion spacecraft is in excellent health with all primary systems performing within nominal parameters.",
-      "A minor odor reported in the hygiene bay was traced to insulation and is not a safety concern.",
-      "The crew crossed the halfway point of their journey on April 4 and are now closer to the Moon than Earth.",
-      "Flight controllers successfully canceled the first planned outbound trajectory correction due to the high precision of the TLI burn."
+      "Mission Control canceled the second Outbound Trajectory Correction (OTC-2) burn due to the spacecraft's high-precision flight path.",
+      "The crew is managing a minor technical issue involving the Universal Waste Management System's heater, currently believed to be an ice blockage.",
+      "Crew members are performing medical experiments and CPR training in microgravity to support future Mars missions.",
+      "The spacecraft remains in excellent condition as it prepares for the upcoming lunar flyby."
     ],
     "sources": [
-      "NASA Mission Control",
-      "Artemis II Flight Operations Report"
+      "NASA Artemis II Mission Updates",
+      "Flight Control Houston Communications"
     ],
-    "alertMessage": null,
-    "crewStatus": "The four-person crew is in high spirits, in good physical condition, and maintaining a routine of cardiovascular exercise and medical training.",
-    "lastEvent": "Crew crossed the halfway point of the mission journey on April 4, 2026.",
-    "nextEvent": "Lunar Flyby on April 6, 2026.",
+    "crewStatus": "Excellent health and spirits; the crew began Flight Day 4 today with a musical wake-up call.",
+    "lastEvent": "Traversal of the halfway point between Earth and the Moon.",
+    "nextEvent": "Surpassing the Apollo 13 human distance record on April 6, 2026.",
     "telemetry": {
-      "distanceFromEarth": 160934,
+      "distanceFromEarth": 201100,
       "distanceFromMoon": null,
       "missionElapsedDay": 4,
-      "velocity": null
+      "velocity": 7242
     },
-    "fetchedAt": "2026-04-04T16:34:48.572Z"
+    "fetchedAt": "2026-04-04T17:29:22.153Z"
   },
   "milestones": [
     {
@@ -209,10 +208,20 @@
       "isNew": true
     },
     {
+      "id": "farthest-human-distance",
+      "label": "Human Distance Record",
+      "detail": "Expected to reach 252,799 miles from Earth, breaking the Apollo 13 record.",
+      "time": "2026-04-06T18:30:00.000Z",
+      "day": 5,
+      "icon": "📏",
+      "completed": false,
+      "isNew": true
+    },
+    {
       "id": "comm-blackout",
       "label": "Communications Blackout",
       "detail": "Expected loss of signal as Orion passes behind the lunar far side.",
-      "time": "2026-04-06T18:00:00.000Z",
+      "time": "2026-04-06T19:05:00.000Z",
       "day": 5,
       "icon": "📵",
       "completed": false,
@@ -222,20 +231,10 @@
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
       "detail": "Planned pass 4,700 miles above the lunar far side; first humans to see it since 1972.",
-      "time": "2026-04-06T18:30:00.000Z",
+      "time": "2026-04-06T19:05:00.000Z",
       "day": 5,
       "icon": "🌕",
       "highlight": true
-    },
-    {
-      "id": "farthest-human-distance",
-      "label": "Human Distance Record",
-      "detail": "Expected to reach 252,799 miles from Earth, breaking the Apollo 13 record.",
-      "time": "2026-04-06T18:30:00.000Z",
-      "day": 5,
-      "icon": "📏",
-      "completed": false,
-      "isNew": true
     },
     {
       "id": "earthrise",
@@ -282,6 +281,32 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Mission Nominal",
+      "currentPhase": "Trans-Lunar Coast",
+      "headline": "Orion continues its journey toward the Moon, having officially crossed the halfway point of the outbound transit.",
+      "details": [
+        "Mission Control canceled the second Outbound Trajectory Correction (OTC-2) burn due to the spacecraft's high-precision flight path.",
+        "The crew is managing a minor technical issue involving the Universal Waste Management System's heater, currently believed to be an ice blockage.",
+        "Crew members are performing medical experiments and CPR training in microgravity to support future Mars missions.",
+        "The spacecraft remains in excellent condition as it prepares for the upcoming lunar flyby."
+      ],
+      "sources": [
+        "NASA Artemis II Mission Updates",
+        "Flight Control Houston Communications"
+      ],
+      "crewStatus": "Excellent health and spirits; the crew began Flight Day 4 today with a musical wake-up call.",
+      "lastEvent": "Traversal of the halfway point between Earth and the Moon.",
+      "nextEvent": "Surpassing the Apollo 13 human distance record on April 6, 2026.",
+      "telemetry": {
+        "distanceFromEarth": 201100,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 4,
+        "velocity": 7242
+      },
+      "fetchedAt": "2026-04-04T17:29:22.153Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Nominal",
@@ -789,30 +814,6 @@
         "velocity": 38624
       },
       "fetchedAt": "2026-04-03T20:00:39.172Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "All Systems Nominal",
-      "currentPhase": "Outbound coasting trajectory towards the Moon",
-      "headline": "The Artemis II mission is performing well following the successful completion of the translunar injection burn.",
-      "details": [
-        "Crew is in good health and has successfully acclimated to the space environment.",
-        "The Integrity spacecraft is on a precise trajectory toward the Moon.",
-        "Operations currently focus on cabin configuration and spacecraft system checkouts.",
-        "A minor operational issue with the spacecraft's waste management system was successfully resolved."
-      ],
-      "sources": [
-        "NASA Artemis II Mission Updates"
-      ],
-      "crewStatus": "All four crew members are in good health and have completed their first deep space rest period.",
-      "lastEvent": "Translunar Injection (TLI) burn completed on April 2, 2026.",
-      "nextEvent": "Outbound trajectory correction (OTC) burn on April 3, 2026.",
-      "telemetry": {
-        "distanceFromEarth": 160773,
-        "distanceFromMoon": 260311,
-        "missionElapsedDay": 3
-      },
-      "fetchedAt": "2026-04-03T19:36:23.023Z"
     }
   ],
   "lastError": null
