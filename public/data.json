@@ -1,30 +1,30 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Nominal",
-    "currentPhase": "Outbound Coast",
-    "headline": "Orion passes the gravitational halfway point to the Moon on Mission Day 3.",
+    "statusLabel": "Deep Space Cruise",
+    "currentPhase": "Trans-lunar coast toward the Moon",
+    "headline": "Orion surpasses the halfway point to the Moon on a precise trajectory toward a record-breaking lunar flyby.",
     "details": [
-      "The Orion spacecraft is currently closer to the Moon than to Earth following a precise Trans-Lunar Injection burn.",
-      "The crew successfully completed a CPR medical demonstration and the first high-definition deep space laser communication downlink.",
-      "A minor issue with the waste management system (toilet) was successfully troubleshot and resolved by the crew earlier in the flight.",
-      "Orion remains on a free-return trajectory, ensuring a safe return to Earth using lunar gravity."
+      "Orion crossed the lunar distance equalization point at 04:00 UTC, now traveling closer to the Moon than Earth.",
+      "Mission control canceled the first outbound trajectory correction (OTC-1) due to the high accuracy of the TLI burn.",
+      "Crew successfully performed medical demonstrations in zero gravity, including CPR protocols and diagnostic tool testing.",
+      "Minor technical glitches involving the toilet, cabin alarms, and water dispenser have been successfully resolved or managed."
     ],
     "sources": [
-      "NASA Mission Control",
-      "NASA Flight Directors"
+      "NASA Mission Control Daily Briefing",
+      "Artemis II Flight Status Report"
     ],
     "alertMessage": null,
-    "crewStatus": "Wiseman, Glover, Koch, and Hansen are in excellent health and high spirits; currently in a scheduled rest period.",
-    "lastEvent": "Passed the gravitational halfway point between Earth and the Moon at 04:00 UTC.",
-    "nextEvent": "Entry into the Lunar Sphere of Influence (SOI) on April 5.",
+    "crewStatus": "Wiseman, Glover, Koch, and Hansen are in great spirits and described as 'euphoric' following successful Flight Day 3 technical drills.",
+    "lastEvent": "Crossed the 'equidistance' point between Earth and the Moon at 04:00 UTC.",
+    "nextEvent": "Lunar observation training and live downlink event following the crew's current sleep period.",
     "telemetry": {
-      "distanceFromEarth": 225300,
-      "distanceFromMoon": 157700,
+      "distanceFromEarth": 219000,
+      "distanceFromMoon": 165400,
       "missionElapsedDay": 3,
-      "velocity": 16817
+      "velocity": null
     },
-    "fetchedAt": "2026-04-04T08:39:48.414Z"
+    "fetchedAt": "2026-04-04T09:36:41.177Z"
   },
   "milestones": [
     {
@@ -113,7 +113,7 @@
     {
       "id": "cpr-demo",
       "label": "Deep Space Cpr Demo",
-      "detail": "Crew successfully demonstrated medical emergency procedures in deep space.",
+      "detail": "Crew successfully practiced emergency CPR protocols in microgravity.",
       "time": "2026-04-03T19:30:00.000Z",
       "day": 2,
       "icon": "🩺",
@@ -133,7 +133,7 @@
     {
       "id": "otc-1",
       "label": "Outbound Trajectory Correction (OTC-1)",
-      "detail": "Planned maneuver was cancelled by Mission Control because the TLI burn was precise enough to require no correction.",
+      "detail": "Canceled due to the extreme precision of the Translunar Injection (TLI) burn.",
       "time": "2026-04-03T22:31:00.000Z",
       "day": 2,
       "icon": "🚀",
@@ -143,7 +143,7 @@
     {
       "id": "equal-dist",
       "label": "Lunar Distance Equalization",
-      "detail": "Orion officially crossed the gravitational halfway mark between Earth and the Moon.",
+      "detail": "Orion is now closer to the Moon than to the Earth.",
       "time": "2026-04-04T04:00:00.000Z",
       "day": 3,
       "icon": "🌓",
@@ -247,7 +247,7 @@
       "id": "splashdown",
       "label": "Splashdown",
       "detail": "Final splashdown in the Pacific Ocean off the coast of San Diego.",
-      "time": "2026-04-10T18:00:00.000Z",
+      "time": "2026-04-10T00:21:00.000Z",
       "day": 9,
       "icon": "🌊",
       "highlight": true
@@ -262,6 +262,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Deep Space Cruise",
+      "currentPhase": "Trans-lunar coast toward the Moon",
+      "headline": "Orion surpasses the halfway point to the Moon on a precise trajectory toward a record-breaking lunar flyby.",
+      "details": [
+        "Orion crossed the lunar distance equalization point at 04:00 UTC, now traveling closer to the Moon than Earth.",
+        "Mission control canceled the first outbound trajectory correction (OTC-1) due to the high accuracy of the TLI burn.",
+        "Crew successfully performed medical demonstrations in zero gravity, including CPR protocols and diagnostic tool testing.",
+        "Minor technical glitches involving the toilet, cabin alarms, and water dispenser have been successfully resolved or managed."
+      ],
+      "sources": [
+        "NASA Mission Control Daily Briefing",
+        "Artemis II Flight Status Report"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Wiseman, Glover, Koch, and Hansen are in great spirits and described as 'euphoric' following successful Flight Day 3 technical drills.",
+      "lastEvent": "Crossed the 'equidistance' point between Earth and the Moon at 04:00 UTC.",
+      "nextEvent": "Lunar observation training and live downlink event following the crew's current sleep period.",
+      "telemetry": {
+        "distanceFromEarth": 219000,
+        "distanceFromMoon": 165400,
+        "missionElapsedDay": 3,
+        "velocity": null
+      },
+      "fetchedAt": "2026-04-04T09:36:41.177Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Nominal",
