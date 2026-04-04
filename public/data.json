@@ -2,29 +2,29 @@
   "update": {
     "status": "nominal",
     "statusLabel": "Nominal Operations",
-    "currentPhase": "Translunar Coast",
-    "headline": "Orion spacecraft on precise trajectory to the Moon following high-precision TLI burn.",
+    "currentPhase": "Trans-lunar Coast",
+    "headline": "Artemis II Orion spacecraft reaches equidistance point between Earth and the Moon on Flight Day 4.",
     "details": [
-      "Mission controllers canceled the first trajectory correction burn (OTC-1) as Orion is maintaining a near-perfect course following the TLI burn.",
-      "The crew successfully managed a minor burning smell reported near the toilet hygiene bay, which was identified as non-hazardous insulation material.",
-      "Astronauts completed key medical and operational tests including a zero-gravity CPR demonstration and exercise equipment checkouts.",
-      "Orion has surpassed 245,000 km from Earth and is on track for a lunar flyby and record-breaking distance on April 6."
+      "The first Outbound Trajectory Correction (OTC-1) burn was canceled because the spacecraft's path following TLI is exceptionally precise.",
+      "Mission Specialist Christina Koch officially became the farthest woman from Earth, surpassing the 70,000-mile mark.",
+      "The crew successfully addressed a brief 'burning smell' from the toilet heater insulation, which has been classified as a minor nuisance.",
+      "Astronauts are conducting medical demonstrations, including CPR in microgravity and health kit testing."
     ],
     "sources": [
-      "NASA Mission Control Center",
-      "Artemis II Flight Operations Briefing"
+      "NASA Mission Control Houston",
+      "Artemis II Official Flight Log"
     ],
     "alertMessage": null,
-    "crewStatus": "Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in high spirits and excellent health; currently focusing on photography and lunar approach prep.",
-    "lastEvent": "Translunar Injection (TLI) engine burn completed April 2.",
-    "nextEvent": "Lunar gravity assist flyby passing within 4,700 miles of the lunar surface on April 6.",
+    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in high spirits and good health.",
+    "lastEvent": "Reached the 'Equidistance Point' where Orion is now closer to the Moon than to Earth.",
+    "nextEvent": "Lunar Flyby at an altitude of approximately 7,600 km from the surface.",
     "telemetry": {
-      "distanceFromEarth": 245000,
-      "distanceFromMoon": null,
+      "distanceFromEarth": 254000,
+      "distanceFromMoon": 193000,
       "missionElapsedDay": 3,
-      "velocity": null
+      "velocity": 4150
     },
-    "fetchedAt": "2026-04-04T14:34:22.737Z"
+    "fetchedAt": "2026-04-04T15:30:54.586Z"
   },
   "milestones": [
     {
@@ -121,19 +121,9 @@
       "isNew": true
     },
     {
-      "id": "woman-distance-record",
-      "label": "Female Distance Record",
-      "detail": "Mission Specialist Christina Koch has surpassed the record for the farthest woman to travel from Earth.",
-      "time": "2026-04-03T20:00:00.000Z",
-      "day": 2,
-      "icon": "👩‍🚀",
-      "completed": true,
-      "isNew": true
-    },
-    {
       "id": "otc-1",
       "label": "Outbound Trajectory Correction (OTC-1)",
-      "detail": "Trajectory correction burn canceled due to precise Translunar Injection execution.",
+      "detail": "Burn canceled by Mission Control as the current trajectory requires no further adjustment.",
       "time": "2026-04-03T22:31:00.000Z",
       "day": 2,
       "icon": "🚀",
@@ -143,20 +133,10 @@
     {
       "id": "toilet-smell",
       "label": "Hygiene Bay Inspection",
-      "detail": "Faint burning smell identified as hygiene bay door insulation; system remains operational and safe.",
+      "detail": "Heater insulation odor investigated and determined to be a non-safety issue.",
       "time": "2026-04-04T02:00:00.000Z",
       "day": 3,
       "icon": "🚽",
-      "completed": true,
-      "isNew": true
-    },
-    {
-      "id": "equal-dist",
-      "label": "Lunar Distance Equalization",
-      "detail": "Orion passed the equidistance point and is now closer to the Moon than Earth.",
-      "time": "2026-04-04T04:00:00.000Z",
-      "day": 3,
-      "icon": "🌓",
       "completed": true,
       "isNew": true
     },
@@ -167,6 +147,26 @@
       "time": "2026-04-04T05:30:00.000Z",
       "day": 3,
       "icon": "🇨🇦",
+      "completed": true,
+      "isNew": true
+    },
+    {
+      "id": "woman-distance-record",
+      "label": "Female Distance Record",
+      "detail": "Christina Koch officially surpassed the 70,000-mile mark, becoming the farthest woman from Earth.",
+      "time": "2026-04-04T12:00:00.000Z",
+      "day": 3,
+      "icon": "👩‍🚀",
+      "completed": true,
+      "isNew": true
+    },
+    {
+      "id": "equal-dist",
+      "label": "Lunar Distance Equalization",
+      "detail": "Spacecraft crossed the point of equidistance between the Earth and the Moon.",
+      "time": "2026-04-04T15:30:00.000Z",
+      "day": 3,
+      "icon": "🌓",
       "completed": true,
       "isNew": true
     },
@@ -275,13 +275,40 @@
       "id": "splashdown",
       "label": "Splashdown",
       "detail": "Final splashdown in the Pacific Ocean off the coast of San Diego.",
-      "time": "2026-04-11T16:00:00.000Z",
+      "time": "2026-04-11T00:06:00.000Z",
       "day": 10,
       "icon": "🌊",
       "highlight": true
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Nominal Operations",
+      "currentPhase": "Trans-lunar Coast",
+      "headline": "Artemis II Orion spacecraft reaches equidistance point between Earth and the Moon on Flight Day 4.",
+      "details": [
+        "The first Outbound Trajectory Correction (OTC-1) burn was canceled because the spacecraft's path following TLI is exceptionally precise.",
+        "Mission Specialist Christina Koch officially became the farthest woman from Earth, surpassing the 70,000-mile mark.",
+        "The crew successfully addressed a brief 'burning smell' from the toilet heater insulation, which has been classified as a minor nuisance.",
+        "Astronauts are conducting medical demonstrations, including CPR in microgravity and health kit testing."
+      ],
+      "sources": [
+        "NASA Mission Control Houston",
+        "Artemis II Official Flight Log"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in high spirits and good health.",
+      "lastEvent": "Reached the 'Equidistance Point' where Orion is now closer to the Moon than to Earth.",
+      "nextEvent": "Lunar Flyby at an altitude of approximately 7,600 km from the surface.",
+      "telemetry": {
+        "distanceFromEarth": 254000,
+        "distanceFromMoon": 193000,
+        "missionElapsedDay": 3,
+        "velocity": 4150
+      },
+      "fetchedAt": "2026-04-04T15:30:54.586Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Nominal Operations",
@@ -785,33 +812,6 @@
         "velocity": 19512
       },
       "fetchedAt": "2026-04-03T18:51:36.629Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Outbound Coast",
-      "currentPhase": "Orion is currently on a translunar trajectory toward the Moon following a successful TLI burn.",
-      "headline": "Artemis II crew cruises toward the Moon after completing the critical Translunar Injection maneuver.",
-      "details": [
-        "The 5-minute and 55-second TLI burn was successfully executed at 7:49 p.m. EDT on Flight Day 2.",
-        "Crew members Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are reported to be in excellent health.",
-        "A minor issue with the spacecraft's waste management system was identified and resolved by mission control and the crew.",
-        "The spacecraft has surpassed 100,000 miles from Earth and is maintaining a velocity of approximately 39,428 km/h."
-      ],
-      "sources": [
-        "NASA Johnson Space Center Briefing",
-        "Artemis II Flight Day 3 Mission Update"
-      ],
-      "alertMessage": null,
-      "crewStatus": "The crew is in excellent health and high spirits; they are currently capturing high-resolution imagery of Earth.",
-      "lastEvent": "Completion of the Translunar Injection (TLI) burn to depart Earth's orbit.",
-      "nextEvent": "Lunar flyby and lunar far-side communication loss scheduled for April 6.",
-      "telemetry": {
-        "distanceFromEarth": 160934,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 3,
-        "velocity": 39428
-      },
-      "fetchedAt": "2026-04-03T18:15:17.228Z"
     }
   ],
   "lastError": null
