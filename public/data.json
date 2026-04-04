@@ -1,28 +1,30 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Mission Nominal",
-    "currentPhase": "Deep space cruise toward lunar flyby",
-    "headline": "Artemis II crew successfully passes the halfway point to the Moon while maintaining excellent health and resolving minor hardware issues.",
+    "statusLabel": "Nominal",
+    "currentPhase": "Outbound Coast Phase",
+    "headline": "Artemis II passes halfway point to the Moon as crew resolves minor technical hurdles.",
     "details": [
-      "Orion successfully resolved a clogged wastewater vent by rotating to expose the line to direct sunlight.",
-      "The crew exceeded 100 gigabytes of data transmission via the advanced optical communications system today.",
-      "Commander Wiseman and the crew are preparing for a manual piloting demonstration to verify deep-space handling characteristics.",
-      "Orion is on track to break the human distance record set by Apollo 13 on April 6."
+      "Orion has successfully crossed the equidistance mark between Earth and the Moon on Day 4.",
+      "A blockage in the wastewater vent nozzle caused by ice was cleared using heaters and solar orientation.",
+      "The crew performed a zero-gravity CPR demonstration and deep-space medical equipment testing.",
+      "Mission Control resolved a remote software issue with the crew's personal computing devices."
     ],
     "sources": [
-      "NASA Mission Control",
-      "Artemis II Flight Operations Report"
+      "NASA Mission Control Update",
+      "Artemis II Flight Journal"
     ],
-    "crewStatus": "Excellent; crew is in high spirits and adhering to the planned medical and operations schedule.",
-    "lastEvent": "Hygiene bay toilet system maintenance and vent line thermal thaw.",
-    "nextEvent": "Manual piloting demonstration by Pilot Victor Glover scheduled for 9:10 p.m. EDT.",
+    "alertMessage": null,
+    "crewStatus": "Excellent health and high spirits; focusing on space adaptation and lunar observations.",
+    "lastEvent": "Successful restoration of the Orion waste management system functionality.",
+    "nextEvent": "Entering the Lunar Sphere of Influence on Mission Day 5.",
     "telemetry": {
-      "distanceFromEarth": 272000,
-      "distanceFromMoon": 178000,
-      "missionElapsedDay": 4
+      "distanceFromEarth": 271978,
+      "distanceFromMoon": 178154,
+      "missionElapsedDay": 4,
+      "velocity": 6759
     },
-    "fetchedAt": "2026-04-04T21:30:23.091Z"
+    "fetchedAt": "2026-04-04T22:28:23.088Z"
   },
   "milestones": [
     {
@@ -131,7 +133,7 @@
     {
       "id": "equal-dist",
       "label": "Lunar Distance Equalization",
-      "detail": "Orion has officially passed the halfway point and is now closer to the Moon than to Earth.",
+      "detail": "Orion passed the halfway point of its outbound journey to the Moon.",
       "time": "2026-04-04T04:00:00.000Z",
       "day": 3,
       "icon": "🌓",
@@ -161,7 +163,7 @@
     {
       "id": "toilet-fix",
       "label": "Waste System Resolution",
-      "detail": "Crew successfully resolved a frozen wastewater vent line and identified non-hazardous heater off-gassing.",
+      "detail": "Wastewater vent blockage cleared by orienting the port toward the sun.",
       "time": "2026-04-04T12:00:00.000Z",
       "day": 3,
       "icon": "📌",
@@ -171,7 +173,7 @@
     {
       "id": "cpr-demo",
       "label": "Deep Space Cpr Demo",
-      "detail": "Crew practiced emergency medical procedures using the onboard kit in microgravity.",
+      "detail": "Crew conducted deep-space medical contingency drills including zero-G CPR.",
       "time": "2026-04-04T18:00:00.000Z",
       "day": 3,
       "icon": "🩺",
@@ -208,7 +210,7 @@
     },
     {
       "id": "distance-record",
-      "label": "Farthest Distance from Earth Record",
+      "label": "Farthest Distance From Earth Record",
       "detail": "Orion surpasses the maximum distance from Earth of previous Apollo missions.",
       "time": "2026-04-06T04:00:00.000Z",
       "day": 5,
@@ -282,24 +284,51 @@
       "icon": "↩️"
     },
     {
+      "id": "splashdown",
+      "label": "Splashdown",
+      "detail": "Final splashdown in the Pacific Ocean off the coast of San Diego.",
+      "time": "2026-04-10T20:00:00.000Z",
+      "day": 9,
+      "icon": "🌊",
+      "highlight": true
+    },
+    {
       "id": "reentry",
       "label": "Re-entry",
       "detail": "Skip re-entry at ~5,000°F",
       "time": "2026-04-11T00:00:00.000Z",
       "day": 10,
       "icon": "🔥"
-    },
-    {
-      "id": "splashdown",
-      "label": "Splashdown",
-      "detail": "Final splashdown in the Pacific Ocean off the coast of San Diego.",
-      "time": "2026-04-11T00:07:00.000Z",
-      "day": 10,
-      "icon": "🌊",
-      "highlight": true
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Nominal",
+      "currentPhase": "Outbound Coast Phase",
+      "headline": "Artemis II passes halfway point to the Moon as crew resolves minor technical hurdles.",
+      "details": [
+        "Orion has successfully crossed the equidistance mark between Earth and the Moon on Day 4.",
+        "A blockage in the wastewater vent nozzle caused by ice was cleared using heaters and solar orientation.",
+        "The crew performed a zero-gravity CPR demonstration and deep-space medical equipment testing.",
+        "Mission Control resolved a remote software issue with the crew's personal computing devices."
+      ],
+      "sources": [
+        "NASA Mission Control Update",
+        "Artemis II Flight Journal"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Excellent health and high spirits; focusing on space adaptation and lunar observations.",
+      "lastEvent": "Successful restoration of the Orion waste management system functionality.",
+      "nextEvent": "Entering the Lunar Sphere of Influence on Mission Day 5.",
+      "telemetry": {
+        "distanceFromEarth": 271978,
+        "distanceFromMoon": 178154,
+        "missionElapsedDay": 4,
+        "velocity": 6759
+      },
+      "fetchedAt": "2026-04-04T22:28:23.088Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Mission Nominal",
@@ -801,33 +830,6 @@
         "velocity": 260311
       },
       "fetchedAt": "2026-04-03T23:32:04.940Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Nominal Cruise",
-      "currentPhase": "Trans-lunar cruise",
-      "headline": "Artemis II passes 100,000 miles from Earth as trajectory precision cancels first correction burn.",
-      "details": [
-        "Mission Control canceled the OTC-1 burn as Orion is already on a precise free-return trajectory.",
-        "Crew successfully performed a zero-gravity CPR demonstration and space adaptation tests.",
-        "Engineers and crew managed a potable water valve issue by transitioning to contingency storage bags.",
-        "The Universal Waste Management System is fully operational following successful plumbing repairs by the crew."
-      ],
-      "sources": [
-        "NASA Mission Status Report",
-        "Artemis II Flight Director's Log"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Crew is in excellent health and high spirits; currently performing photography and medical demos.",
-      "lastEvent": "Translunar Injection (TLI) burn on April 2 successfully sent Orion toward the Moon.",
-      "nextEvent": "Entry into the Lunar Sphere of Influence",
-      "telemetry": {
-        "distanceFromEarth": 160934,
-        "distanceFromMoon": 241401,
-        "missionElapsedDay": 3,
-        "velocity": 38624
-      },
-      "fetchedAt": "2026-04-03T22:32:09.565Z"
     }
   ],
   "lastError": null
