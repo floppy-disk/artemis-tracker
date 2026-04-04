@@ -1,29 +1,30 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Mission Nominal",
-    "currentPhase": "Trans-Lunar Coast",
-    "headline": "Orion continues its journey toward the Moon, having officially crossed the halfway point of the outbound transit.",
+    "statusLabel": "Nominal Operations",
+    "currentPhase": "Translunar Coast",
+    "headline": "Orion Integrity passes the halfway point to the Moon on a flawless trajectory.",
     "details": [
-      "Mission Control canceled the second Outbound Trajectory Correction (OTC-2) burn due to the spacecraft's high-precision flight path.",
-      "The crew is managing a minor technical issue involving the Universal Waste Management System's heater, currently believed to be an ice blockage.",
-      "Crew members are performing medical experiments and CPR training in microgravity to support future Mars missions.",
-      "The spacecraft remains in excellent condition as it prepares for the upcoming lunar flyby."
+      "Mission Control cancelled the first two outbound trajectory correction burns due to exceptionally precise navigation.",
+      "A minor heater odor in the waste management system was investigated and declared non-critical for flight operations.",
+      "The crew successfully completed microgravity medical drills, including a CPR demonstration and health kit checkouts.",
+      "Commander Wiseman captured high-resolution imagery of a crescent Earth as the spacecraft closes the remaining distance to the Moon."
     ],
     "sources": [
-      "NASA Artemis II Mission Updates",
-      "Flight Control Houston Communications"
+      "NASA Mission Control Houston",
+      "Artemis II Flight Log"
     ],
-    "crewStatus": "Excellent health and spirits; the crew began Flight Day 4 today with a musical wake-up call.",
-    "lastEvent": "Traversal of the halfway point between Earth and the Moon.",
-    "nextEvent": "Surpassing the Apollo 13 human distance record on April 6, 2026.",
+    "alertMessage": null,
+    "crewStatus": "Crew members Wiseman, Glover, Koch, and Hansen are in great spirits and reported feeling 'euphoric' while performing deep-space housekeeping and workouts.",
+    "lastEvent": "Crossover point reached early on April 4; Orion is now closer to the Moon than to Earth.",
+    "nextEvent": "Entry into the Lunar Sphere of Influence on April 5, followed by surpassing the Apollo 13 human distance record.",
     "telemetry": {
-      "distanceFromEarth": 201100,
-      "distanceFromMoon": null,
+      "distanceFromEarth": 271979,
+      "distanceFromMoon": 178155,
       "missionElapsedDay": 4,
-      "velocity": 7242
+      "velocity": 5310
     },
-    "fetchedAt": "2026-04-04T17:29:22.153Z"
+    "fetchedAt": "2026-04-04T18:40:31.800Z"
   },
   "milestones": [
     {
@@ -112,7 +113,7 @@
     {
       "id": "cpr-demo",
       "label": "Deep Space Cpr Demo",
-      "detail": "Crew successfully tested medical emergency protocols and CPR techniques in microgravity.",
+      "detail": "Crew performed a successful CPR demonstration in microgravity and med-kit checkouts.",
       "time": "2026-04-03T19:30:00.000Z",
       "day": 2,
       "icon": "🩺",
@@ -122,7 +123,7 @@
     {
       "id": "otc-1",
       "label": "Outbound Trajectory Correction (OTC-1)",
-      "detail": "Burn canceled by Mission Control as the current trajectory requires no further adjustment.",
+      "detail": "Cancelled by flight controllers due to flawless trajectory and navigation precision.",
       "time": "2026-04-03T22:31:00.000Z",
       "day": 2,
       "icon": "🚀",
@@ -132,7 +133,7 @@
     {
       "id": "toilet-smell",
       "label": "Hygiene Bay Inspection",
-      "detail": "Crew identified a faint burning smell in the hygiene bay, determined to be harmless insulation outgassing.",
+      "detail": "Non-critical smell from waste management system identified as a dormant heater unit.",
       "time": "2026-04-04T02:00:00.000Z",
       "day": 3,
       "icon": "🚽",
@@ -142,7 +143,7 @@
     {
       "id": "equal-dist",
       "label": "Lunar Distance Equalization",
-      "detail": "Spacecraft crossed the point of equidistance between the Earth and the Moon.",
+      "detail": "Orion has officially passed the halfway point and is now closer to the Moon than to Earth.",
       "time": "2026-04-04T04:00:00.000Z",
       "day": 3,
       "icon": "🌓",
@@ -231,8 +232,8 @@
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
       "detail": "Planned pass 4,700 miles above the lunar far side; first humans to see it since 1972.",
-      "time": "2026-04-06T19:05:00.000Z",
-      "day": 5,
+      "time": "2026-04-06T22:47:00.000Z",
+      "day": 6,
       "icon": "🌕",
       "highlight": true
     },
@@ -281,6 +282,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Nominal Operations",
+      "currentPhase": "Translunar Coast",
+      "headline": "Orion Integrity passes the halfway point to the Moon on a flawless trajectory.",
+      "details": [
+        "Mission Control cancelled the first two outbound trajectory correction burns due to exceptionally precise navigation.",
+        "A minor heater odor in the waste management system was investigated and declared non-critical for flight operations.",
+        "The crew successfully completed microgravity medical drills, including a CPR demonstration and health kit checkouts.",
+        "Commander Wiseman captured high-resolution imagery of a crescent Earth as the spacecraft closes the remaining distance to the Moon."
+      ],
+      "sources": [
+        "NASA Mission Control Houston",
+        "Artemis II Flight Log"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Crew members Wiseman, Glover, Koch, and Hansen are in great spirits and reported feeling 'euphoric' while performing deep-space housekeeping and workouts.",
+      "lastEvent": "Crossover point reached early on April 4; Orion is now closer to the Moon than to Earth.",
+      "nextEvent": "Entry into the Lunar Sphere of Influence on April 5, followed by surpassing the Apollo 13 human distance record.",
+      "telemetry": {
+        "distanceFromEarth": 271979,
+        "distanceFromMoon": 178155,
+        "missionElapsedDay": 4,
+        "velocity": 5310
+      },
+      "fetchedAt": "2026-04-04T18:40:31.800Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Mission Nominal",
@@ -787,33 +815,6 @@
         "velocity": 39429
       },
       "fetchedAt": "2026-04-03T20:27:35.747Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Nominal Operations",
-      "currentPhase": "Outbound Coast",
-      "headline": "Artemis II crew officially moonbound after successful Translunar Injection burn.",
-      "details": [
-        "Orion executed a critical 5 minute and 55 second TLI burn to break free from Earth's gravitational pull.",
-        "Crew is currently performing medical demonstrations, including CPR simulations and space adaptation assessments.",
-        "The Waste Management System (toilet) was successfully troubleshot on Day 1 and is fully operational.",
-        "Orion is following a free-return trajectory toward the Moon with a lunar flyby expected on April 6."
-      ],
-      "sources": [
-        "NASA",
-        "CSA"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Specialists Christina Koch and Jeremy Hansen are in good health and high spirits.",
-      "lastEvent": "Translunar Injection (TLI) burn completed at 23:49Z on April 2, 2026.",
-      "nextEvent": "Outbound Trajectory Correction (OTC-1) scheduled for April 3 at 22:49Z.",
-      "telemetry": {
-        "distanceFromEarth": 160773,
-        "distanceFromMoon": 260311,
-        "missionElapsedDay": 2,
-        "velocity": 38624
-      },
-      "fetchedAt": "2026-04-03T20:00:39.172Z"
     }
   ],
   "lastError": null
