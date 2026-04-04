@@ -1,30 +1,30 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Nominal Operations",
-    "currentPhase": "Translunar Coast",
-    "headline": "Christina Koch sets record as the farthest woman to travel from Earth as Orion continues lunar transit.",
+    "statusLabel": "On Trajectory",
+    "currentPhase": "Outbound Coast",
+    "headline": "Orion Integrity is more than halfway to the Moon after canceling its first course correction due to trajectory precision.",
     "details": [
-      "Orion has surpassed 100,000 miles from Earth and is maintaining a high-precision trajectory toward the Moon.",
-      "Flight controllers cancelled the OTC-1 burn maneuver because the initial Translunar Injection was exceptionally accurate.",
-      "The crew successfully performed microgravity medical demonstrations, including CPR practice and diagnostic equipment testing.",
-      "Testing of the Orion Optical Communications system successfully transmitted high-definition video back to Earth."
+      "Mission control canceled the OTC-1 maneuver because the Translunar Injection burn was precise enough to maintain the required path.",
+      "The crew successfully resolved a minor technical issue with a waste management system fan, returning the system to full operation.",
+      "Orion has officially passed the halfway point and is now physically closer to the Moon than it is to the Earth.",
+      "The crew completed a live downlink with the Canadian Space Agency, sharing high-definition images of the Moon from the spacecraft hatch."
     ],
     "sources": [
-      "NASA Mission Control Center",
-      "Artemis II Flight Status Report April 4 04:24 UTC"
+      "NASA Artemis II Mission Control",
+      "Canadian Space Agency (CSA) Media"
     ],
     "alertMessage": null,
-    "crewStatus": "Commander Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in good health and high spirits.",
-    "lastEvent": "Cancellation of the OTC-1 trajectory correction burn due to high mission precision.",
-    "nextEvent": "Entry into the Lunar Sphere of Influence followed by lunar flyby and observation.",
+    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and performing regular flywheel exercises.",
+    "lastEvent": "Official transition to being closer to the Moon than to the Earth occurred at 04:00 UTC.",
+    "nextEvent": "Entry into the Lunar Sphere of Influence (SOI) and subsequent lunar flyby on April 6.",
     "telemetry": {
-      "distanceFromEarth": 160934,
-      "distanceFromMoon": null,
+      "distanceFromEarth": 221285,
+      "distanceFromMoon": 181051,
       "missionElapsedDay": 3,
       "velocity": null
     },
-    "fetchedAt": "2026-04-04T04:25:22.932Z"
+    "fetchedAt": "2026-04-04T05:57:14.113Z"
   },
   "milestones": [
     {
@@ -133,10 +133,30 @@
     {
       "id": "otc-1",
       "label": "Outbound Trajectory Correction (OTC-1)",
-      "detail": "Burn cancelled by flight controllers as the current trajectory is within optimal parameters.",
+      "detail": "Maneuver canceled by flight controllers due to high trajectory accuracy following TLI.",
       "time": "2026-04-03T22:31:00.000Z",
       "day": 2,
       "icon": "🚀",
+      "completed": true,
+      "isNew": true
+    },
+    {
+      "id": "equal-dist",
+      "label": "Lunar Distance Equalization",
+      "detail": "The point where the distance to the Moon became less than the distance to Earth.",
+      "time": "2026-04-04T04:00:00.000Z",
+      "day": 3,
+      "icon": "🌓",
+      "completed": true,
+      "isNew": true
+    },
+    {
+      "id": "csa-downlink",
+      "label": "CSA Live Downlink",
+      "detail": "Live broadcast event featuring images of the lunar surface visible from the Orion spacecraft.",
+      "time": "2026-04-04T05:30:00.000Z",
+      "day": 3,
+      "icon": "🇨🇦",
       "completed": true,
       "isNew": true
     },
@@ -182,7 +202,7 @@
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
       "detail": "Planned pass 4,700 miles above the lunar far side; first humans to see it since 1972.",
-      "time": "2026-04-06T12:00:00.000Z",
+      "time": "2026-04-06T18:30:00.000Z",
       "day": 5,
       "icon": "🌕",
       "highlight": true
@@ -191,7 +211,7 @@
       "id": "farthest-human-distance",
       "label": "Human Distance Record",
       "detail": "Expected to reach 252,799 miles from Earth, breaking the Apollo 13 record.",
-      "time": "2026-04-06T18:00:00.000Z",
+      "time": "2026-04-06T18:30:00.000Z",
       "day": 5,
       "icon": "📏",
       "completed": false,
@@ -242,6 +262,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "On Trajectory",
+      "currentPhase": "Outbound Coast",
+      "headline": "Orion Integrity is more than halfway to the Moon after canceling its first course correction due to trajectory precision.",
+      "details": [
+        "Mission control canceled the OTC-1 maneuver because the Translunar Injection burn was precise enough to maintain the required path.",
+        "The crew successfully resolved a minor technical issue with a waste management system fan, returning the system to full operation.",
+        "Orion has officially passed the halfway point and is now physically closer to the Moon than it is to the Earth.",
+        "The crew completed a live downlink with the Canadian Space Agency, sharing high-definition images of the Moon from the spacecraft hatch."
+      ],
+      "sources": [
+        "NASA Artemis II Mission Control",
+        "Canadian Space Agency (CSA) Media"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and performing regular flywheel exercises.",
+      "lastEvent": "Official transition to being closer to the Moon than to the Earth occurred at 04:00 UTC.",
+      "nextEvent": "Entry into the Lunar Sphere of Influence (SOI) and subsequent lunar flyby on April 6.",
+      "telemetry": {
+        "distanceFromEarth": 221285,
+        "distanceFromMoon": 181051,
+        "missionElapsedDay": 3,
+        "velocity": null
+      },
+      "fetchedAt": "2026-04-04T05:57:14.113Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Nominal Operations",
