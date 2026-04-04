@@ -1,30 +1,27 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Nominal Operations",
-    "currentPhase": "Translunar Coast",
-    "headline": "Orion Integrity passes the halfway point to the Moon on a flawless trajectory.",
+    "statusLabel": "nominal",
+    "currentPhase": "Trans-lunar coast",
+    "headline": "The Orion spacecraft has successfully surpassed the halfway point to the Moon on its Artemis II mission.",
     "details": [
-      "Mission Control cancelled the first two outbound trajectory correction burns due to exceptionally precise navigation.",
-      "A minor heater odor in the waste management system was investigated and declared non-critical for flight operations.",
-      "The crew successfully completed microgravity medical drills, including a CPR demonstration and health kit checkouts.",
-      "Commander Wiseman captured high-resolution imagery of a crescent Earth as the spacecraft closes the remaining distance to the Moon."
+      "Orion is currently on a precise free-return trajectory following an accurate TLI burn.",
+      "The crew is in excellent health and has successfully completed medical response drills.",
+      "Christina Koch has set a new record as the farthest woman to ever travel from Earth.",
+      "High-definition video and imagery are being successfully transmitted to Earth via the optical communications system."
     ],
     "sources": [
-      "NASA Mission Control Houston",
-      "Artemis II Flight Log"
+      "NASA Artemis II Mission Updates"
     ],
-    "alertMessage": null,
-    "crewStatus": "Crew members Wiseman, Glover, Koch, and Hansen are in great spirits and reported feeling 'euphoric' while performing deep-space housekeeping and workouts.",
-    "lastEvent": "Crossover point reached early on April 4; Orion is now closer to the Moon than to Earth.",
-    "nextEvent": "Entry into the Lunar Sphere of Influence on April 5, followed by surpassing the Apollo 13 human distance record.",
+    "crewStatus": "All four crew members are reported to be in excellent health and high spirits.",
+    "lastEvent": "Passing the halfway point between Earth and the Moon",
+    "nextEvent": "Entrance into the lunar sphere of influence on April 5th",
     "telemetry": {
-      "distanceFromEarth": 271979,
-      "distanceFromMoon": 178155,
+      "distanceFromEarth": 260713,
       "missionElapsedDay": 4,
-      "velocity": 5310
+      "velocity": 6437
     },
-    "fetchedAt": "2026-04-04T18:40:31.800Z"
+    "fetchedAt": "2026-04-04T19:30:04.753Z"
   },
   "milestones": [
     {
@@ -219,6 +216,15 @@
       "isNew": true
     },
     {
+      "id": "lunar-flyby",
+      "label": "Lunar Flyby",
+      "detail": "Planned pass 4,700 miles above the lunar far side; first humans to see it since 1972.",
+      "time": "2026-04-06T18:30:00.000Z",
+      "day": 5,
+      "icon": "🌕",
+      "highlight": true
+    },
+    {
       "id": "comm-blackout",
       "label": "Communications Blackout",
       "detail": "Expected loss of signal as Orion passes behind the lunar far side.",
@@ -227,15 +233,6 @@
       "icon": "📵",
       "completed": false,
       "isNew": true
-    },
-    {
-      "id": "lunar-flyby",
-      "label": "Lunar Flyby",
-      "detail": "Planned pass 4,700 miles above the lunar far side; first humans to see it since 1972.",
-      "time": "2026-04-06T22:47:00.000Z",
-      "day": 6,
-      "icon": "🌕",
-      "highlight": true
     },
     {
       "id": "earthrise",
@@ -282,6 +279,30 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "nominal",
+      "currentPhase": "Trans-lunar coast",
+      "headline": "The Orion spacecraft has successfully surpassed the halfway point to the Moon on its Artemis II mission.",
+      "details": [
+        "Orion is currently on a precise free-return trajectory following an accurate TLI burn.",
+        "The crew is in excellent health and has successfully completed medical response drills.",
+        "Christina Koch has set a new record as the farthest woman to ever travel from Earth.",
+        "High-definition video and imagery are being successfully transmitted to Earth via the optical communications system."
+      ],
+      "sources": [
+        "NASA Artemis II Mission Updates"
+      ],
+      "crewStatus": "All four crew members are reported to be in excellent health and high spirits.",
+      "lastEvent": "Passing the halfway point between Earth and the Moon",
+      "nextEvent": "Entrance into the lunar sphere of influence on April 5th",
+      "telemetry": {
+        "distanceFromEarth": 260713,
+        "missionElapsedDay": 4,
+        "velocity": 6437
+      },
+      "fetchedAt": "2026-04-04T19:30:04.753Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Nominal Operations",
@@ -788,33 +809,6 @@
         "velocity": 39428
       },
       "fetchedAt": "2026-04-03T20:35:40.845Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Nominal Operations",
-      "currentPhase": "Outbound Coast",
-      "headline": "Artemis II crew enters deep space for the first time in over 50 years after successful Translunar Injection.",
-      "details": [
-        "Orion spacecraft 'Integrity' is transiting toward the Moon following a 5-minute 50-second TLI burn on April 2.",
-        "Crew is testing critical hardware including the flywheel exercise device and Orion Optical Communications System.",
-        "Minor issues with cabin pressure indications and waste management have been successfully resolved by the crew and ground teams.",
-        "The crew is currently preparing for the Outbound Trajectory Correction-1 (OTC-1) burn to refine their lunar approach."
-      ],
-      "sources": [
-        "NASA Mission Control Center (MCC-H)",
-        "NASA Artemis II Mission Status Report"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and spirits.",
-      "lastEvent": "Completion of the Translunar Injection (TLI) burn on April 2 at 23:49Z.",
-      "nextEvent": "Outbound Trajectory Correction-1 (OTC-1) burn scheduled for 22:49Z.",
-      "telemetry": {
-        "distanceFromEarth": 160774,
-        "distanceFromMoon": 260311,
-        "missionElapsedDay": 2,
-        "velocity": 39429
-      },
-      "fetchedAt": "2026-04-03T20:27:35.747Z"
     }
   ],
   "lastError": null
