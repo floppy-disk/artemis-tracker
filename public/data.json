@@ -1,28 +1,31 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "All Systems Nominal",
-    "currentPhase": "Trans-Lunar Coast",
-    "headline": "The Artemis II crew has officially passed the lunar equidistance point and is now closer to the Moon than Earth.",
+    "statusLabel": "Deep Space Transit",
+    "currentPhase": "Flight Day 3 - Trans-Lunar Coast",
+    "headline": "Orion passes the halfway point to the Moon as the crew completes critical medical and communications checks.",
     "details": [
-      "The crew is in excellent health and high spirits while conducting deep-space medical and emergency protocol drills.",
-      "The Orion spacecraft is maintaining a precise free-return trajectory following an exceptionally accurate TLI burn.",
-      "A minor issue with the waste management system was successfully resolved by the crew earlier in the mission.",
-      "The mission is currently utilizing the Deep Space Network for communications, a first for a crewed mission in over 50 years."
+      "The spacecraft has crossed the equidistance point between Earth and the Moon, now more than 229,000 km from Earth.",
+      "Flight controllers canceled the OTC-1 trajectory correction burn due to the high precision of the SLS and ESM during TLI.",
+      "The crew performed microgravity CPR demonstrations and medical kit checks to test emergency protocols in deep space.",
+      "Christina Koch successfully verified the emergency communications system via the Deep Space Network."
     ],
     "sources": [
-      "NASA Artemis II Mission Status Report"
+      "NASA Flight Operations",
+      "Artemis II Mission Control Center",
+      "Deep Space Network (DSN)"
     ],
-    "crewStatus": "Excellent health and high spirits.",
-    "lastEvent": "Lunar Distance Equalization achieved on April 4 at 04:00 UTC.",
-    "nextEvent": "Lunar Sphere of Influence entry on April 5.",
+    "alertMessage": null,
+    "crewStatus": "Commander Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in excellent health and great spirits.",
+    "lastEvent": "Passed the lunar equidistance point (halfway mark) at approximately 04:00 UTC.",
+    "nextEvent": "Entry into the Lunar Sphere of Influence (SOI) late Sunday followed by the lunar flyby on Monday.",
     "telemetry": {
-      "distanceFromEarth": 199781,
-      "distanceFromMoon": 233220,
+      "distanceFromEarth": 229000,
+      "distanceFromMoon": 155400,
       "missionElapsedDay": 3,
-      "velocity": 5260
+      "velocity": null
     },
-    "fetchedAt": "2026-04-04T11:28:24.397Z"
+    "fetchedAt": "2026-04-04T12:52:50.714Z"
   },
   "milestones": [
     {
@@ -111,7 +114,7 @@
     {
       "id": "cpr-demo",
       "label": "Deep Space Cpr Demo",
-      "detail": "Crew successfully rehearsed chest compressions and medical response in microgravity.",
+      "detail": "Crew successfully tested medical emergency protocols and CPR techniques in microgravity.",
       "time": "2026-04-03T19:30:00.000Z",
       "day": 2,
       "icon": "🩺",
@@ -131,7 +134,7 @@
     {
       "id": "otc-1",
       "label": "Outbound Trajectory Correction (OTC-1)",
-      "detail": "OTC-1 burn was cancelled as the TLI trajectory was perfectly nominal.",
+      "detail": "Burn canceled; the post-TLI trajectory was so accurate that no adjustment was required.",
       "time": "2026-04-03T22:31:00.000Z",
       "day": 2,
       "icon": "🚀",
@@ -141,7 +144,7 @@
     {
       "id": "equal-dist",
       "label": "Lunar Distance Equalization",
-      "detail": "Orion reached the symbolic milestone where it is closer to the Moon than it is to Earth.",
+      "detail": "The Orion spacecraft passed the halfway mark between the Earth and the Moon.",
       "time": "2026-04-04T04:00:00.000Z",
       "day": 3,
       "icon": "🌓",
@@ -162,7 +165,7 @@
       "id": "lunar-soi",
       "label": "Lunar Sphere Of Influence",
       "detail": "Entry into the Moon's gravitational sphere of influence.",
-      "time": "2026-04-05T00:00:00.000Z",
+      "time": "2026-04-05T22:00:00.000Z",
       "day": 4,
       "icon": "🌑"
     },
@@ -260,6 +263,34 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Deep Space Transit",
+      "currentPhase": "Flight Day 3 - Trans-Lunar Coast",
+      "headline": "Orion passes the halfway point to the Moon as the crew completes critical medical and communications checks.",
+      "details": [
+        "The spacecraft has crossed the equidistance point between Earth and the Moon, now more than 229,000 km from Earth.",
+        "Flight controllers canceled the OTC-1 trajectory correction burn due to the high precision of the SLS and ESM during TLI.",
+        "The crew performed microgravity CPR demonstrations and medical kit checks to test emergency protocols in deep space.",
+        "Christina Koch successfully verified the emergency communications system via the Deep Space Network."
+      ],
+      "sources": [
+        "NASA Flight Operations",
+        "Artemis II Mission Control Center",
+        "Deep Space Network (DSN)"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in excellent health and great spirits.",
+      "lastEvent": "Passed the lunar equidistance point (halfway mark) at approximately 04:00 UTC.",
+      "nextEvent": "Entry into the Lunar Sphere of Influence (SOI) late Sunday followed by the lunar flyby on Monday.",
+      "telemetry": {
+        "distanceFromEarth": 229000,
+        "distanceFromMoon": 155400,
+        "missionElapsedDay": 3,
+        "velocity": null
+      },
+      "fetchedAt": "2026-04-04T12:52:50.714Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "All Systems Nominal",
