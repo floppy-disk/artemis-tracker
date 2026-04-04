@@ -1,30 +1,28 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Outbound Transit",
-    "currentPhase": "Orion is cruising through deep space on a free-return trajectory toward the Moon.",
-    "headline": "Artemis II crew passes mission halfway point while troubleshooting non-critical systems.",
+    "statusLabel": "Mission Nominal",
+    "currentPhase": "Deep space cruise toward lunar flyby",
+    "headline": "Artemis II crew successfully passes the halfway point to the Moon while maintaining excellent health and resolving minor hardware issues.",
     "details": [
-      "The spacecraft is on a highly accurate trajectory, allowing Mission Control to cancel the first scheduled Trajectory Correction Burn (OTC-1).",
-      "Crew members successfully performed a CPR demonstration in microgravity and other space adaptation exercises.",
-      "Engineers are troubleshooting a suspected frozen urine vent line; crew has transitioned to contingency waste bags.",
-      "A minor burning smell in the hygiene bay was identified as a non-critical heater or gasket issue and is not a safety concern."
+      "Orion successfully resolved a clogged wastewater vent by rotating to expose the line to direct sunlight.",
+      "The crew exceeded 100 gigabytes of data transmission via the advanced optical communications system today.",
+      "Commander Wiseman and the crew are preparing for a manual piloting demonstration to verify deep-space handling characteristics.",
+      "Orion is on track to break the human distance record set by Apollo 13 on April 6."
     ],
     "sources": [
-      "NASA Mission Control Center",
+      "NASA Mission Control",
       "Artemis II Flight Operations Report"
     ],
-    "alertMessage": null,
-    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and high spirits.",
-    "lastEvent": "Orion passed the halfway point by distance between the Earth and the Moon.",
-    "nextEvent": "Manual piloting demonstration by Victor Glover to test Orion's deep-space handling qualities.",
+    "crewStatus": "Excellent; crew is in high spirits and adhering to the planned medical and operations schedule.",
+    "lastEvent": "Hygiene bay toilet system maintenance and vent line thermal thaw.",
+    "nextEvent": "Manual piloting demonstration by Pilot Victor Glover scheduled for 9:10 p.m. EDT.",
     "telemetry": {
-      "distanceFromEarth": 271978,
-      "distanceFromMoon": 178154,
-      "missionElapsedDay": 3,
-      "velocity": null
+      "distanceFromEarth": 272000,
+      "distanceFromMoon": 178000,
+      "missionElapsedDay": 4
     },
-    "fetchedAt": "2026-04-04T20:30:08.636Z"
+    "fetchedAt": "2026-04-04T21:30:23.091Z"
   },
   "milestones": [
     {
@@ -161,6 +159,16 @@
       "isNew": true
     },
     {
+      "id": "toilet-fix",
+      "label": "Waste System Resolution",
+      "detail": "Crew successfully resolved a frozen wastewater vent line and identified non-hazardous heater off-gassing.",
+      "time": "2026-04-04T12:00:00.000Z",
+      "day": 3,
+      "icon": "📌",
+      "completed": true,
+      "isNew": true
+    },
+    {
       "id": "cpr-demo",
       "label": "Deep Space Cpr Demo",
       "detail": "Crew practiced emergency medical procedures using the onboard kit in microgravity.",
@@ -274,24 +282,49 @@
       "icon": "↩️"
     },
     {
-      "id": "splashdown",
-      "label": "Splashdown",
-      "detail": "Final splashdown in the Pacific Ocean off the coast of San Diego.",
-      "time": "2026-04-10T00:00:00.000Z",
-      "day": 9,
-      "icon": "🌊",
-      "highlight": true
-    },
-    {
       "id": "reentry",
       "label": "Re-entry",
       "detail": "Skip re-entry at ~5,000°F",
       "time": "2026-04-11T00:00:00.000Z",
       "day": 10,
       "icon": "🔥"
+    },
+    {
+      "id": "splashdown",
+      "label": "Splashdown",
+      "detail": "Final splashdown in the Pacific Ocean off the coast of San Diego.",
+      "time": "2026-04-11T00:07:00.000Z",
+      "day": 10,
+      "icon": "🌊",
+      "highlight": true
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Mission Nominal",
+      "currentPhase": "Deep space cruise toward lunar flyby",
+      "headline": "Artemis II crew successfully passes the halfway point to the Moon while maintaining excellent health and resolving minor hardware issues.",
+      "details": [
+        "Orion successfully resolved a clogged wastewater vent by rotating to expose the line to direct sunlight.",
+        "The crew exceeded 100 gigabytes of data transmission via the advanced optical communications system today.",
+        "Commander Wiseman and the crew are preparing for a manual piloting demonstration to verify deep-space handling characteristics.",
+        "Orion is on track to break the human distance record set by Apollo 13 on April 6."
+      ],
+      "sources": [
+        "NASA Mission Control",
+        "Artemis II Flight Operations Report"
+      ],
+      "crewStatus": "Excellent; crew is in high spirits and adhering to the planned medical and operations schedule.",
+      "lastEvent": "Hygiene bay toilet system maintenance and vent line thermal thaw.",
+      "nextEvent": "Manual piloting demonstration by Pilot Victor Glover scheduled for 9:10 p.m. EDT.",
+      "telemetry": {
+        "distanceFromEarth": 272000,
+        "distanceFromMoon": 178000,
+        "missionElapsedDay": 4
+      },
+      "fetchedAt": "2026-04-04T21:30:23.091Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Outbound Transit",
@@ -795,33 +828,6 @@
         "velocity": 38624
       },
       "fetchedAt": "2026-04-03T22:32:09.565Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Nominal",
-      "currentPhase": "Trans-lunar coast phase",
-      "headline": "Artemis II trajectory precise enough to cancel scheduled correction burn on Flight Day 3.",
-      "details": [
-        "Orion's trajectory following Translunar Injection was so accurate that mission control canceled the OTC-1 burn.",
-        "The crew performed a successful deep-space CPR medical demonstration and continues microgravity adaptation.",
-        "Technical issues with the Waste Management System and a false cabin leak indication have been fully resolved.",
-        "The spacecraft remains on a free-return trajectory that uses lunar gravity to swing back toward Earth."
-      ],
-      "sources": [
-        "NASA Johnson Space Center Flight Control",
-        "Artemis II Flight Operations Report"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and adapting well to deep space.",
-      "lastEvent": "Completion of the Translunar Injection (TLI) burn, making the crew the first to leave Earth orbit since 1972.",
-      "nextEvent": "Lunar closest approach at approximately 4,700 miles above the far side on April 6.",
-      "telemetry": {
-        "distanceFromEarth": 160770,
-        "distanceFromMoon": 260317,
-        "missionElapsedDay": 3,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-03T21:32:48.178Z"
     }
   ],
   "lastError": null
