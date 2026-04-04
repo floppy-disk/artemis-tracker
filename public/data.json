@@ -1,30 +1,30 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Nominal Operations",
-    "currentPhase": "Trans-lunar Coast",
-    "headline": "Artemis II Orion spacecraft reaches equidistance point between Earth and the Moon on Flight Day 4.",
+    "statusLabel": "Nominal",
+    "currentPhase": "Coasting to the Moon",
+    "headline": "The Artemis II mission is successfully on a free-return trajectory and the crew has passed the equidistance point between Earth and the Moon.",
     "details": [
-      "The first Outbound Trajectory Correction (OTC-1) burn was canceled because the spacecraft's path following TLI is exceptionally precise.",
-      "Mission Specialist Christina Koch officially became the farthest woman from Earth, surpassing the 70,000-mile mark.",
-      "The crew successfully addressed a brief 'burning smell' from the toilet heater insulation, which has been classified as a minor nuisance.",
-      "Astronauts are conducting medical demonstrations, including CPR in microgravity and health kit testing."
+      "Orion spacecraft is in excellent health with all primary systems performing within nominal parameters.",
+      "A minor odor reported in the hygiene bay was traced to insulation and is not a safety concern.",
+      "The crew crossed the halfway point of their journey on April 4 and are now closer to the Moon than Earth.",
+      "Flight controllers successfully canceled the first planned outbound trajectory correction due to the high precision of the TLI burn."
     ],
     "sources": [
-      "NASA Mission Control Houston",
-      "Artemis II Official Flight Log"
+      "NASA Mission Control",
+      "Artemis II Flight Operations Report"
     ],
     "alertMessage": null,
-    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in high spirits and good health.",
-    "lastEvent": "Reached the 'Equidistance Point' where Orion is now closer to the Moon than to Earth.",
-    "nextEvent": "Lunar Flyby at an altitude of approximately 7,600 km from the surface.",
+    "crewStatus": "The four-person crew is in high spirits, in good physical condition, and maintaining a routine of cardiovascular exercise and medical training.",
+    "lastEvent": "Crew crossed the halfway point of the mission journey on April 4, 2026.",
+    "nextEvent": "Lunar Flyby on April 6, 2026.",
     "telemetry": {
-      "distanceFromEarth": 254000,
-      "distanceFromMoon": 193000,
-      "missionElapsedDay": 3,
-      "velocity": 4150
+      "distanceFromEarth": 160934,
+      "distanceFromMoon": null,
+      "missionElapsedDay": 4,
+      "velocity": null
     },
-    "fetchedAt": "2026-04-04T15:30:54.586Z"
+    "fetchedAt": "2026-04-04T16:34:48.572Z"
   },
   "milestones": [
     {
@@ -133,10 +133,20 @@
     {
       "id": "toilet-smell",
       "label": "Hygiene Bay Inspection",
-      "detail": "Heater insulation odor investigated and determined to be a non-safety issue.",
+      "detail": "Crew identified a faint burning smell in the hygiene bay, determined to be harmless insulation outgassing.",
       "time": "2026-04-04T02:00:00.000Z",
       "day": 3,
       "icon": "🚽",
+      "completed": true,
+      "isNew": true
+    },
+    {
+      "id": "equal-dist",
+      "label": "Lunar Distance Equalization",
+      "detail": "Spacecraft crossed the point of equidistance between the Earth and the Moon.",
+      "time": "2026-04-04T04:00:00.000Z",
+      "day": 3,
+      "icon": "🌓",
       "completed": true,
       "isNew": true
     },
@@ -157,16 +167,6 @@
       "time": "2026-04-04T12:00:00.000Z",
       "day": 3,
       "icon": "👩‍🚀",
-      "completed": true,
-      "isNew": true
-    },
-    {
-      "id": "equal-dist",
-      "label": "Lunar Distance Equalization",
-      "detail": "Spacecraft crossed the point of equidistance between the Earth and the Moon.",
-      "time": "2026-04-04T15:30:00.000Z",
-      "day": 3,
-      "icon": "🌓",
       "completed": true,
       "isNew": true
     },
@@ -264,24 +264,51 @@
       "icon": "↩️"
     },
     {
+      "id": "splashdown",
+      "label": "Splashdown",
+      "detail": "Final splashdown in the Pacific Ocean off the coast of San Diego.",
+      "time": "2026-04-10T00:00:00.000Z",
+      "day": 9,
+      "icon": "🌊",
+      "highlight": true
+    },
+    {
       "id": "reentry",
       "label": "Re-entry",
       "detail": "Skip re-entry at ~5,000°F",
       "time": "2026-04-11T00:00:00.000Z",
       "day": 10,
       "icon": "🔥"
-    },
-    {
-      "id": "splashdown",
-      "label": "Splashdown",
-      "detail": "Final splashdown in the Pacific Ocean off the coast of San Diego.",
-      "time": "2026-04-11T00:06:00.000Z",
-      "day": 10,
-      "icon": "🌊",
-      "highlight": true
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Nominal",
+      "currentPhase": "Coasting to the Moon",
+      "headline": "The Artemis II mission is successfully on a free-return trajectory and the crew has passed the equidistance point between Earth and the Moon.",
+      "details": [
+        "Orion spacecraft is in excellent health with all primary systems performing within nominal parameters.",
+        "A minor odor reported in the hygiene bay was traced to insulation and is not a safety concern.",
+        "The crew crossed the halfway point of their journey on April 4 and are now closer to the Moon than Earth.",
+        "Flight controllers successfully canceled the first planned outbound trajectory correction due to the high precision of the TLI burn."
+      ],
+      "sources": [
+        "NASA Mission Control",
+        "Artemis II Flight Operations Report"
+      ],
+      "alertMessage": null,
+      "crewStatus": "The four-person crew is in high spirits, in good physical condition, and maintaining a routine of cardiovascular exercise and medical training.",
+      "lastEvent": "Crew crossed the halfway point of the mission journey on April 4, 2026.",
+      "nextEvent": "Lunar Flyby on April 6, 2026.",
+      "telemetry": {
+        "distanceFromEarth": 160934,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 4,
+        "velocity": null
+      },
+      "fetchedAt": "2026-04-04T16:34:48.572Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Nominal Operations",
@@ -786,32 +813,6 @@
         "missionElapsedDay": 3
       },
       "fetchedAt": "2026-04-03T19:36:23.023Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Mission Nominal",
-      "currentPhase": "Outbound Coast",
-      "headline": "Artemis II crew is healthy and successfully en route to the Moon on Flight Day 3.",
-      "details": [
-        "The Orion spacecraft is coasting toward the Moon at a velocity of 19,512 km/h.",
-        "Crew members conducted successful medical demonstrations today, including CPR and choking-response procedures.",
-        "All systems are reported operational, including the Orion flywheel exercise device and the recently repaired toilet system.",
-        "The crew is approximately 214,626 km from Earth and 176,145 km from the Moon."
-      ],
-      "sources": [
-        "NASA Artemis II Mission Updates",
-        "Flight Mission Control Report"
-      ],
-      "crewStatus": "All four crew members are in excellent health and high spirits.",
-      "lastEvent": "First trajectory correction burn (OTC-1) to fine-tune the lunar path.",
-      "nextEvent": "Lunar sphere of influence entry on Flight Day 5.",
-      "telemetry": {
-        "distanceFromEarth": 214626,
-        "distanceFromMoon": 176145,
-        "missionElapsedDay": 3,
-        "velocity": 19512
-      },
-      "fetchedAt": "2026-04-03T18:51:36.629Z"
     }
   ],
   "lastError": null
