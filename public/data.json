@@ -1,30 +1,30 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "On Trajectory",
-    "currentPhase": "Outbound Coast",
-    "headline": "Orion Integrity is more than halfway to the Moon after canceling its first course correction due to trajectory precision.",
+    "statusLabel": "Nominal Flight",
+    "currentPhase": "Trans-lunar Coast",
+    "headline": "Orion passes the lunar equidistance point as the crew enters the third day of flight.",
     "details": [
-      "Mission control canceled the OTC-1 maneuver because the Translunar Injection burn was precise enough to maintain the required path.",
-      "The crew successfully resolved a minor technical issue with a waste management system fan, returning the system to full operation.",
-      "Orion has officially passed the halfway point and is now physically closer to the Moon than it is to the Earth.",
-      "The crew completed a live downlink with the Canadian Space Agency, sharing high-definition images of the Moon from the spacecraft hatch."
+      "The first Outbound Trajectory Correction (OTC-1) was cancelled as the initial TLI burn was precise enough to require no immediate adjustment.",
+      "Mission Specialist Christina Koch has officially broken the record for the farthest distance traveled from Earth by a woman.",
+      "Ground teams isolated a redundant helium branch after a reading anomaly, while a cabin leak warning was confirmed as a sensor glitch.",
+      "The crew successfully managed a minor plumbing issue and adjusted environmental systems to stabilize cabin temperatures."
     ],
     "sources": [
-      "NASA Artemis II Mission Control",
-      "Canadian Space Agency (CSA) Media"
+      "NASA Mission Control Center",
+      "Artemis II Flight Operations"
     ],
     "alertMessage": null,
-    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and performing regular flywheel exercises.",
-    "lastEvent": "Official transition to being closer to the Moon than to the Earth occurred at 04:00 UTC.",
-    "nextEvent": "Entry into the Lunar Sphere of Influence (SOI) and subsequent lunar flyby on April 6.",
+    "crewStatus": "The crew is in excellent health, performing space adaptation tests, CPR drills, and flywheel exercises.",
+    "lastEvent": "Passed the equidistance point between Earth and the Moon at 04:00 UTC.",
+    "nextEvent": "Lunar flyby and record-breaking maximum distance from Earth on April 6.",
     "telemetry": {
-      "distanceFromEarth": 221285,
-      "distanceFromMoon": 181051,
+      "distanceFromEarth": 193000,
+      "distanceFromMoon": 190000,
       "missionElapsedDay": 3,
-      "velocity": null
+      "velocity": 3750
     },
-    "fetchedAt": "2026-04-04T05:57:14.113Z"
+    "fetchedAt": "2026-04-04T07:03:03.485Z"
   },
   "milestones": [
     {
@@ -123,7 +123,7 @@
     {
       "id": "woman-distance-record",
       "label": "Female Distance Record",
-      "detail": "Christina Koch officially became the farthest woman to ever travel from Earth.",
+      "detail": "Christina Koch sets a new record for the farthest distance traveled from Earth by a woman.",
       "time": "2026-04-03T20:00:00.000Z",
       "day": 2,
       "icon": "👩‍🚀",
@@ -133,7 +133,7 @@
     {
       "id": "otc-1",
       "label": "Outbound Trajectory Correction (OTC-1)",
-      "detail": "Maneuver canceled by flight controllers due to high trajectory accuracy following TLI.",
+      "detail": "Burn cancelled by mission control due to the high precision of the initial Translunar Injection.",
       "time": "2026-04-03T22:31:00.000Z",
       "day": 2,
       "icon": "🚀",
@@ -143,7 +143,7 @@
     {
       "id": "equal-dist",
       "label": "Lunar Distance Equalization",
-      "detail": "The point where the distance to the Moon became less than the distance to Earth.",
+      "detail": "Orion is now officially closer to the Moon than to Earth.",
       "time": "2026-04-04T04:00:00.000Z",
       "day": 3,
       "icon": "🌓",
@@ -262,6 +262,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Nominal Flight",
+      "currentPhase": "Trans-lunar Coast",
+      "headline": "Orion passes the lunar equidistance point as the crew enters the third day of flight.",
+      "details": [
+        "The first Outbound Trajectory Correction (OTC-1) was cancelled as the initial TLI burn was precise enough to require no immediate adjustment.",
+        "Mission Specialist Christina Koch has officially broken the record for the farthest distance traveled from Earth by a woman.",
+        "Ground teams isolated a redundant helium branch after a reading anomaly, while a cabin leak warning was confirmed as a sensor glitch.",
+        "The crew successfully managed a minor plumbing issue and adjusted environmental systems to stabilize cabin temperatures."
+      ],
+      "sources": [
+        "NASA Mission Control Center",
+        "Artemis II Flight Operations"
+      ],
+      "alertMessage": null,
+      "crewStatus": "The crew is in excellent health, performing space adaptation tests, CPR drills, and flywheel exercises.",
+      "lastEvent": "Passed the equidistance point between Earth and the Moon at 04:00 UTC.",
+      "nextEvent": "Lunar flyby and record-breaking maximum distance from Earth on April 6.",
+      "telemetry": {
+        "distanceFromEarth": 193000,
+        "distanceFromMoon": 190000,
+        "missionElapsedDay": 3,
+        "velocity": 3750
+      },
+      "fetchedAt": "2026-04-04T07:03:03.485Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "On Trajectory",
