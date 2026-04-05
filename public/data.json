@@ -1,30 +1,30 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Proceeding Successfully",
-    "currentPhase": "Approaching Lunar Sphere of Influence",
-    "headline": "Artemis II crew enters lunar sphere of influence as they prepare for tomorrow's historic flyby.",
+    "statusLabel": "Nominal Operations",
+    "currentPhase": "Trans-lunar coast phase",
+    "headline": "Artemis II crew prepares for lunar arrival after successful manual piloting tests.",
     "details": [
-      "Orion has reached the lunar sphere of influence where the Moon's gravity becomes the dominant force.",
-      "Astronauts Christina Koch and Jeremy Hansen successfully completed a 41-minute deep-space manual piloting demonstration.",
-      "The crew is testing Orion Crew Survival Suits and conducting live downlinks with students.",
-      "The spacecraft remains on a free-return trajectory, passing within 6,544 km of the lunar surface on April 6."
+      "Orion spacecraft Integrity is in excellent health with thermal protection tiles reported in better condition than the Artemis I mission.",
+      "Crew members Christina Koch and Jeremy Hansen completed a 41-minute manual piloting demonstration to verify deep-space handling.",
+      "Mission controllers successfully used a sun-soak maneuver to resolve a sluggish urine venting system caused by cold temperatures.",
+      "The mission is on track for a record-breaking lunar flyby on Monday, April 6, at an altitude of 4,066 miles."
     ],
     "sources": [
-      "NASA Artemis Mission Update",
-      "Canadian Space Agency Mission Briefing"
+      "NASA Mission Control",
+      "Artemis II Flight Operations"
     ],
     "alertMessage": null,
-    "crewStatus": "The crew is in good health, adapting well to microgravity, and performing scheduled system tests.",
-    "lastEvent": "Manual piloting demonstration to test thruster modes and handling in deep space.",
-    "nextEvent": "Lunar flyby at 18:45 UTC on April 6, 2026.",
+    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in high spirits and excellent health, currently concluding a rest period.",
+    "lastEvent": "Completion of a 41-minute manual piloting demonstration to test deep space handling modes.",
+    "nextEvent": "Lunar flyby at closest approach (4,066 miles) and crossing the Apollo 13 distance record.",
     "telemetry": {
-      "distanceFromEarth": 399890,
-      "distanceFromMoon": 6544,
+      "distanceFromEarth": 271979,
+      "distanceFromMoon": 178154,
       "missionElapsedDay": 5,
-      "velocity": null
+      "velocity": 39429
     },
-    "fetchedAt": "2026-04-05T13:55:09.660Z"
+    "fetchedAt": "2026-04-05T14:35:04.975Z"
   },
   "milestones": [
     {
@@ -75,7 +75,7 @@
     {
       "id": "tli",
       "label": "Translunar Injection",
-      "detail": "5-minute, 50-second burn increased velocity by 1,274 fps to break Earth orbit.",
+      "detail": "Successful 5-minute, 55-second burn to accelerate Orion to 24,500 mph toward the Moon.",
       "time": "2026-04-02T23:49:00.000Z",
       "day": 2,
       "icon": "🌙",
@@ -171,6 +171,26 @@
       "isNew": true
     },
     {
+      "id": "tps-inspection",
+      "label": "Thermal Protection Inspection",
+      "detail": "External inspection confirmed heat shield tiles are in excellent condition.",
+      "time": "2026-04-04T12:00:00.000Z",
+      "day": 3,
+      "icon": "🛡️",
+      "completed": true,
+      "isNew": true
+    },
+    {
+      "id": "sun-soak",
+      "label": "Urine System Sun-Soak",
+      "detail": "Spacecraft maneuvered to warm the venting system and resolve a temperature-related blockage.",
+      "time": "2026-04-04T15:00:00.000Z",
+      "day": 3,
+      "icon": "☀️",
+      "completed": true,
+      "isNew": true
+    },
+    {
       "id": "human-distance-record",
       "label": "Human Distance Record",
       "detail": "Orion officially surpassed the record set by the Apollo 13 crew in 1970.",
@@ -183,7 +203,7 @@
     {
       "id": "manual-pilot-demo",
       "label": "Manual Pilot Demo",
-      "detail": "41-minute manual control test successfully completed by Koch and Hansen.",
+      "detail": "Koch and Hansen tested Orion's handling in deep space using two different thruster modes.",
       "time": "2026-04-05T01:09:00.000Z",
       "day": 4,
       "icon": "📌",
@@ -203,7 +223,7 @@
     {
       "id": "lunar-soi",
       "label": "Lunar Sphere Of Influence",
-      "detail": "Spacecraft has entered the region where lunar gravity is the primary force.",
+      "detail": "Orion has entered the Moon's gravitational sphere of influence.",
       "time": "2026-04-05T12:54:00.000Z",
       "day": 4,
       "icon": "🌑",
@@ -212,7 +232,7 @@
     {
       "id": "suit-test",
       "label": "Suit Systems Test",
-      "detail": "Crew performed checks on Orion Crew Survival Suits used for high-risk mission phases.",
+      "detail": "Checkout of the Orion Crew Survival Suits (OCSS) for reentry readiness.",
       "time": "2026-04-05T14:30:00.000Z",
       "day": 4,
       "icon": "👨‍🚀",
@@ -250,15 +270,6 @@
       "isNew": true
     },
     {
-      "id": "lunar-flyby",
-      "label": "Lunar Flyby",
-      "detail": "Planned pass 4,700 miles above the lunar far side; first humans to see it since 1972.",
-      "time": "2026-04-06T18:45:00.000Z",
-      "day": 5,
-      "icon": "🌕",
-      "highlight": true
-    },
-    {
       "id": "comm-blackout",
       "label": "Communications Blackout",
       "detail": "Expected loss of signal as Orion passes behind the lunar far side.",
@@ -267,6 +278,15 @@
       "icon": "📵",
       "completed": false,
       "isNew": true
+    },
+    {
+      "id": "lunar-flyby",
+      "label": "Lunar Flyby",
+      "detail": "Planned pass 4,700 miles above the lunar far side; first humans to see it since 1972.",
+      "time": "2026-04-06T23:05:00.000Z",
+      "day": 6,
+      "icon": "🌕",
+      "highlight": true
     },
     {
       "id": "distance-record",
@@ -323,6 +343,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Nominal Operations",
+      "currentPhase": "Trans-lunar coast phase",
+      "headline": "Artemis II crew prepares for lunar arrival after successful manual piloting tests.",
+      "details": [
+        "Orion spacecraft Integrity is in excellent health with thermal protection tiles reported in better condition than the Artemis I mission.",
+        "Crew members Christina Koch and Jeremy Hansen completed a 41-minute manual piloting demonstration to verify deep-space handling.",
+        "Mission controllers successfully used a sun-soak maneuver to resolve a sluggish urine venting system caused by cold temperatures.",
+        "The mission is on track for a record-breaking lunar flyby on Monday, April 6, at an altitude of 4,066 miles."
+      ],
+      "sources": [
+        "NASA Mission Control",
+        "Artemis II Flight Operations"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in high spirits and excellent health, currently concluding a rest period.",
+      "lastEvent": "Completion of a 41-minute manual piloting demonstration to test deep space handling modes.",
+      "nextEvent": "Lunar flyby at closest approach (4,066 miles) and crossing the Apollo 13 distance record.",
+      "telemetry": {
+        "distanceFromEarth": 271979,
+        "distanceFromMoon": 178154,
+        "missionElapsedDay": 5,
+        "velocity": 39429
+      },
+      "fetchedAt": "2026-04-05T14:35:04.975Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Proceeding Successfully",
@@ -830,33 +877,6 @@
         "velocity": null
       },
       "fetchedAt": "2026-04-04T14:34:22.737Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Deep-Space Cruise",
-      "currentPhase": "Deep-space cruise phase (outbound)",
-      "headline": "Orion spacecraft Integrity has passed the equidistance point between Earth and the Moon on Flight Day 3.",
-      "details": [
-        "Orion is now closer to the Moon than to Earth, following a precise Translunar Injection burn that resulted in the cancellation of the first trajectory correction maneuver.",
-        "A minor technical issue involving an odor in the waste management system on Flight Day 2 was successfully resolved by the crew and ground teams.",
-        "Mission Specialist Christina Koch has officially set a new record for the farthest distance traveled from Earth by a woman.",
-        "The crew successfully completed zero-gravity medical drills including CPR rehearsals and routine physical health monitoring."
-      ],
-      "sources": [
-        "NASA Mission Control Center",
-        "Canadian Space Agency Mission Updates"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and high spirits, settling into deep-space routines.",
-      "lastEvent": "Reached the halfway point between Earth and the Moon (Lunar Distance Equalization).",
-      "nextEvent": "Entry into the Lunar Sphere of Influence (SOI) and closest lunar approach.",
-      "telemetry": {
-        "distanceFromEarth": 193000,
-        "distanceFromMoon": 190000,
-        "missionElapsedDay": 3,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-04T13:54:39.621Z"
     }
   ],
   "lastError": null
