@@ -1,30 +1,30 @@
 {
   "update": {
     "status": "caution",
-    "statusLabel": "WASTE SYSTEM ISSUE",
-    "currentPhase": "Translunar Coast",
-    "headline": "Orion spacecraft reaches midpoint of lunar journey as crew prepares for record-breaking flyby.",
+    "statusLabel": "Waste System Issue",
+    "currentPhase": "Trans-Lunar Coast",
+    "headline": "Artemis II crew nears Lunar Sphere of Influence while managing waste system challenges and conducting suit mobility tests.",
     "details": [
-      "Engineers are monitoring an intermittent malfunction in the Orion waste management system caused by a suspected ice blockage.",
-      "The crew remains in excellent health after successfully completing microgravity medical drills and adaptation.",
-      "Orion is currently on a free-return trajectory that will naturally swing the capsule around the Moon's far side.",
-      "Trajectory precision from the TLI burn was high enough to allow flight controllers to skip the second planned correction maneuver."
+      "The crew is cruising toward the Moon in a free-return trajectory, currently approximately 103,000 km away from the lunar surface.",
+      "Mission Control is troubleshooting a persistent Orion waste management system issue suspected to be caused by an ice blockage in the wastewater tank vent.",
+      "Crew members successfully conducted pressurization and mobility tests with the Orion Crew Survival System (OCSS) suits.",
+      "First live close-up views of the Moon's Orientale Basin in over 50 years were captured and transmitted to Earth."
     ],
     "sources": [
-      "NASA Mission Control April 5 Update",
-      "Flight Day 5 Status Report"
+      "NASA Mission Control Daily Briefing 2026-04-05",
+      "Artemis II Flight Log"
     ],
-    "alertMessage": "Intermittent malfunctions in the waste management system; crew is currently utilizing backup collection bags as a contingency.",
-    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and high spirits.",
-    "lastEvent": "Completion of microgravity CPR demonstrations and medical equipment validation on Flight Day 4.",
-    "nextEvent": "Entry into the Lunar Sphere of Influence followed by surpassing the Apollo 13 distance record.",
+    "alertMessage": "Waste management system (toilet) experiencing ice blockage in vent; crew utilizing backup urine collection bags until verified fix.",
+    "crewStatus": "Crew is in excellent health and high spirits; recently held a commemorative radio session with Apollo 16 astronaut Charlie Duke.",
+    "lastEvent": "Completion of Orion Crew Survival System (OCSS) suit mobility and zero-gravity medical drill demonstrations.",
+    "nextEvent": "Entry into the Lunar Sphere of Influence, where the Moon's gravity will become the primary force on Orion.",
     "telemetry": {
-      "distanceFromEarth": 161000,
-      "distanceFromMoon": 241000,
-      "missionElapsedDay": 5,
-      "velocity": null
+      "distanceFromEarth": 301966,
+      "distanceFromMoon": 103000,
+      "missionElapsedDay": 4,
+      "velocity": 39428
     },
-    "fetchedAt": "2026-04-05T21:30:02.700Z"
+    "fetchedAt": "2026-04-05T22:29:26.429Z"
   },
   "milestones": [
     {
@@ -213,7 +213,7 @@
     {
       "id": "toilet-fix",
       "label": "Waste System Resolution",
-      "detail": "System remains under monitoring for intermittent malfunctions due to a suspected ice blockage in the venting line.",
+      "detail": "Issue remains persistent; technicians suspect ice blockage in the wastewater tank vent.",
       "time": "2026-04-05T12:00:00.000Z",
       "day": 4,
       "icon": "📌",
@@ -243,10 +243,20 @@
     {
       "id": "suit-test",
       "label": "Suit Systems Test",
-      "detail": "Completed full check of suit mobility and pressure integrity.",
+      "detail": "Crew verified suit mobility and the ability to eat and drink while pressurized in microgravity.",
       "time": "2026-04-05T17:00:00.000Z",
       "day": 4,
       "icon": "👨‍🚀",
+      "completed": true,
+      "isNew": true
+    },
+    {
+      "id": "orientale-photos",
+      "label": "Orientale Basin Imaging",
+      "detail": "Captured the first live close-up images of the Moon's western limb Orientale Basin since the Apollo era.",
+      "time": "2026-04-05T21:00:00.000Z",
+      "day": 4,
+      "icon": "📸",
       "completed": true,
       "isNew": true
     },
@@ -373,6 +383,33 @@
     }
   ],
   "history": [
+    {
+      "status": "caution",
+      "statusLabel": "Waste System Issue",
+      "currentPhase": "Trans-Lunar Coast",
+      "headline": "Artemis II crew nears Lunar Sphere of Influence while managing waste system challenges and conducting suit mobility tests.",
+      "details": [
+        "The crew is cruising toward the Moon in a free-return trajectory, currently approximately 103,000 km away from the lunar surface.",
+        "Mission Control is troubleshooting a persistent Orion waste management system issue suspected to be caused by an ice blockage in the wastewater tank vent.",
+        "Crew members successfully conducted pressurization and mobility tests with the Orion Crew Survival System (OCSS) suits.",
+        "First live close-up views of the Moon's Orientale Basin in over 50 years were captured and transmitted to Earth."
+      ],
+      "sources": [
+        "NASA Mission Control Daily Briefing 2026-04-05",
+        "Artemis II Flight Log"
+      ],
+      "alertMessage": "Waste management system (toilet) experiencing ice blockage in vent; crew utilizing backup urine collection bags until verified fix.",
+      "crewStatus": "Crew is in excellent health and high spirits; recently held a commemorative radio session with Apollo 16 astronaut Charlie Duke.",
+      "lastEvent": "Completion of Orion Crew Survival System (OCSS) suit mobility and zero-gravity medical drill demonstrations.",
+      "nextEvent": "Entry into the Lunar Sphere of Influence, where the Moon's gravity will become the primary force on Orion.",
+      "telemetry": {
+        "distanceFromEarth": 301966,
+        "distanceFromMoon": 103000,
+        "missionElapsedDay": 4,
+        "velocity": 39428
+      },
+      "fetchedAt": "2026-04-05T22:29:26.429Z"
+    },
     {
       "status": "caution",
       "statusLabel": "WASTE SYSTEM ISSUE",
@@ -885,31 +922,6 @@
         "velocity": 6759
       },
       "fetchedAt": "2026-04-04T22:28:23.088Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Mission Nominal",
-      "currentPhase": "Deep space cruise toward lunar flyby",
-      "headline": "Artemis II crew successfully passes the halfway point to the Moon while maintaining excellent health and resolving minor hardware issues.",
-      "details": [
-        "Orion successfully resolved a clogged wastewater vent by rotating to expose the line to direct sunlight.",
-        "The crew exceeded 100 gigabytes of data transmission via the advanced optical communications system today.",
-        "Commander Wiseman and the crew are preparing for a manual piloting demonstration to verify deep-space handling characteristics.",
-        "Orion is on track to break the human distance record set by Apollo 13 on April 6."
-      ],
-      "sources": [
-        "NASA Mission Control",
-        "Artemis II Flight Operations Report"
-      ],
-      "crewStatus": "Excellent; crew is in high spirits and adhering to the planned medical and operations schedule.",
-      "lastEvent": "Hygiene bay toilet system maintenance and vent line thermal thaw.",
-      "nextEvent": "Manual piloting demonstration by Pilot Victor Glover scheduled for 9:10 p.m. EDT.",
-      "telemetry": {
-        "distanceFromEarth": 272000,
-        "distanceFromMoon": 178000,
-        "missionElapsedDay": 4
-      },
-      "fetchedAt": "2026-04-04T21:30:23.091Z"
     }
   ],
   "lastError": null
