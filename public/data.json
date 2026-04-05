@@ -1,30 +1,30 @@
 {
   "update": {
     "status": "caution",
-    "statusLabel": "System Malfunction",
+    "statusLabel": "WASTE SYSTEM ISSUE",
     "currentPhase": "Translunar Coast",
-    "headline": "Artemis II crew approaches the lunar sphere of influence as Christina Koch sets new deep space distance record.",
+    "headline": "Orion spacecraft reaches midpoint of lunar journey as crew prepares for record-breaking flyby.",
     "details": [
-      "Orion is approximately two-thirds of the way to the Moon and is expected to enter the lunar sphere of influence around 04:41 UTC on April 6.",
-      "The crew is managing a recurring toilet malfunction caused by a suspected ice blockage, necessitating the use of backup collection bags.",
-      "Mission Specialist Christina Koch has officially set a new record for the farthest distance a woman has ever traveled from Earth.",
-      "A 41-minute manual piloting demonstration was successfully completed, testing the spacecraft's proximity operations in deep space."
+      "Engineers are monitoring an intermittent malfunction in the Orion waste management system caused by a suspected ice blockage.",
+      "The crew remains in excellent health after successfully completing microgravity medical drills and adaptation.",
+      "Orion is currently on a free-return trajectory that will naturally swing the capsule around the Moon's far side.",
+      "Trajectory precision from the TLI burn was high enough to allow flight controllers to skip the second planned correction maneuver."
     ],
     "sources": [
-      "NASA Artemis Mission Control Update",
-      "Orion Flight Day 5 Operations Report"
+      "NASA Mission Control April 5 Update",
+      "Flight Day 5 Status Report"
     ],
-    "alertMessage": "Recurring waste management system malfunction; suspected ice blockage in wastewater venting line requiring backup protocols.",
-    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen remain in excellent health and high spirits.",
-    "lastEvent": "Successful 41-minute manual piloting demonstration completed on Flight Day 4.",
-    "nextEvent": "Entry into the Lunar Sphere of Influence (SOI) expected at 04:41 UTC on April 6.",
+    "alertMessage": "Intermittent malfunctions in the waste management system; crew is currently utilizing backup collection bags as a contingency.",
+    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and high spirits.",
+    "lastEvent": "Completion of microgravity CPR demonstrations and medical equipment validation on Flight Day 4.",
+    "nextEvent": "Entry into the Lunar Sphere of Influence followed by surpassing the Apollo 13 distance record.",
     "telemetry": {
-      "distanceFromEarth": 305000,
-      "distanceFromMoon": null,
-      "missionElapsedDay": 4,
-      "velocity": 4500
+      "distanceFromEarth": 161000,
+      "distanceFromMoon": 241000,
+      "missionElapsedDay": 5,
+      "velocity": null
     },
-    "fetchedAt": "2026-04-05T20:32:13.855Z"
+    "fetchedAt": "2026-04-05T21:30:02.700Z"
   },
   "milestones": [
     {
@@ -75,7 +75,7 @@
     {
       "id": "tli",
       "label": "Translunar Injection",
-      "detail": "Successful 5-minute, 55-second burn to accelerate Orion to 24,500 mph toward the Moon.",
+      "detail": "5-minute, 55-second burn successfully increased velocity by 1,448 km/h to exit Earth orbit.",
       "time": "2026-04-02T23:49:00.000Z",
       "day": 2,
       "icon": "🌙",
@@ -143,7 +143,7 @@
     {
       "id": "cpr-demo",
       "label": "Deep Space Cpr Demo",
-      "detail": "Crew practiced deep-space medical procedures including CPR and choking response.",
+      "detail": "Crew validated life-saving medical procedures and equipment functionality in microgravity.",
       "time": "2026-04-04T08:00:00.000Z",
       "day": 3,
       "icon": "🩺",
@@ -213,7 +213,7 @@
     {
       "id": "toilet-fix",
       "label": "Waste System Resolution",
-      "detail": "Universal Waste Management System restored to a managed operational state after ice blockage removal.",
+      "detail": "System remains under monitoring for intermittent malfunctions due to a suspected ice blockage in the venting line.",
       "time": "2026-04-05T12:00:00.000Z",
       "day": 4,
       "icon": "📌",
@@ -293,8 +293,8 @@
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
       "detail": "Closest approach scheduled for 18:45 UTC at an altitude of approximately 6,543 km.",
-      "time": "2026-04-06T18:45:00.000Z",
-      "day": 5,
+      "time": "2026-04-06T23:02:00.000Z",
+      "day": 6,
       "icon": "🌕",
       "highlight": true
     },
@@ -302,8 +302,8 @@
       "id": "lunar-eclipse",
       "label": "Deep Space Solar Eclipse",
       "detail": "The crew will witness a total solar eclipse (Earth passing in front of the Sun) while behind the Moon.",
-      "time": "2026-04-06T19:00:00.000Z",
-      "day": 5,
+      "time": "2026-04-06T23:02:00.000Z",
+      "day": 6,
       "icon": "🌑",
       "completed": false,
       "isNew": true
@@ -373,6 +373,33 @@
     }
   ],
   "history": [
+    {
+      "status": "caution",
+      "statusLabel": "WASTE SYSTEM ISSUE",
+      "currentPhase": "Translunar Coast",
+      "headline": "Orion spacecraft reaches midpoint of lunar journey as crew prepares for record-breaking flyby.",
+      "details": [
+        "Engineers are monitoring an intermittent malfunction in the Orion waste management system caused by a suspected ice blockage.",
+        "The crew remains in excellent health after successfully completing microgravity medical drills and adaptation.",
+        "Orion is currently on a free-return trajectory that will naturally swing the capsule around the Moon's far side.",
+        "Trajectory precision from the TLI burn was high enough to allow flight controllers to skip the second planned correction maneuver."
+      ],
+      "sources": [
+        "NASA Mission Control April 5 Update",
+        "Flight Day 5 Status Report"
+      ],
+      "alertMessage": "Intermittent malfunctions in the waste management system; crew is currently utilizing backup collection bags as a contingency.",
+      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and high spirits.",
+      "lastEvent": "Completion of microgravity CPR demonstrations and medical equipment validation on Flight Day 4.",
+      "nextEvent": "Entry into the Lunar Sphere of Influence followed by surpassing the Apollo 13 distance record.",
+      "telemetry": {
+        "distanceFromEarth": 161000,
+        "distanceFromMoon": 241000,
+        "missionElapsedDay": 5,
+        "velocity": null
+      },
+      "fetchedAt": "2026-04-05T21:30:02.700Z"
+    },
     {
       "status": "caution",
       "statusLabel": "System Malfunction",
@@ -883,33 +910,6 @@
         "missionElapsedDay": 4
       },
       "fetchedAt": "2026-04-04T21:30:23.091Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Outbound Transit",
-      "currentPhase": "Orion is cruising through deep space on a free-return trajectory toward the Moon.",
-      "headline": "Artemis II crew passes mission halfway point while troubleshooting non-critical systems.",
-      "details": [
-        "The spacecraft is on a highly accurate trajectory, allowing Mission Control to cancel the first scheduled Trajectory Correction Burn (OTC-1).",
-        "Crew members successfully performed a CPR demonstration in microgravity and other space adaptation exercises.",
-        "Engineers are troubleshooting a suspected frozen urine vent line; crew has transitioned to contingency waste bags.",
-        "A minor burning smell in the hygiene bay was identified as a non-critical heater or gasket issue and is not a safety concern."
-      ],
-      "sources": [
-        "NASA Mission Control Center",
-        "Artemis II Flight Operations Report"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and high spirits.",
-      "lastEvent": "Orion passed the halfway point by distance between the Earth and the Moon.",
-      "nextEvent": "Manual piloting demonstration by Victor Glover to test Orion's deep-space handling qualities.",
-      "telemetry": {
-        "distanceFromEarth": 271978,
-        "distanceFromMoon": 178154,
-        "missionElapsedDay": 3,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-04T20:30:08.636Z"
     }
   ],
   "lastError": null
