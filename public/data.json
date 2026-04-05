@@ -1,30 +1,30 @@
 {
   "update": {
-    "status": "nominal",
-    "statusLabel": "Outbound Transit",
-    "currentPhase": "Orion Outbound Transit to Lunar Sphere of Influence",
-    "headline": "Orion spacecraft prepares for lunar gravitational entry as crew resolves technical issues and readies for record-breaking flyby.",
+    "status": "caution",
+    "statusLabel": "System Malfunction",
+    "currentPhase": "Translunar Coast",
+    "headline": "Artemis II crew approaches the lunar sphere of influence as Christina Koch sets new deep space distance record.",
     "details": [
-      "The crew successfully cleared a blockage in the Universal Waste Management System by rotating the capsule to melt ice with sunlight.",
-      "Orion is expected to enter the Moon's gravitational sphere of influence at 04:41 UTC on April 6.",
-      "The mission is on track to surpass the Apollo 13 human distance record tomorrow afternoon.",
-      "The crew performed pressure suit mobility checks and manual piloting demonstrations ahead of the lunar far side pass."
+      "Orion is approximately two-thirds of the way to the Moon and is expected to enter the lunar sphere of influence around 04:41 UTC on April 6.",
+      "The crew is managing a recurring toilet malfunction caused by a suspected ice blockage, necessitating the use of backup collection bags.",
+      "Mission Specialist Christina Koch has officially set a new record for the farthest distance a woman has ever traveled from Earth.",
+      "A 41-minute manual piloting demonstration was successfully completed, testing the spacecraft's proximity operations in deep space."
     ],
     "sources": [
-      "NASA Mission Control Daily Briefing",
-      "Artemis II Flight Log FD5"
+      "NASA Artemis Mission Control Update",
+      "Orion Flight Day 5 Operations Report"
     ],
-    "alertMessage": null,
-    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and good spirits.",
-    "lastEvent": "Completion of Orion Crew Survival System (OCSS) suit mobility and pressure seal tests on Flight Day 5.",
-    "nextEvent": "Entry into the Moon's gravitational sphere of influence (SOI) at 04:41 UTC.",
+    "alertMessage": "Recurring waste management system malfunction; suspected ice blockage in wastewater venting line requiring backup protocols.",
+    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen remain in excellent health and high spirits.",
+    "lastEvent": "Successful 41-minute manual piloting demonstration completed on Flight Day 4.",
+    "nextEvent": "Entry into the Lunar Sphere of Influence (SOI) expected at 04:41 UTC on April 6.",
     "telemetry": {
-      "distanceFromEarth": 346008,
+      "distanceFromEarth": 305000,
       "distanceFromMoon": null,
-      "missionElapsedDay": 5,
-      "velocity": 4587
+      "missionElapsedDay": 4,
+      "velocity": 4500
     },
-    "fetchedAt": "2026-04-05T19:32:48.034Z"
+    "fetchedAt": "2026-04-05T20:32:13.855Z"
   },
   "milestones": [
     {
@@ -133,7 +133,7 @@
     {
       "id": "equal-dist",
       "label": "Lunar Distance Equalization",
-      "detail": "Reached the point where Orion is exactly between the Earth and Moon.",
+      "detail": "Orion officially became closer to the Moon than to Earth on Flight Day 4.",
       "time": "2026-04-04T04:00:00.000Z",
       "day": 3,
       "icon": "🌓",
@@ -153,7 +153,7 @@
     {
       "id": "woman-distance-record",
       "label": "Female Distance Record",
-      "detail": "Christina Koch officially set the record for the farthest distance a woman has traveled from Earth.",
+      "detail": "Christina Koch has set the record for the farthest distance a woman has traveled from Earth.",
       "time": "2026-04-04T12:00:00.000Z",
       "day": 3,
       "icon": "👩‍🚀",
@@ -290,6 +290,25 @@
       "isNew": true
     },
     {
+      "id": "lunar-flyby",
+      "label": "Lunar Flyby",
+      "detail": "Closest approach scheduled for 18:45 UTC at an altitude of approximately 6,543 km.",
+      "time": "2026-04-06T18:45:00.000Z",
+      "day": 5,
+      "icon": "🌕",
+      "highlight": true
+    },
+    {
+      "id": "lunar-eclipse",
+      "label": "Deep Space Solar Eclipse",
+      "detail": "The crew will witness a total solar eclipse (Earth passing in front of the Sun) while behind the Moon.",
+      "time": "2026-04-06T19:00:00.000Z",
+      "day": 5,
+      "icon": "🌑",
+      "completed": false,
+      "isNew": true
+    },
+    {
       "id": "comm-blackout",
       "label": "Communications Blackout",
       "detail": "Expected loss of signal as Orion passes behind the lunar far side.",
@@ -300,18 +319,9 @@
       "isNew": true
     },
     {
-      "id": "lunar-flyby",
-      "label": "Lunar Flyby",
-      "detail": "Planned pass 4,700 miles above the lunar far side; first humans to see it since 1972.",
-      "time": "2026-04-06T23:02:00.000Z",
-      "day": 6,
-      "icon": "🌕",
-      "highlight": true
-    },
-    {
       "id": "distance-record",
       "label": "Farthest Distance From Earth Record",
-      "detail": "Orion surpasses the maximum distance from Earth of previous Apollo missions.",
+      "detail": "Crew is expected to surpass the Apollo 13 distance record during the lunar flyby.",
       "time": "2026-04-06T23:05:00.000Z",
       "day": 6,
       "icon": "🗺️",
@@ -345,24 +355,51 @@
       "icon": "↩️"
     },
     {
+      "id": "splashdown",
+      "label": "Splashdown",
+      "detail": "Final splashdown in the Pacific Ocean off the coast of San Diego.",
+      "time": "2026-04-10T16:00:00.000Z",
+      "day": 9,
+      "icon": "🌊",
+      "highlight": true
+    },
+    {
       "id": "reentry",
       "label": "Re-entry",
       "detail": "Skip re-entry at ~5,000°F",
       "time": "2026-04-11T00:00:00.000Z",
       "day": 10,
       "icon": "🔥"
-    },
-    {
-      "id": "splashdown",
-      "label": "Splashdown",
-      "detail": "Final splashdown in the Pacific Ocean off the coast of San Diego.",
-      "time": "2026-04-11T00:07:00.000Z",
-      "day": 10,
-      "icon": "🌊",
-      "highlight": true
     }
   ],
   "history": [
+    {
+      "status": "caution",
+      "statusLabel": "System Malfunction",
+      "currentPhase": "Translunar Coast",
+      "headline": "Artemis II crew approaches the lunar sphere of influence as Christina Koch sets new deep space distance record.",
+      "details": [
+        "Orion is approximately two-thirds of the way to the Moon and is expected to enter the lunar sphere of influence around 04:41 UTC on April 6.",
+        "The crew is managing a recurring toilet malfunction caused by a suspected ice blockage, necessitating the use of backup collection bags.",
+        "Mission Specialist Christina Koch has officially set a new record for the farthest distance a woman has ever traveled from Earth.",
+        "A 41-minute manual piloting demonstration was successfully completed, testing the spacecraft's proximity operations in deep space."
+      ],
+      "sources": [
+        "NASA Artemis Mission Control Update",
+        "Orion Flight Day 5 Operations Report"
+      ],
+      "alertMessage": "Recurring waste management system malfunction; suspected ice blockage in wastewater venting line requiring backup protocols.",
+      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen remain in excellent health and high spirits.",
+      "lastEvent": "Successful 41-minute manual piloting demonstration completed on Flight Day 4.",
+      "nextEvent": "Entry into the Lunar Sphere of Influence (SOI) expected at 04:41 UTC on April 6.",
+      "telemetry": {
+        "distanceFromEarth": 305000,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 4,
+        "velocity": 4500
+      },
+      "fetchedAt": "2026-04-05T20:32:13.855Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Outbound Transit",
@@ -873,30 +910,6 @@
         "velocity": null
       },
       "fetchedAt": "2026-04-04T20:30:08.636Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "nominal",
-      "currentPhase": "Trans-lunar coast",
-      "headline": "The Orion spacecraft has successfully surpassed the halfway point to the Moon on its Artemis II mission.",
-      "details": [
-        "Orion is currently on a precise free-return trajectory following an accurate TLI burn.",
-        "The crew is in excellent health and has successfully completed medical response drills.",
-        "Christina Koch has set a new record as the farthest woman to ever travel from Earth.",
-        "High-definition video and imagery are being successfully transmitted to Earth via the optical communications system."
-      ],
-      "sources": [
-        "NASA Artemis II Mission Updates"
-      ],
-      "crewStatus": "All four crew members are reported to be in excellent health and high spirits.",
-      "lastEvent": "Passing the halfway point between Earth and the Moon",
-      "nextEvent": "Entrance into the lunar sphere of influence on April 5th",
-      "telemetry": {
-        "distanceFromEarth": 260713,
-        "missionElapsedDay": 4,
-        "velocity": 6437
-      },
-      "fetchedAt": "2026-04-04T19:30:04.753Z"
     }
   ],
   "lastError": null
