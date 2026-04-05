@@ -1,30 +1,31 @@
 {
   "update": {
     "status": "caution",
-    "statusLabel": "Nominal (Caution)",
-    "currentPhase": "Trans-Lunar Coast",
-    "headline": "Artemis II crew surpasses halfway point to the Moon while managing minor technical issues with the waste system.",
+    "statusLabel": "Cislunar Cruise",
+    "currentPhase": "Deep space transit from Earth to the Moon",
+    "headline": "Orion reaches lunar-gravity transition point as crew prepares for record-breaking flyby.",
     "details": [
-      "Orion has crossed the equidistance point and is now closer to the Moon than to Earth as it approaches the Lunar Sphere of Influence.",
-      "A recurring blockage in the urine vent has required the crew to use contingency collection bags while heaters attempt to clear suspected ice.",
-      "Mission specialists Koch and Hansen completed a 41-minute manual piloting demonstration to verify human-in-the-loop handling.",
-      "The crew performed zero-gravity medical drills, including CPR practice, to prepare for potential deep-space emergencies."
+      "Spacecraft has passed the equidistant point and is now officially closer to the Moon than to Earth.",
+      "Engineers are managing a heater malfunction in the urine vent system; crew using backup contingency waste bags.",
+      "Mission Specialists completed manual piloting demonstrations to verify Orion's deep-space handling characteristics.",
+      "Medical drills including zero-G CPR and choking responses were successfully performed on Flight Day 4."
     ],
     "sources": [
-      "NASA Mission Status Report",
-      "Artemis II Flight Control Update"
+      "NASA Mission Control Daily Briefing",
+      "Artemis II Flight Log 2026-04-05",
+      "ESA Deep Space Network Tracking"
     ],
-    "alertMessage": "Recurring blockage in the Waste Management System urine vent; crew utilizing contingency procedures.",
-    "crewStatus": "Crew is in excellent health and high spirits; conducting daily exercise and medical drills.",
-    "lastEvent": "Manual piloting demonstration successfully completed by Christina Koch and Jeremy Hansen.",
-    "nextEvent": "Surpassing the Apollo 13 all-time human distance record from Earth.",
+    "alertMessage": "Urine vent system (lunar loo) heater fix only partially successful; secondary venting and backup bags in use.",
+    "crewStatus": "Excellent health and high spirits; currently reviewing lunar science photography targets.",
+    "lastEvent": "Manual piloting demonstration and zero-gravity medical emergency drill.",
+    "nextEvent": "Lunar Flyby (Closest Approach) and record-breaking distance milestone on April 6.",
     "telemetry": {
-      "distanceFromEarth": 321800,
-      "distanceFromMoon": null,
+      "distanceFromEarth": 321868,
+      "distanceFromMoon": 56327,
       "missionElapsedDay": 4,
-      "velocity": 3380
+      "velocity": null
     },
-    "fetchedAt": "2026-04-05T10:32:49.436Z"
+    "fetchedAt": "2026-04-05T11:29:11.166Z"
   },
   "milestones": [
     {
@@ -133,7 +134,7 @@
     {
       "id": "equal-dist",
       "label": "Lunar Distance Equalization",
-      "detail": "Orion officially became closer to the Moon than to Earth.",
+      "detail": "Reached the point where Orion is exactly between the Earth and Moon.",
       "time": "2026-04-04T04:00:00.000Z",
       "day": 3,
       "icon": "🌓",
@@ -151,6 +152,16 @@
       "isNew": true
     },
     {
+      "id": "cpr-demo",
+      "label": "Deep Space Cpr Demo",
+      "detail": "Crew practiced deep-space medical procedures including CPR and choking response.",
+      "time": "2026-04-04T08:00:00.000Z",
+      "day": 3,
+      "icon": "🩺",
+      "completed": true,
+      "isNew": true
+    },
+    {
       "id": "woman-distance-record",
       "label": "Female Distance Record",
       "detail": "Christina Koch officially set the record for the farthest distance a woman has traveled from Earth.",
@@ -163,7 +174,7 @@
     {
       "id": "toilet-fix",
       "label": "Waste System Resolution",
-      "detail": "Troubleshooting remains ongoing for the urine vent blockage; contingency bags in use.",
+      "detail": "Urine vent heater fix partially failed; crew transitioned to backup waste management.",
       "time": "2026-04-04T12:00:00.000Z",
       "day": 3,
       "icon": "📌",
@@ -183,20 +194,10 @@
     {
       "id": "manual-pilot-demo",
       "label": "Manual Pilot Demo",
-      "detail": "41-minute test of Orion handling in three and six degrees of freedom.",
+      "detail": "Christina Koch and Jeremy Hansen tested Orion's manual thruster control in deep space.",
       "time": "2026-04-05T01:09:00.000Z",
       "day": 4,
       "icon": "📌",
-      "completed": true,
-      "isNew": true
-    },
-    {
-      "id": "cpr-demo",
-      "label": "Deep Space Cpr Demo",
-      "detail": "Crew completed zero-gravity CPR practice and diagnostic equipment testing.",
-      "time": "2026-04-05T08:00:00.000Z",
-      "day": 4,
-      "icon": "🩺",
       "completed": true,
       "isNew": true
     },
@@ -294,24 +295,52 @@
       "icon": "↩️"
     },
     {
+      "id": "splashdown",
+      "label": "Splashdown",
+      "detail": "Final splashdown in the Pacific Ocean off the coast of San Diego.",
+      "time": "2026-04-10T18:00:00.000Z",
+      "day": 9,
+      "icon": "🌊",
+      "highlight": true
+    },
+    {
       "id": "reentry",
       "label": "Re-entry",
       "detail": "Skip re-entry at ~5,000°F",
       "time": "2026-04-11T00:00:00.000Z",
       "day": 10,
       "icon": "🔥"
-    },
-    {
-      "id": "splashdown",
-      "label": "Splashdown",
-      "detail": "Final splashdown in the Pacific Ocean off the coast of San Diego.",
-      "time": "2026-04-11T00:07:00.000Z",
-      "day": 10,
-      "icon": "🌊",
-      "highlight": true
     }
   ],
   "history": [
+    {
+      "status": "caution",
+      "statusLabel": "Cislunar Cruise",
+      "currentPhase": "Deep space transit from Earth to the Moon",
+      "headline": "Orion reaches lunar-gravity transition point as crew prepares for record-breaking flyby.",
+      "details": [
+        "Spacecraft has passed the equidistant point and is now officially closer to the Moon than to Earth.",
+        "Engineers are managing a heater malfunction in the urine vent system; crew using backup contingency waste bags.",
+        "Mission Specialists completed manual piloting demonstrations to verify Orion's deep-space handling characteristics.",
+        "Medical drills including zero-G CPR and choking responses were successfully performed on Flight Day 4."
+      ],
+      "sources": [
+        "NASA Mission Control Daily Briefing",
+        "Artemis II Flight Log 2026-04-05",
+        "ESA Deep Space Network Tracking"
+      ],
+      "alertMessage": "Urine vent system (lunar loo) heater fix only partially successful; secondary venting and backup bags in use.",
+      "crewStatus": "Excellent health and high spirits; currently reviewing lunar science photography targets.",
+      "lastEvent": "Manual piloting demonstration and zero-gravity medical emergency drill.",
+      "nextEvent": "Lunar Flyby (Closest Approach) and record-breaking distance milestone on April 6.",
+      "telemetry": {
+        "distanceFromEarth": 321868,
+        "distanceFromMoon": 56327,
+        "missionElapsedDay": 4,
+        "velocity": null
+      },
+      "fetchedAt": "2026-04-05T11:29:11.166Z"
+    },
     {
       "status": "caution",
       "statusLabel": "Nominal (Caution)",
@@ -817,33 +846,6 @@
         "velocity": 5260
       },
       "fetchedAt": "2026-04-04T11:28:24.397Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "On Trajectory",
-      "currentPhase": "Translunar Coast",
-      "headline": "Orion crosses the equidistant point and is now closer to the Moon than Earth.",
-      "details": [
-        "NASA flight controllers canceled the OTC-1 burn because the Trans-Lunar Injection maneuver was precise enough to maintain course without adjustment.",
-        "The crew completed microgravity medical drills, rehearsing airway management and CPR procedures in deep space.",
-        "Orion surpassed the halfway point between Earth and the Moon at approximately 04:00 UTC on Mission Day 3.",
-        "Commander Wiseman and the crew are currently in a scheduled sleep period ahead of Mission Day 4 cabin reconfigurations."
-      ],
-      "sources": [
-        "NASA Mission Control",
-        "Artemis II Daily Status Report"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Wiseman, Glover, Koch, and Hansen are in excellent health and have completed deep-space photography and medical drills.",
-      "lastEvent": "Crossing the equidistant point between Earth and the Moon.",
-      "nextEvent": "Entry into the Lunar Sphere of Influence where lunar gravity becomes dominant.",
-      "telemetry": {
-        "distanceFromEarth": 219000,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 3,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-04T10:31:57.910Z"
     }
   ],
   "lastError": null
