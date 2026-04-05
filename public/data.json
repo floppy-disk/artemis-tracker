@@ -1,30 +1,30 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Lunar Approach",
-    "currentPhase": "Final leg of the outbound journey, entering the Moon's gravitational sphere of influence.",
-    "headline": "Orion enters the Moon's Sphere of Influence as crew prepares for tomorrow's historic lunar flyby.",
+    "statusLabel": "Proceeding Successfully",
+    "currentPhase": "Approaching Lunar Sphere of Influence",
+    "headline": "Artemis II crew enters lunar sphere of influence as they prepare for tomorrow's historic flyby.",
     "details": [
-      "Spacecraft is on a stable free-return trajectory which will naturally swing Orion back toward Earth.",
-      "Crew successfully completed manual piloting demonstrations to test deep-space handling characteristics.",
-      "Mission Control is managing a minor urine venting issue caused by ice blockage using backup contingency bags.",
-      "Hardware failure reported on one crew laptop, though all critical mission systems remain unaffected."
+      "Orion has reached the lunar sphere of influence where the Moon's gravity becomes the dominant force.",
+      "Astronauts Christina Koch and Jeremy Hansen successfully completed a 41-minute deep-space manual piloting demonstration.",
+      "The crew is testing Orion Crew Survival Suits and conducting live downlinks with students.",
+      "The spacecraft remains on a free-return trajectory, passing within 6,544 km of the lunar surface on April 6."
     ],
     "sources": [
-      "NASA Artemis II Mission Control",
-      "Flight Operations Status Report April 5"
+      "NASA Artemis Mission Update",
+      "Canadian Space Agency Mission Briefing"
     ],
     "alertMessage": null,
-    "crewStatus": "Commander Wiseman, Glover, Koch, and Hansen are in good health and high spirits, performing exercise and suit checks.",
-    "lastEvent": "Completion of deep-space manual piloting demonstration by mission specialists.",
-    "nextEvent": "Lunar flyby with a planned 40-minute communications blackout.",
+    "crewStatus": "The crew is in good health, adapting well to microgravity, and performing scheduled system tests.",
+    "lastEvent": "Manual piloting demonstration to test thruster modes and handling in deep space.",
+    "nextEvent": "Lunar flyby at 18:45 UTC on April 6, 2026.",
     "telemetry": {
-      "distanceFromEarth": 328300,
-      "distanceFromMoon": null,
-      "missionElapsedDay": 4,
-      "velocity": 2900
+      "distanceFromEarth": 399890,
+      "distanceFromMoon": 6544,
+      "missionElapsedDay": 5,
+      "velocity": null
     },
-    "fetchedAt": "2026-04-05T12:54:51.559Z"
+    "fetchedAt": "2026-04-05T13:55:09.660Z"
   },
   "milestones": [
     {
@@ -141,16 +141,6 @@
       "isNew": true
     },
     {
-      "id": "csa-downlink",
-      "label": "CSA Live Downlink",
-      "detail": "Live broadcast event featuring images of the lunar surface visible from the Orion spacecraft.",
-      "time": "2026-04-04T05:30:00.000Z",
-      "day": 3,
-      "icon": "🇨🇦",
-      "completed": true,
-      "isNew": true
-    },
-    {
       "id": "cpr-demo",
       "label": "Deep Space Cpr Demo",
       "detail": "Crew practiced deep-space medical procedures including CPR and choking response.",
@@ -193,7 +183,7 @@
     {
       "id": "manual-pilot-demo",
       "label": "Manual Pilot Demo",
-      "detail": "Christina Koch and Jeremy Hansen tested Orion's manual thruster control in deep space.",
+      "detail": "41-minute manual control test successfully completed by Koch and Hansen.",
       "time": "2026-04-05T01:09:00.000Z",
       "day": 4,
       "icon": "📌",
@@ -213,11 +203,31 @@
     {
       "id": "lunar-soi",
       "label": "Lunar Sphere Of Influence",
-      "detail": "Orion has transitioned into the Lunar Sphere of Influence where the Moon's gravity is the primary force.",
+      "detail": "Spacecraft has entered the region where lunar gravity is the primary force.",
       "time": "2026-04-05T12:54:00.000Z",
       "day": 4,
       "icon": "🌑",
       "completed": true
+    },
+    {
+      "id": "suit-test",
+      "label": "Suit Systems Test",
+      "detail": "Crew performed checks on Orion Crew Survival Suits used for high-risk mission phases.",
+      "time": "2026-04-05T14:30:00.000Z",
+      "day": 4,
+      "icon": "👨‍🚀",
+      "completed": true,
+      "isNew": true
+    },
+    {
+      "id": "csa-downlink",
+      "label": "CSA Live Downlink",
+      "detail": "Crew engaged in a live media event with students from across Canada.",
+      "time": "2026-04-05T16:00:00.000Z",
+      "day": 4,
+      "icon": "🇨🇦",
+      "completed": true,
+      "isNew": true
     },
     {
       "id": "farthest-human-distance",
@@ -313,6 +323,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Proceeding Successfully",
+      "currentPhase": "Approaching Lunar Sphere of Influence",
+      "headline": "Artemis II crew enters lunar sphere of influence as they prepare for tomorrow's historic flyby.",
+      "details": [
+        "Orion has reached the lunar sphere of influence where the Moon's gravity becomes the dominant force.",
+        "Astronauts Christina Koch and Jeremy Hansen successfully completed a 41-minute deep-space manual piloting demonstration.",
+        "The crew is testing Orion Crew Survival Suits and conducting live downlinks with students.",
+        "The spacecraft remains on a free-return trajectory, passing within 6,544 km of the lunar surface on April 6."
+      ],
+      "sources": [
+        "NASA Artemis Mission Update",
+        "Canadian Space Agency Mission Briefing"
+      ],
+      "alertMessage": null,
+      "crewStatus": "The crew is in good health, adapting well to microgravity, and performing scheduled system tests.",
+      "lastEvent": "Manual piloting demonstration to test thruster modes and handling in deep space.",
+      "nextEvent": "Lunar flyby at 18:45 UTC on April 6, 2026.",
+      "telemetry": {
+        "distanceFromEarth": 399890,
+        "distanceFromMoon": 6544,
+        "missionElapsedDay": 5,
+        "velocity": null
+      },
+      "fetchedAt": "2026-04-05T13:55:09.660Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Lunar Approach",
@@ -820,34 +857,6 @@
         "velocity": null
       },
       "fetchedAt": "2026-04-04T13:54:39.621Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Deep Space Transit",
-      "currentPhase": "Flight Day 3 - Trans-Lunar Coast",
-      "headline": "Orion passes the halfway point to the Moon as the crew completes critical medical and communications checks.",
-      "details": [
-        "The spacecraft has crossed the equidistance point between Earth and the Moon, now more than 229,000 km from Earth.",
-        "Flight controllers canceled the OTC-1 trajectory correction burn due to the high precision of the SLS and ESM during TLI.",
-        "The crew performed microgravity CPR demonstrations and medical kit checks to test emergency protocols in deep space.",
-        "Christina Koch successfully verified the emergency communications system via the Deep Space Network."
-      ],
-      "sources": [
-        "NASA Flight Operations",
-        "Artemis II Mission Control Center",
-        "Deep Space Network (DSN)"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in excellent health and great spirits.",
-      "lastEvent": "Passed the lunar equidistance point (halfway mark) at approximately 04:00 UTC.",
-      "nextEvent": "Entry into the Lunar Sphere of Influence (SOI) late Sunday followed by the lunar flyby on Monday.",
-      "telemetry": {
-        "distanceFromEarth": 229000,
-        "distanceFromMoon": 155400,
-        "missionElapsedDay": 3,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-04T12:52:50.714Z"
     }
   ],
   "lastError": null
