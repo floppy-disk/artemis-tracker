@@ -1,30 +1,30 @@
 {
   "update": {
-    "status": "caution",
-    "statusLabel": "Transit / Caution",
-    "currentPhase": "Outbound Transit",
-    "headline": "Artemis II crew approaches the Moon while managing a hardware malfunction with the waste management system.",
+    "status": "nominal",
+    "statusLabel": "Outbound Transit",
+    "currentPhase": "Orion Outbound Transit to Lunar Sphere of Influence",
+    "headline": "Orion spacecraft prepares for lunar gravitational entry as crew resolves technical issues and readies for record-breaking flyby.",
     "details": [
-      "Orion is approximately 346,000 km from Earth, nearing the Lunar Sphere of Influence.",
-      "Astronauts Christina Koch and Jeremy Hansen successfully completed a 41-minute manual piloting demonstration.",
-      "A suspected ice blockage in the external vent has caused a malfunction in the liquid waste tank emptying process.",
-      "The crew is on a free-return trajectory that will break the record for the farthest distance from Earth for a crewed mission."
+      "The crew successfully cleared a blockage in the Universal Waste Management System by rotating the capsule to melt ice with sunlight.",
+      "Orion is expected to enter the Moon's gravitational sphere of influence at 04:41 UTC on April 6.",
+      "The mission is on track to surpass the Apollo 13 human distance record tomorrow afternoon.",
+      "The crew performed pressure suit mobility checks and manual piloting demonstrations ahead of the lunar far side pass."
     ],
     "sources": [
-      "NASA Artemis II Mission Status Report - April 5, 2026",
-      "Mission Control Flight Day 5 Operations Summary"
+      "NASA Mission Control Daily Briefing",
+      "Artemis II Flight Log FD5"
     ],
-    "alertMessage": "Universal Waste Management System malfunction; crew is utilizing contingency urine collection bags.",
-    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen remain in good health and high spirits.",
-    "lastEvent": "Manual piloting demonstration completed by Koch and Hansen on Flight Day 4.",
-    "nextEvent": "Entry into the Lunar Sphere of Influence (LSOI) followed by closest lunar approach.",
+    "alertMessage": null,
+    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and good spirits.",
+    "lastEvent": "Completion of Orion Crew Survival System (OCSS) suit mobility and pressure seal tests on Flight Day 5.",
+    "nextEvent": "Entry into the Moon's gravitational sphere of influence (SOI) at 04:41 UTC.",
     "telemetry": {
-      "distanceFromEarth": 346000,
+      "distanceFromEarth": 346008,
       "distanceFromMoon": null,
-      "missionElapsedDay": 4,
-      "velocity": 4506
+      "missionElapsedDay": 5,
+      "velocity": 4587
     },
-    "fetchedAt": "2026-04-05T18:41:40.409Z"
+    "fetchedAt": "2026-04-05T19:32:48.034Z"
   },
   "milestones": [
     {
@@ -213,7 +213,7 @@
     {
       "id": "toilet-fix",
       "label": "Waste System Resolution",
-      "detail": "Suspected ice blockage prevents liquid tank emptying; crew using CCU bags following a partially successful bake-out.",
+      "detail": "Universal Waste Management System restored to a managed operational state after ice blockage removal.",
       "time": "2026-04-05T12:00:00.000Z",
       "day": 4,
       "icon": "📌",
@@ -243,7 +243,7 @@
     {
       "id": "suit-test",
       "label": "Suit Systems Test",
-      "detail": "Orion Crew Survival System (OCSS) suit mobility and pressurization tests completed.",
+      "detail": "Completed full check of suit mobility and pressure integrity.",
       "time": "2026-04-05T17:00:00.000Z",
       "day": 4,
       "icon": "👨‍🚀",
@@ -293,8 +293,8 @@
       "id": "comm-blackout",
       "label": "Communications Blackout",
       "detail": "Expected loss of signal as Orion passes behind the lunar far side.",
-      "time": "2026-04-06T18:45:00.000Z",
-      "day": 5,
+      "time": "2026-04-06T23:02:00.000Z",
+      "day": 6,
       "icon": "📵",
       "completed": false,
       "isNew": true
@@ -303,8 +303,8 @@
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
       "detail": "Planned pass 4,700 miles above the lunar far side; first humans to see it since 1972.",
-      "time": "2026-04-06T18:45:00.000Z",
-      "day": 5,
+      "time": "2026-04-06T23:02:00.000Z",
+      "day": 6,
       "icon": "🌕",
       "highlight": true
     },
@@ -363,6 +363,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Outbound Transit",
+      "currentPhase": "Orion Outbound Transit to Lunar Sphere of Influence",
+      "headline": "Orion spacecraft prepares for lunar gravitational entry as crew resolves technical issues and readies for record-breaking flyby.",
+      "details": [
+        "The crew successfully cleared a blockage in the Universal Waste Management System by rotating the capsule to melt ice with sunlight.",
+        "Orion is expected to enter the Moon's gravitational sphere of influence at 04:41 UTC on April 6.",
+        "The mission is on track to surpass the Apollo 13 human distance record tomorrow afternoon.",
+        "The crew performed pressure suit mobility checks and manual piloting demonstrations ahead of the lunar far side pass."
+      ],
+      "sources": [
+        "NASA Mission Control Daily Briefing",
+        "Artemis II Flight Log FD5"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and good spirits.",
+      "lastEvent": "Completion of Orion Crew Survival System (OCSS) suit mobility and pressure seal tests on Flight Day 5.",
+      "nextEvent": "Entry into the Moon's gravitational sphere of influence (SOI) at 04:41 UTC.",
+      "telemetry": {
+        "distanceFromEarth": 346008,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 5,
+        "velocity": 4587
+      },
+      "fetchedAt": "2026-04-05T19:32:48.034Z"
+    },
     {
       "status": "caution",
       "statusLabel": "Transit / Caution",
@@ -870,33 +897,6 @@
         "velocity": 6437
       },
       "fetchedAt": "2026-04-04T19:30:04.753Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Nominal Operations",
-      "currentPhase": "Translunar Coast",
-      "headline": "Orion Integrity passes the halfway point to the Moon on a flawless trajectory.",
-      "details": [
-        "Mission Control cancelled the first two outbound trajectory correction burns due to exceptionally precise navigation.",
-        "A minor heater odor in the waste management system was investigated and declared non-critical for flight operations.",
-        "The crew successfully completed microgravity medical drills, including a CPR demonstration and health kit checkouts.",
-        "Commander Wiseman captured high-resolution imagery of a crescent Earth as the spacecraft closes the remaining distance to the Moon."
-      ],
-      "sources": [
-        "NASA Mission Control Houston",
-        "Artemis II Flight Log"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Crew members Wiseman, Glover, Koch, and Hansen are in great spirits and reported feeling 'euphoric' while performing deep-space housekeeping and workouts.",
-      "lastEvent": "Crossover point reached early on April 4; Orion is now closer to the Moon than to Earth.",
-      "nextEvent": "Entry into the Lunar Sphere of Influence on April 5, followed by surpassing the Apollo 13 human distance record.",
-      "telemetry": {
-        "distanceFromEarth": 271979,
-        "distanceFromMoon": 178155,
-        "missionElapsedDay": 4,
-        "velocity": 5310
-      },
-      "fetchedAt": "2026-04-04T18:40:31.800Z"
     }
   ],
   "lastError": null
