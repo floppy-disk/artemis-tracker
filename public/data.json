@@ -1,30 +1,31 @@
 {
   "update": {
     "status": "caution",
-    "statusLabel": "Nominal / Caution",
-    "currentPhase": "Outbound Translunar Coast",
-    "headline": "Orion enters Moon's sphere of influence as crew prepares for historic lunar flyby.",
+    "statusLabel": "System Caution",
+    "currentPhase": "Trans-Lunar Coast",
+    "headline": "Orion Integrity navigates fourth mission day while troubleshooting waste system icing.",
     "details": [
-      "Orion is transitioning from Earth-dominant to Moon-dominant gravity on Mission Day 5.",
-      "The crew successfully completed a 41-minute manual piloting demonstration to verify spacecraft handling.",
-      "Engineers are troubleshooting the Waste Management System due to a suspected ice blockage in vent lines.",
-      "Upcoming lunar flyby on April 6 will set a new record for the farthest distance humans have traveled from Earth."
+      "Ground teams are troubleshooting icing in the Universal Waste Management System (UWMS) urine vent line; crew is using backup urination devices.",
+      "Orion has passed the equidistance point and is now physically closer to the Moon than to Earth.",
+      "Mission Specialist Christina Koch and Jeremy Hansen successfully completed a 41-minute manual piloting demonstration.",
+      "One personal crew tablet has failed, though all mission-critical hardware remains fully operational."
     ],
     "sources": [
-      "NASA Mission Control Center (MCC-H)",
-      "Artemis II Flight Status Report #5"
+      "NASA Artemis II Mission Control Status Update",
+      "CSA Mission Briefing",
+      "Flight Operations Telemetry Report"
     ],
-    "alertMessage": "Intermittent malfunctions reported with the 'Lunar Loo' waste system; crew is utilizing backup collection bags while a fix is evaluated.",
-    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and high spirits.",
-    "lastEvent": "Successful 41-minute manual piloting demonstration completed by Koch and Hansen.",
-    "nextEvent": "Lunar sphere of influence entry followed by closest lunar approach and Earth distance record.",
+    "alertMessage": "Recurring issue with the Universal Waste Management System (UWMS) involving icing in the urine vent line; contingency protocols in effect.",
+    "crewStatus": "Crew remains in good health and high spirits; currently participating in the ARCHeR radiation study and medical demonstrations.",
+    "lastEvent": "Completion of a six-degrees-of-freedom manual piloting test using Orion's thrusters.",
+    "nextEvent": "Entry into the Lunar Sphere of Influence (SOI) where Moon gravity becomes the dominant force.",
     "telemetry": {
-      "distanceFromEarth": 160934,
-      "distanceFromMoon": 241401,
-      "missionElapsedDay": 5,
-      "velocity": null
+      "distanceFromEarth": 304315,
+      "distanceFromMoon": 80085,
+      "missionElapsedDay": 4,
+      "velocity": 5632
     },
-    "fetchedAt": "2026-04-05T07:04:01.731Z"
+    "fetchedAt": "2026-04-05T08:41:22.235Z"
   },
   "milestones": [
     {
@@ -131,22 +132,22 @@
       "isNew": true
     },
     {
+      "id": "equal-dist",
+      "label": "Lunar Distance Equalization",
+      "detail": "Orion officially became closer to the Moon than to Earth.",
+      "time": "2026-04-04T04:00:00.000Z",
+      "day": 3,
+      "icon": "🌓",
+      "completed": true,
+      "isNew": true
+    },
+    {
       "id": "csa-downlink",
       "label": "CSA Live Downlink",
       "detail": "Live broadcast event featuring images of the lunar surface visible from the Orion spacecraft.",
       "time": "2026-04-04T05:30:00.000Z",
       "day": 3,
       "icon": "🇨🇦",
-      "completed": true,
-      "isNew": true
-    },
-    {
-      "id": "equal-dist",
-      "label": "Lunar Distance Equalization",
-      "detail": "Orion became closer to the Moon than Earth on Saturday morning.",
-      "time": "2026-04-04T08:00:00.000Z",
-      "day": 3,
-      "icon": "🌓",
       "completed": true,
       "isNew": true
     },
@@ -173,7 +174,7 @@
     {
       "id": "manual-pilot-demo",
       "label": "Manual Pilot Demo",
-      "detail": "Mission specialists verified manual control capabilities during a 41-minute handling test.",
+      "detail": "41-minute manual control test using Orion's thrusters completed by Koch and Hansen.",
       "time": "2026-04-04T12:00:00.000Z",
       "day": 3,
       "icon": "📌",
@@ -183,7 +184,7 @@
     {
       "id": "cpr-demo",
       "label": "Deep Space Cpr Demo",
-      "detail": "Crew conducted deep-space medical contingency drills including zero-G CPR.",
+      "detail": "Demonstration of CPR procedures in microgravity successfully performed.",
       "time": "2026-04-04T18:00:00.000Z",
       "day": 3,
       "icon": "🩺",
@@ -198,6 +199,16 @@
       "day": 4,
       "icon": "🚀",
       "completed": true,
+      "isNew": true
+    },
+    {
+      "id": "archer-study",
+      "label": "Archer Study Participation",
+      "detail": "Crew monitoring physiological responses to deep-space radiation via wearable sensors.",
+      "time": "2026-04-05T08:41:22.236Z",
+      "day": 4,
+      "icon": "🧬",
+      "completed": false,
       "isNew": true
     },
     {
@@ -302,6 +313,34 @@
     }
   ],
   "history": [
+    {
+      "status": "caution",
+      "statusLabel": "System Caution",
+      "currentPhase": "Trans-Lunar Coast",
+      "headline": "Orion Integrity navigates fourth mission day while troubleshooting waste system icing.",
+      "details": [
+        "Ground teams are troubleshooting icing in the Universal Waste Management System (UWMS) urine vent line; crew is using backup urination devices.",
+        "Orion has passed the equidistance point and is now physically closer to the Moon than to Earth.",
+        "Mission Specialist Christina Koch and Jeremy Hansen successfully completed a 41-minute manual piloting demonstration.",
+        "One personal crew tablet has failed, though all mission-critical hardware remains fully operational."
+      ],
+      "sources": [
+        "NASA Artemis II Mission Control Status Update",
+        "CSA Mission Briefing",
+        "Flight Operations Telemetry Report"
+      ],
+      "alertMessage": "Recurring issue with the Universal Waste Management System (UWMS) involving icing in the urine vent line; contingency protocols in effect.",
+      "crewStatus": "Crew remains in good health and high spirits; currently participating in the ARCHeR radiation study and medical demonstrations.",
+      "lastEvent": "Completion of a six-degrees-of-freedom manual piloting test using Orion's thrusters.",
+      "nextEvent": "Entry into the Lunar Sphere of Influence (SOI) where Moon gravity becomes the dominant force.",
+      "telemetry": {
+        "distanceFromEarth": 304315,
+        "distanceFromMoon": 80085,
+        "missionElapsedDay": 4,
+        "velocity": 5632
+      },
+      "fetchedAt": "2026-04-05T08:41:22.235Z"
+    },
     {
       "status": "caution",
       "statusLabel": "Nominal / Caution",
@@ -806,33 +845,6 @@
         "velocity": 16817
       },
       "fetchedAt": "2026-04-04T08:39:48.414Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Nominal Flight",
-      "currentPhase": "Trans-lunar Coast",
-      "headline": "Orion passes the lunar equidistance point as the crew enters the third day of flight.",
-      "details": [
-        "The first Outbound Trajectory Correction (OTC-1) was cancelled as the initial TLI burn was precise enough to require no immediate adjustment.",
-        "Mission Specialist Christina Koch has officially broken the record for the farthest distance traveled from Earth by a woman.",
-        "Ground teams isolated a redundant helium branch after a reading anomaly, while a cabin leak warning was confirmed as a sensor glitch.",
-        "The crew successfully managed a minor plumbing issue and adjusted environmental systems to stabilize cabin temperatures."
-      ],
-      "sources": [
-        "NASA Mission Control Center",
-        "Artemis II Flight Operations"
-      ],
-      "alertMessage": null,
-      "crewStatus": "The crew is in excellent health, performing space adaptation tests, CPR drills, and flywheel exercises.",
-      "lastEvent": "Passed the equidistance point between Earth and the Moon at 04:00 UTC.",
-      "nextEvent": "Lunar flyby and record-breaking maximum distance from Earth on April 6.",
-      "telemetry": {
-        "distanceFromEarth": 193000,
-        "distanceFromMoon": 190000,
-        "missionElapsedDay": 3,
-        "velocity": 3750
-      },
-      "fetchedAt": "2026-04-04T07:03:03.485Z"
     }
   ],
   "lastError": null
