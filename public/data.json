@@ -2,29 +2,29 @@
   "update": {
     "status": "nominal",
     "statusLabel": "Nominal Operations",
-    "currentPhase": "Trans-lunar coast phase",
-    "headline": "Artemis II crew prepares for lunar arrival after successful manual piloting tests.",
+    "currentPhase": "Outbound Transit to Moon",
+    "headline": "Orion 'Integrity' cruises toward lunar influence as crew prepares for first in-space suit tests.",
     "details": [
-      "Orion spacecraft Integrity is in excellent health with thermal protection tiles reported in better condition than the Artemis I mission.",
-      "Crew members Christina Koch and Jeremy Hansen completed a 41-minute manual piloting demonstration to verify deep-space handling.",
-      "Mission controllers successfully used a sun-soak maneuver to resolve a sluggish urine venting system caused by cold temperatures.",
-      "The mission is on track for a record-breaking lunar flyby on Monday, April 6, at an altitude of 4,066 miles."
+      "Orion is approaching the Lunar Sphere of Influence with crossing expected at 04:41 UTC on April 6.",
+      "A minor urine vent blockage was successfully cleared by the crew using system heaters.",
+      "The crew completed manual piloting demonstrations and captured spacecraft 'selfies' on Flight Day 4.",
+      "First in-space test of Orion Crew Survival System suits is scheduled for 18:20 UTC today."
     ],
     "sources": [
-      "NASA Mission Control",
-      "Artemis II Flight Operations"
+      "NASA Mission Control Center Update",
+      "Artemis II Flight Director's Report"
     ],
     "alertMessage": null,
-    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in high spirits and excellent health, currently concluding a rest period.",
-    "lastEvent": "Completion of a 41-minute manual piloting demonstration to test deep space handling modes.",
-    "nextEvent": "Lunar flyby at closest approach (4,066 miles) and crossing the Apollo 13 distance record.",
+    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in good health and excellent spirits.",
+    "lastEvent": "Manual piloting demonstration of Orion handling characteristics in deep space.",
+    "nextEvent": "Orion Crew Survival System (OCSS) suit donning and pressurization checks.",
     "telemetry": {
-      "distanceFromEarth": 271979,
-      "distanceFromMoon": 178154,
-      "missionElapsedDay": 5,
-      "velocity": 39429
+      "distanceFromEarth": 328300,
+      "distanceFromMoon": null,
+      "missionElapsedDay": 4,
+      "velocity": 2900
     },
-    "fetchedAt": "2026-04-05T14:35:04.975Z"
+    "fetchedAt": "2026-04-05T15:31:58.490Z"
   },
   "milestones": [
     {
@@ -163,7 +163,7 @@
     {
       "id": "toilet-fix",
       "label": "Waste System Resolution",
-      "detail": "Urine vent heater fix partially failed; crew transitioned to backup waste management.",
+      "detail": "Urine vent ice blockage resolved via activation of system heaters.",
       "time": "2026-04-04T12:00:00.000Z",
       "day": 3,
       "icon": "📌",
@@ -221,25 +221,6 @@
       "isNew": true
     },
     {
-      "id": "lunar-soi",
-      "label": "Lunar Sphere Of Influence",
-      "detail": "Orion has entered the Moon's gravitational sphere of influence.",
-      "time": "2026-04-05T12:54:00.000Z",
-      "day": 4,
-      "icon": "🌑",
-      "completed": true
-    },
-    {
-      "id": "suit-test",
-      "label": "Suit Systems Test",
-      "detail": "Checkout of the Orion Crew Survival Suits (OCSS) for reentry readiness.",
-      "time": "2026-04-05T14:30:00.000Z",
-      "day": 4,
-      "icon": "👨‍🚀",
-      "completed": true,
-      "isNew": true
-    },
-    {
       "id": "csa-downlink",
       "label": "CSA Live Downlink",
       "detail": "Crew engaged in a live media event with students from across Canada.",
@@ -248,6 +229,35 @@
       "icon": "🇨🇦",
       "completed": true,
       "isNew": true
+    },
+    {
+      "id": "suit-test",
+      "label": "Suit Systems Test",
+      "detail": "Checkout of the Orion Crew Survival Suits (OCSS) for reentry readiness.",
+      "time": "2026-04-05T18:20:00.000Z",
+      "day": 4,
+      "icon": "👨‍🚀",
+      "completed": true,
+      "isNew": true
+    },
+    {
+      "id": "otc-3",
+      "label": "Otc 3",
+      "detail": "",
+      "time": "2026-04-06T03:03:00.000Z",
+      "day": 5,
+      "icon": "📌",
+      "completed": false,
+      "isNew": true
+    },
+    {
+      "id": "lunar-soi",
+      "label": "Lunar Sphere Of Influence",
+      "detail": "Orion has entered the Moon's gravitational sphere of influence.",
+      "time": "2026-04-06T04:41:00.000Z",
+      "day": 5,
+      "icon": "🌑",
+      "completed": true
     },
     {
       "id": "farthest-human-distance",
@@ -343,6 +353,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Nominal Operations",
+      "currentPhase": "Outbound Transit to Moon",
+      "headline": "Orion 'Integrity' cruises toward lunar influence as crew prepares for first in-space suit tests.",
+      "details": [
+        "Orion is approaching the Lunar Sphere of Influence with crossing expected at 04:41 UTC on April 6.",
+        "A minor urine vent blockage was successfully cleared by the crew using system heaters.",
+        "The crew completed manual piloting demonstrations and captured spacecraft 'selfies' on Flight Day 4.",
+        "First in-space test of Orion Crew Survival System suits is scheduled for 18:20 UTC today."
+      ],
+      "sources": [
+        "NASA Mission Control Center Update",
+        "Artemis II Flight Director's Report"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in good health and excellent spirits.",
+      "lastEvent": "Manual piloting demonstration of Orion handling characteristics in deep space.",
+      "nextEvent": "Orion Crew Survival System (OCSS) suit donning and pressurization checks.",
+      "telemetry": {
+        "distanceFromEarth": 328300,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 4,
+        "velocity": 2900
+      },
+      "fetchedAt": "2026-04-05T15:31:58.490Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Nominal Operations",
@@ -850,33 +887,6 @@
         "velocity": 4150
       },
       "fetchedAt": "2026-04-04T15:30:54.586Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Nominal Operations",
-      "currentPhase": "Translunar Coast",
-      "headline": "Orion spacecraft on precise trajectory to the Moon following high-precision TLI burn.",
-      "details": [
-        "Mission controllers canceled the first trajectory correction burn (OTC-1) as Orion is maintaining a near-perfect course following the TLI burn.",
-        "The crew successfully managed a minor burning smell reported near the toilet hygiene bay, which was identified as non-hazardous insulation material.",
-        "Astronauts completed key medical and operational tests including a zero-gravity CPR demonstration and exercise equipment checkouts.",
-        "Orion has surpassed 245,000 km from Earth and is on track for a lunar flyby and record-breaking distance on April 6."
-      ],
-      "sources": [
-        "NASA Mission Control Center",
-        "Artemis II Flight Operations Briefing"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in high spirits and excellent health; currently focusing on photography and lunar approach prep.",
-      "lastEvent": "Translunar Injection (TLI) engine burn completed April 2.",
-      "nextEvent": "Lunar gravity assist flyby passing within 4,700 miles of the lunar surface on April 6.",
-      "telemetry": {
-        "distanceFromEarth": 245000,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 3,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-04T14:34:22.737Z"
     }
   ],
   "lastError": null
