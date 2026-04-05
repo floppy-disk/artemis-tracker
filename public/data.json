@@ -1,29 +1,30 @@
 {
   "update": {
     "status": "caution",
-    "statusLabel": "Caution",
-    "currentPhase": "Outbound coast toward the Moon",
-    "headline": "Orion spacecraft continues outbound transit as crew manages minor life support system maintenance.",
+    "statusLabel": "TLC-Urine Venting Caution",
+    "currentPhase": "Translunar Coast",
+    "headline": "Artemis II crew enters Day 4 of translunar coast while troubleshooting urine venting system blockage.",
     "details": [
-      "The crew is performing manual flight handling tests and medical emergency drills.",
-      "A minor urine vent blockage is being addressed with temporary contingency measures.",
-      "The spacecraft is approximately 298,000 km from Earth and decelerating as expected.",
-      "The team is preparing for the historic lunar flyby and Earth-distance record-breaking event tomorrow."
+      "A 41-minute manual piloting demonstration was successfully completed by Christina Koch and Jeremy Hansen to test deep space handling.",
+      "Mission Control cancelled the scheduled OTC-1 trajectory correction burn because the Orion spacecraft is on a near-perfect path.",
+      "Engineers are troubleshooting a suspected ice blockage in the urine venting system; crew is using backup CCU devices in the interim.",
+      "The crew is preparing for sleep after completing briefings on lunar photography targets for the upcoming far-side flyby."
     ],
     "sources": [
-      "NASA Artemis II Mission Daily Report",
-      "Mission Control Flight Status Update"
+      "NASA Artemis II Mission Status Center",
+      "Flight Operations Press Briefing April 5"
     ],
-    "alertMessage": "Temporary contingency measures in effect for waste management system due to ice accumulation in urine vent.",
-    "crewStatus": "Crew is in excellent health and high spirits while maintaining a rigorous exercise and test schedule.",
-    "lastEvent": "Manual flight tests of Orion’s thrusters completed by Pilot Victor Glover.",
-    "nextEvent": "Entry into the Moon's Sphere of Influence (SOI) expected later today.",
+    "alertMessage": "A blockage in the urine venting system, likely caused by ice, requires the crew to use backup collapsible urinal devices while ground teams troubleshoot.",
+    "crewStatus": "Morale remains high; the crew is currently entering their sleep period following a productive day of science and manual thruster testing.",
+    "lastEvent": "Completion of a manual piloting demonstration where specialists took control of Orion's thrusters for 41 minutes.",
+    "nextEvent": "Entry into the Moon's gravitational sphere of influence.",
     "telemetry": {
-      "distanceFromEarth": 298000,
+      "distanceFromEarth": 313800,
+      "distanceFromMoon": null,
       "missionElapsedDay": 4,
-      "velocity": 5630
+      "velocity": 5000
     },
-    "fetchedAt": "2026-04-05T02:14:12.128Z"
+    "fetchedAt": "2026-04-05T05:11:48.097Z"
   },
   "milestones": [
     {
@@ -112,7 +113,7 @@
     {
       "id": "otc-1",
       "label": "Outbound Trajectory Correction (OTC-1)",
-      "detail": "Canceled by Mission Control due to the high accuracy of the Trans-Lunar Injection burn.",
+      "detail": "Trajectory correction burn (OTC-1) was officially cancelled due to the high precision of the initial launch trajectory.",
       "time": "2026-04-03T22:31:00.000Z",
       "day": 2,
       "icon": "🚀",
@@ -162,7 +163,7 @@
     {
       "id": "toilet-fix",
       "label": "Waste System Resolution",
-      "detail": "Ground controllers successfully melted ice in the wastewater vent nozzle using solar heating.",
+      "detail": "Troubleshooting remains active for a urine venting blockage; crew is utilizing backup collapsible urinal devices.",
       "time": "2026-04-04T12:00:00.000Z",
       "day": 3,
       "icon": "📌",
@@ -193,9 +194,19 @@
       "id": "manual-pilot-demo",
       "label": "Manual Pilot Demo",
       "detail": "",
-      "time": "2026-04-05T01:10:00.000Z",
+      "time": "2026-04-05T01:09:00.000Z",
       "day": 4,
       "icon": "📌",
+      "completed": true,
+      "isNew": true
+    },
+    {
+      "id": "lunar-observation",
+      "label": "Lunar Surface Observation",
+      "detail": "Crew completed a briefing for documenting specific craters and ancient lava flows on the lunar far side.",
+      "time": "2026-04-06T04:00:00.000Z",
+      "day": 5,
+      "icon": "🔭",
       "completed": false,
       "isNew": true
     },
@@ -203,27 +214,17 @@
       "id": "lunar-soi",
       "label": "Lunar Sphere Of Influence",
       "detail": "Entry into the Moon's gravitational sphere of influence.",
-      "time": "2026-04-05T22:00:00.000Z",
-      "day": 4,
+      "time": "2026-04-06T04:41:00.000Z",
+      "day": 5,
       "icon": "🌑"
     },
     {
-      "id": "distance-record",
-      "label": "Farthest Distance From Earth Record",
-      "detail": "Orion surpasses the maximum distance from Earth of previous Apollo missions.",
-      "time": "2026-04-06T04:00:00.000Z",
+      "id": "farthest-human-distance",
+      "label": "Human Distance Record",
+      "detail": "Expected to reach 252,799 miles from Earth, breaking the Apollo 13 record.",
+      "time": "2026-04-06T17:45:00.000Z",
       "day": 5,
-      "icon": "🗺️",
-      "completed": false,
-      "isNew": true
-    },
-    {
-      "id": "lunar-observation",
-      "label": "Lunar Surface Observation",
-      "detail": "Crew performs visual observations and photography of the lunar surface.",
-      "time": "2026-04-06T04:00:00.000Z",
-      "day": 5,
-      "icon": "🔭",
+      "icon": "📏",
       "completed": false,
       "isNew": true
     },
@@ -247,12 +248,12 @@
       "isNew": true
     },
     {
-      "id": "farthest-human-distance",
-      "label": "Human Distance Record",
-      "detail": "Expected to reach 252,799 miles from Earth, breaking the Apollo 13 record.",
-      "time": "2026-04-06T23:02:00.000Z",
+      "id": "distance-record",
+      "label": "Farthest Distance From Earth Record",
+      "detail": "Orion surpasses the maximum distance from Earth of previous Apollo missions.",
+      "time": "2026-04-06T23:05:00.000Z",
       "day": 6,
-      "icon": "📏",
+      "icon": "🗺️",
       "completed": false,
       "isNew": true
     },
@@ -301,6 +302,33 @@
     }
   ],
   "history": [
+    {
+      "status": "caution",
+      "statusLabel": "TLC-Urine Venting Caution",
+      "currentPhase": "Translunar Coast",
+      "headline": "Artemis II crew enters Day 4 of translunar coast while troubleshooting urine venting system blockage.",
+      "details": [
+        "A 41-minute manual piloting demonstration was successfully completed by Christina Koch and Jeremy Hansen to test deep space handling.",
+        "Mission Control cancelled the scheduled OTC-1 trajectory correction burn because the Orion spacecraft is on a near-perfect path.",
+        "Engineers are troubleshooting a suspected ice blockage in the urine venting system; crew is using backup CCU devices in the interim.",
+        "The crew is preparing for sleep after completing briefings on lunar photography targets for the upcoming far-side flyby."
+      ],
+      "sources": [
+        "NASA Artemis II Mission Status Center",
+        "Flight Operations Press Briefing April 5"
+      ],
+      "alertMessage": "A blockage in the urine venting system, likely caused by ice, requires the crew to use backup collapsible urinal devices while ground teams troubleshoot.",
+      "crewStatus": "Morale remains high; the crew is currently entering their sleep period following a productive day of science and manual thruster testing.",
+      "lastEvent": "Completion of a manual piloting demonstration where specialists took control of Orion's thrusters for 41 minutes.",
+      "nextEvent": "Entry into the Moon's gravitational sphere of influence.",
+      "telemetry": {
+        "distanceFromEarth": 313800,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 4,
+        "velocity": 5000
+      },
+      "fetchedAt": "2026-04-05T05:11:48.097Z"
+    },
     {
       "status": "caution",
       "statusLabel": "Caution",
@@ -805,33 +833,6 @@
         "velocity": null
       },
       "fetchedAt": "2026-04-04T05:57:14.113Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Nominal Operations",
-      "currentPhase": "Translunar Coast",
-      "headline": "Christina Koch sets record as the farthest woman to travel from Earth as Orion continues lunar transit.",
-      "details": [
-        "Orion has surpassed 100,000 miles from Earth and is maintaining a high-precision trajectory toward the Moon.",
-        "Flight controllers cancelled the OTC-1 burn maneuver because the initial Translunar Injection was exceptionally accurate.",
-        "The crew successfully performed microgravity medical demonstrations, including CPR practice and diagnostic equipment testing.",
-        "Testing of the Orion Optical Communications system successfully transmitted high-definition video back to Earth."
-      ],
-      "sources": [
-        "NASA Mission Control Center",
-        "Artemis II Flight Status Report April 4 04:24 UTC"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in good health and high spirits.",
-      "lastEvent": "Cancellation of the OTC-1 trajectory correction burn due to high mission precision.",
-      "nextEvent": "Entry into the Lunar Sphere of Influence followed by lunar flyby and observation.",
-      "telemetry": {
-        "distanceFromEarth": 160934,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 3,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-04T04:25:22.932Z"
     }
   ],
   "lastError": null
