@@ -1,30 +1,30 @@
 {
   "update": {
     "status": "caution",
-    "statusLabel": "TLC-Urine Venting Caution",
-    "currentPhase": "Translunar Coast",
-    "headline": "Artemis II crew enters Day 4 of translunar coast while troubleshooting urine venting system blockage.",
+    "statusLabel": "Nominal / Caution",
+    "currentPhase": "Outbound Translunar Coast",
+    "headline": "Orion enters Moon's sphere of influence as crew prepares for historic lunar flyby.",
     "details": [
-      "A 41-minute manual piloting demonstration was successfully completed by Christina Koch and Jeremy Hansen to test deep space handling.",
-      "Mission Control cancelled the scheduled OTC-1 trajectory correction burn because the Orion spacecraft is on a near-perfect path.",
-      "Engineers are troubleshooting a suspected ice blockage in the urine venting system; crew is using backup CCU devices in the interim.",
-      "The crew is preparing for sleep after completing briefings on lunar photography targets for the upcoming far-side flyby."
+      "Orion is transitioning from Earth-dominant to Moon-dominant gravity on Mission Day 5.",
+      "The crew successfully completed a 41-minute manual piloting demonstration to verify spacecraft handling.",
+      "Engineers are troubleshooting the Waste Management System due to a suspected ice blockage in vent lines.",
+      "Upcoming lunar flyby on April 6 will set a new record for the farthest distance humans have traveled from Earth."
     ],
     "sources": [
-      "NASA Artemis II Mission Status Center",
-      "Flight Operations Press Briefing April 5"
+      "NASA Mission Control Center (MCC-H)",
+      "Artemis II Flight Status Report #5"
     ],
-    "alertMessage": "A blockage in the urine venting system, likely caused by ice, requires the crew to use backup collapsible urinal devices while ground teams troubleshoot.",
-    "crewStatus": "Morale remains high; the crew is currently entering their sleep period following a productive day of science and manual thruster testing.",
-    "lastEvent": "Completion of a manual piloting demonstration where specialists took control of Orion's thrusters for 41 minutes.",
-    "nextEvent": "Entry into the Moon's gravitational sphere of influence.",
+    "alertMessage": "Intermittent malfunctions reported with the 'Lunar Loo' waste system; crew is utilizing backup collection bags while a fix is evaluated.",
+    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and high spirits.",
+    "lastEvent": "Successful 41-minute manual piloting demonstration completed by Koch and Hansen.",
+    "nextEvent": "Lunar sphere of influence entry followed by closest lunar approach and Earth distance record.",
     "telemetry": {
-      "distanceFromEarth": 313800,
-      "distanceFromMoon": null,
-      "missionElapsedDay": 4,
-      "velocity": 5000
+      "distanceFromEarth": 160934,
+      "distanceFromMoon": 241401,
+      "missionElapsedDay": 5,
+      "velocity": null
     },
-    "fetchedAt": "2026-04-05T05:11:48.097Z"
+    "fetchedAt": "2026-04-05T07:04:01.731Z"
   },
   "milestones": [
     {
@@ -163,7 +163,17 @@
     {
       "id": "toilet-fix",
       "label": "Waste System Resolution",
-      "detail": "Troubleshooting remains active for a urine venting blockage; crew is utilizing backup collapsible urinal devices.",
+      "detail": "Intermittent malfunctions continuing; mission control investigating potential ice blockage in vent lines.",
+      "time": "2026-04-04T12:00:00.000Z",
+      "day": 3,
+      "icon": "📌",
+      "completed": true,
+      "isNew": true
+    },
+    {
+      "id": "manual-pilot-demo",
+      "label": "Manual Pilot Demo",
+      "detail": "Mission specialists verified manual control capabilities during a 41-minute handling test.",
       "time": "2026-04-04T12:00:00.000Z",
       "day": 3,
       "icon": "📌",
@@ -191,14 +201,12 @@
       "isNew": true
     },
     {
-      "id": "manual-pilot-demo",
-      "label": "Manual Pilot Demo",
-      "detail": "",
-      "time": "2026-04-05T01:09:00.000Z",
+      "id": "lunar-soi",
+      "label": "Lunar Sphere Of Influence",
+      "detail": "Entry into the Moon's gravitational sphere of influence.",
+      "time": "2026-04-05T20:00:00.000Z",
       "day": 4,
-      "icon": "📌",
-      "completed": true,
-      "isNew": true
+      "icon": "🌑"
     },
     {
       "id": "lunar-observation",
@@ -209,14 +217,6 @@
       "icon": "🔭",
       "completed": false,
       "isNew": true
-    },
-    {
-      "id": "lunar-soi",
-      "label": "Lunar Sphere Of Influence",
-      "detail": "Entry into the Moon's gravitational sphere of influence.",
-      "time": "2026-04-06T04:41:00.000Z",
-      "day": 5,
-      "icon": "🌑"
     },
     {
       "id": "farthest-human-distance",
@@ -295,13 +295,40 @@
       "id": "splashdown",
       "label": "Splashdown",
       "detail": "Final splashdown in the Pacific Ocean off the coast of San Diego.",
-      "time": "2026-04-11T16:00:00.000Z",
+      "time": "2026-04-11T00:07:00.000Z",
       "day": 10,
       "icon": "🌊",
       "highlight": true
     }
   ],
   "history": [
+    {
+      "status": "caution",
+      "statusLabel": "Nominal / Caution",
+      "currentPhase": "Outbound Translunar Coast",
+      "headline": "Orion enters Moon's sphere of influence as crew prepares for historic lunar flyby.",
+      "details": [
+        "Orion is transitioning from Earth-dominant to Moon-dominant gravity on Mission Day 5.",
+        "The crew successfully completed a 41-minute manual piloting demonstration to verify spacecraft handling.",
+        "Engineers are troubleshooting the Waste Management System due to a suspected ice blockage in vent lines.",
+        "Upcoming lunar flyby on April 6 will set a new record for the farthest distance humans have traveled from Earth."
+      ],
+      "sources": [
+        "NASA Mission Control Center (MCC-H)",
+        "Artemis II Flight Status Report #5"
+      ],
+      "alertMessage": "Intermittent malfunctions reported with the 'Lunar Loo' waste system; crew is utilizing backup collection bags while a fix is evaluated.",
+      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and high spirits.",
+      "lastEvent": "Successful 41-minute manual piloting demonstration completed by Koch and Hansen.",
+      "nextEvent": "Lunar sphere of influence entry followed by closest lunar approach and Earth distance record.",
+      "telemetry": {
+        "distanceFromEarth": 160934,
+        "distanceFromMoon": 241401,
+        "missionElapsedDay": 5,
+        "velocity": null
+      },
+      "fetchedAt": "2026-04-05T07:04:01.731Z"
+    },
     {
       "status": "caution",
       "statusLabel": "TLC-Urine Venting Caution",
@@ -806,33 +833,6 @@
         "velocity": 3750
       },
       "fetchedAt": "2026-04-04T07:03:03.485Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "On Trajectory",
-      "currentPhase": "Outbound Coast",
-      "headline": "Orion Integrity is more than halfway to the Moon after canceling its first course correction due to trajectory precision.",
-      "details": [
-        "Mission control canceled the OTC-1 maneuver because the Translunar Injection burn was precise enough to maintain the required path.",
-        "The crew successfully resolved a minor technical issue with a waste management system fan, returning the system to full operation.",
-        "Orion has officially passed the halfway point and is now physically closer to the Moon than it is to the Earth.",
-        "The crew completed a live downlink with the Canadian Space Agency, sharing high-definition images of the Moon from the spacecraft hatch."
-      ],
-      "sources": [
-        "NASA Artemis II Mission Control",
-        "Canadian Space Agency (CSA) Media"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and performing regular flywheel exercises.",
-      "lastEvent": "Official transition to being closer to the Moon than to the Earth occurred at 04:00 UTC.",
-      "nextEvent": "Entry into the Lunar Sphere of Influence (SOI) and subsequent lunar flyby on April 6.",
-      "telemetry": {
-        "distanceFromEarth": 221285,
-        "distanceFromMoon": 181051,
-        "missionElapsedDay": 3,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-04T05:57:14.113Z"
     }
   ],
   "lastError": null
