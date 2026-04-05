@@ -1,30 +1,30 @@
 {
   "update": {
-    "status": "nominal",
-    "statusLabel": "Nominal Coasting",
-    "currentPhase": "Translunar Coast",
-    "headline": "Orion spacecraft Integrity is more than halfway to the Moon on precise free-return trajectory.",
+    "status": "caution",
+    "statusLabel": "Nominal (Caution)",
+    "currentPhase": "Trans-Lunar Coast",
+    "headline": "Artemis II crew surpasses halfway point to the Moon while managing minor technical issues with the waste system.",
     "details": [
-      "Mission controllers skipped the first planned trajectory correction maneuver due to highly accurate placement following the TLI burn.",
-      "A minor issue with the waste management system involving ice buildup was successfully resolved by Mission Control.",
-      "Crew members conducted key human-in-the-loop tests, including a 41-minute manual piloting demo and microgravity CPR drills.",
-      "Orion is approaching the all-time human distance record from Earth, with a lunar flyby scheduled for April 6."
+      "Orion has crossed the equidistance point and is now closer to the Moon than to Earth as it approaches the Lunar Sphere of Influence.",
+      "A recurring blockage in the urine vent has required the crew to use contingency collection bags while heaters attempt to clear suspected ice.",
+      "Mission specialists Koch and Hansen completed a 41-minute manual piloting demonstration to verify human-in-the-loop handling.",
+      "The crew performed zero-gravity medical drills, including CPR practice, to prepare for potential deep-space emergencies."
     ],
     "sources": [
-      "NASA Mission Control Center",
-      "Artemis II Flight Operations"
+      "NASA Mission Status Report",
+      "Artemis II Flight Control Update"
     ],
-    "alertMessage": null,
-    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and high spirits.",
-    "lastEvent": "Completion of manual piloting and microgravity medical response drills.",
-    "nextEvent": "Entering the lunar sphere of influence and breaking the Apollo 13 human distance record.",
+    "alertMessage": "Recurring blockage in the Waste Management System urine vent; crew utilizing contingency procedures.",
+    "crewStatus": "Crew is in excellent health and high spirits; conducting daily exercise and medical drills.",
+    "lastEvent": "Manual piloting demonstration successfully completed by Christina Koch and Jeremy Hansen.",
+    "nextEvent": "Surpassing the Apollo 13 all-time human distance record from Earth.",
     "telemetry": {
-      "distanceFromEarth": 304315,
+      "distanceFromEarth": 321800,
       "distanceFromMoon": null,
       "missionElapsedDay": 4,
-      "velocity": 9656
+      "velocity": 3380
     },
-    "fetchedAt": "2026-04-05T09:38:06.766Z"
+    "fetchedAt": "2026-04-05T10:32:49.436Z"
   },
   "milestones": [
     {
@@ -163,30 +163,10 @@
     {
       "id": "toilet-fix",
       "label": "Waste System Resolution",
-      "detail": "Intermittent malfunctions continuing; mission control investigating potential ice blockage in vent lines.",
+      "detail": "Troubleshooting remains ongoing for the urine vent blockage; contingency bags in use.",
       "time": "2026-04-04T12:00:00.000Z",
       "day": 3,
       "icon": "📌",
-      "completed": true,
-      "isNew": true
-    },
-    {
-      "id": "manual-pilot-demo",
-      "label": "Manual Pilot Demo",
-      "detail": "41-minute manual control test using Orion's thrusters completed by Koch and Hansen.",
-      "time": "2026-04-04T12:00:00.000Z",
-      "day": 3,
-      "icon": "📌",
-      "completed": true,
-      "isNew": true
-    },
-    {
-      "id": "cpr-demo",
-      "label": "Deep Space Cpr Demo",
-      "detail": "Demonstration of CPR procedures in microgravity successfully performed.",
-      "time": "2026-04-04T18:00:00.000Z",
-      "day": 3,
-      "icon": "🩺",
       "completed": true,
       "isNew": true
     },
@@ -197,6 +177,26 @@
       "time": "2026-04-04T23:05:00.000Z",
       "day": 4,
       "icon": "🚀",
+      "completed": true,
+      "isNew": true
+    },
+    {
+      "id": "manual-pilot-demo",
+      "label": "Manual Pilot Demo",
+      "detail": "41-minute test of Orion handling in three and six degrees of freedom.",
+      "time": "2026-04-05T01:09:00.000Z",
+      "day": 4,
+      "icon": "📌",
+      "completed": true,
+      "isNew": true
+    },
+    {
+      "id": "cpr-demo",
+      "label": "Deep Space Cpr Demo",
+      "detail": "Crew completed zero-gravity CPR practice and diagnostic equipment testing.",
+      "time": "2026-04-05T08:00:00.000Z",
+      "day": 4,
+      "icon": "🩺",
       "completed": true,
       "isNew": true
     },
@@ -219,22 +219,22 @@
       "icon": "🌑"
     },
     {
-      "id": "lunar-observation",
-      "label": "Lunar Surface Observation",
-      "detail": "Crew completed a briefing for documenting specific craters and ancient lava flows on the lunar far side.",
-      "time": "2026-04-06T04:00:00.000Z",
-      "day": 5,
-      "icon": "🔭",
-      "completed": false,
-      "isNew": true
-    },
-    {
       "id": "farthest-human-distance",
       "label": "Human Distance Record",
       "detail": "Expected to reach 252,799 miles from Earth, breaking the Apollo 13 record.",
       "time": "2026-04-06T17:45:00.000Z",
       "day": 5,
       "icon": "📏",
+      "completed": false,
+      "isNew": true
+    },
+    {
+      "id": "lunar-observation",
+      "label": "Lunar Surface Observation",
+      "detail": "Crew completed a briefing for documenting specific craters and ancient lava flows on the lunar far side.",
+      "time": "2026-04-06T18:45:00.000Z",
+      "day": 5,
+      "icon": "🔭",
       "completed": false,
       "isNew": true
     },
@@ -312,6 +312,33 @@
     }
   ],
   "history": [
+    {
+      "status": "caution",
+      "statusLabel": "Nominal (Caution)",
+      "currentPhase": "Trans-Lunar Coast",
+      "headline": "Artemis II crew surpasses halfway point to the Moon while managing minor technical issues with the waste system.",
+      "details": [
+        "Orion has crossed the equidistance point and is now closer to the Moon than to Earth as it approaches the Lunar Sphere of Influence.",
+        "A recurring blockage in the urine vent has required the crew to use contingency collection bags while heaters attempt to clear suspected ice.",
+        "Mission specialists Koch and Hansen completed a 41-minute manual piloting demonstration to verify human-in-the-loop handling.",
+        "The crew performed zero-gravity medical drills, including CPR practice, to prepare for potential deep-space emergencies."
+      ],
+      "sources": [
+        "NASA Mission Status Report",
+        "Artemis II Flight Control Update"
+      ],
+      "alertMessage": "Recurring blockage in the Waste Management System urine vent; crew utilizing contingency procedures.",
+      "crewStatus": "Crew is in excellent health and high spirits; conducting daily exercise and medical drills.",
+      "lastEvent": "Manual piloting demonstration successfully completed by Christina Koch and Jeremy Hansen.",
+      "nextEvent": "Surpassing the Apollo 13 all-time human distance record from Earth.",
+      "telemetry": {
+        "distanceFromEarth": 321800,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 4,
+        "velocity": 3380
+      },
+      "fetchedAt": "2026-04-05T10:32:49.436Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Nominal Coasting",
@@ -817,33 +844,6 @@
         "velocity": null
       },
       "fetchedAt": "2026-04-04T10:31:57.910Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Deep Space Cruise",
-      "currentPhase": "Trans-lunar coast toward the Moon",
-      "headline": "Orion surpasses the halfway point to the Moon on a precise trajectory toward a record-breaking lunar flyby.",
-      "details": [
-        "Orion crossed the lunar distance equalization point at 04:00 UTC, now traveling closer to the Moon than Earth.",
-        "Mission control canceled the first outbound trajectory correction (OTC-1) due to the high accuracy of the TLI burn.",
-        "Crew successfully performed medical demonstrations in zero gravity, including CPR protocols and diagnostic tool testing.",
-        "Minor technical glitches involving the toilet, cabin alarms, and water dispenser have been successfully resolved or managed."
-      ],
-      "sources": [
-        "NASA Mission Control Daily Briefing",
-        "Artemis II Flight Status Report"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Wiseman, Glover, Koch, and Hansen are in great spirits and described as 'euphoric' following successful Flight Day 3 technical drills.",
-      "lastEvent": "Crossed the 'equidistance' point between Earth and the Moon at 04:00 UTC.",
-      "nextEvent": "Lunar observation training and live downlink event following the crew's current sleep period.",
-      "telemetry": {
-        "distanceFromEarth": 219000,
-        "distanceFromMoon": 165400,
-        "missionElapsedDay": 3,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-04T09:36:41.177Z"
     }
   ],
   "lastError": null
