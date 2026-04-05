@@ -1,29 +1,30 @@
 {
   "update": {
-    "status": "nominal",
-    "statusLabel": "Nominal Operations",
-    "currentPhase": "Trans-lunar coast phase",
-    "headline": "Orion spacecraft reaches halfway point to the Moon as wastewater system issues are resolved.",
+    "status": "caution",
+    "statusLabel": "Waste System Check",
+    "currentPhase": "Outbound Cruise",
+    "headline": "Orion prepares for lunar sphere entry as crew manages waste system contingency.",
     "details": [
-      "Mission control successfully cleared a wastewater vent blockage by performing a Sun-soak maneuver and activating heaters.",
-      "The crew downlinked over 100 gigabytes of data using the Orion Artemis II Optical Communications System laser.",
-      "Astronauts completed a 41-minute manual piloting demonstration to test deep-space handling qualities.",
-      "The crew is preparing for lunar flyby by reviewing imaging targets for high-powered camera documentation of the lunar far side."
+      "The spacecraft remains on a high-precision free-return trajectory, allowing mission control to cancel the OTC-1 correction burn.",
+      "Crew members Wiseman, Glover, Koch, and Hansen completed microgravity mobility tests using the Orion Crew Survival System suits.",
+      "A potential ice blockage in the waste management system flush line is being investigated; crew is using backup collection protocols.",
+      "Orion is expected to cross into the Moon's gravitational sphere of influence early on April 6."
     ],
     "sources": [
-      "NASA Mission Update April 5, 2026"
+      "NASA Mission Control Center",
+      "Canadian Space Agency (CSA) Mission Update"
     ],
     "alertMessage": null,
-    "crewStatus": "The crew is in excellent health and high spirits, described as euphoric during mission downlinks.",
-    "lastEvent": "Completion of a 41-minute manual piloting demonstration by Christina Koch and Jeremy Hansen.",
-    "nextEvent": "Scheduled spacesuit checks and tests at 18:20 UTC today.",
+    "crewStatus": "Crew is in high spirits and health; currently utilizing backup waste procedures while performing scheduled suit demonstrations.",
+    "lastEvent": "Completion of 41-minute manual piloting and deep space handling demonstration by Koch and Hansen.",
+    "nextEvent": "Orion entry into the Lunar Sphere of Influence",
     "telemetry": {
-      "distanceFromEarth": 160934,
-      "distanceFromMoon": 241401,
-      "missionElapsedDay": 5,
-      "velocity": null
+      "distanceFromEarth": 329900,
+      "distanceFromMoon": 72400,
+      "missionElapsedDay": 4,
+      "velocity": 3380
     },
-    "fetchedAt": "2026-04-05T16:34:55.033Z"
+    "fetchedAt": "2026-04-05T17:29:26.423Z"
   },
   "milestones": [
     {
@@ -112,7 +113,7 @@
     {
       "id": "otc-1",
       "label": "Outbound Trajectory Correction (OTC-1)",
-      "detail": "Maneuver skipped by mission controllers due to high trajectory accuracy.",
+      "detail": "Burn cancelled by mission control due to exceptional trajectory accuracy.",
       "time": "2026-04-03T22:31:00.000Z",
       "day": 2,
       "icon": "🚀",
@@ -172,8 +173,8 @@
     {
       "id": "manual-pilot-demo",
       "label": "Manual Pilot Demo",
-      "detail": "Completed 41-minute manual piloting demonstration using two thruster modes.",
-      "time": "2026-04-04T12:00:00.000Z",
+      "detail": "41-minute deep space handling test successfully verified thruster performance.",
+      "time": "2026-04-04T12:41:00.000Z",
       "day": 3,
       "icon": "📌",
       "completed": true,
@@ -212,7 +213,7 @@
     {
       "id": "toilet-fix",
       "label": "Waste System Resolution",
-      "detail": "Wastewater system returned to normal operation after successful clearing of ice blockage.",
+      "detail": "Engineers are troubleshooting a potential ice blockage; crew is currently utilizing backup bags.",
       "time": "2026-04-05T12:00:00.000Z",
       "day": 4,
       "icon": "📌",
@@ -242,8 +243,8 @@
     {
       "id": "suit-test",
       "label": "Suit Systems Test",
-      "detail": "Checkout of the Orion Crew Survival Suits (OCSS) for reentry readiness.",
-      "time": "2026-04-05T18:20:00.000Z",
+      "detail": "Orion Crew Survival System (OCSS) suit mobility and pressurization tests completed.",
+      "time": "2026-04-05T17:00:00.000Z",
       "day": 4,
       "icon": "👨‍🚀",
       "completed": true,
@@ -362,6 +363,33 @@
     }
   ],
   "history": [
+    {
+      "status": "caution",
+      "statusLabel": "Waste System Check",
+      "currentPhase": "Outbound Cruise",
+      "headline": "Orion prepares for lunar sphere entry as crew manages waste system contingency.",
+      "details": [
+        "The spacecraft remains on a high-precision free-return trajectory, allowing mission control to cancel the OTC-1 correction burn.",
+        "Crew members Wiseman, Glover, Koch, and Hansen completed microgravity mobility tests using the Orion Crew Survival System suits.",
+        "A potential ice blockage in the waste management system flush line is being investigated; crew is using backup collection protocols.",
+        "Orion is expected to cross into the Moon's gravitational sphere of influence early on April 6."
+      ],
+      "sources": [
+        "NASA Mission Control Center",
+        "Canadian Space Agency (CSA) Mission Update"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Crew is in high spirits and health; currently utilizing backup waste procedures while performing scheduled suit demonstrations.",
+      "lastEvent": "Completion of 41-minute manual piloting and deep space handling demonstration by Koch and Hansen.",
+      "nextEvent": "Orion entry into the Lunar Sphere of Influence",
+      "telemetry": {
+        "distanceFromEarth": 329900,
+        "distanceFromMoon": 72400,
+        "missionElapsedDay": 4,
+        "velocity": 3380
+      },
+      "fetchedAt": "2026-04-05T17:29:26.423Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Nominal Operations",
@@ -868,33 +896,6 @@
         "velocity": 7242
       },
       "fetchedAt": "2026-04-04T17:29:22.153Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Nominal",
-      "currentPhase": "Coasting to the Moon",
-      "headline": "The Artemis II mission is successfully on a free-return trajectory and the crew has passed the equidistance point between Earth and the Moon.",
-      "details": [
-        "Orion spacecraft is in excellent health with all primary systems performing within nominal parameters.",
-        "A minor odor reported in the hygiene bay was traced to insulation and is not a safety concern.",
-        "The crew crossed the halfway point of their journey on April 4 and are now closer to the Moon than Earth.",
-        "Flight controllers successfully canceled the first planned outbound trajectory correction due to the high precision of the TLI burn."
-      ],
-      "sources": [
-        "NASA Mission Control",
-        "Artemis II Flight Operations Report"
-      ],
-      "alertMessage": null,
-      "crewStatus": "The four-person crew is in high spirits, in good physical condition, and maintaining a routine of cardiovascular exercise and medical training.",
-      "lastEvent": "Crew crossed the halfway point of the mission journey on April 4, 2026.",
-      "nextEvent": "Lunar Flyby on April 6, 2026.",
-      "telemetry": {
-        "distanceFromEarth": 160934,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 4,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-04T16:34:48.572Z"
     }
   ],
   "lastError": null
