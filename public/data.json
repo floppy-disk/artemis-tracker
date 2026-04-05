@@ -1,31 +1,30 @@
 {
   "update": {
-    "status": "caution",
-    "statusLabel": "System Caution",
-    "currentPhase": "Trans-Lunar Coast",
-    "headline": "Orion Integrity navigates fourth mission day while troubleshooting waste system icing.",
+    "status": "nominal",
+    "statusLabel": "Nominal Coasting",
+    "currentPhase": "Translunar Coast",
+    "headline": "Orion spacecraft Integrity is more than halfway to the Moon on precise free-return trajectory.",
     "details": [
-      "Ground teams are troubleshooting icing in the Universal Waste Management System (UWMS) urine vent line; crew is using backup urination devices.",
-      "Orion has passed the equidistance point and is now physically closer to the Moon than to Earth.",
-      "Mission Specialist Christina Koch and Jeremy Hansen successfully completed a 41-minute manual piloting demonstration.",
-      "One personal crew tablet has failed, though all mission-critical hardware remains fully operational."
+      "Mission controllers skipped the first planned trajectory correction maneuver due to highly accurate placement following the TLI burn.",
+      "A minor issue with the waste management system involving ice buildup was successfully resolved by Mission Control.",
+      "Crew members conducted key human-in-the-loop tests, including a 41-minute manual piloting demo and microgravity CPR drills.",
+      "Orion is approaching the all-time human distance record from Earth, with a lunar flyby scheduled for April 6."
     ],
     "sources": [
-      "NASA Artemis II Mission Control Status Update",
-      "CSA Mission Briefing",
-      "Flight Operations Telemetry Report"
+      "NASA Mission Control Center",
+      "Artemis II Flight Operations"
     ],
-    "alertMessage": "Recurring issue with the Universal Waste Management System (UWMS) involving icing in the urine vent line; contingency protocols in effect.",
-    "crewStatus": "Crew remains in good health and high spirits; currently participating in the ARCHeR radiation study and medical demonstrations.",
-    "lastEvent": "Completion of a six-degrees-of-freedom manual piloting test using Orion's thrusters.",
-    "nextEvent": "Entry into the Lunar Sphere of Influence (SOI) where Moon gravity becomes the dominant force.",
+    "alertMessage": null,
+    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and high spirits.",
+    "lastEvent": "Completion of manual piloting and microgravity medical response drills.",
+    "nextEvent": "Entering the lunar sphere of influence and breaking the Apollo 13 human distance record.",
     "telemetry": {
       "distanceFromEarth": 304315,
-      "distanceFromMoon": 80085,
+      "distanceFromMoon": null,
       "missionElapsedDay": 4,
-      "velocity": 5632
+      "velocity": 9656
     },
-    "fetchedAt": "2026-04-05T08:41:22.235Z"
+    "fetchedAt": "2026-04-05T09:38:06.766Z"
   },
   "milestones": [
     {
@@ -114,7 +113,7 @@
     {
       "id": "otc-1",
       "label": "Outbound Trajectory Correction (OTC-1)",
-      "detail": "Trajectory correction burn (OTC-1) was officially cancelled due to the high precision of the initial launch trajectory.",
+      "detail": "Maneuver skipped by mission controllers due to high trajectory accuracy.",
       "time": "2026-04-03T22:31:00.000Z",
       "day": 2,
       "icon": "🚀",
@@ -313,6 +312,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Nominal Coasting",
+      "currentPhase": "Translunar Coast",
+      "headline": "Orion spacecraft Integrity is more than halfway to the Moon on precise free-return trajectory.",
+      "details": [
+        "Mission controllers skipped the first planned trajectory correction maneuver due to highly accurate placement following the TLI burn.",
+        "A minor issue with the waste management system involving ice buildup was successfully resolved by Mission Control.",
+        "Crew members conducted key human-in-the-loop tests, including a 41-minute manual piloting demo and microgravity CPR drills.",
+        "Orion is approaching the all-time human distance record from Earth, with a lunar flyby scheduled for April 6."
+      ],
+      "sources": [
+        "NASA Mission Control Center",
+        "Artemis II Flight Operations"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and high spirits.",
+      "lastEvent": "Completion of manual piloting and microgravity medical response drills.",
+      "nextEvent": "Entering the lunar sphere of influence and breaking the Apollo 13 human distance record.",
+      "telemetry": {
+        "distanceFromEarth": 304315,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 4,
+        "velocity": 9656
+      },
+      "fetchedAt": "2026-04-05T09:38:06.766Z"
+    },
     {
       "status": "caution",
       "statusLabel": "System Caution",
@@ -818,33 +844,6 @@
         "velocity": null
       },
       "fetchedAt": "2026-04-04T09:36:41.177Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Nominal",
-      "currentPhase": "Outbound Coast",
-      "headline": "Orion passes the gravitational halfway point to the Moon on Mission Day 3.",
-      "details": [
-        "The Orion spacecraft is currently closer to the Moon than to Earth following a precise Trans-Lunar Injection burn.",
-        "The crew successfully completed a CPR medical demonstration and the first high-definition deep space laser communication downlink.",
-        "A minor issue with the waste management system (toilet) was successfully troubleshot and resolved by the crew earlier in the flight.",
-        "Orion remains on a free-return trajectory, ensuring a safe return to Earth using lunar gravity."
-      ],
-      "sources": [
-        "NASA Mission Control",
-        "NASA Flight Directors"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Wiseman, Glover, Koch, and Hansen are in excellent health and high spirits; currently in a scheduled rest period.",
-      "lastEvent": "Passed the gravitational halfway point between Earth and the Moon at 04:00 UTC.",
-      "nextEvent": "Entry into the Lunar Sphere of Influence (SOI) on April 5.",
-      "telemetry": {
-        "distanceFromEarth": 225300,
-        "distanceFromMoon": 157700,
-        "missionElapsedDay": 3,
-        "velocity": 16817
-      },
-      "fetchedAt": "2026-04-04T08:39:48.414Z"
     }
   ],
   "lastError": null
