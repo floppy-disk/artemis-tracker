@@ -1,30 +1,29 @@
 {
   "update": {
-    "status": "nominal",
-    "statusLabel": "Record Breaking",
-    "currentPhase": "Trans-Lunar cruising phase on a free-return trajectory.",
-    "headline": "Artemis II breaks Apollo 13 human distance record as Orion cruises toward the Moon.",
+    "status": "caution",
+    "statusLabel": "Caution",
+    "currentPhase": "Outbound coast toward the Moon",
+    "headline": "Orion spacecraft continues outbound transit as crew manages minor life support system maintenance.",
     "details": [
-      "At 23:05 UTC, the Orion spacecraft Integrity surpassed the 248,655-mile distance record from Earth set by Apollo 13 in 1970.",
-      "Engineers successfully resolved an ice blockage in the Orion urine vent by using heaters and orienting the spacecraft toward the sun.",
-      "The crew remains in excellent health and has been conducting medical response drills and scientific checkouts of the AVATAR radiation payload.",
-      "The spacecraft is currently 406,773 km from Earth, traveling deeper into space than any previous human-rated vehicle."
+      "The crew is performing manual flight handling tests and medical emergency drills.",
+      "A minor urine vent blockage is being addressed with temporary contingency measures.",
+      "The spacecraft is approximately 298,000 km from Earth and decelerating as expected.",
+      "The team is preparing for the historic lunar flyby and Earth-distance record-breaking event tomorrow."
     ],
     "sources": [
-      "NASA Mission Control Daily Briefing",
-      "Artemis II Mission Management Team Update"
+      "NASA Artemis II Mission Daily Report",
+      "Mission Control Flight Status Update"
     ],
-    "alertMessage": null,
-    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and high spirits.",
-    "lastEvent": "Surpassed the all-time human distance record from Earth at 23:05 UTC.",
-    "nextEvent": "Lunar Flyby and communications blackout while passing the lunar far side.",
+    "alertMessage": "Temporary contingency measures in effect for waste management system due to ice accumulation in urine vent.",
+    "crewStatus": "Crew is in excellent health and high spirits while maintaining a rigorous exercise and test schedule.",
+    "lastEvent": "Manual flight tests of Orion’s thrusters completed by Pilot Victor Glover.",
+    "nextEvent": "Entry into the Moon's Sphere of Influence (SOI) expected later today.",
     "telemetry": {
-      "distanceFromEarth": 406773,
-      "distanceFromMoon": null,
+      "distanceFromEarth": 298000,
       "missionElapsedDay": 4,
-      "velocity": null
+      "velocity": 5630
     },
-    "fetchedAt": "2026-04-04T23:30:27.321Z"
+    "fetchedAt": "2026-04-05T02:14:12.128Z"
   },
   "milestones": [
     {
@@ -229,6 +228,15 @@
       "isNew": true
     },
     {
+      "id": "lunar-flyby",
+      "label": "Lunar Flyby",
+      "detail": "Planned pass 4,700 miles above the lunar far side; first humans to see it since 1972.",
+      "time": "2026-04-06T18:45:00.000Z",
+      "day": 5,
+      "icon": "🌕",
+      "highlight": true
+    },
+    {
       "id": "comm-blackout",
       "label": "Communications Blackout",
       "detail": "Expected loss of signal as Orion passes behind the lunar far side.",
@@ -247,15 +255,6 @@
       "icon": "📏",
       "completed": false,
       "isNew": true
-    },
-    {
-      "id": "lunar-flyby",
-      "label": "Lunar Flyby",
-      "detail": "Planned pass 4,700 miles above the lunar far side; first humans to see it since 1972.",
-      "time": "2026-04-06T23:02:00.000Z",
-      "day": 6,
-      "icon": "🌕",
-      "highlight": true
     },
     {
       "id": "earthrise",
@@ -302,6 +301,32 @@
     }
   ],
   "history": [
+    {
+      "status": "caution",
+      "statusLabel": "Caution",
+      "currentPhase": "Outbound coast toward the Moon",
+      "headline": "Orion spacecraft continues outbound transit as crew manages minor life support system maintenance.",
+      "details": [
+        "The crew is performing manual flight handling tests and medical emergency drills.",
+        "A minor urine vent blockage is being addressed with temporary contingency measures.",
+        "The spacecraft is approximately 298,000 km from Earth and decelerating as expected.",
+        "The team is preparing for the historic lunar flyby and Earth-distance record-breaking event tomorrow."
+      ],
+      "sources": [
+        "NASA Artemis II Mission Daily Report",
+        "Mission Control Flight Status Update"
+      ],
+      "alertMessage": "Temporary contingency measures in effect for waste management system due to ice accumulation in urine vent.",
+      "crewStatus": "Crew is in excellent health and high spirits while maintaining a rigorous exercise and test schedule.",
+      "lastEvent": "Manual flight tests of Orion’s thrusters completed by Pilot Victor Glover.",
+      "nextEvent": "Entry into the Moon's Sphere of Influence (SOI) expected later today.",
+      "telemetry": {
+        "distanceFromEarth": 298000,
+        "missionElapsedDay": 4,
+        "velocity": 5630
+      },
+      "fetchedAt": "2026-04-05T02:14:12.128Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Record Breaking",
@@ -807,31 +832,6 @@
         "velocity": null
       },
       "fetchedAt": "2026-04-04T04:25:22.932Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Mission Nominal",
-      "currentPhase": "Translunar coast toward the Moon",
-      "headline": "Artemis II crew remains in good health as Orion continues its precise trajectory toward the lunar flyby.",
-      "details": [
-        "Orion's trajectory is so precise that the first planned Outbound Trajectory Correction burn was cancelled.",
-        "The crew successfully performed medical demonstrations, including a microgravity CPR procedure test.",
-        "Minor issues with the waste management system and water dispenser have been resolved.",
-        "The crew is sharing high-resolution imagery of Earth from deep space."
-      ],
-      "sources": [
-        "NASA Artemis II Mission Updates",
-        "Canadian Space Agency (CSA) Press Release"
-      ],
-      "crewStatus": "The crew of four is in good health and high spirits.",
-      "lastEvent": "Live CSA downlink event with Jeremy Hansen.",
-      "nextEvent": "Lunar sphere of influence entry on April 5.",
-      "telemetry": {
-        "distanceFromEarth": 160774,
-        "missionElapsedDay": 3,
-        "velocity": 36000
-      },
-      "fetchedAt": "2026-04-04T02:00:31.467Z"
     }
   ],
   "lastError": null
