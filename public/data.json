@@ -1,31 +1,30 @@
 {
   "update": {
-    "status": "caution",
-    "statusLabel": "Cislunar Cruise",
-    "currentPhase": "Deep space transit from Earth to the Moon",
-    "headline": "Orion reaches lunar-gravity transition point as crew prepares for record-breaking flyby.",
+    "status": "nominal",
+    "statusLabel": "Lunar Approach",
+    "currentPhase": "Final leg of the outbound journey, entering the Moon's gravitational sphere of influence.",
+    "headline": "Orion enters the Moon's Sphere of Influence as crew prepares for tomorrow's historic lunar flyby.",
     "details": [
-      "Spacecraft has passed the equidistant point and is now officially closer to the Moon than to Earth.",
-      "Engineers are managing a heater malfunction in the urine vent system; crew using backup contingency waste bags.",
-      "Mission Specialists completed manual piloting demonstrations to verify Orion's deep-space handling characteristics.",
-      "Medical drills including zero-G CPR and choking responses were successfully performed on Flight Day 4."
+      "Spacecraft is on a stable free-return trajectory which will naturally swing Orion back toward Earth.",
+      "Crew successfully completed manual piloting demonstrations to test deep-space handling characteristics.",
+      "Mission Control is managing a minor urine venting issue caused by ice blockage using backup contingency bags.",
+      "Hardware failure reported on one crew laptop, though all critical mission systems remain unaffected."
     ],
     "sources": [
-      "NASA Mission Control Daily Briefing",
-      "Artemis II Flight Log 2026-04-05",
-      "ESA Deep Space Network Tracking"
+      "NASA Artemis II Mission Control",
+      "Flight Operations Status Report April 5"
     ],
-    "alertMessage": "Urine vent system (lunar loo) heater fix only partially successful; secondary venting and backup bags in use.",
-    "crewStatus": "Excellent health and high spirits; currently reviewing lunar science photography targets.",
-    "lastEvent": "Manual piloting demonstration and zero-gravity medical emergency drill.",
-    "nextEvent": "Lunar Flyby (Closest Approach) and record-breaking distance milestone on April 6.",
+    "alertMessage": null,
+    "crewStatus": "Commander Wiseman, Glover, Koch, and Hansen are in good health and high spirits, performing exercise and suit checks.",
+    "lastEvent": "Completion of deep-space manual piloting demonstration by mission specialists.",
+    "nextEvent": "Lunar flyby with a planned 40-minute communications blackout.",
     "telemetry": {
-      "distanceFromEarth": 321868,
-      "distanceFromMoon": 56327,
+      "distanceFromEarth": 328300,
+      "distanceFromMoon": null,
       "missionElapsedDay": 4,
-      "velocity": null
+      "velocity": 2900
     },
-    "fetchedAt": "2026-04-05T11:29:11.166Z"
+    "fetchedAt": "2026-04-05T12:54:51.559Z"
   },
   "milestones": [
     {
@@ -214,10 +213,11 @@
     {
       "id": "lunar-soi",
       "label": "Lunar Sphere Of Influence",
-      "detail": "Entry into the Moon's gravitational sphere of influence.",
-      "time": "2026-04-05T20:00:00.000Z",
+      "detail": "Orion has transitioned into the Lunar Sphere of Influence where the Moon's gravity is the primary force.",
+      "time": "2026-04-05T12:54:00.000Z",
       "day": 4,
-      "icon": "🌑"
+      "icon": "🌑",
+      "completed": true
     },
     {
       "id": "farthest-human-distance",
@@ -252,7 +252,7 @@
       "id": "comm-blackout",
       "label": "Communications Blackout",
       "detail": "Expected loss of signal as Orion passes behind the lunar far side.",
-      "time": "2026-04-06T19:05:00.000Z",
+      "time": "2026-04-06T18:45:00.000Z",
       "day": 5,
       "icon": "📵",
       "completed": false,
@@ -313,6 +313,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Lunar Approach",
+      "currentPhase": "Final leg of the outbound journey, entering the Moon's gravitational sphere of influence.",
+      "headline": "Orion enters the Moon's Sphere of Influence as crew prepares for tomorrow's historic lunar flyby.",
+      "details": [
+        "Spacecraft is on a stable free-return trajectory which will naturally swing Orion back toward Earth.",
+        "Crew successfully completed manual piloting demonstrations to test deep-space handling characteristics.",
+        "Mission Control is managing a minor urine venting issue caused by ice blockage using backup contingency bags.",
+        "Hardware failure reported on one crew laptop, though all critical mission systems remain unaffected."
+      ],
+      "sources": [
+        "NASA Artemis II Mission Control",
+        "Flight Operations Status Report April 5"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Wiseman, Glover, Koch, and Hansen are in good health and high spirits, performing exercise and suit checks.",
+      "lastEvent": "Completion of deep-space manual piloting demonstration by mission specialists.",
+      "nextEvent": "Lunar flyby with a planned 40-minute communications blackout.",
+      "telemetry": {
+        "distanceFromEarth": 328300,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 4,
+        "velocity": 2900
+      },
+      "fetchedAt": "2026-04-05T12:54:51.559Z"
+    },
     {
       "status": "caution",
       "statusLabel": "Cislunar Cruise",
@@ -821,31 +848,6 @@
         "velocity": null
       },
       "fetchedAt": "2026-04-04T12:52:50.714Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "All Systems Nominal",
-      "currentPhase": "Trans-Lunar Coast",
-      "headline": "The Artemis II crew has officially passed the lunar equidistance point and is now closer to the Moon than Earth.",
-      "details": [
-        "The crew is in excellent health and high spirits while conducting deep-space medical and emergency protocol drills.",
-        "The Orion spacecraft is maintaining a precise free-return trajectory following an exceptionally accurate TLI burn.",
-        "A minor issue with the waste management system was successfully resolved by the crew earlier in the mission.",
-        "The mission is currently utilizing the Deep Space Network for communications, a first for a crewed mission in over 50 years."
-      ],
-      "sources": [
-        "NASA Artemis II Mission Status Report"
-      ],
-      "crewStatus": "Excellent health and high spirits.",
-      "lastEvent": "Lunar Distance Equalization achieved on April 4 at 04:00 UTC.",
-      "nextEvent": "Lunar Sphere of Influence entry on April 5.",
-      "telemetry": {
-        "distanceFromEarth": 199781,
-        "distanceFromMoon": 233220,
-        "missionElapsedDay": 3,
-        "velocity": 5260
-      },
-      "fetchedAt": "2026-04-04T11:28:24.397Z"
     }
   ],
   "lastError": null
