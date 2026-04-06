@@ -1,30 +1,31 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Approaching Flyby",
-    "currentPhase": "Approaching Lunar Flyby and Maximum Distance",
-    "headline": "Artemis II crew enters lunar sphere of influence as they prepare for record-breaking flyby.",
+    "statusLabel": "LUNAR ARRIVAL",
+    "currentPhase": "Orion has entered the lunar sphere of influence and is approaching its closest lunar flyby.",
+    "headline": "Orion enters Moon's gravitational influence as crew prepares to shatter Apollo-era distance records.",
     "details": [
-      "Orion spacecraft 'Integrity' entered the lunar sphere of influence at 04:37 UTC today.",
-      "Crew is healthy and recently verified Orion Crew Survival System (OCSS) suit functionality.",
-      "A minor freeze in the urine venting line is being managed with backup collapsible contingency urinals.",
-      "The spacecraft is on a free-return trajectory following a 17.5-second correction burn."
+      "Spacecraft entered the lunar sphere of influence at 04:37 UTC today, shifting gravitational dominance from Earth to the Moon.",
+      "The crew is approximately one hour away from surpassing the all-time human distance record of 248,655 miles set by Apollo 13.",
+      "A 40-minute communications blackout is expected at 22:44 UTC as Orion passes behind the lunar far side.",
+      "Commander Wiseman and his crew reported in excellent health following successful deep-space suit and medical response testing."
     ],
     "sources": [
-      "Mission Control Center Update",
-      "Artemis II Flight Journal"
+      "NASA Mission Control Center",
+      "Artemis II Telemetry Data",
+      "Deep Space Network Tracking"
     ],
     "alertMessage": null,
-    "crewStatus": "The four-person crew is in excellent health and high spirits, observing the approaching lunar surface.",
-    "lastEvent": "Outbound correction burn (OTC-3) completed at 03:03 UTC today to refine the lunar flyby path.",
-    "nextEvent": "Breaking the Apollo 13 human distance record at 17:56 UTC.",
+    "crewStatus": "The four-person crew is in excellent health and high spirits; they recently received a morale-boosting message from Jim Lovell.",
+    "lastEvent": "Entry into the lunar sphere of influence at 04:37 UTC.",
+    "nextEvent": "Surpassing the Apollo 13 record for the farthest distance humans have ever traveled from Earth.",
     "telemetry": {
-      "distanceFromEarth": null,
-      "distanceFromMoon": 30300,
+      "distanceFromEarth": 394930,
+      "distanceFromMoon": 29610,
       "missionElapsedDay": 5,
-      "velocity": null
+      "velocity": 1846
     },
-    "fetchedAt": "2026-04-06T15:44:23.968Z"
+    "fetchedAt": "2026-04-06T16:44:38.107Z"
   },
   "milestones": [
     {
@@ -181,6 +182,16 @@
       "isNew": true
     },
     {
+      "id": "otc-3",
+      "label": "Otc 3",
+      "detail": "Refined Orion’s path for the lunar flyby with a 17.5-second burn.",
+      "time": "2026-04-05T03:03:00.000Z",
+      "day": 4,
+      "icon": "📌",
+      "completed": true,
+      "isNew": true
+    },
+    {
       "id": "cpr-demo",
       "label": "Deep Space Cpr Demo",
       "detail": "Astronatus practiced emergency medical procedures in microgravity.",
@@ -247,16 +258,6 @@
       "time": "2026-04-05T21:00:00.000Z",
       "day": 4,
       "icon": "📸",
-      "completed": true,
-      "isNew": true
-    },
-    {
-      "id": "otc-3",
-      "label": "Otc 3",
-      "detail": "Refined Orion’s path for the lunar flyby with a 17.5-second burn.",
-      "time": "2026-04-06T03:03:00.000Z",
-      "day": 5,
-      "icon": "📌",
       "completed": true,
       "isNew": true
     },
@@ -393,6 +394,34 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "LUNAR ARRIVAL",
+      "currentPhase": "Orion has entered the lunar sphere of influence and is approaching its closest lunar flyby.",
+      "headline": "Orion enters Moon's gravitational influence as crew prepares to shatter Apollo-era distance records.",
+      "details": [
+        "Spacecraft entered the lunar sphere of influence at 04:37 UTC today, shifting gravitational dominance from Earth to the Moon.",
+        "The crew is approximately one hour away from surpassing the all-time human distance record of 248,655 miles set by Apollo 13.",
+        "A 40-minute communications blackout is expected at 22:44 UTC as Orion passes behind the lunar far side.",
+        "Commander Wiseman and his crew reported in excellent health following successful deep-space suit and medical response testing."
+      ],
+      "sources": [
+        "NASA Mission Control Center",
+        "Artemis II Telemetry Data",
+        "Deep Space Network Tracking"
+      ],
+      "alertMessage": null,
+      "crewStatus": "The four-person crew is in excellent health and high spirits; they recently received a morale-boosting message from Jim Lovell.",
+      "lastEvent": "Entry into the lunar sphere of influence at 04:37 UTC.",
+      "nextEvent": "Surpassing the Apollo 13 record for the farthest distance humans have ever traveled from Earth.",
+      "telemetry": {
+        "distanceFromEarth": 394930,
+        "distanceFromMoon": 29610,
+        "missionElapsedDay": 5,
+        "velocity": 1846
+      },
+      "fetchedAt": "2026-04-06T16:44:38.107Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Approaching Flyby",
@@ -905,33 +934,6 @@
         "velocity": 39429
       },
       "fetchedAt": "2026-04-05T14:35:04.975Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Proceeding Successfully",
-      "currentPhase": "Approaching Lunar Sphere of Influence",
-      "headline": "Artemis II crew enters lunar sphere of influence as they prepare for tomorrow's historic flyby.",
-      "details": [
-        "Orion has reached the lunar sphere of influence where the Moon's gravity becomes the dominant force.",
-        "Astronauts Christina Koch and Jeremy Hansen successfully completed a 41-minute deep-space manual piloting demonstration.",
-        "The crew is testing Orion Crew Survival Suits and conducting live downlinks with students.",
-        "The spacecraft remains on a free-return trajectory, passing within 6,544 km of the lunar surface on April 6."
-      ],
-      "sources": [
-        "NASA Artemis Mission Update",
-        "Canadian Space Agency Mission Briefing"
-      ],
-      "alertMessage": null,
-      "crewStatus": "The crew is in good health, adapting well to microgravity, and performing scheduled system tests.",
-      "lastEvent": "Manual piloting demonstration to test thruster modes and handling in deep space.",
-      "nextEvent": "Lunar flyby at 18:45 UTC on April 6, 2026.",
-      "telemetry": {
-        "distanceFromEarth": 399890,
-        "distanceFromMoon": 6544,
-        "missionElapsedDay": 5,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-05T13:55:09.660Z"
     }
   ],
   "lastError": null
