@@ -1,30 +1,30 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Historic Flyby Day",
-    "currentPhase": "Approaching lunar flyby",
-    "headline": "Orion spacecraft enters Moon's sphere of influence ahead of record-breaking lunar flyby.",
+    "statusLabel": "Lunar Arrival",
+    "currentPhase": "Orion has entered the Moon's Sphere of Influence and is beginning its record-breaking lunar flyby approach.",
+    "headline": "Artemis II enters lunar sphere of influence as crew prepares to break Apollo 13 distance record.",
     "details": [
-      "Orion successfully entered the lunar sphere of influence at 04:37 UTC, currently positioned approximately 373,368 km from Earth.",
-      "The crew of four is in excellent health and nominal spirits, currently in their final sleep period before beginning historic flyby operations.",
-      "Mission milestones for today include surpassing the Apollo 13 distance record and achieving a closest lunar approach of 6,550 km.",
-      "Previously reported issues with the liquid waste system and external vent icing have been fully resolved by the crew."
+      "Orion entered the Moon's gravity-dominant sphere at 04:37 UTC today and is now accelerating toward the lunar surface.",
+      "The crew is in excellent health and recently completed a full checkout of the Orion Crew Survival System suits.",
+      "A waste management system issue involving a suspected ice blockage has been managed by flight controllers, and the system remains operational.",
+      "Within the next 12 hours, the mission is expected to surpass the 1970 record for the farthest humans have ever traveled from Earth."
     ],
     "sources": [
-      "NASA Mission Control Center Bulletin",
-      "Aris Artemis II Flight Day 5 Status Report"
+      "NASA Mission Control Center",
+      "Flight Day 6 Mission Progress Report"
     ],
     "alertMessage": null,
-    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and performing nominal science and maintenance tasks.",
-    "lastEvent": "Entry into the Moon's sphere of influence at 04:37 UTC.",
-    "nextEvent": "Surpassing the Apollo 13 distance record of 248,655 miles from Earth.",
+    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in high spirits and have cleared all medical response drills.",
+    "lastEvent": "Orion entered the Lunar Sphere of Influence at 04:37 UTC on April 6.",
+    "nextEvent": "Artemis II is expected to surpass the Apollo 13 human distance record from Earth at 17:56 UTC.",
     "telemetry": {
-      "distanceFromEarth": 378195,
+      "distanceFromEarth": 373368,
       "distanceFromMoon": 62764,
       "missionElapsedDay": 5,
-      "velocity": null
+      "velocity": 5472
     },
-    "fetchedAt": "2026-04-06T10:55:39.229Z"
+    "fetchedAt": "2026-04-06T11:48:13.717Z"
   },
   "milestones": [
     {
@@ -203,7 +203,7 @@
     {
       "id": "toilet-fix",
       "label": "Waste System Resolution",
-      "detail": "Resolution of frozen line in the Universal Waste Management System.",
+      "detail": "Flight controllers managed a suspected ice blockage in the wastewater vent.",
       "time": "2026-04-05T12:00:00.000Z",
       "day": 4,
       "icon": "📌",
@@ -233,7 +233,7 @@
     {
       "id": "suit-test",
       "label": "Suit Systems Test",
-      "detail": "Crew successfully demonstrated mobility and seat entry in Orion Crew Survival System suits.",
+      "detail": "Crew verified suit mobility and thermal performance in microgravity.",
       "time": "2026-04-05T21:00:00.000Z",
       "day": 4,
       "icon": "👨‍🚀",
@@ -323,7 +323,7 @@
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
       "detail": "Closest approach scheduled for 18:45 UTC at an altitude of approximately 6,543 km.",
-      "time": "2026-04-06T23:02:00.000Z",
+      "time": "2026-04-06T23:05:00.000Z",
       "day": 6,
       "icon": "🌕",
       "highlight": true
@@ -383,6 +383,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Lunar Arrival",
+      "currentPhase": "Orion has entered the Moon's Sphere of Influence and is beginning its record-breaking lunar flyby approach.",
+      "headline": "Artemis II enters lunar sphere of influence as crew prepares to break Apollo 13 distance record.",
+      "details": [
+        "Orion entered the Moon's gravity-dominant sphere at 04:37 UTC today and is now accelerating toward the lunar surface.",
+        "The crew is in excellent health and recently completed a full checkout of the Orion Crew Survival System suits.",
+        "A waste management system issue involving a suspected ice blockage has been managed by flight controllers, and the system remains operational.",
+        "Within the next 12 hours, the mission is expected to surpass the 1970 record for the farthest humans have ever traveled from Earth."
+      ],
+      "sources": [
+        "NASA Mission Control Center",
+        "Flight Day 6 Mission Progress Report"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in high spirits and have cleared all medical response drills.",
+      "lastEvent": "Orion entered the Lunar Sphere of Influence at 04:37 UTC on April 6.",
+      "nextEvent": "Artemis II is expected to surpass the Apollo 13 human distance record from Earth at 17:56 UTC.",
+      "telemetry": {
+        "distanceFromEarth": 373368,
+        "distanceFromMoon": 62764,
+        "missionElapsedDay": 5,
+        "velocity": 5472
+      },
+      "fetchedAt": "2026-04-06T11:48:13.717Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Historic Flyby Day",
@@ -896,33 +923,6 @@
         "velocity": 3380
       },
       "fetchedAt": "2026-04-05T10:32:49.436Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Nominal Coasting",
-      "currentPhase": "Translunar Coast",
-      "headline": "Orion spacecraft Integrity is more than halfway to the Moon on precise free-return trajectory.",
-      "details": [
-        "Mission controllers skipped the first planned trajectory correction maneuver due to highly accurate placement following the TLI burn.",
-        "A minor issue with the waste management system involving ice buildup was successfully resolved by Mission Control.",
-        "Crew members conducted key human-in-the-loop tests, including a 41-minute manual piloting demo and microgravity CPR drills.",
-        "Orion is approaching the all-time human distance record from Earth, with a lunar flyby scheduled for April 6."
-      ],
-      "sources": [
-        "NASA Mission Control Center",
-        "Artemis II Flight Operations"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and high spirits.",
-      "lastEvent": "Completion of manual piloting and microgravity medical response drills.",
-      "nextEvent": "Entering the lunar sphere of influence and breaking the Apollo 13 human distance record.",
-      "telemetry": {
-        "distanceFromEarth": 304315,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 4,
-        "velocity": 9656
-      },
-      "fetchedAt": "2026-04-05T09:38:06.766Z"
     }
   ],
   "lastError": null
