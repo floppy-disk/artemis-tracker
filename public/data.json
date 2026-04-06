@@ -1,30 +1,31 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Lunar SOI Arrival",
-    "currentPhase": "Orion is in the final hours of Flight Day 5, preparing for the lunar flyby after entering the Moon's sphere of influence.",
-    "headline": "Orion enters lunar sphere of influence as crew prepares for record-breaking flyby.",
+    "statusLabel": "Lunar Entry",
+    "currentPhase": "Moon's sphere of influence entry and preparation for lunar flyby.",
+    "headline": "Orion enters Moon's sphere of influence ahead of historic flyby and Apollo 13 distance record break.",
     "details": [
-      "Spacecraft successfully entered the Moon's sphere of influence at 04:41 UTC, making lunar gravity the dominant force.",
-      "Crew completed a 17.5-second Outbound Trajectory Correction burn (OTC-3) to refine the approach for the closest lunar pass.",
-      "Astronauts successfully conducted suit mobility and thermal tests in microgravity using the Orion Crew Survival System (OCSS).",
-      "Orion is on track to surpass the Apollo 13 distance record at 17:56 UTC today."
+      "Spacecraft successfully entered the Moon's sphere of influence at 04:41 UTC on Mission Day 5.",
+      "A 17.5-second outbound trajectory correction burn (OTC-3) was completed at 03:03 UTC to refine the flyby path.",
+      "Engineers are monitoring a non-critical malfunction in the wastewater tank venting system; cabin air quality remains safe.",
+      "The crew is currently in a scheduled sleep period, with wake-up planned for 14:50 UTC to begin Flight Day 6."
     ],
     "sources": [
-      "Artemis II Mission Control Center (MCC-H)",
-      "NASA Flight Director Update"
+      "NASA Mission Control Center",
+      "Artemis II Flight Operations Report",
+      "Canadian Space Agency (CSA)"
     ],
     "alertMessage": null,
-    "crewStatus": "The crew is in excellent health and currently in a scheduled sleep period, set to wake at 14:50 UTC for Flight Day 6 activities.",
-    "lastEvent": "Entry into the lunar sphere of influence at 04:41 UTC.",
-    "nextEvent": "Surpassing the Apollo 13 distance record of 248,655 miles from Earth.",
+    "crewStatus": "Crew is in excellent health and high spirits; currently resting ahead of the mission's closest lunar approach.",
+    "lastEvent": "Orion entered the Moon's sphere of influence at 04:41 UTC on April 6, 2026.",
+    "nextEvent": "Breaking the Apollo 13 human distance record at 17:56 UTC.",
     "telemetry": {
-      "distanceFromEarth": 398500,
-      "distanceFromMoon": 104607,
+      "distanceFromEarth": 374177,
+      "distanceFromMoon": 57936,
       "missionElapsedDay": 5,
-      "velocity": null
+      "velocity": 5150
     },
-    "fetchedAt": "2026-04-06T05:22:41.658Z"
+    "fetchedAt": "2026-04-06T07:27:48.014Z"
   },
   "milestones": [
     {
@@ -243,7 +244,7 @@
     {
       "id": "suit-test",
       "label": "Suit Systems Test",
-      "detail": "Crew successfully tested OCSS suit mobility and thermal performance in microgravity.",
+      "detail": "Completed OCSS suit demonstration including mobility, leak checks, and pressurized eating/drinking.",
       "time": "2026-04-05T21:00:00.000Z",
       "day": 4,
       "icon": "👨‍🚀",
@@ -273,7 +274,7 @@
     {
       "id": "otc-3",
       "label": "Otc 3",
-      "detail": "Completed a 17.5-second trajectory correction burn to refine the lunar flyby path.",
+      "detail": "Refined the free-return trajectory for the lunar flyby.",
       "time": "2026-04-06T03:03:00.000Z",
       "day": 5,
       "icon": "📌",
@@ -283,7 +284,7 @@
     {
       "id": "lunar-soi",
       "label": "Lunar Sphere Of Influence",
-      "detail": "Orion has crossed into the lunar sphere of influence, approximately 65,000 miles from the Moon.",
+      "detail": "Lunar gravity is now the dominant force acting on the Orion spacecraft.",
       "time": "2026-04-06T04:41:00.000Z",
       "day": 5,
       "icon": "🌑",
@@ -313,7 +314,7 @@
       "id": "comm-blackout",
       "label": "Communications Blackout",
       "detail": "Expected loss of signal as Orion passes behind the lunar far side.",
-      "time": "2026-04-06T22:47:00.000Z",
+      "time": "2026-04-06T22:44:00.000Z",
       "day": 6,
       "icon": "📵",
       "completed": false,
@@ -332,7 +333,7 @@
       "id": "distance-record",
       "label": "Farthest Distance From Earth Record",
       "detail": "Crew is expected to surpass the Apollo 13 distance record during the lunar flyby.",
-      "time": "2026-04-06T23:05:00.000Z",
+      "time": "2026-04-06T23:07:00.000Z",
       "day": 6,
       "icon": "🗺️",
       "completed": false,
@@ -383,6 +384,34 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Lunar Entry",
+      "currentPhase": "Moon's sphere of influence entry and preparation for lunar flyby.",
+      "headline": "Orion enters Moon's sphere of influence ahead of historic flyby and Apollo 13 distance record break.",
+      "details": [
+        "Spacecraft successfully entered the Moon's sphere of influence at 04:41 UTC on Mission Day 5.",
+        "A 17.5-second outbound trajectory correction burn (OTC-3) was completed at 03:03 UTC to refine the flyby path.",
+        "Engineers are monitoring a non-critical malfunction in the wastewater tank venting system; cabin air quality remains safe.",
+        "The crew is currently in a scheduled sleep period, with wake-up planned for 14:50 UTC to begin Flight Day 6."
+      ],
+      "sources": [
+        "NASA Mission Control Center",
+        "Artemis II Flight Operations Report",
+        "Canadian Space Agency (CSA)"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Crew is in excellent health and high spirits; currently resting ahead of the mission's closest lunar approach.",
+      "lastEvent": "Orion entered the Moon's sphere of influence at 04:41 UTC on April 6, 2026.",
+      "nextEvent": "Breaking the Apollo 13 human distance record at 17:56 UTC.",
+      "telemetry": {
+        "distanceFromEarth": 374177,
+        "distanceFromMoon": 57936,
+        "missionElapsedDay": 5,
+        "velocity": 5150
+      },
+      "fetchedAt": "2026-04-06T07:27:48.014Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Lunar SOI Arrival",
@@ -896,33 +925,6 @@
         "velocity": null
       },
       "fetchedAt": "2026-04-05T07:04:01.731Z"
-    },
-    {
-      "status": "caution",
-      "statusLabel": "TLC-Urine Venting Caution",
-      "currentPhase": "Translunar Coast",
-      "headline": "Artemis II crew enters Day 4 of translunar coast while troubleshooting urine venting system blockage.",
-      "details": [
-        "A 41-minute manual piloting demonstration was successfully completed by Christina Koch and Jeremy Hansen to test deep space handling.",
-        "Mission Control cancelled the scheduled OTC-1 trajectory correction burn because the Orion spacecraft is on a near-perfect path.",
-        "Engineers are troubleshooting a suspected ice blockage in the urine venting system; crew is using backup CCU devices in the interim.",
-        "The crew is preparing for sleep after completing briefings on lunar photography targets for the upcoming far-side flyby."
-      ],
-      "sources": [
-        "NASA Artemis II Mission Status Center",
-        "Flight Operations Press Briefing April 5"
-      ],
-      "alertMessage": "A blockage in the urine venting system, likely caused by ice, requires the crew to use backup collapsible urinal devices while ground teams troubleshoot.",
-      "crewStatus": "Morale remains high; the crew is currently entering their sleep period following a productive day of science and manual thruster testing.",
-      "lastEvent": "Completion of a manual piloting demonstration where specialists took control of Orion's thrusters for 41 minutes.",
-      "nextEvent": "Entry into the Moon's gravitational sphere of influence.",
-      "telemetry": {
-        "distanceFromEarth": 313800,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 4,
-        "velocity": 5000
-      },
-      "fetchedAt": "2026-04-05T05:11:48.097Z"
     }
   ],
   "lastError": null
