@@ -1,31 +1,30 @@
 {
   "update": {
-    "status": "nominal",
-    "statusLabel": "Record Breaking",
-    "currentPhase": "Flight Day 6 - Lunar Observation Period",
-    "headline": "Artemis II crew officially surpasses the all-time human distance record from Earth.",
+    "status": "caution",
+    "statusLabel": "Distance Record Broken",
+    "currentPhase": "Lunar Flyby and Far Side Observation",
+    "headline": "Artemis II crew officially breaks the all-time human distance record from Earth.",
     "details": [
-      "Orion surpassed the Apollo 13 record of 248,655 miles (400,171 km) at 17:56 UTC, officially becoming the farthest any humans have ever traveled.",
-      "The crew is currently in the lunar sphere of influence on a free-return trajectory approaching the Moon's far side.",
-      "A minor issue with the waste management system has been fully resolved, and all spacecraft systems are reporting nominal performance.",
-      "The crew conducted a ceremony naming a lunar crater 'Carroll' in memory of Commander Reid Wiseman's late wife."
+      "Orion surpassed the Apollo 13 record of 248,655 miles at 1:57 PM EDT and is continuing toward a peak distance of 252,760 miles.",
+      "Crew members are performing a seven-hour observation of the lunar far side, including photography of terrain not seen by humans in over 50 years.",
+      "A frozen urine venting line has required the use of backup Collapsible Contingency Urinals, though mission safety remains unaffected.",
+      "Orion will pass within 4,070 miles of the lunar surface at 7:02 PM EDT tonight during its closest approach."
     ],
     "sources": [
-      "NASA Mission Control Center Update",
-      "Artemis II Flight Operations Report",
-      "NASA Flight Surgeon Log"
+      "NASA Mission Control Center",
+      "Artemis II Flight Operations Daily Log"
     ],
-    "alertMessage": null,
-    "crewStatus": "Crew is in excellent health; they were woken up by a message from Jim Lovell and participated in a commemorative crater naming ceremony.",
-    "lastEvent": "Surpassed the human distance record from Earth previously held by Apollo 13.",
-    "nextEvent": "Loss of Signal (LOS) as Orion passes behind the far side of the Moon.",
+    "alertMessage": "A frozen urine venting line is currently being managed using backup systems; no risk to crew health or vehicle integrity identified.",
+    "crewStatus": "Wiseman, Glover, Koch, and Hansen are in excellent health and high spirits; following microgravity fitness and emergency response protocols.",
+    "lastEvent": "Transitioned into the Lunar Sphere of Influence at 12:37 AM EDT.",
+    "nextEvent": "Closest approach to the lunar surface followed by a 40-minute total communication blackout as Orion passes behind the Moon.",
     "telemetry": {
-      "distanceFromEarth": 400404,
-      "distanceFromMoon": null,
+      "distanceFromEarth": 400171,
+      "distanceFromMoon": 6550,
       "missionElapsedDay": 5,
-      "velocity": 1851
+      "velocity": 1846
     },
-    "fetchedAt": "2026-04-06T18:57:12.780Z"
+    "fetchedAt": "2026-04-06T19:53:49.762Z"
   },
   "milestones": [
     {
@@ -224,7 +223,7 @@
     {
       "id": "waste-vent-issue",
       "label": "Urine Line Freeze",
-      "detail": "Frozen waste line in the deep-space toilet system was successfully thawed and resolved.",
+      "detail": "A frozen line in the urine venting system was identified, triggering the use of contingency urinals.",
       "time": "2026-04-05T12:00:00.000Z",
       "day": 4,
       "icon": "❄️",
@@ -274,7 +273,7 @@
     {
       "id": "lunar-soi",
       "label": "Lunar Sphere Of Influence",
-      "detail": "Orion has officially entered the gravitational sphere of influence of the Moon.",
+      "detail": "Orion transitioned from Earth's dominant gravity to the Moon's gravity.",
       "time": "2026-04-06T04:37:00.000Z",
       "day": 5,
       "icon": "🌑",
@@ -303,8 +302,8 @@
     {
       "id": "farthest-human-distance",
       "label": "Human Distance Record",
-      "detail": "Orion officially surpassed the 1970 record for the greatest distance from Earth reached by a crewed spacecraft.",
-      "time": "2026-04-06T17:56:00.000Z",
+      "detail": "Crew officially surpassed the 1970 Apollo 13 record for farthest distance from Earth.",
+      "time": "2026-04-06T17:57:00.000Z",
       "day": 5,
       "icon": "📏",
       "completed": true,
@@ -324,7 +323,7 @@
       "id": "comm-blackout",
       "label": "Communications Blackout",
       "detail": "Expected loss of signal as Orion passes behind the lunar far side.",
-      "time": "2026-04-06T22:47:00.000Z",
+      "time": "2026-04-06T22:45:00.000Z",
       "day": 6,
       "icon": "📵",
       "completed": false,
@@ -404,6 +403,33 @@
     }
   ],
   "history": [
+    {
+      "status": "caution",
+      "statusLabel": "Distance Record Broken",
+      "currentPhase": "Lunar Flyby and Far Side Observation",
+      "headline": "Artemis II crew officially breaks the all-time human distance record from Earth.",
+      "details": [
+        "Orion surpassed the Apollo 13 record of 248,655 miles at 1:57 PM EDT and is continuing toward a peak distance of 252,760 miles.",
+        "Crew members are performing a seven-hour observation of the lunar far side, including photography of terrain not seen by humans in over 50 years.",
+        "A frozen urine venting line has required the use of backup Collapsible Contingency Urinals, though mission safety remains unaffected.",
+        "Orion will pass within 4,070 miles of the lunar surface at 7:02 PM EDT tonight during its closest approach."
+      ],
+      "sources": [
+        "NASA Mission Control Center",
+        "Artemis II Flight Operations Daily Log"
+      ],
+      "alertMessage": "A frozen urine venting line is currently being managed using backup systems; no risk to crew health or vehicle integrity identified.",
+      "crewStatus": "Wiseman, Glover, Koch, and Hansen are in excellent health and high spirits; following microgravity fitness and emergency response protocols.",
+      "lastEvent": "Transitioned into the Lunar Sphere of Influence at 12:37 AM EDT.",
+      "nextEvent": "Closest approach to the lunar surface followed by a 40-minute total communication blackout as Orion passes behind the Moon.",
+      "telemetry": {
+        "distanceFromEarth": 400171,
+        "distanceFromMoon": 6550,
+        "missionElapsedDay": 5,
+        "velocity": 1846
+      },
+      "fetchedAt": "2026-04-06T19:53:49.762Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Record Breaking",
@@ -919,32 +945,6 @@
         "velocity": 3380
       },
       "fetchedAt": "2026-04-05T17:29:26.423Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Nominal Operations",
-      "currentPhase": "Trans-lunar coast phase",
-      "headline": "Orion spacecraft reaches halfway point to the Moon as wastewater system issues are resolved.",
-      "details": [
-        "Mission control successfully cleared a wastewater vent blockage by performing a Sun-soak maneuver and activating heaters.",
-        "The crew downlinked over 100 gigabytes of data using the Orion Artemis II Optical Communications System laser.",
-        "Astronauts completed a 41-minute manual piloting demonstration to test deep-space handling qualities.",
-        "The crew is preparing for lunar flyby by reviewing imaging targets for high-powered camera documentation of the lunar far side."
-      ],
-      "sources": [
-        "NASA Mission Update April 5, 2026"
-      ],
-      "alertMessage": null,
-      "crewStatus": "The crew is in excellent health and high spirits, described as euphoric during mission downlinks.",
-      "lastEvent": "Completion of a 41-minute manual piloting demonstration by Christina Koch and Jeremy Hansen.",
-      "nextEvent": "Scheduled spacesuit checks and tests at 18:20 UTC today.",
-      "telemetry": {
-        "distanceFromEarth": 160934,
-        "distanceFromMoon": 241401,
-        "missionElapsedDay": 5,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-05T16:34:55.033Z"
     }
   ],
   "lastError": null
