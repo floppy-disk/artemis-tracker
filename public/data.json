@@ -1,30 +1,30 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Lunar Approach",
-    "currentPhase": "Lunar flyby and far side transit preparation",
-    "headline": "Orion enters Moon's sphere of influence ahead of historic lunar flyby and record-breaking distance attempt.",
+    "statusLabel": "Historic Flyby Day",
+    "currentPhase": "Approaching lunar flyby",
+    "headline": "Orion spacecraft enters Moon's sphere of influence ahead of record-breaking lunar flyby.",
     "details": [
-      "Orion successfully entered the lunar sphere of influence at 04:37 UTC today, where lunar gravity is now the primary force acting on the craft.",
-      "Mission Specialist Christina Koch has officially become the farthest woman from Earth in human history.",
-      "A final 17.5-second outbound trajectory correction burn (OTC-3) was completed late last night to refine the approach to the lunar surface.",
-      "Initial technical issues with the Universal Waste Management System, including a frozen line, have been resolved by ground teams."
+      "Orion successfully entered the lunar sphere of influence at 04:37 UTC, currently positioned approximately 373,368 km from Earth.",
+      "The crew of four is in excellent health and nominal spirits, currently in their final sleep period before beginning historic flyby operations.",
+      "Mission milestones for today include surpassing the Apollo 13 distance record and achieving a closest lunar approach of 6,550 km.",
+      "Previously reported issues with the liquid waste system and external vent icing have been fully resolved by the crew."
     ],
     "sources": [
-      "NASA Mission Control Center Update (April 6, 2026)",
-      "Artemis II Flight Operations Briefing"
+      "NASA Mission Control Center Bulletin",
+      "Aris Artemis II Flight Day 5 Status Report"
     ],
     "alertMessage": null,
-    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and performing lunar science observations.",
-    "lastEvent": "Successful entry into the lunar sphere of influence at 04:37 UTC.",
-    "nextEvent": "Lunar flyby and communications blackout as Orion passes behind the Moon's far side.",
+    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and performing nominal science and maintenance tasks.",
+    "lastEvent": "Entry into the Moon's sphere of influence at 04:37 UTC.",
+    "nextEvent": "Surpassing the Apollo 13 distance record of 248,655 miles from Earth.",
     "telemetry": {
-      "distanceFromEarth": 373368,
+      "distanceFromEarth": 378195,
       "distanceFromMoon": 62764,
       "missionElapsedDay": 5,
       "velocity": null
     },
-    "fetchedAt": "2026-04-06T09:07:31.565Z"
+    "fetchedAt": "2026-04-06T10:55:39.229Z"
   },
   "milestones": [
     {
@@ -233,7 +233,7 @@
     {
       "id": "suit-test",
       "label": "Suit Systems Test",
-      "detail": "Completed OCSS suit demonstration including mobility, leak checks, and pressurized eating/drinking.",
+      "detail": "Crew successfully demonstrated mobility and seat entry in Orion Crew Survival System suits.",
       "time": "2026-04-05T21:00:00.000Z",
       "day": 4,
       "icon": "👨‍🚀",
@@ -263,7 +263,7 @@
     {
       "id": "otc-3",
       "label": "Otc 3",
-      "detail": "Final outbound trajectory correction burn completed successfully.",
+      "detail": "Final outbound trajectory correction burn of 17.5 seconds successfully refined the lunar flyby path.",
       "time": "2026-04-06T03:03:00.000Z",
       "day": 5,
       "icon": "📌",
@@ -273,7 +273,7 @@
     {
       "id": "lunar-soi",
       "label": "Lunar Sphere Of Influence",
-      "detail": "Orion has transitioned to the Moon's gravitational influence.",
+      "detail": "Orion entered the Moon's sphere of influence while 39,000 miles from the lunar surface.",
       "time": "2026-04-06T04:37:00.000Z",
       "day": 5,
       "icon": "🌑",
@@ -313,7 +313,7 @@
       "id": "comm-blackout",
       "label": "Communications Blackout",
       "detail": "Expected loss of signal as Orion passes behind the lunar far side.",
-      "time": "2026-04-06T22:47:00.000Z",
+      "time": "2026-04-06T22:44:00.000Z",
       "day": 6,
       "icon": "📵",
       "completed": false,
@@ -332,7 +332,7 @@
       "id": "distance-record",
       "label": "Farthest Distance From Earth Record",
       "detail": "Crew is expected to surpass the Apollo 13 distance record during the lunar flyby.",
-      "time": "2026-04-06T23:05:00.000Z",
+      "time": "2026-04-06T23:07:00.000Z",
       "day": 6,
       "icon": "🗺️",
       "completed": false,
@@ -383,6 +383,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Historic Flyby Day",
+      "currentPhase": "Approaching lunar flyby",
+      "headline": "Orion spacecraft enters Moon's sphere of influence ahead of record-breaking lunar flyby.",
+      "details": [
+        "Orion successfully entered the lunar sphere of influence at 04:37 UTC, currently positioned approximately 373,368 km from Earth.",
+        "The crew of four is in excellent health and nominal spirits, currently in their final sleep period before beginning historic flyby operations.",
+        "Mission milestones for today include surpassing the Apollo 13 distance record and achieving a closest lunar approach of 6,550 km.",
+        "Previously reported issues with the liquid waste system and external vent icing have been fully resolved by the crew."
+      ],
+      "sources": [
+        "NASA Mission Control Center Bulletin",
+        "Aris Artemis II Flight Day 5 Status Report"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and performing nominal science and maintenance tasks.",
+      "lastEvent": "Entry into the Moon's sphere of influence at 04:37 UTC.",
+      "nextEvent": "Surpassing the Apollo 13 distance record of 248,655 miles from Earth.",
+      "telemetry": {
+        "distanceFromEarth": 378195,
+        "distanceFromMoon": 62764,
+        "missionElapsedDay": 5,
+        "velocity": null
+      },
+      "fetchedAt": "2026-04-06T10:55:39.229Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Lunar Approach",
@@ -896,34 +923,6 @@
         "velocity": 9656
       },
       "fetchedAt": "2026-04-05T09:38:06.766Z"
-    },
-    {
-      "status": "caution",
-      "statusLabel": "System Caution",
-      "currentPhase": "Trans-Lunar Coast",
-      "headline": "Orion Integrity navigates fourth mission day while troubleshooting waste system icing.",
-      "details": [
-        "Ground teams are troubleshooting icing in the Universal Waste Management System (UWMS) urine vent line; crew is using backup urination devices.",
-        "Orion has passed the equidistance point and is now physically closer to the Moon than to Earth.",
-        "Mission Specialist Christina Koch and Jeremy Hansen successfully completed a 41-minute manual piloting demonstration.",
-        "One personal crew tablet has failed, though all mission-critical hardware remains fully operational."
-      ],
-      "sources": [
-        "NASA Artemis II Mission Control Status Update",
-        "CSA Mission Briefing",
-        "Flight Operations Telemetry Report"
-      ],
-      "alertMessage": "Recurring issue with the Universal Waste Management System (UWMS) involving icing in the urine vent line; contingency protocols in effect.",
-      "crewStatus": "Crew remains in good health and high spirits; currently participating in the ARCHeR radiation study and medical demonstrations.",
-      "lastEvent": "Completion of a six-degrees-of-freedom manual piloting test using Orion's thrusters.",
-      "nextEvent": "Entry into the Lunar Sphere of Influence (SOI) where Moon gravity becomes the dominant force.",
-      "telemetry": {
-        "distanceFromEarth": 304315,
-        "distanceFromMoon": 80085,
-        "missionElapsedDay": 4,
-        "velocity": 5632
-      },
-      "fetchedAt": "2026-04-05T08:41:22.235Z"
     }
   ],
   "lastError": null
