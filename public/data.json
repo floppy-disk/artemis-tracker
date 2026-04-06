@@ -1,30 +1,30 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Nominal Operations",
-    "currentPhase": "Outbound Trans-Lunar Coast",
-    "headline": "Artemis II crew nears the Moon's sphere of influence after resolving waste system blockage.",
+    "statusLabel": "Flyby Trajectory Nominal",
+    "currentPhase": "Outbound Transit",
+    "headline": "Orion prepares for historic lunar flyby and deep-space distance records on Day 5.",
     "details": [
-      "The spacecraft Orion (Integrity) is on a free-return trajectory and has surpassed the equidistant point between Earth and the Moon.",
-      "A waste system ice blockage was successfully resolved by Mission Control by orienting the spacecraft toward the sun to melt the obstruction.",
-      "The four-person crew completed critical suit pressurization and fit checks in microgravity to prepare for lunar proximity events.",
-      "Crew members successfully observed and photographed a total solar eclipse from deep space during Flight Day 5."
+      "Orion is on a high-precision free-return trajectory, allowing flight controllers to bypass early trajectory correction burns.",
+      "The crew successfully resolved a urine vent blockage by activating onboard heaters to melt ice buildup.",
+      "At 17:56 UTC today, Orion will break the Apollo 13 record for the farthest distance humans have ever traveled from Earth.",
+      "Lunar gravity will become the primary force on the spacecraft starting at 04:41 UTC as it enters the Moon's sphere of influence."
     ],
     "sources": [
-      "NASA Mission Status Report 2026-04-05",
-      "Artemis II Flight Director's Log"
+      "NASA Artemis Mission Control Briefing",
+      "Artemis II Flight Operations Report"
     ],
     "alertMessage": null,
-    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in good health and spirits, having acclimated to microgravity.",
-    "lastEvent": "Resolution of the Universal Waste Management System ice blockage via solar heating.",
-    "nextEvent": "Entry into the Moon's Sphere of Influence (SOI) expected at 04:41 UTC on April 6.",
+    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and currently in a scheduled sleep period.",
+    "lastEvent": "Resolution of ice-related urine vent blockage using system heaters",
+    "nextEvent": "Entry into the Lunar Sphere of Influence (SOI) at 04:41 UTC",
     "telemetry": {
-      "distanceFromEarth": 301966,
-      "distanceFromMoon": 151101,
+      "distanceFromEarth": 346000,
+      "distanceFromMoon": null,
       "missionElapsedDay": 5,
-      "velocity": null
+      "velocity": 4023.36
     },
-    "fetchedAt": "2026-04-05T23:32:31.534Z"
+    "fetchedAt": "2026-04-06T02:23:26.409Z"
   },
   "milestones": [
     {
@@ -113,7 +113,7 @@
     {
       "id": "otc-1",
       "label": "Outbound Trajectory Correction (OTC-1)",
-      "detail": "Burn cancelled by mission control due to exceptional trajectory accuracy.",
+      "detail": "Trajectory correction burn was scrapped due to high precision of the TLI burn.",
       "time": "2026-04-03T22:31:00.000Z",
       "day": 2,
       "icon": "🚀",
@@ -137,16 +137,6 @@
       "time": "2026-04-04T04:00:00.000Z",
       "day": 3,
       "icon": "🌓",
-      "completed": true,
-      "isNew": true
-    },
-    {
-      "id": "cpr-demo",
-      "label": "Deep Space Cpr Demo",
-      "detail": "Crew validated life-saving medical procedures and equipment functionality in microgravity.",
-      "time": "2026-04-04T08:00:00.000Z",
-      "day": 3,
-      "icon": "🩺",
       "completed": true,
       "isNew": true
     },
@@ -201,6 +191,16 @@
       "isNew": true
     },
     {
+      "id": "cpr-demo",
+      "label": "Deep Space Cpr Demo",
+      "detail": "Zero-gravity CPR demonstration successfully performed by crew on Mission Day 4.",
+      "time": "2026-04-05T08:00:00.000Z",
+      "day": 4,
+      "icon": "🩺",
+      "completed": true,
+      "isNew": true
+    },
+    {
       "id": "archer-study",
       "label": "Archer Study Participation",
       "detail": "Crew monitoring physiological responses to deep-space radiation via wearable sensors.",
@@ -243,7 +243,7 @@
     {
       "id": "suit-test",
       "label": "Suit Systems Test",
-      "detail": "Crew performed fit and pressurization checks of Orion Crew Survival Suits.",
+      "detail": "Full evaluation of the Orion Crew Survival System (OCSS) suits completed.",
       "time": "2026-04-05T17:00:00.000Z",
       "day": 4,
       "icon": "👨‍🚀",
@@ -313,7 +313,7 @@
       "id": "comm-blackout",
       "label": "Communications Blackout",
       "detail": "Expected loss of signal as Orion passes behind the lunar far side.",
-      "time": "2026-04-06T22:47:00.000Z",
+      "time": "2026-04-06T22:44:00.000Z",
       "day": 6,
       "icon": "📵",
       "completed": false,
@@ -383,6 +383,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Flyby Trajectory Nominal",
+      "currentPhase": "Outbound Transit",
+      "headline": "Orion prepares for historic lunar flyby and deep-space distance records on Day 5.",
+      "details": [
+        "Orion is on a high-precision free-return trajectory, allowing flight controllers to bypass early trajectory correction burns.",
+        "The crew successfully resolved a urine vent blockage by activating onboard heaters to melt ice buildup.",
+        "At 17:56 UTC today, Orion will break the Apollo 13 record for the farthest distance humans have ever traveled from Earth.",
+        "Lunar gravity will become the primary force on the spacecraft starting at 04:41 UTC as it enters the Moon's sphere of influence."
+      ],
+      "sources": [
+        "NASA Artemis Mission Control Briefing",
+        "Artemis II Flight Operations Report"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and currently in a scheduled sleep period.",
+      "lastEvent": "Resolution of ice-related urine vent blockage using system heaters",
+      "nextEvent": "Entry into the Lunar Sphere of Influence (SOI) at 04:41 UTC",
+      "telemetry": {
+        "distanceFromEarth": 346000,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 5,
+        "velocity": 4023.36
+      },
+      "fetchedAt": "2026-04-06T02:23:26.409Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Nominal Operations",
@@ -895,33 +922,6 @@
         "velocity": 5630
       },
       "fetchedAt": "2026-04-05T02:14:12.128Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Record Breaking",
-      "currentPhase": "Trans-Lunar cruising phase on a free-return trajectory.",
-      "headline": "Artemis II breaks Apollo 13 human distance record as Orion cruises toward the Moon.",
-      "details": [
-        "At 23:05 UTC, the Orion spacecraft Integrity surpassed the 248,655-mile distance record from Earth set by Apollo 13 in 1970.",
-        "Engineers successfully resolved an ice blockage in the Orion urine vent by using heaters and orienting the spacecraft toward the sun.",
-        "The crew remains in excellent health and has been conducting medical response drills and scientific checkouts of the AVATAR radiation payload.",
-        "The spacecraft is currently 406,773 km from Earth, traveling deeper into space than any previous human-rated vehicle."
-      ],
-      "sources": [
-        "NASA Mission Control Daily Briefing",
-        "Artemis II Mission Management Team Update"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and high spirits.",
-      "lastEvent": "Surpassed the all-time human distance record from Earth at 23:05 UTC.",
-      "nextEvent": "Lunar Flyby and communications blackout while passing the lunar far side.",
-      "telemetry": {
-        "distanceFromEarth": 406773,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 4,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-04T23:30:27.321Z"
     }
   ],
   "lastError": null
