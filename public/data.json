@@ -1,31 +1,30 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Lunar Entry",
-    "currentPhase": "Moon's sphere of influence entry and preparation for lunar flyby.",
-    "headline": "Orion enters Moon's sphere of influence ahead of historic flyby and Apollo 13 distance record break.",
+    "statusLabel": "Lunar Approach",
+    "currentPhase": "Lunar flyby and far side transit preparation",
+    "headline": "Orion enters Moon's sphere of influence ahead of historic lunar flyby and record-breaking distance attempt.",
     "details": [
-      "Spacecraft successfully entered the Moon's sphere of influence at 04:41 UTC on Mission Day 5.",
-      "A 17.5-second outbound trajectory correction burn (OTC-3) was completed at 03:03 UTC to refine the flyby path.",
-      "Engineers are monitoring a non-critical malfunction in the wastewater tank venting system; cabin air quality remains safe.",
-      "The crew is currently in a scheduled sleep period, with wake-up planned for 14:50 UTC to begin Flight Day 6."
+      "Orion successfully entered the lunar sphere of influence at 04:37 UTC today, where lunar gravity is now the primary force acting on the craft.",
+      "Mission Specialist Christina Koch has officially become the farthest woman from Earth in human history.",
+      "A final 17.5-second outbound trajectory correction burn (OTC-3) was completed late last night to refine the approach to the lunar surface.",
+      "Initial technical issues with the Universal Waste Management System, including a frozen line, have been resolved by ground teams."
     ],
     "sources": [
-      "NASA Mission Control Center",
-      "Artemis II Flight Operations Report",
-      "Canadian Space Agency (CSA)"
+      "NASA Mission Control Center Update (April 6, 2026)",
+      "Artemis II Flight Operations Briefing"
     ],
     "alertMessage": null,
-    "crewStatus": "Crew is in excellent health and high spirits; currently resting ahead of the mission's closest lunar approach.",
-    "lastEvent": "Orion entered the Moon's sphere of influence at 04:41 UTC on April 6, 2026.",
-    "nextEvent": "Breaking the Apollo 13 human distance record at 17:56 UTC.",
+    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and performing lunar science observations.",
+    "lastEvent": "Successful entry into the lunar sphere of influence at 04:37 UTC.",
+    "nextEvent": "Lunar flyby and communications blackout as Orion passes behind the Moon's far side.",
     "telemetry": {
-      "distanceFromEarth": 374177,
-      "distanceFromMoon": 57936,
+      "distanceFromEarth": 373368,
+      "distanceFromMoon": 62764,
       "missionElapsedDay": 5,
-      "velocity": 5150
+      "velocity": null
     },
-    "fetchedAt": "2026-04-06T07:27:48.014Z"
+    "fetchedAt": "2026-04-06T09:07:31.565Z"
   },
   "milestones": [
     {
@@ -142,16 +141,6 @@
       "isNew": true
     },
     {
-      "id": "woman-distance-record",
-      "label": "Female Distance Record",
-      "detail": "Christina Koch has set the record for the farthest distance a woman has traveled from Earth.",
-      "time": "2026-04-04T12:00:00.000Z",
-      "day": 3,
-      "icon": "👩‍🚀",
-      "completed": true,
-      "isNew": true
-    },
-    {
       "id": "tps-inspection",
       "label": "Thermal Protection Inspection",
       "detail": "External inspection confirmed heat shield tiles are in excellent condition.",
@@ -214,7 +203,7 @@
     {
       "id": "toilet-fix",
       "label": "Waste System Resolution",
-      "detail": "Lunar loo maintenance completed; system cleared for normal use.",
+      "detail": "Resolution of frozen line in the Universal Waste Management System.",
       "time": "2026-04-05T12:00:00.000Z",
       "day": 4,
       "icon": "📌",
@@ -274,7 +263,7 @@
     {
       "id": "otc-3",
       "label": "Otc 3",
-      "detail": "Refined the free-return trajectory for the lunar flyby.",
+      "detail": "Final outbound trajectory correction burn completed successfully.",
       "time": "2026-04-06T03:03:00.000Z",
       "day": 5,
       "icon": "📌",
@@ -284,11 +273,21 @@
     {
       "id": "lunar-soi",
       "label": "Lunar Sphere Of Influence",
-      "detail": "Lunar gravity is now the dominant force acting on the Orion spacecraft.",
-      "time": "2026-04-06T04:41:00.000Z",
+      "detail": "Orion has transitioned to the Moon's gravitational influence.",
+      "time": "2026-04-06T04:37:00.000Z",
       "day": 5,
       "icon": "🌑",
       "completed": true
+    },
+    {
+      "id": "woman-distance-record",
+      "label": "Female Distance Record",
+      "detail": "Christina Koch officially sets the record for the farthest distance from Earth for a woman.",
+      "time": "2026-04-06T09:00:00.000Z",
+      "day": 5,
+      "icon": "👩‍🚀",
+      "completed": true,
+      "isNew": true
     },
     {
       "id": "farthest-human-distance",
@@ -314,7 +313,7 @@
       "id": "comm-blackout",
       "label": "Communications Blackout",
       "detail": "Expected loss of signal as Orion passes behind the lunar far side.",
-      "time": "2026-04-06T22:44:00.000Z",
+      "time": "2026-04-06T22:47:00.000Z",
       "day": 6,
       "icon": "📵",
       "completed": false,
@@ -333,7 +332,7 @@
       "id": "distance-record",
       "label": "Farthest Distance From Earth Record",
       "detail": "Crew is expected to surpass the Apollo 13 distance record during the lunar flyby.",
-      "time": "2026-04-06T23:07:00.000Z",
+      "time": "2026-04-06T23:05:00.000Z",
       "day": 6,
       "icon": "🗺️",
       "completed": false,
@@ -369,7 +368,7 @@
       "id": "splashdown",
       "label": "Splashdown",
       "detail": "Final splashdown in the Pacific Ocean off the coast of San Diego.",
-      "time": "2026-04-10T16:00:00.000Z",
+      "time": "2026-04-10T00:07:00.000Z",
       "day": 9,
       "icon": "🌊",
       "highlight": true
@@ -384,6 +383,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Lunar Approach",
+      "currentPhase": "Lunar flyby and far side transit preparation",
+      "headline": "Orion enters Moon's sphere of influence ahead of historic lunar flyby and record-breaking distance attempt.",
+      "details": [
+        "Orion successfully entered the lunar sphere of influence at 04:37 UTC today, where lunar gravity is now the primary force acting on the craft.",
+        "Mission Specialist Christina Koch has officially become the farthest woman from Earth in human history.",
+        "A final 17.5-second outbound trajectory correction burn (OTC-3) was completed late last night to refine the approach to the lunar surface.",
+        "Initial technical issues with the Universal Waste Management System, including a frozen line, have been resolved by ground teams."
+      ],
+      "sources": [
+        "NASA Mission Control Center Update (April 6, 2026)",
+        "Artemis II Flight Operations Briefing"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and performing lunar science observations.",
+      "lastEvent": "Successful entry into the lunar sphere of influence at 04:37 UTC.",
+      "nextEvent": "Lunar flyby and communications blackout as Orion passes behind the Moon's far side.",
+      "telemetry": {
+        "distanceFromEarth": 373368,
+        "distanceFromMoon": 62764,
+        "missionElapsedDay": 5,
+        "velocity": null
+      },
+      "fetchedAt": "2026-04-06T09:07:31.565Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Lunar Entry",
@@ -898,33 +924,6 @@
         "velocity": 5632
       },
       "fetchedAt": "2026-04-05T08:41:22.235Z"
-    },
-    {
-      "status": "caution",
-      "statusLabel": "Nominal / Caution",
-      "currentPhase": "Outbound Translunar Coast",
-      "headline": "Orion enters Moon's sphere of influence as crew prepares for historic lunar flyby.",
-      "details": [
-        "Orion is transitioning from Earth-dominant to Moon-dominant gravity on Mission Day 5.",
-        "The crew successfully completed a 41-minute manual piloting demonstration to verify spacecraft handling.",
-        "Engineers are troubleshooting the Waste Management System due to a suspected ice blockage in vent lines.",
-        "Upcoming lunar flyby on April 6 will set a new record for the farthest distance humans have traveled from Earth."
-      ],
-      "sources": [
-        "NASA Mission Control Center (MCC-H)",
-        "Artemis II Flight Status Report #5"
-      ],
-      "alertMessage": "Intermittent malfunctions reported with the 'Lunar Loo' waste system; crew is utilizing backup collection bags while a fix is evaluated.",
-      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and high spirits.",
-      "lastEvent": "Successful 41-minute manual piloting demonstration completed by Koch and Hansen.",
-      "nextEvent": "Lunar sphere of influence entry followed by closest lunar approach and Earth distance record.",
-      "telemetry": {
-        "distanceFromEarth": 160934,
-        "distanceFromMoon": 241401,
-        "missionElapsedDay": 5,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-05T07:04:01.731Z"
     }
   ],
   "lastError": null
