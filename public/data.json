@@ -1,30 +1,30 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Record Breaking",
-    "currentPhase": "Lunar Flyby Transition",
-    "headline": "Artemis II breaks all-time human spaceflight distance record as Orion approaches lunar far side.",
+    "statusLabel": "Lunar Flyby Complete",
+    "currentPhase": "Homeward-bound on free-return trajectory",
+    "headline": "Orion completes historic lunar flyby and breaks Apollo 13 distance record as it begins the return journey.",
     "details": [
-      "Orion surpassed the Apollo 13 distance record at 17:56 UTC, reaching 400,171 km from Earth.",
-      "Spacecraft 'Integrity' entered the Lunar Sphere of Influence at 04:37 UTC and is accelerating toward the Moon.",
-      "A 40-minute communications blackout is scheduled to begin at 22:44 UTC as Orion passes behind the Moon.",
-      "Onboard waste management systems are fully operational after crew repairs; suit pressure tests were completed successfully."
+      "Orion re-established communication at 23:25 UTC after a 40-minute blackout during its closest lunar approach.",
+      "The mission reached a record-breaking distance of 406,756 km from Earth, surpassing the Apollo 13 mark.",
+      "The crew is currently performing neuro-ocular exams and vision tests to monitor for SANS in deep space.",
+      "Orion's trajectory is now officially slung around the Moon for a direct return to Earth's atmosphere."
     ],
     "sources": [
-      "NASA Mission Control April 6 Update",
-      "Artemis II Flight Operations Report"
+      "NASA Mission Control Artemis II Update April 6, 2026",
+      "Orion Integrity Telemetry Stream"
     ],
     "alertMessage": null,
-    "crewStatus": "Wiseman, Glover, Koch, and Hansen are in excellent health and high spirits, having recently celebrated Easter in orbit and completed OCSS suit evaluations.",
-    "lastEvent": "Broke the human spaceflight distance record of 400,171 km at 17:56 UTC.",
-    "nextEvent": "40-minute planned communications blackout (Loss of Signal) as Orion passes behind the Moon.",
+    "crewStatus": "Commander Reid Wiseman and crew are in excellent health and high spirits after observing the lunar far side.",
+    "lastEvent": "Re-establishment of signal and Earthrise observation following lunar far side transit.",
+    "nextEvent": "Crew observation of a solar eclipse as the Sun passes behind the Moon in one hour.",
     "telemetry": {
-      "distanceFromEarth": 400171,
+      "distanceFromEarth": 406760,
       "distanceFromMoon": null,
-      "missionElapsedDay": 5,
-      "velocity": null
+      "missionElapsedDay": 6,
+      "velocity": 97950
     },
-    "fetchedAt": "2026-04-06T22:35:07.894Z"
+    "fetchedAt": "2026-04-06T23:34:25.024Z"
   },
   "milestones": [
     {
@@ -320,32 +320,33 @@
       "isNew": true
     },
     {
-      "id": "comm-blackout",
-      "label": "Communications Blackout",
-      "detail": "Expected loss of signal as Orion passes behind the lunar far side.",
-      "time": "2026-04-06T22:44:00.000Z",
-      "day": 6,
-      "icon": "📵",
-      "completed": false,
-      "isNew": true
-    },
-    {
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
-      "detail": "Closest approach scheduled for 18:45 UTC at an altitude of approximately 6,543 km.",
-      "time": "2026-04-06T23:02:00.000Z",
+      "detail": "Orion reached its closest approach of 4,067 miles above the lunar surface.",
+      "time": "2026-04-06T23:00:00.000Z",
       "day": 6,
       "icon": "🌕",
-      "highlight": true
+      "highlight": true,
+      "completed": true
     },
     {
       "id": "distance-record",
       "label": "Farthest Distance From Earth Record",
-      "detail": "Crew is expected to surpass the Apollo 13 distance record during the lunar flyby.",
+      "detail": "Artemis II broke the all-time crewed distance record from Earth previously held by Apollo 13.",
       "time": "2026-04-06T23:07:00.000Z",
       "day": 6,
       "icon": "🗺️",
-      "completed": false,
+      "completed": true,
+      "isNew": true
+    },
+    {
+      "id": "comm-blackout",
+      "label": "Communications Blackout",
+      "detail": "Planned 40-minute loss of signal during lunar occultation concluded with successful signal re-acquisition.",
+      "time": "2026-04-06T23:25:00.000Z",
+      "day": 6,
+      "icon": "📵",
+      "completed": true,
       "isNew": true
     },
     {
@@ -355,6 +356,16 @@
       "time": "2026-04-06T23:25:00.000Z",
       "day": 6,
       "icon": "🌍"
+    },
+    {
+      "id": "sans-exams",
+      "label": "Sans Medical Exams",
+      "detail": "The crew is performing intraocular pressure monitoring to study spaceflight-associated vision changes.",
+      "time": "2026-04-06T23:34:25.024Z",
+      "day": 6,
+      "icon": "👁️",
+      "completed": false,
+      "isNew": true
     },
     {
       "id": "lunar-eclipse",
@@ -396,13 +407,40 @@
       "id": "splashdown",
       "label": "Splashdown",
       "detail": "Final splashdown in the Pacific Ocean off the coast of San Diego.",
-      "time": "2026-04-11T00:07:00.000Z",
-      "day": 10,
+      "time": "2026-04-10T00:07:00.000Z",
+      "day": 9,
       "icon": "🌊",
       "highlight": true
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Lunar Flyby Complete",
+      "currentPhase": "Homeward-bound on free-return trajectory",
+      "headline": "Orion completes historic lunar flyby and breaks Apollo 13 distance record as it begins the return journey.",
+      "details": [
+        "Orion re-established communication at 23:25 UTC after a 40-minute blackout during its closest lunar approach.",
+        "The mission reached a record-breaking distance of 406,756 km from Earth, surpassing the Apollo 13 mark.",
+        "The crew is currently performing neuro-ocular exams and vision tests to monitor for SANS in deep space.",
+        "Orion's trajectory is now officially slung around the Moon for a direct return to Earth's atmosphere."
+      ],
+      "sources": [
+        "NASA Mission Control Artemis II Update April 6, 2026",
+        "Orion Integrity Telemetry Stream"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Reid Wiseman and crew are in excellent health and high spirits after observing the lunar far side.",
+      "lastEvent": "Re-establishment of signal and Earthrise observation following lunar far side transit.",
+      "nextEvent": "Crew observation of a solar eclipse as the Sun passes behind the Moon in one hour.",
+      "telemetry": {
+        "distanceFromEarth": 406760,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 6,
+        "velocity": 97950
+      },
+      "fetchedAt": "2026-04-06T23:34:25.024Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Record Breaking",
@@ -919,33 +957,6 @@
         "velocity": null
       },
       "fetchedAt": "2026-04-05T21:30:02.700Z"
-    },
-    {
-      "status": "caution",
-      "statusLabel": "System Malfunction",
-      "currentPhase": "Translunar Coast",
-      "headline": "Artemis II crew approaches the lunar sphere of influence as Christina Koch sets new deep space distance record.",
-      "details": [
-        "Orion is approximately two-thirds of the way to the Moon and is expected to enter the lunar sphere of influence around 04:41 UTC on April 6.",
-        "The crew is managing a recurring toilet malfunction caused by a suspected ice blockage, necessitating the use of backup collection bags.",
-        "Mission Specialist Christina Koch has officially set a new record for the farthest distance a woman has ever traveled from Earth.",
-        "A 41-minute manual piloting demonstration was successfully completed, testing the spacecraft's proximity operations in deep space."
-      ],
-      "sources": [
-        "NASA Artemis Mission Control Update",
-        "Orion Flight Day 5 Operations Report"
-      ],
-      "alertMessage": "Recurring waste management system malfunction; suspected ice blockage in wastewater venting line requiring backup protocols.",
-      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen remain in excellent health and high spirits.",
-      "lastEvent": "Successful 41-minute manual piloting demonstration completed on Flight Day 4.",
-      "nextEvent": "Entry into the Lunar Sphere of Influence (SOI) expected at 04:41 UTC on April 6.",
-      "telemetry": {
-        "distanceFromEarth": 305000,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 4,
-        "velocity": 4500
-      },
-      "fetchedAt": "2026-04-05T20:32:13.855Z"
     }
   ],
   "lastError": null
