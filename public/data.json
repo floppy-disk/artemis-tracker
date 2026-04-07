@@ -1,29 +1,30 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Trans-Earth Coast",
-    "currentPhase": "Returning to Earth",
-    "headline": "The Orion spacecraft is on a stable return trajectory after successfully completing a historic lunar flyby and setting a new human distance record.",
+    "statusLabel": "Return Journey",
+    "currentPhase": "Orion has completed its lunar flyby and is currently on a return trajectory toward Earth.",
+    "headline": "Artemis II Orion spacecraft breaks human spaceflight distance record during lunar flyby.",
     "details": [
-      "Orion surpassed the Apollo 13 record by reaching a maximum distance of 252,756 miles from Earth.",
-      "The crew successfully conducted high-resolution imaging of the lunar farside and observed a 53-minute deep-space solar eclipse.",
-      "Astronauts are utilizing ARCHER wearable sensors to monitor physiological responses during the return transit.",
-      "The spacecraft remains on track for a Pacific Ocean splashdown on April 10, 2026."
+      "Orion reached a maximum distance of 252,756 miles (406,771 km) from Earth, surpassing the Apollo 13 record.",
+      "The spacecraft completed its closest lunar approach at approximately 4,067 miles above the surface on Flight Day 6.",
+      "Crew radiation exposure is currently measured at 5.2 millisieverts, well within safe mission limits.",
+      "Orion is expected to exit the lunar sphere of influence on April 7 at 1:25 p.m. EDT."
     ],
     "sources": [
-      "NASA Mission Control",
-      "Artemis II Flight Operations"
+      "NASA Mission Control Center",
+      "Canadian Space Agency (CSA)"
     ],
-    "crewStatus": "The four-member crew is in excellent health and high spirits, continuing mission operations during the return coast.",
-    "lastEvent": "Deep space solar eclipse observation behind the Moon.",
-    "nextEvent": "Exit of Lunar Sphere of Influence",
+    "alertMessage": null,
+    "crewStatus": "Crew is performing well; experiencing expected minor shifts in heart rate and sleep patterns but maintaining baseline cognitive function.",
+    "lastEvent": "Achievement of maximum distance from Earth at 7:07 p.m. EDT on April 6.",
+    "nextEvent": "Exit from the lunar sphere of influence as Orion returns to Earth-dominant gravity.",
     "telemetry": {
       "distanceFromEarth": 406771,
       "distanceFromMoon": 6545,
       "missionElapsedDay": 6,
-      "velocity": 97945
+      "velocity": null
     },
-    "fetchedAt": "2026-04-07T09:01:42.497Z"
+    "fetchedAt": "2026-04-07T10:53:44.464Z"
   },
   "milestones": [
     {
@@ -340,7 +341,7 @@
     {
       "id": "distance-record",
       "label": "Farthest Distance From Earth Record",
-      "detail": "Crew reached a maximum distance of 406,773 km from Earth, setting a new human record.",
+      "detail": "Reached a record distance of 252,756 miles from Earth, surpassing Apollo 13.",
       "time": "2026-04-06T23:07:00.000Z",
       "day": 6,
       "icon": "🗺️",
@@ -440,8 +441,8 @@
       "id": "reentry",
       "label": "Re-Entry",
       "detail": "Skip re-entry at ~5,000°F",
-      "time": "2026-04-09T23:30:00.000Z",
-      "day": 9,
+      "time": "2026-04-10T23:30:00.000Z",
+      "day": 10,
       "icon": "🔥"
     },
     {
@@ -455,6 +456,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Return Journey",
+      "currentPhase": "Orion has completed its lunar flyby and is currently on a return trajectory toward Earth.",
+      "headline": "Artemis II Orion spacecraft breaks human spaceflight distance record during lunar flyby.",
+      "details": [
+        "Orion reached a maximum distance of 252,756 miles (406,771 km) from Earth, surpassing the Apollo 13 record.",
+        "The spacecraft completed its closest lunar approach at approximately 4,067 miles above the surface on Flight Day 6.",
+        "Crew radiation exposure is currently measured at 5.2 millisieverts, well within safe mission limits.",
+        "Orion is expected to exit the lunar sphere of influence on April 7 at 1:25 p.m. EDT."
+      ],
+      "sources": [
+        "NASA Mission Control Center",
+        "Canadian Space Agency (CSA)"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Crew is performing well; experiencing expected minor shifts in heart rate and sleep patterns but maintaining baseline cognitive function.",
+      "lastEvent": "Achievement of maximum distance from Earth at 7:07 p.m. EDT on April 6.",
+      "nextEvent": "Exit from the lunar sphere of influence as Orion returns to Earth-dominant gravity.",
+      "telemetry": {
+        "distanceFromEarth": 406771,
+        "distanceFromMoon": 6545,
+        "missionElapsedDay": 6,
+        "velocity": null
+      },
+      "fetchedAt": "2026-04-07T10:53:44.464Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Trans-Earth Coast",
@@ -971,33 +999,6 @@
         "velocity": null
       },
       "fetchedAt": "2026-04-06T05:22:41.658Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Flyby Trajectory Nominal",
-      "currentPhase": "Outbound Transit",
-      "headline": "Orion prepares for historic lunar flyby and deep-space distance records on Day 5.",
-      "details": [
-        "Orion is on a high-precision free-return trajectory, allowing flight controllers to bypass early trajectory correction burns.",
-        "The crew successfully resolved a urine vent blockage by activating onboard heaters to melt ice buildup.",
-        "At 17:56 UTC today, Orion will break the Apollo 13 record for the farthest distance humans have ever traveled from Earth.",
-        "Lunar gravity will become the primary force on the spacecraft starting at 04:41 UTC as it enters the Moon's sphere of influence."
-      ],
-      "sources": [
-        "NASA Artemis Mission Control Briefing",
-        "Artemis II Flight Operations Report"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and currently in a scheduled sleep period.",
-      "lastEvent": "Resolution of ice-related urine vent blockage using system heaters",
-      "nextEvent": "Entry into the Lunar Sphere of Influence (SOI) at 04:41 UTC",
-      "telemetry": {
-        "distanceFromEarth": 346000,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 5,
-        "velocity": 4023.36
-      },
-      "fetchedAt": "2026-04-06T02:23:26.409Z"
     }
   ],
   "lastError": null
