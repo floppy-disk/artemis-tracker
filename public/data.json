@@ -2,29 +2,29 @@
   "update": {
     "status": "nominal",
     "statusLabel": "Return Coast",
-    "currentPhase": "Orion has exited the lunar sphere of influence and is accelerating back toward Earth's gravity well.",
-    "headline": "Artemis II crew begins return journey after reaching record human distance during lunar flyby.",
+    "currentPhase": "Orion is on a trans-Earth trajectory after exiting the lunar sphere of influence and is now accelerating toward splashdown.",
+    "headline": "Orion spacecraft begins return journey to Earth after shattering human distance records.",
     "details": [
-      "Orion reached a maximum human distance record of 252,756 miles (406,771 km) from Earth on April 6.",
-      "The crew completed a lunar flyby within 4,067 miles of the surface, witnessing a 57-minute deep space solar eclipse.",
-      "Spacecraft Integrity transitioned back to Earth's gravitational dominance at 17:25 UTC on April 7.",
-      "First Return Trajectory Correction (RTC-1) burn is scheduled for early April 8 to refine the splashdown path."
+      "Orion successfully completed its lunar flyby, passing within 4,067 miles of the surface and reaching a record distance of 252,756 miles from Earth.",
+      "The crew transitioned back to Earth's gravitational influence today at 17:23 UTC after exiting the lunar sphere of influence.",
+      "Medical data shows the crew is healthy and adapting well, despite expected minor shifts in sleep patterns and cardiovascular data.",
+      "A return trajectory correction maneuver (RTC-1) is scheduled for April 8 at 01:03 UTC to refine the re-entry path."
     ],
     "sources": [
       "NASA Mission Control Center",
-      "Deep Space Network (DSN) Telemetry"
+      "Artemis II Flight Operations"
     ],
     "alertMessage": null,
-    "crewStatus": "The crew—Wiseman, Glover, Koch, and Hansen—are in excellent health and are currently in a rest period before final mission operations.",
-    "lastEvent": "Exit from the lunar sphere of influence at 17:25 UTC on April 7, 2026.",
-    "nextEvent": "Return Trajectory Correction Burn (RTC-1) to refine the Earth reentry trajectory.",
+    "crewStatus": "Crew is in excellent spirits; successfully completed an audio call with the ISS and designated a lunar feature 'Carroll' in a memorial gesture.",
+    "lastEvent": "Exited the Lunar Sphere of Influence (SOI) at 17:23 UTC on April 7, 2026.",
+    "nextEvent": "Return Trajectory Correction (RTC-1) to refine the flight path for Pacific Ocean splashdown.",
     "telemetry": {
-      "distanceFromEarth": 379800,
-      "distanceFromMoon": null,
-      "missionElapsedDay": 6,
-      "velocity": 5633
+      "distanceFromEarth": 379839,
+      "distanceFromMoon": 58397,
+      "missionElapsedDay": 7,
+      "velocity": 97949
     },
-    "fetchedAt": "2026-04-07T21:41:01.584Z"
+    "fetchedAt": "2026-04-07T22:37:21.951Z"
   },
   "milestones": [
     {
@@ -332,8 +332,8 @@
     {
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
-      "detail": "Completed closest approach of 4,067 miles (6,545 km) above the lunar surface.",
-      "time": "2026-04-06T23:02:00.000Z",
+      "detail": "Completed closest approach to the lunar surface at a distance of 4,067 miles.",
+      "time": "2026-04-06T23:00:00.000Z",
       "day": 6,
       "icon": "🌕",
       "highlight": true,
@@ -342,7 +342,7 @@
     {
       "id": "farthest-human-distance",
       "label": "Human Distance Record",
-      "detail": "Reached a record-breaking maximum distance of 406,771 km from Earth.",
+      "detail": "Reached a maximum distance of 252,756 miles from Earth, setting a new all-time record for human spaceflight.",
       "time": "2026-04-06T23:02:00.000Z",
       "day": 6,
       "icon": "📏",
@@ -430,7 +430,7 @@
     {
       "id": "lunar-eclipse",
       "label": "Deep Space Solar Eclipse",
-      "detail": "Crew observed a 57-minute total solar eclipse caused by the Moon while in deep space.",
+      "detail": "Crew witnessed a unique 54-minute total solar eclipse while passing the lunar far side.",
       "time": "2026-04-07T02:32:00.000Z",
       "day": 6,
       "icon": "🌑",
@@ -438,22 +438,22 @@
       "isNew": true
     },
     {
-      "id": "iss-conversation",
-      "label": "ISS Crew Conversation",
-      "detail": "Scheduled outreach event with crew members currently aboard the International Space Station.",
-      "time": "2026-04-07T04:00:00.000Z",
+      "id": "lunar-soi-exit",
+      "label": "Exit Lunar Sphere Of Influence",
+      "detail": "Spacecraft has transitioned from the Moon's gravitational pull back to Earth's primary influence.",
+      "time": "2026-04-07T17:23:00.000Z",
       "day": 6,
-      "icon": "💬",
+      "icon": "🌏",
       "completed": true,
       "isNew": true
     },
     {
-      "id": "lunar-soi-exit",
-      "label": "Exit Lunar Sphere Of Influence",
-      "detail": "The Orion spacecraft officially exited the lunar sphere of influence.",
-      "time": "2026-04-07T17:25:00.000Z",
+      "id": "iss-conversation",
+      "label": "ISS Crew Conversation",
+      "detail": "Held a 15-minute long-distance call with the crew of the International Space Station.",
+      "time": "2026-04-07T18:40:00.000Z",
       "day": 6,
-      "icon": "🌏",
+      "icon": "💬",
       "completed": true,
       "isNew": true
     },
@@ -489,13 +489,40 @@
       "id": "splashdown",
       "label": "Splashdown",
       "detail": "Revised target splashdown in the Pacific Ocean off the coast of San Diego.",
-      "time": "2026-04-10T17:21:00.000Z",
-      "day": 9,
+      "time": "2026-04-11T00:07:00.000Z",
+      "day": 10,
       "icon": "🌊",
       "highlight": true
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Return Coast",
+      "currentPhase": "Orion is on a trans-Earth trajectory after exiting the lunar sphere of influence and is now accelerating toward splashdown.",
+      "headline": "Orion spacecraft begins return journey to Earth after shattering human distance records.",
+      "details": [
+        "Orion successfully completed its lunar flyby, passing within 4,067 miles of the surface and reaching a record distance of 252,756 miles from Earth.",
+        "The crew transitioned back to Earth's gravitational influence today at 17:23 UTC after exiting the lunar sphere of influence.",
+        "Medical data shows the crew is healthy and adapting well, despite expected minor shifts in sleep patterns and cardiovascular data.",
+        "A return trajectory correction maneuver (RTC-1) is scheduled for April 8 at 01:03 UTC to refine the re-entry path."
+      ],
+      "sources": [
+        "NASA Mission Control Center",
+        "Artemis II Flight Operations"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Crew is in excellent spirits; successfully completed an audio call with the ISS and designated a lunar feature 'Carroll' in a memorial gesture.",
+      "lastEvent": "Exited the Lunar Sphere of Influence (SOI) at 17:23 UTC on April 7, 2026.",
+      "nextEvent": "Return Trajectory Correction (RTC-1) to refine the flight path for Pacific Ocean splashdown.",
+      "telemetry": {
+        "distanceFromEarth": 379839,
+        "distanceFromMoon": 58397,
+        "missionElapsedDay": 7,
+        "velocity": 97949
+      },
+      "fetchedAt": "2026-04-07T22:37:21.951Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Return Coast",
@@ -1010,33 +1037,6 @@
         "velocity": 1846
       },
       "fetchedAt": "2026-04-06T16:44:38.107Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Approaching Flyby",
-      "currentPhase": "Approaching Lunar Flyby and Maximum Distance",
-      "headline": "Artemis II crew enters lunar sphere of influence as they prepare for record-breaking flyby.",
-      "details": [
-        "Orion spacecraft 'Integrity' entered the lunar sphere of influence at 04:37 UTC today.",
-        "Crew is healthy and recently verified Orion Crew Survival System (OCSS) suit functionality.",
-        "A minor freeze in the urine venting line is being managed with backup collapsible contingency urinals.",
-        "The spacecraft is on a free-return trajectory following a 17.5-second correction burn."
-      ],
-      "sources": [
-        "Mission Control Center Update",
-        "Artemis II Flight Journal"
-      ],
-      "alertMessage": null,
-      "crewStatus": "The four-person crew is in excellent health and high spirits, observing the approaching lunar surface.",
-      "lastEvent": "Outbound correction burn (OTC-3) completed at 03:03 UTC today to refine the lunar flyby path.",
-      "nextEvent": "Breaking the Apollo 13 human distance record at 17:56 UTC.",
-      "telemetry": {
-        "distanceFromEarth": null,
-        "distanceFromMoon": 30300,
-        "missionElapsedDay": 5,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-06T15:44:23.968Z"
     }
   ],
   "lastError": null
