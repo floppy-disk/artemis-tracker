@@ -1,30 +1,28 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Return Journey",
-    "currentPhase": "Orion has completed its lunar flyby and is currently on a return trajectory toward Earth.",
-    "headline": "Artemis II Orion spacecraft breaks human spaceflight distance record during lunar flyby.",
+    "statusLabel": "Returning Home",
+    "currentPhase": "Return trajectory transit",
+    "headline": "The Orion spacecraft is currently on a free-return trajectory back to Earth after a successful lunar flyby and record-breaking distance milestone.",
     "details": [
-      "Orion reached a maximum distance of 252,756 miles (406,771 km) from Earth, surpassing the Apollo 13 record.",
-      "The spacecraft completed its closest lunar approach at approximately 4,067 miles above the surface on Flight Day 6.",
-      "Crew radiation exposure is currently measured at 5.2 millisieverts, well within safe mission limits.",
-      "Orion is expected to exit the lunar sphere of influence on April 7 at 1:25 p.m. EDT."
+      "The crew is in excellent health and high spirits while monitoring deep-space systems.",
+      "Orion is scheduled to exit the lunar sphere of influence today at 17:25 UTC.",
+      "The crew performed naked-eye lunar observations and witnessed a total solar eclipse during the transit.",
+      "Splashdown remains on schedule for April 11, 2026."
     ],
     "sources": [
-      "NASA Mission Control Center",
-      "Canadian Space Agency (CSA)"
+      "NASA Artemis II Mission Status Reports"
     ],
-    "alertMessage": null,
-    "crewStatus": "Crew is performing well; experiencing expected minor shifts in heart rate and sleep patterns but maintaining baseline cognitive function.",
-    "lastEvent": "Achievement of maximum distance from Earth at 7:07 p.m. EDT on April 6.",
-    "nextEvent": "Exit from the lunar sphere of influence as Orion returns to Earth-dominant gravity.",
+    "crewStatus": "All four crew members are healthy and performing routine operations.",
+    "lastEvent": "Deep Space Solar Eclipse observed on April 7, 2026.",
+    "nextEvent": "Exit of the lunar sphere of influence at 17:25 UTC.",
     "telemetry": {
-      "distanceFromEarth": 406771,
-      "distanceFromMoon": 6545,
+      "distanceFromEarth": 394289,
+      "distanceFromMoon": 66100,
       "missionElapsedDay": 6,
-      "velocity": null
+      "velocity": 5632
     },
-    "fetchedAt": "2026-04-07T10:53:44.464Z"
+    "fetchedAt": "2026-04-07T13:17:25.943Z"
   },
   "milestones": [
     {
@@ -456,6 +454,31 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Returning Home",
+      "currentPhase": "Return trajectory transit",
+      "headline": "The Orion spacecraft is currently on a free-return trajectory back to Earth after a successful lunar flyby and record-breaking distance milestone.",
+      "details": [
+        "The crew is in excellent health and high spirits while monitoring deep-space systems.",
+        "Orion is scheduled to exit the lunar sphere of influence today at 17:25 UTC.",
+        "The crew performed naked-eye lunar observations and witnessed a total solar eclipse during the transit.",
+        "Splashdown remains on schedule for April 11, 2026."
+      ],
+      "sources": [
+        "NASA Artemis II Mission Status Reports"
+      ],
+      "crewStatus": "All four crew members are healthy and performing routine operations.",
+      "lastEvent": "Deep Space Solar Eclipse observed on April 7, 2026.",
+      "nextEvent": "Exit of the lunar sphere of influence at 17:25 UTC.",
+      "telemetry": {
+        "distanceFromEarth": 394289,
+        "distanceFromMoon": 66100,
+        "missionElapsedDay": 6,
+        "velocity": 5632
+      },
+      "fetchedAt": "2026-04-07T13:17:25.943Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Return Journey",
@@ -972,33 +995,6 @@
         "velocity": 5150
       },
       "fetchedAt": "2026-04-06T07:27:48.014Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Lunar SOI Arrival",
-      "currentPhase": "Orion is in the final hours of Flight Day 5, preparing for the lunar flyby after entering the Moon's sphere of influence.",
-      "headline": "Orion enters lunar sphere of influence as crew prepares for record-breaking flyby.",
-      "details": [
-        "Spacecraft successfully entered the Moon's sphere of influence at 04:41 UTC, making lunar gravity the dominant force.",
-        "Crew completed a 17.5-second Outbound Trajectory Correction burn (OTC-3) to refine the approach for the closest lunar pass.",
-        "Astronauts successfully conducted suit mobility and thermal tests in microgravity using the Orion Crew Survival System (OCSS).",
-        "Orion is on track to surpass the Apollo 13 distance record at 17:56 UTC today."
-      ],
-      "sources": [
-        "Artemis II Mission Control Center (MCC-H)",
-        "NASA Flight Director Update"
-      ],
-      "alertMessage": null,
-      "crewStatus": "The crew is in excellent health and currently in a scheduled sleep period, set to wake at 14:50 UTC for Flight Day 6 activities.",
-      "lastEvent": "Entry into the lunar sphere of influence at 04:41 UTC.",
-      "nextEvent": "Surpassing the Apollo 13 distance record of 248,655 miles from Earth.",
-      "telemetry": {
-        "distanceFromEarth": 398500,
-        "distanceFromMoon": 104607,
-        "missionElapsedDay": 5,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-06T05:22:41.658Z"
     }
   ],
   "lastError": null
