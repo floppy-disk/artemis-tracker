@@ -2,30 +2,29 @@
   "update": {
     "status": "nominal",
     "statusLabel": "Homeward Bound",
-    "currentPhase": "Orion is currently on a free-return trajectory coasting back to Earth after completing its lunar flyby.",
-    "headline": "Artemis II crew begins return journey to Earth after setting a new human distance record in space.",
+    "currentPhase": "Homeward bound return trajectory following lunar flyby",
+    "headline": "Artemis II Orion begins Earth return after breaking human distance records during lunar flyby.",
     "details": [
-      "Orion reached a maximum distance of 252,756 miles from Earth, surpassing the record set by Apollo 13.",
-      "The crew documented a solar eclipse and observed four meteoroid impact flashes while on the lunar far side.",
-      "NASA flight surgeons report the crew is in excellent health with radiation exposure well within safe mission limits.",
-      "The spacecraft is scheduled to exit the Lunar Sphere of Influence at 17:23 UTC followed by a trajectory correction burn."
+      "Orion exited the lunar sphere of influence at 17:25 UTC on April 7, 2026, and is now falling back toward Earth's gravity.",
+      "The mission achieved a record-breaking maximum distance from Earth of 252,756 miles (406,771 km) on April 6.",
+      "A first return trajectory correction burn (RTC-1) was successfully executed on April 7 at 00:03 UTC.",
+      "The crew remains in excellent health and reported being 'euphoric' following solar eclipse observations from the lunar far side."
     ],
     "sources": [
-      "NASA Mission Control",
-      "Flight Surgeon Report",
-      "Artemis II Flight Operations"
+      "NASA Mission Control Daily Briefing",
+      "Artemis II Flight Operations Report"
     ],
     "alertMessage": null,
-    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and maintaining high performance despite minor sleep reduction.",
-    "lastEvent": "Completion of record-breaking lunar flyby and far-side science observations.",
-    "nextEvent": "Exit from the Lunar Sphere of Influence followed by RTC-1 maneuver.",
+    "crewStatus": "Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in excellent spirits and transition to return-flight procedures.",
+    "lastEvent": "Exited the lunar sphere of influence at 17:25 UTC on April 7, 2026.",
+    "nextEvent": "Second return trajectory correction burn (RTC-2) to fine-tune the atmospheric reentry angle.",
     "telemetry": {
-      "distanceFromEarth": 370149,
-      "distanceFromMoon": 64374,
-      "missionElapsedDay": 7,
-      "velocity": 97950
+      "distanceFromEarth": 386243,
+      "distanceFromMoon": null,
+      "missionElapsedDay": 6,
+      "velocity": null
     },
-    "fetchedAt": "2026-04-07T16:57:21.736Z"
+    "fetchedAt": "2026-04-07T18:00:01.042Z"
   },
   "milestones": [
     {
@@ -301,6 +300,16 @@
       "isNew": true
     },
     {
+      "id": "apollo-13-record",
+      "label": "Broke Apollo 13 Distance Record",
+      "detail": "Artemis II officially broke the record for the farthest distance humans have ever traveled from Earth.",
+      "time": "2026-04-06T17:56:00.000Z",
+      "day": 5,
+      "icon": "🏆",
+      "completed": true,
+      "isNew": true
+    },
+    {
       "id": "lunar-observation",
       "label": "Lunar Surface Observation",
       "detail": "Began 7-hour observation period of 35 geological lunar features.",
@@ -323,8 +332,8 @@
     {
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
-      "detail": "Passed within 4,067 miles of the lunar surface at peak velocity.",
-      "time": "2026-04-06T23:00:00.000Z",
+      "detail": "Orion passed within 4,067 miles (6,545 km) of the lunar surface.",
+      "time": "2026-04-06T23:02:00.000Z",
       "day": 6,
       "icon": "🌕",
       "highlight": true,
@@ -352,7 +361,7 @@
     {
       "id": "distance-record",
       "label": "Farthest Distance From Earth Record",
-      "detail": "Reached a record distance of 252,756 miles from Earth, surpassing Apollo 13.",
+      "detail": "Spacecraft reached its maximum mission distance of 252,756 miles from Earth.",
       "time": "2026-04-06T23:07:00.000Z",
       "day": 6,
       "icon": "🗺️",
@@ -389,22 +398,22 @@
       "isNew": true
     },
     {
-      "id": "apollo-13-record",
-      "label": "Broke Apollo 13 Distance Record",
-      "detail": "Artemis II surpassed the Apollo 13 distance record of 248,655 miles from Earth.",
-      "time": "2026-04-06T23:56:00.000Z",
-      "day": 6,
-      "icon": "🏆",
-      "completed": true,
-      "isNew": true
-    },
-    {
       "id": "meteoroid-impacts",
       "label": "Impact Flash Observations",
       "detail": "The crew documented four meteoroid impact flashes on the lunar surface.",
       "time": "2026-04-07T00:00:00.000Z",
       "day": 6,
       "icon": "🌠",
+      "completed": true,
+      "isNew": true
+    },
+    {
+      "id": "rtc-1",
+      "label": "Return Trajectory Correction 1",
+      "detail": "First of three return trajectory correction burns completed to refine splashdown path.",
+      "time": "2026-04-07T00:03:00.000Z",
+      "day": 6,
+      "icon": "🔥",
       "completed": true,
       "isNew": true
     },
@@ -451,21 +460,11 @@
     {
       "id": "lunar-soi-exit",
       "label": "Exit Lunar Sphere Of Influence",
-      "detail": "Point at which Earth's gravity becomes the dominant force over lunar gravity.",
-      "time": "2026-04-07T17:23:00.000Z",
+      "detail": "Orion has exited the lunar sphere of influence and is now under Earth's dominant gravity.",
+      "time": "2026-04-07T17:25:00.000Z",
       "day": 6,
       "icon": "🌏",
-      "completed": false,
-      "isNew": true
-    },
-    {
-      "id": "rtc-1",
-      "label": "Return Trajectory Correction 1",
-      "detail": "First burn to refine the spacecraft path for atmospheric entry.",
-      "time": "2026-04-08T00:03:00.000Z",
-      "day": 7,
-      "icon": "🔥",
-      "completed": false,
+      "completed": true,
       "isNew": true
     },
     {
@@ -482,21 +481,48 @@
       "id": "reentry",
       "label": "Re-Entry",
       "detail": "Skip re-entry at ~5,000°F",
-      "time": "2026-04-10T23:30:00.000Z",
-      "day": 10,
+      "time": "2026-04-09T23:40:00.000Z",
+      "day": 9,
       "icon": "🔥"
     },
     {
       "id": "splashdown",
       "label": "Splashdown",
       "detail": "Revised target splashdown in the Pacific Ocean off the coast of San Diego.",
-      "time": "2026-04-11T00:07:00.000Z",
-      "day": 10,
+      "time": "2026-04-10T00:07:00.000Z",
+      "day": 9,
       "icon": "🌊",
       "highlight": true
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Homeward Bound",
+      "currentPhase": "Homeward bound return trajectory following lunar flyby",
+      "headline": "Artemis II Orion begins Earth return after breaking human distance records during lunar flyby.",
+      "details": [
+        "Orion exited the lunar sphere of influence at 17:25 UTC on April 7, 2026, and is now falling back toward Earth's gravity.",
+        "The mission achieved a record-breaking maximum distance from Earth of 252,756 miles (406,771 km) on April 6.",
+        "A first return trajectory correction burn (RTC-1) was successfully executed on April 7 at 00:03 UTC.",
+        "The crew remains in excellent health and reported being 'euphoric' following solar eclipse observations from the lunar far side."
+      ],
+      "sources": [
+        "NASA Mission Control Daily Briefing",
+        "Artemis II Flight Operations Report"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in excellent spirits and transition to return-flight procedures.",
+      "lastEvent": "Exited the lunar sphere of influence at 17:25 UTC on April 7, 2026.",
+      "nextEvent": "Second return trajectory correction burn (RTC-2) to fine-tune the atmospheric reentry angle.",
+      "telemetry": {
+        "distanceFromEarth": 386243,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 6,
+        "velocity": null
+      },
+      "fetchedAt": "2026-04-07T18:00:01.042Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Homeward Bound",
@@ -1011,33 +1037,6 @@
         "velocity": 5472
       },
       "fetchedAt": "2026-04-06T11:48:13.717Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Historic Flyby Day",
-      "currentPhase": "Approaching lunar flyby",
-      "headline": "Orion spacecraft enters Moon's sphere of influence ahead of record-breaking lunar flyby.",
-      "details": [
-        "Orion successfully entered the lunar sphere of influence at 04:37 UTC, currently positioned approximately 373,368 km from Earth.",
-        "The crew of four is in excellent health and nominal spirits, currently in their final sleep period before beginning historic flyby operations.",
-        "Mission milestones for today include surpassing the Apollo 13 distance record and achieving a closest lunar approach of 6,550 km.",
-        "Previously reported issues with the liquid waste system and external vent icing have been fully resolved by the crew."
-      ],
-      "sources": [
-        "NASA Mission Control Center Bulletin",
-        "Aris Artemis II Flight Day 5 Status Report"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and performing nominal science and maintenance tasks.",
-      "lastEvent": "Entry into the Moon's sphere of influence at 04:37 UTC.",
-      "nextEvent": "Surpassing the Apollo 13 distance record of 248,655 miles from Earth.",
-      "telemetry": {
-        "distanceFromEarth": 378195,
-        "distanceFromMoon": 62764,
-        "missionElapsedDay": 5,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-06T10:55:39.229Z"
     }
   ],
   "lastError": null
