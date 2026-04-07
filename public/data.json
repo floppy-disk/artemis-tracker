@@ -1,30 +1,31 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Lunar Flyby Complete",
-    "currentPhase": "Homeward-bound on free-return trajectory",
-    "headline": "Orion completes historic lunar flyby and breaks Apollo 13 distance record as it begins the return journey.",
+    "statusLabel": "Earthbound",
+    "currentPhase": "Free-return trajectory return coast",
+    "headline": "Artemis II crew breaks all-time human distance record and begins return coast to Earth.",
     "details": [
-      "Orion re-established communication at 23:25 UTC after a 40-minute blackout during its closest lunar approach.",
-      "The mission reached a record-breaking distance of 406,756 km from Earth, surpassing the Apollo 13 mark.",
-      "The crew is currently performing neuro-ocular exams and vision tests to monitor for SANS in deep space.",
-      "Orion's trajectory is now officially slung around the Moon for a direct return to Earth's atmosphere."
+      "Orion successfully reached a record-breaking distance of 406,773 km from Earth, surpassing the Apollo 13 record.",
+      "The crew completed a close lunar flyby at an altitude of 6,545 km and observed the lunar far side including the Orientale Basin.",
+      "A 40-minute communication blackout occurred as Orion passed behind the Moon, followed by a unique deep-space solar eclipse observation.",
+      "Crew remains in excellent health and is currently conducting radiation research via the AVATAR project tissue-analog study."
     ],
     "sources": [
-      "NASA Mission Control Artemis II Update April 6, 2026",
-      "Orion Integrity Telemetry Stream"
+      "NASA Mission Control Center",
+      "Artemis II Flight Operations Log",
+      "CSA Mission Updates"
     ],
     "alertMessage": null,
-    "crewStatus": "Commander Reid Wiseman and crew are in excellent health and high spirits after observing the lunar far side.",
-    "lastEvent": "Re-establishment of signal and Earthrise observation following lunar far side transit.",
-    "nextEvent": "Crew observation of a solar eclipse as the Sun passes behind the Moon in one hour.",
+    "crewStatus": "Wiseman, Glover, Koch, and Hansen are in excellent spirits; currently conducting geological observations and AVATAR biological research.",
+    "lastEvent": "Deep-space total solar eclipse observation of the Sun passing behind the Moon",
+    "nextEvent": "Trajectory correction maneuvers and radiation shielding storm shelter demonstration",
     "telemetry": {
-      "distanceFromEarth": 406760,
-      "distanceFromMoon": null,
+      "distanceFromEarth": 405554,
+      "distanceFromMoon": 21698,
       "missionElapsedDay": 6,
-      "velocity": 97950
+      "velocity": 97949
     },
-    "fetchedAt": "2026-04-06T23:34:25.024Z"
+    "fetchedAt": "2026-04-07T02:10:43.540Z"
   },
   "milestones": [
     {
@@ -322,17 +323,26 @@
     {
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
-      "detail": "Orion reached its closest approach of 4,067 miles above the lunar surface.",
-      "time": "2026-04-06T23:00:00.000Z",
+      "detail": "Orion passed within 6,545 km of the lunar surface at closest approach.",
+      "time": "2026-04-06T23:02:00.000Z",
       "day": 6,
       "icon": "🌕",
       "highlight": true,
       "completed": true
     },
     {
+      "id": "return-coast",
+      "label": "Return Coast",
+      "detail": "Spacecraft transitioned to an Earthbound free-return trajectory following lunar flyby.",
+      "time": "2026-04-06T23:02:00.000Z",
+      "day": 6,
+      "icon": "↩️",
+      "completed": true
+    },
+    {
       "id": "distance-record",
       "label": "Farthest Distance From Earth Record",
-      "detail": "Artemis II broke the all-time crewed distance record from Earth previously held by Apollo 13.",
+      "detail": "Crew reached a maximum distance of 406,773 km from Earth, setting a new human record.",
       "time": "2026-04-06T23:07:00.000Z",
       "day": 6,
       "icon": "🗺️",
@@ -342,7 +352,7 @@
     {
       "id": "comm-blackout",
       "label": "Communications Blackout",
-      "detail": "Planned 40-minute loss of signal during lunar occultation concluded with successful signal re-acquisition.",
+      "detail": "Signal re-acquired after Orion emerged from the lunar far side.",
       "time": "2026-04-06T23:25:00.000Z",
       "day": 6,
       "icon": "📵",
@@ -370,11 +380,31 @@
     {
       "id": "lunar-eclipse",
       "label": "Deep Space Solar Eclipse",
-      "detail": "Crew captured historic images of the solar corona during a total solar eclipse from deep space.",
-      "time": "2026-04-07T00:35:00.000Z",
+      "detail": "Crew observed a 53-minute total solar eclipse from their vantage point behind the Moon.",
+      "time": "2026-04-07T01:28:00.000Z",
       "day": 6,
       "icon": "🌑",
       "completed": true,
+      "isNew": true
+    },
+    {
+      "id": "avatar-research",
+      "label": "AVATAR Research Project",
+      "detail": "Ongoing study of radiation and microgravity effects on organ-on-a-chip tissue analogs.",
+      "time": "2026-04-07T02:10:43.541Z",
+      "day": 6,
+      "icon": "🔬",
+      "completed": false,
+      "isNew": true
+    },
+    {
+      "id": "storm-shelter",
+      "label": "Radiation Shelter Demo",
+      "detail": "Crew will construct a temporary 'storm shelter' inside Orion to test solar particle event protection.",
+      "time": "2026-04-07T02:10:43.541Z",
+      "day": 6,
+      "icon": "🛡️",
+      "completed": false,
       "isNew": true
     },
     {
@@ -388,14 +418,6 @@
       "isNew": true
     },
     {
-      "id": "return-coast",
-      "label": "Return Coast",
-      "detail": "Free-return trajectory to Earth",
-      "time": "2026-04-08T00:00:00.000Z",
-      "day": 7,
-      "icon": "↩️"
-    },
-    {
       "id": "reentry",
       "label": "Re-Entry",
       "detail": "Skip re-entry at ~5,000°F",
@@ -407,13 +429,41 @@
       "id": "splashdown",
       "label": "Splashdown",
       "detail": "Final splashdown in the Pacific Ocean off the coast of San Diego.",
-      "time": "2026-04-10T00:07:00.000Z",
-      "day": 9,
+      "time": "2026-04-11T00:07:00.000Z",
+      "day": 10,
       "icon": "🌊",
       "highlight": true
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Earthbound",
+      "currentPhase": "Free-return trajectory return coast",
+      "headline": "Artemis II crew breaks all-time human distance record and begins return coast to Earth.",
+      "details": [
+        "Orion successfully reached a record-breaking distance of 406,773 km from Earth, surpassing the Apollo 13 record.",
+        "The crew completed a close lunar flyby at an altitude of 6,545 km and observed the lunar far side including the Orientale Basin.",
+        "A 40-minute communication blackout occurred as Orion passed behind the Moon, followed by a unique deep-space solar eclipse observation.",
+        "Crew remains in excellent health and is currently conducting radiation research via the AVATAR project tissue-analog study."
+      ],
+      "sources": [
+        "NASA Mission Control Center",
+        "Artemis II Flight Operations Log",
+        "CSA Mission Updates"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Wiseman, Glover, Koch, and Hansen are in excellent spirits; currently conducting geological observations and AVATAR biological research.",
+      "lastEvent": "Deep-space total solar eclipse observation of the Sun passing behind the Moon",
+      "nextEvent": "Trajectory correction maneuvers and radiation shielding storm shelter demonstration",
+      "telemetry": {
+        "distanceFromEarth": 405554,
+        "distanceFromMoon": 21698,
+        "missionElapsedDay": 6,
+        "velocity": 97949
+      },
+      "fetchedAt": "2026-04-07T02:10:43.540Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Lunar Flyby Complete",
@@ -930,33 +980,6 @@
         "velocity": 39428
       },
       "fetchedAt": "2026-04-05T22:29:26.429Z"
-    },
-    {
-      "status": "caution",
-      "statusLabel": "WASTE SYSTEM ISSUE",
-      "currentPhase": "Translunar Coast",
-      "headline": "Orion spacecraft reaches midpoint of lunar journey as crew prepares for record-breaking flyby.",
-      "details": [
-        "Engineers are monitoring an intermittent malfunction in the Orion waste management system caused by a suspected ice blockage.",
-        "The crew remains in excellent health after successfully completing microgravity medical drills and adaptation.",
-        "Orion is currently on a free-return trajectory that will naturally swing the capsule around the Moon's far side.",
-        "Trajectory precision from the TLI burn was high enough to allow flight controllers to skip the second planned correction maneuver."
-      ],
-      "sources": [
-        "NASA Mission Control April 5 Update",
-        "Flight Day 5 Status Report"
-      ],
-      "alertMessage": "Intermittent malfunctions in the waste management system; crew is currently utilizing backup collection bags as a contingency.",
-      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and high spirits.",
-      "lastEvent": "Completion of microgravity CPR demonstrations and medical equipment validation on Flight Day 4.",
-      "nextEvent": "Entry into the Lunar Sphere of Influence followed by surpassing the Apollo 13 distance record.",
-      "telemetry": {
-        "distanceFromEarth": 161000,
-        "distanceFromMoon": 241000,
-        "missionElapsedDay": 5,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-05T21:30:02.700Z"
     }
   ],
   "lastError": null
