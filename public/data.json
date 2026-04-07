@@ -1,30 +1,29 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Return Coast",
-    "currentPhase": "Earthbound Return Leg",
-    "headline": "Orion spacecraft Integrity is Earthbound after breaking the all-time human distance record from Earth.",
+    "statusLabel": "Trans-Earth Coast",
+    "currentPhase": "Returning to Earth",
+    "headline": "The Orion spacecraft is on a stable return trajectory after successfully completing a historic lunar flyby and setting a new human distance record.",
     "details": [
-      "The crew reached a peak distance of 406,771 km from Earth, shattering the 56-year-old record held by Apollo 13.",
-      "Orion completed its closest lunar approach at a distance of 6,545 km from the surface.",
-      "Mission Control has officially transitioned the mission to the return phase as the spacecraft heads for a Friday splashdown.",
-      "Crew remains in excellent health with cumulative radiation doses well within safe operational limits at 5.2 mSv."
+      "Orion surpassed the Apollo 13 record by reaching a maximum distance of 252,756 miles from Earth.",
+      "The crew successfully conducted high-resolution imaging of the lunar farside and observed a 53-minute deep-space solar eclipse.",
+      "Astronauts are utilizing ARCHER wearable sensors to monitor physiological responses during the return transit.",
+      "The spacecraft remains on track for a Pacific Ocean splashdown on April 10, 2026."
     ],
     "sources": [
-      "NASA Mission Control Center (MCC-H)",
-      "Artemis Flight Dynamics Officer (FIDO)"
+      "NASA Mission Control",
+      "Artemis II Flight Operations"
     ],
-    "alertMessage": null,
-    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in high spirits and maintaining baseline health.",
-    "lastEvent": "Re-acquisition of Earth communications and capture of Earthrise footage following lunar far-side flyby.",
-    "nextEvent": "Transition out of the lunar sphere of influence scheduled for 17:25Z today.",
+    "crewStatus": "The four-member crew is in excellent health and high spirits, continuing mission operations during the return coast.",
+    "lastEvent": "Deep space solar eclipse observation behind the Moon.",
+    "nextEvent": "Exit of Lunar Sphere of Influence",
     "telemetry": {
       "distanceFromEarth": 406771,
       "distanceFromMoon": 6545,
       "missionElapsedDay": 6,
-      "velocity": 97950
+      "velocity": 97945
     },
-    "fetchedAt": "2026-04-07T05:08:47.995Z"
+    "fetchedAt": "2026-04-07T09:01:42.497Z"
   },
   "milestones": [
     {
@@ -449,13 +448,39 @@
       "id": "splashdown",
       "label": "Splashdown",
       "detail": "Revised target splashdown in the Pacific Ocean off the coast of San Diego.",
-      "time": "2026-04-10T00:07:00.000Z",
-      "day": 9,
+      "time": "2026-04-11T00:07:00.000Z",
+      "day": 10,
       "icon": "🌊",
       "highlight": true
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Trans-Earth Coast",
+      "currentPhase": "Returning to Earth",
+      "headline": "The Orion spacecraft is on a stable return trajectory after successfully completing a historic lunar flyby and setting a new human distance record.",
+      "details": [
+        "Orion surpassed the Apollo 13 record by reaching a maximum distance of 252,756 miles from Earth.",
+        "The crew successfully conducted high-resolution imaging of the lunar farside and observed a 53-minute deep-space solar eclipse.",
+        "Astronauts are utilizing ARCHER wearable sensors to monitor physiological responses during the return transit.",
+        "The spacecraft remains on track for a Pacific Ocean splashdown on April 10, 2026."
+      ],
+      "sources": [
+        "NASA Mission Control",
+        "Artemis II Flight Operations"
+      ],
+      "crewStatus": "The four-member crew is in excellent health and high spirits, continuing mission operations during the return coast.",
+      "lastEvent": "Deep space solar eclipse observation behind the Moon.",
+      "nextEvent": "Exit of Lunar Sphere of Influence",
+      "telemetry": {
+        "distanceFromEarth": 406771,
+        "distanceFromMoon": 6545,
+        "missionElapsedDay": 6,
+        "velocity": 97945
+      },
+      "fetchedAt": "2026-04-07T09:01:42.497Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Return Coast",
@@ -973,33 +998,6 @@
         "velocity": 4023.36
       },
       "fetchedAt": "2026-04-06T02:23:26.409Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Nominal Operations",
-      "currentPhase": "Outbound Trans-Lunar Coast",
-      "headline": "Artemis II crew nears the Moon's sphere of influence after resolving waste system blockage.",
-      "details": [
-        "The spacecraft Orion (Integrity) is on a free-return trajectory and has surpassed the equidistant point between Earth and the Moon.",
-        "A waste system ice blockage was successfully resolved by Mission Control by orienting the spacecraft toward the sun to melt the obstruction.",
-        "The four-person crew completed critical suit pressurization and fit checks in microgravity to prepare for lunar proximity events.",
-        "Crew members successfully observed and photographed a total solar eclipse from deep space during Flight Day 5."
-      ],
-      "sources": [
-        "NASA Mission Status Report 2026-04-05",
-        "Artemis II Flight Director's Log"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in good health and spirits, having acclimated to microgravity.",
-      "lastEvent": "Resolution of the Universal Waste Management System ice blockage via solar heating.",
-      "nextEvent": "Entry into the Moon's Sphere of Influence (SOI) expected at 04:41 UTC on April 6.",
-      "telemetry": {
-        "distanceFromEarth": 301966,
-        "distanceFromMoon": 151101,
-        "missionElapsedDay": 5,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-05T23:32:31.534Z"
     }
   ],
   "lastError": null
