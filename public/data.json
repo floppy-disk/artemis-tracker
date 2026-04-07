@@ -1,31 +1,30 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Earthbound",
-    "currentPhase": "Free-return trajectory return coast",
-    "headline": "Artemis II crew breaks all-time human distance record and begins return coast to Earth.",
+    "statusLabel": "Return Coast",
+    "currentPhase": "Earthbound Return Leg",
+    "headline": "Orion spacecraft Integrity is Earthbound after breaking the all-time human distance record from Earth.",
     "details": [
-      "Orion successfully reached a record-breaking distance of 406,773 km from Earth, surpassing the Apollo 13 record.",
-      "The crew completed a close lunar flyby at an altitude of 6,545 km and observed the lunar far side including the Orientale Basin.",
-      "A 40-minute communication blackout occurred as Orion passed behind the Moon, followed by a unique deep-space solar eclipse observation.",
-      "Crew remains in excellent health and is currently conducting radiation research via the AVATAR project tissue-analog study."
+      "The crew reached a peak distance of 406,771 km from Earth, shattering the 56-year-old record held by Apollo 13.",
+      "Orion completed its closest lunar approach at a distance of 6,545 km from the surface.",
+      "Mission Control has officially transitioned the mission to the return phase as the spacecraft heads for a Friday splashdown.",
+      "Crew remains in excellent health with cumulative radiation doses well within safe operational limits at 5.2 mSv."
     ],
     "sources": [
-      "NASA Mission Control Center",
-      "Artemis II Flight Operations Log",
-      "CSA Mission Updates"
+      "NASA Mission Control Center (MCC-H)",
+      "Artemis Flight Dynamics Officer (FIDO)"
     ],
     "alertMessage": null,
-    "crewStatus": "Wiseman, Glover, Koch, and Hansen are in excellent spirits; currently conducting geological observations and AVATAR biological research.",
-    "lastEvent": "Deep-space total solar eclipse observation of the Sun passing behind the Moon",
-    "nextEvent": "Trajectory correction maneuvers and radiation shielding storm shelter demonstration",
+    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in high spirits and maintaining baseline health.",
+    "lastEvent": "Re-acquisition of Earth communications and capture of Earthrise footage following lunar far-side flyby.",
+    "nextEvent": "Transition out of the lunar sphere of influence scheduled for 17:25Z today.",
     "telemetry": {
-      "distanceFromEarth": 405554,
-      "distanceFromMoon": 21698,
+      "distanceFromEarth": 406771,
+      "distanceFromMoon": 6545,
       "missionElapsedDay": 6,
-      "velocity": 97949
+      "velocity": 97950
     },
-    "fetchedAt": "2026-04-07T02:10:43.540Z"
+    "fetchedAt": "2026-04-07T05:08:47.995Z"
   },
   "milestones": [
     {
@@ -301,16 +300,6 @@
       "isNew": true
     },
     {
-      "id": "farthest-human-distance",
-      "label": "Human Distance Record",
-      "detail": "Artemis II officially became the most distant human-crewed mission in history, surpassing Apollo 13.",
-      "time": "2026-04-06T17:56:00.000Z",
-      "day": 5,
-      "icon": "📏",
-      "completed": true,
-      "isNew": true
-    },
-    {
       "id": "lunar-observation",
       "label": "Lunar Surface Observation",
       "detail": "Began 7-hour observation period of 35 geological lunar features.",
@@ -323,12 +312,22 @@
     {
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
-      "detail": "Orion passed within 6,545 km of the lunar surface at closest approach.",
-      "time": "2026-04-06T23:02:00.000Z",
+      "detail": "Spacecraft passed within 6,545 km of the lunar surface.",
+      "time": "2026-04-06T23:00:00.000Z",
       "day": 6,
       "icon": "🌕",
       "highlight": true,
       "completed": true
+    },
+    {
+      "id": "farthest-human-distance",
+      "label": "Human Distance Record",
+      "detail": "New record for human distance from Earth set at 406,771 km.",
+      "time": "2026-04-06T23:02:00.000Z",
+      "day": 6,
+      "icon": "📏",
+      "completed": true,
+      "isNew": true
     },
     {
       "id": "return-coast",
@@ -350,6 +349,15 @@
       "isNew": true
     },
     {
+      "id": "earthrise",
+      "label": "Earthrise Photo Ops",
+      "detail": "Crew captured high-definition footage of Earth emerging from behind the Moon.",
+      "time": "2026-04-06T23:24:00.000Z",
+      "day": 6,
+      "icon": "🌍",
+      "completed": true
+    },
+    {
       "id": "comm-blackout",
       "label": "Communications Blackout",
       "detail": "Signal re-acquired after Orion emerged from the lunar far side.",
@@ -358,14 +366,6 @@
       "icon": "📵",
       "completed": true,
       "isNew": true
-    },
-    {
-      "id": "earthrise",
-      "label": "Earthrise Photo Ops",
-      "detail": "Crew photographs Earthrise",
-      "time": "2026-04-06T23:25:00.000Z",
-      "day": 6,
-      "icon": "🌍"
     },
     {
       "id": "sans-exams",
@@ -380,7 +380,7 @@
     {
       "id": "lunar-eclipse",
       "label": "Deep Space Solar Eclipse",
-      "detail": "Crew observed a 53-minute total solar eclipse from their vantage point behind the Moon.",
+      "detail": "Crew conducted a 53-minute solar corona observation while the Sun was eclipsed by the Moon.",
       "time": "2026-04-07T01:28:00.000Z",
       "day": 6,
       "icon": "🌑",
@@ -418,6 +418,26 @@
       "isNew": true
     },
     {
+      "id": "lunar-soi-exit",
+      "label": "Exit Lunar Sphere Of Influence",
+      "detail": "Point at which Earth's gravity becomes the dominant force over lunar gravity.",
+      "time": "2026-04-07T17:25:00.000Z",
+      "day": 6,
+      "icon": "🌏",
+      "completed": false,
+      "isNew": true
+    },
+    {
+      "id": "manual-pilot-demo-2",
+      "label": "Manual Piloting Demonstration #2",
+      "detail": "Secondary test of Orion's handling characteristics in the return corridor.",
+      "time": "2026-04-09T12:00:00.000Z",
+      "day": 8,
+      "icon": "🕹️",
+      "completed": false,
+      "isNew": true
+    },
+    {
       "id": "reentry",
       "label": "Re-Entry",
       "detail": "Skip re-entry at ~5,000°F",
@@ -428,14 +448,41 @@
     {
       "id": "splashdown",
       "label": "Splashdown",
-      "detail": "Final splashdown in the Pacific Ocean off the coast of San Diego.",
-      "time": "2026-04-11T00:07:00.000Z",
-      "day": 10,
+      "detail": "Revised target splashdown in the Pacific Ocean off the coast of San Diego.",
+      "time": "2026-04-10T00:07:00.000Z",
+      "day": 9,
       "icon": "🌊",
       "highlight": true
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Return Coast",
+      "currentPhase": "Earthbound Return Leg",
+      "headline": "Orion spacecraft Integrity is Earthbound after breaking the all-time human distance record from Earth.",
+      "details": [
+        "The crew reached a peak distance of 406,771 km from Earth, shattering the 56-year-old record held by Apollo 13.",
+        "Orion completed its closest lunar approach at a distance of 6,545 km from the surface.",
+        "Mission Control has officially transitioned the mission to the return phase as the spacecraft heads for a Friday splashdown.",
+        "Crew remains in excellent health with cumulative radiation doses well within safe operational limits at 5.2 mSv."
+      ],
+      "sources": [
+        "NASA Mission Control Center (MCC-H)",
+        "Artemis Flight Dynamics Officer (FIDO)"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in high spirits and maintaining baseline health.",
+      "lastEvent": "Re-acquisition of Earth communications and capture of Earthrise footage following lunar far-side flyby.",
+      "nextEvent": "Transition out of the lunar sphere of influence scheduled for 17:25Z today.",
+      "telemetry": {
+        "distanceFromEarth": 406771,
+        "distanceFromMoon": 6545,
+        "missionElapsedDay": 6,
+        "velocity": 97950
+      },
+      "fetchedAt": "2026-04-07T05:08:47.995Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Earthbound",
@@ -953,33 +1000,6 @@
         "velocity": null
       },
       "fetchedAt": "2026-04-05T23:32:31.534Z"
-    },
-    {
-      "status": "caution",
-      "statusLabel": "Waste System Issue",
-      "currentPhase": "Trans-Lunar Coast",
-      "headline": "Artemis II crew nears Lunar Sphere of Influence while managing waste system challenges and conducting suit mobility tests.",
-      "details": [
-        "The crew is cruising toward the Moon in a free-return trajectory, currently approximately 103,000 km away from the lunar surface.",
-        "Mission Control is troubleshooting a persistent Orion waste management system issue suspected to be caused by an ice blockage in the wastewater tank vent.",
-        "Crew members successfully conducted pressurization and mobility tests with the Orion Crew Survival System (OCSS) suits.",
-        "First live close-up views of the Moon's Orientale Basin in over 50 years were captured and transmitted to Earth."
-      ],
-      "sources": [
-        "NASA Mission Control Daily Briefing 2026-04-05",
-        "Artemis II Flight Log"
-      ],
-      "alertMessage": "Waste management system (toilet) experiencing ice blockage in vent; crew utilizing backup urine collection bags until verified fix.",
-      "crewStatus": "Crew is in excellent health and high spirits; recently held a commemorative radio session with Apollo 16 astronaut Charlie Duke.",
-      "lastEvent": "Completion of Orion Crew Survival System (OCSS) suit mobility and zero-gravity medical drill demonstrations.",
-      "nextEvent": "Entry into the Lunar Sphere of Influence, where the Moon's gravity will become the primary force on Orion.",
-      "telemetry": {
-        "distanceFromEarth": 301966,
-        "distanceFromMoon": 103000,
-        "missionElapsedDay": 4,
-        "velocity": 39428
-      },
-      "fetchedAt": "2026-04-05T22:29:26.429Z"
     }
   ],
   "lastError": null
