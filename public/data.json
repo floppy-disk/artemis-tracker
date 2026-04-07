@@ -1,28 +1,30 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Returning Home",
-    "currentPhase": "Return trajectory transit",
-    "headline": "The Orion spacecraft is currently on a free-return trajectory back to Earth after a successful lunar flyby and record-breaking distance milestone.",
+    "statusLabel": "Homeward Bound",
+    "currentPhase": "The Orion spacecraft is on a free-return trajectory heading back to Earth.",
+    "headline": "Artemis II crew begins return transit following record-breaking lunar flyby.",
     "details": [
-      "The crew is in excellent health and high spirits while monitoring deep-space systems.",
-      "Orion is scheduled to exit the lunar sphere of influence today at 17:25 UTC.",
-      "The crew performed naked-eye lunar observations and witnessed a total solar eclipse during the transit.",
-      "Splashdown remains on schedule for April 11, 2026."
+      "Orion reached a maximum distance from Earth of 252,756 miles (406,771 km), a new record for human spaceflight.",
+      "The crew successfully resolved a minor frozen toilet vent by rotating the spacecraft for a sunlight-induced 'sun-soak'.",
+      "Astronauts observed a 57-minute solar eclipse while positioned behind the Moon during their homeward slingshot.",
+      "The crew proposed naming two lunar craters 'Integrity' and 'Carroll' during an emotional downlink with Mission Control."
     ],
     "sources": [
-      "NASA Artemis II Mission Status Reports"
+      "NASA Artemis Mission Control Report",
+      "Flight Day 6 Trajectory Analysis"
     ],
-    "crewStatus": "All four crew members are healthy and performing routine operations.",
-    "lastEvent": "Deep Space Solar Eclipse observed on April 7, 2026.",
-    "nextEvent": "Exit of the lunar sphere of influence at 17:25 UTC.",
+    "alertMessage": null,
+    "crewStatus": "Commander Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in excellent health and performing biomedical monitoring.",
+    "lastEvent": "The crew completed a 57-minute solar eclipse observation while behind the Moon.",
+    "nextEvent": "Orion will exit the lunar sphere of influence and transition back to Earth-dominant gravity.",
     "telemetry": {
-      "distanceFromEarth": 394289,
-      "distanceFromMoon": 66100,
+      "distanceFromEarth": 342398,
+      "distanceFromMoon": 64373,
       "missionElapsedDay": 6,
-      "velocity": 5632
+      "velocity": 97950
     },
-    "fetchedAt": "2026-04-07T13:17:25.943Z"
+    "fetchedAt": "2026-04-07T15:08:29.368Z"
   },
   "milestones": [
     {
@@ -298,6 +300,16 @@
       "isNew": true
     },
     {
+      "id": "apollo-13-record",
+      "label": "Broke Apollo 13 Distance Record",
+      "detail": "Surpassed the 248,655-mile record for the farthest human distance from Earth.",
+      "time": "2026-04-06T17:56:00.000Z",
+      "day": 5,
+      "icon": "🏆",
+      "completed": true,
+      "isNew": true
+    },
+    {
       "id": "lunar-observation",
       "label": "Lunar Surface Observation",
       "detail": "Began 7-hour observation period of 35 geological lunar features.",
@@ -310,7 +322,7 @@
     {
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
-      "detail": "Spacecraft passed within 6,545 km of the lunar surface.",
+      "detail": "Achieved closest approach of 4,067 miles (6,545 km) above the lunar surface.",
       "time": "2026-04-06T23:00:00.000Z",
       "day": 6,
       "icon": "🌕",
@@ -320,7 +332,7 @@
     {
       "id": "farthest-human-distance",
       "label": "Human Distance Record",
-      "detail": "New record for human distance from Earth set at 406,771 km.",
+      "detail": "Reached maximum mission distance of 252,756 miles from Earth.",
       "time": "2026-04-06T23:02:00.000Z",
       "day": 6,
       "icon": "📏",
@@ -376,16 +388,6 @@
       "isNew": true
     },
     {
-      "id": "lunar-eclipse",
-      "label": "Deep Space Solar Eclipse",
-      "detail": "Crew conducted a 53-minute solar corona observation while the Sun was eclipsed by the Moon.",
-      "time": "2026-04-07T01:28:00.000Z",
-      "day": 6,
-      "icon": "🌑",
-      "completed": true,
-      "isNew": true
-    },
-    {
       "id": "avatar-research",
       "label": "AVATAR Research Project",
       "detail": "Ongoing study of radiation and microgravity effects on organ-on-a-chip tissue analogs.",
@@ -403,6 +405,16 @@
       "day": 6,
       "icon": "🛡️",
       "completed": false,
+      "isNew": true
+    },
+    {
+      "id": "lunar-eclipse",
+      "label": "Deep Space Solar Eclipse",
+      "detail": "Observed a deep-space solar eclipse from the far side of the Moon.",
+      "time": "2026-04-07T02:32:00.000Z",
+      "day": 6,
+      "icon": "🌑",
+      "completed": true,
       "isNew": true
     },
     {
@@ -454,6 +466,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Homeward Bound",
+      "currentPhase": "The Orion spacecraft is on a free-return trajectory heading back to Earth.",
+      "headline": "Artemis II crew begins return transit following record-breaking lunar flyby.",
+      "details": [
+        "Orion reached a maximum distance from Earth of 252,756 miles (406,771 km), a new record for human spaceflight.",
+        "The crew successfully resolved a minor frozen toilet vent by rotating the spacecraft for a sunlight-induced 'sun-soak'.",
+        "Astronauts observed a 57-minute solar eclipse while positioned behind the Moon during their homeward slingshot.",
+        "The crew proposed naming two lunar craters 'Integrity' and 'Carroll' during an emotional downlink with Mission Control."
+      ],
+      "sources": [
+        "NASA Artemis Mission Control Report",
+        "Flight Day 6 Trajectory Analysis"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in excellent health and performing biomedical monitoring.",
+      "lastEvent": "The crew completed a 57-minute solar eclipse observation while behind the Moon.",
+      "nextEvent": "Orion will exit the lunar sphere of influence and transition back to Earth-dominant gravity.",
+      "telemetry": {
+        "distanceFromEarth": 342398,
+        "distanceFromMoon": 64373,
+        "missionElapsedDay": 6,
+        "velocity": 97950
+      },
+      "fetchedAt": "2026-04-07T15:08:29.368Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Returning Home",
@@ -967,34 +1006,6 @@
         "velocity": null
       },
       "fetchedAt": "2026-04-06T09:07:31.565Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Lunar Entry",
-      "currentPhase": "Moon's sphere of influence entry and preparation for lunar flyby.",
-      "headline": "Orion enters Moon's sphere of influence ahead of historic flyby and Apollo 13 distance record break.",
-      "details": [
-        "Spacecraft successfully entered the Moon's sphere of influence at 04:41 UTC on Mission Day 5.",
-        "A 17.5-second outbound trajectory correction burn (OTC-3) was completed at 03:03 UTC to refine the flyby path.",
-        "Engineers are monitoring a non-critical malfunction in the wastewater tank venting system; cabin air quality remains safe.",
-        "The crew is currently in a scheduled sleep period, with wake-up planned for 14:50 UTC to begin Flight Day 6."
-      ],
-      "sources": [
-        "NASA Mission Control Center",
-        "Artemis II Flight Operations Report",
-        "Canadian Space Agency (CSA)"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Crew is in excellent health and high spirits; currently resting ahead of the mission's closest lunar approach.",
-      "lastEvent": "Orion entered the Moon's sphere of influence at 04:41 UTC on April 6, 2026.",
-      "nextEvent": "Breaking the Apollo 13 human distance record at 17:56 UTC.",
-      "telemetry": {
-        "distanceFromEarth": 374177,
-        "distanceFromMoon": 57936,
-        "missionElapsedDay": 5,
-        "velocity": 5150
-      },
-      "fetchedAt": "2026-04-06T07:27:48.014Z"
     }
   ],
   "lastError": null
