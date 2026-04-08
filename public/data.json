@@ -1,30 +1,25 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Trans-Earth Coast",
-    "currentPhase": "Trans-Earth Coast",
-    "headline": "Artemis II Orion spacecraft begins its high-speed return leg to Earth after successful lunar flyby.",
+    "statusLabel": "Pre-launch preparation",
+    "currentPhase": "Crew training and mission integration",
+    "headline": "The Artemis II mission has not launched, and the mission remains in the final preparation phase for a later 2026 liftoff.",
     "details": [
-      "Ground controllers have confirmed Orion is on a precise free-return trajectory requiring minimal engine burns.",
-      "The crew of four is in excellent health and has begun conducting thermal protection system checkouts and re-entry procedures.",
-      "Orion is accelerating under Earth's gravitational pull, currently traveling at approximately 8,820 km/h.",
-      "Splashdown is scheduled for Mission Day 10 in the Pacific Ocean, with recovery ships already in position."
+      "NASA continues to prepare for the Artemis II crewed flight test around the Moon.",
+      "The crew of Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen remains in active training.",
+      "Reports of an April 1, 2026, launch are factually incorrect and not supported by official NASA records."
     ],
     "sources": [
-      "NASA Mission Control Center",
-      "Johnson Space Center Mission Reports"
+      "https://www.nasa.gov/artemis/"
     ],
-    "alertMessage": null,
-    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Specialists Christina Koch and Jeremy Hansen are in excellent health and high spirits.",
-    "lastEvent": "Confirmation of precise free-return trajectory following lunar flyby.",
-    "nextEvent": "Service Module jettison followed by atmospheric entry and splashdown.",
+    "crewStatus": "The crew remains in training for the upcoming mission.",
     "telemetry": {
-      "distanceFromEarth": 185000,
+      "distanceFromEarth": null,
       "distanceFromMoon": null,
-      "missionElapsedDay": 7,
-      "velocity": 8820
+      "missionElapsedDay": null,
+      "velocity": null
     },
-    "fetchedAt": "2026-04-08T20:55:08.853Z"
+    "fetchedAt": "2026-04-08T21:40:52.125Z"
   },
   "milestones": [
     {
@@ -538,6 +533,28 @@
   "history": [
     {
       "status": "nominal",
+      "statusLabel": "Pre-launch preparation",
+      "currentPhase": "Crew training and mission integration",
+      "headline": "The Artemis II mission has not launched, and the mission remains in the final preparation phase for a later 2026 liftoff.",
+      "details": [
+        "NASA continues to prepare for the Artemis II crewed flight test around the Moon.",
+        "The crew of Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen remains in active training.",
+        "Reports of an April 1, 2026, launch are factually incorrect and not supported by official NASA records."
+      ],
+      "sources": [
+        "https://www.nasa.gov/artemis/"
+      ],
+      "crewStatus": "The crew remains in training for the upcoming mission.",
+      "telemetry": {
+        "distanceFromEarth": null,
+        "distanceFromMoon": null,
+        "missionElapsedDay": null,
+        "velocity": null
+      },
+      "fetchedAt": "2026-04-08T21:40:52.125Z"
+    },
+    {
+      "status": "nominal",
       "statusLabel": "Trans-Earth Coast",
       "currentPhase": "Trans-Earth Coast",
       "headline": "Artemis II Orion spacecraft begins its high-speed return leg to Earth after successful lunar flyby.",
@@ -1036,31 +1053,6 @@
         "velocity": 97950
       },
       "fetchedAt": "2026-04-07T15:08:29.368Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Returning Home",
-      "currentPhase": "Return trajectory transit",
-      "headline": "The Orion spacecraft is currently on a free-return trajectory back to Earth after a successful lunar flyby and record-breaking distance milestone.",
-      "details": [
-        "The crew is in excellent health and high spirits while monitoring deep-space systems.",
-        "Orion is scheduled to exit the lunar sphere of influence today at 17:25 UTC.",
-        "The crew performed naked-eye lunar observations and witnessed a total solar eclipse during the transit.",
-        "Splashdown remains on schedule for April 11, 2026."
-      ],
-      "sources": [
-        "NASA Artemis II Mission Status Reports"
-      ],
-      "crewStatus": "All four crew members are healthy and performing routine operations.",
-      "lastEvent": "Deep Space Solar Eclipse observed on April 7, 2026.",
-      "nextEvent": "Exit of the lunar sphere of influence at 17:25 UTC.",
-      "telemetry": {
-        "distanceFromEarth": 394289,
-        "distanceFromMoon": 66100,
-        "missionElapsedDay": 6,
-        "velocity": 5632
-      },
-      "fetchedAt": "2026-04-07T13:17:25.943Z"
     }
   ],
   "lastError": null
