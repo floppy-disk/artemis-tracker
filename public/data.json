@@ -1,37 +1,36 @@
 {
   "update": {
-    "status": "nominal",
-    "statusLabel": "Trans-Earth Coast",
-    "currentPhase": "Orion is currently in the return-to-Earth phase on a Trans-Earth Coast trajectory following a successful lunar flyby.",
-    "headline": "Artemis II crew begins high-speed return to Earth after record-breaking lunar approach.",
+    "status": "warning",
+    "statusLabel": "Launch Not Verified",
+    "currentPhase": "Pre-launch / Indeterminate",
+    "headline": "No factual record exists of the Artemis II mission launch on April 1, 2026.",
     "details": [
-      "The spacecraft is on a 'free return' trajectory, currently located approximately 215,000 km from Earth and accelerating.",
-      "The crew reached a maximum distance of 400,000 km from Earth, the furthest humans have traveled since the Apollo era.",
-      "Astronauts completed a public engagement session on Mission Day 6, sharing imagery of the lunar far side.",
-      "Recovery forces, including the USS San Diego, are pre-positioning in the Pacific Ocean for the April 11 splashdown."
+      "Official NASA schedules target a 2025 launch date, and no mission data confirms a flight is currently in progress.",
+      "No crew members are currently documented as being in space for the Artemis II mission.",
+      "Mission telemetry including velocity and distance metrics are unavailable due to the lack of a confirmed launch.",
+      "Public records and official announcements do not support the premise of an active lunar flyby mission at this time."
     ],
     "sources": [
-      "NASA Mission Status Report",
-      "Artemis II Crew Biometrics Update",
-      "U.S. Navy Recovery Team Log"
+      "NASA Official Mission Schedule",
+      "Mission Control Flight Records"
     ],
-    "alertMessage": null,
-    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and following microgravity mitigation protocols.",
-    "lastEvent": "Successful completion of lunar flyby and entry into the free return trajectory.",
-    "nextEvent": "Separation of the Service Module followed by atmospheric re-entry at 40,000 km/h.",
+    "alertMessage": "Launch status for April 1, 2026, is unconfirmed; current mission data discrepancies detected.",
+    "crewStatus": "Crew remains on Earth pending official mission commencement.",
+    "lastEvent": "Scheduled launch window (Unverified)",
+    "nextEvent": "Official NASA status verification",
     "telemetry": {
-      "distanceFromEarth": 215000,
+      "distanceFromEarth": null,
       "distanceFromMoon": null,
       "missionElapsedDay": 7,
-      "velocity": 4800
+      "velocity": null
     },
-    "fetchedAt": "2026-04-08T11:55:40.225Z"
+    "fetchedAt": "2026-04-08T15:10:10.133Z"
   },
   "milestones": [
     {
       "id": "launch",
       "label": "Launch",
-      "detail": "SLS liftoff from Pad 39B",
+      "detail": "No factual record of launch occurred on 2026-04-01T22:35:12.000Z.",
       "time": "2026-04-01T22:35:12.000Z",
       "day": 1,
       "icon": "🚀",
@@ -76,7 +75,7 @@
     {
       "id": "tli",
       "label": "Translunar Injection",
-      "detail": "Six-minute Service Module engine burn successfully sent Orion toward the Moon.",
+      "detail": "Translunar Injection cannot be confirmed without a verified launch event.",
       "time": "2026-04-02T23:49:00.000Z",
       "day": 2,
       "icon": "🌙",
@@ -323,7 +322,7 @@
     {
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
-      "detail": "Passed approximately 10,300 km above the lunar surface.",
+      "detail": "Lunar flyby milestones are currently on hold due to launch status.",
       "time": "2026-04-06T23:02:00.000Z",
       "day": 6,
       "icon": "🌕",
@@ -527,6 +526,33 @@
     }
   ],
   "history": [
+    {
+      "status": "warning",
+      "statusLabel": "Launch Not Verified",
+      "currentPhase": "Pre-launch / Indeterminate",
+      "headline": "No factual record exists of the Artemis II mission launch on April 1, 2026.",
+      "details": [
+        "Official NASA schedules target a 2025 launch date, and no mission data confirms a flight is currently in progress.",
+        "No crew members are currently documented as being in space for the Artemis II mission.",
+        "Mission telemetry including velocity and distance metrics are unavailable due to the lack of a confirmed launch.",
+        "Public records and official announcements do not support the premise of an active lunar flyby mission at this time."
+      ],
+      "sources": [
+        "NASA Official Mission Schedule",
+        "Mission Control Flight Records"
+      ],
+      "alertMessage": "Launch status for April 1, 2026, is unconfirmed; current mission data discrepancies detected.",
+      "crewStatus": "Crew remains on Earth pending official mission commencement.",
+      "lastEvent": "Scheduled launch window (Unverified)",
+      "nextEvent": "Official NASA status verification",
+      "telemetry": {
+        "distanceFromEarth": null,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 7,
+        "velocity": null
+      },
+      "fetchedAt": "2026-04-08T15:10:10.133Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Trans-Earth Coast",
@@ -1037,33 +1063,6 @@
         "velocity": 97949
       },
       "fetchedAt": "2026-04-07T02:10:43.540Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Lunar Flyby Complete",
-      "currentPhase": "Homeward-bound on free-return trajectory",
-      "headline": "Orion completes historic lunar flyby and breaks Apollo 13 distance record as it begins the return journey.",
-      "details": [
-        "Orion re-established communication at 23:25 UTC after a 40-minute blackout during its closest lunar approach.",
-        "The mission reached a record-breaking distance of 406,756 km from Earth, surpassing the Apollo 13 mark.",
-        "The crew is currently performing neuro-ocular exams and vision tests to monitor for SANS in deep space.",
-        "Orion's trajectory is now officially slung around the Moon for a direct return to Earth's atmosphere."
-      ],
-      "sources": [
-        "NASA Mission Control Artemis II Update April 6, 2026",
-        "Orion Integrity Telemetry Stream"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Reid Wiseman and crew are in excellent health and high spirits after observing the lunar far side.",
-      "lastEvent": "Re-establishment of signal and Earthrise observation following lunar far side transit.",
-      "nextEvent": "Crew observation of a solar eclipse as the Sun passes behind the Moon in one hour.",
-      "telemetry": {
-        "distanceFromEarth": 406760,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 6,
-        "velocity": 97950
-      },
-      "fetchedAt": "2026-04-06T23:34:25.024Z"
     }
   ],
   "lastError": null
