@@ -2,30 +2,30 @@
   "update": {
     "status": "nominal",
     "statusLabel": "Return Coast",
-    "currentPhase": "Return Trajectory",
-    "headline": "Artemis II crew completes trajectory burn as they approach final stages of return journey.",
+    "currentPhase": "Trans-Earth Coast following lunar flyby",
+    "headline": "Orion spacecraft begins its return journey to Earth after shattering distance records and completing lunar science objectives.",
     "details": [
-      "The spacecraft Integrity completed a 15-second Return Trajectory Correction burn to fine-tune its path for a Pacific splashdown.",
-      "Crew surpassed the all-time human distance record from Earth, reaching 252,756 miles during their lunar flyby.",
-      "A filter blockage has been identified in the Orion waste system; the crew is successfully utilizing backup bag-and-funnel procedures.",
-      "NASA and the USS John P. Murtha are preparing for a scheduled splashdown off the coast of San Diego on April 10."
+      "Successfully executed the first return trajectory correction burn (RTC-1) with a 15-second thruster fire.",
+      "The crew of Orion performed a historic long-distance call with the International Space Station while 230,000 miles apart.",
+      "Engineers are monitoring a clogged filter in the waste management system, though backup systems remain fully operational.",
+      "The spacecraft has exited the lunar sphere of influence and is now being pulled back toward Earth by gravity."
     ],
     "sources": [
-      "NASA Mission Status Report",
-      "Artemis Flight Operations Center",
-      "Artemis II Crew Log"
+      "NASA Mission Control",
+      "Artemis II Flight Operations",
+      "ESA Space Operations Center"
     ],
     "alertMessage": null,
-    "crewStatus": "Crew is in good health and evaluating orthostatic garments to aid blood circulation during reentry.",
-    "lastEvent": "Successful completion of the Return Trajectory Correction 1 (RTC-1) burn.",
-    "nextEvent": "Manual piloting demonstrations and atmospheric reentry preparation.",
+    "crewStatus": "Crew is in excellent health; currently preparing for orthostatic garment testing and manual piloting demonstrations.",
+    "lastEvent": "Return Trajectory Correction 1 (RTC-1) completed at 00:03 UTC on April 8.",
+    "nextEvent": "Orthostatic intolerance garment testing and secondary manual piloting demonstrations.",
     "telemetry": {
-      "distanceFromEarth": 406771,
-      "distanceFromMoon": 6545,
+      "distanceFromEarth": 362102,
+      "distanceFromMoon": null,
       "missionElapsedDay": 7,
       "velocity": null
     },
-    "fetchedAt": "2026-04-08T07:18:13.428Z"
+    "fetchedAt": "2026-04-08T08:59:57.338Z"
   },
   "milestones": [
     {
@@ -303,7 +303,7 @@
     {
       "id": "apollo-13-record",
       "label": "Broke Apollo 13 Distance Record",
-      "detail": "Artemis II officially surpassed the Apollo 13 record for the farthest distance from Earth reached by a human-rated spacecraft.",
+      "detail": "Shattered the Apollo 13 record for the farthest humans have ever traveled from Earth.",
       "time": "2026-04-06T17:56:00.000Z",
       "day": 5,
       "icon": "🏆",
@@ -333,7 +333,7 @@
     {
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
-      "detail": "Orion reached a closest approach of 6,545 km from the lunar surface.",
+      "detail": "Orion reached its closest approach of 4,067 miles above the lunar farside.",
       "time": "2026-04-06T23:00:00.000Z",
       "day": 6,
       "icon": "🌕",
@@ -441,7 +441,7 @@
     {
       "id": "lunar-soi-exit",
       "label": "Exit Lunar Sphere Of Influence",
-      "detail": "Spacecraft transitioned back into Earth-dominant gravity after exiting the lunar sphere of influence.",
+      "detail": "Orion officially departed the Moon's sphere of influence.",
       "time": "2026-04-07T17:23:00.000Z",
       "day": 6,
       "icon": "🌏",
@@ -451,7 +451,7 @@
     {
       "id": "iss-conversation",
       "label": "ISS Crew Conversation",
-      "detail": "First-of-its-kind deep space communication between Orion and the ISS crew.",
+      "detail": "Completed a ship-to-ship audio call with the Expedition 74 crew on the ISS.",
       "time": "2026-04-07T18:40:00.000Z",
       "day": 6,
       "icon": "💬",
@@ -461,8 +461,8 @@
     {
       "id": "rtc-1",
       "label": "Return Trajectory Correction 1",
-      "detail": "15-second burn executed to fine-tune the spacecraft's return trajectory.",
-      "time": "2026-04-08T01:30:00.000Z",
+      "detail": "Successful 15-second engine burn to refine the return trajectory for splashdown.",
+      "time": "2026-04-08T00:03:00.000Z",
       "day": 7,
       "icon": "🔥",
       "completed": true,
@@ -507,6 +507,34 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Return Coast",
+      "currentPhase": "Trans-Earth Coast following lunar flyby",
+      "headline": "Orion spacecraft begins its return journey to Earth after shattering distance records and completing lunar science objectives.",
+      "details": [
+        "Successfully executed the first return trajectory correction burn (RTC-1) with a 15-second thruster fire.",
+        "The crew of Orion performed a historic long-distance call with the International Space Station while 230,000 miles apart.",
+        "Engineers are monitoring a clogged filter in the waste management system, though backup systems remain fully operational.",
+        "The spacecraft has exited the lunar sphere of influence and is now being pulled back toward Earth by gravity."
+      ],
+      "sources": [
+        "NASA Mission Control",
+        "Artemis II Flight Operations",
+        "ESA Space Operations Center"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Crew is in excellent health; currently preparing for orthostatic garment testing and manual piloting demonstrations.",
+      "lastEvent": "Return Trajectory Correction 1 (RTC-1) completed at 00:03 UTC on April 8.",
+      "nextEvent": "Orthostatic intolerance garment testing and secondary manual piloting demonstrations.",
+      "telemetry": {
+        "distanceFromEarth": 362102,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 7,
+        "velocity": null
+      },
+      "fetchedAt": "2026-04-08T08:59:57.338Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Return Coast",
@@ -1016,33 +1044,6 @@
         "velocity": 1931
       },
       "fetchedAt": "2026-04-06T21:37:02.119Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Record Breaking",
-      "currentPhase": "Lunar Flyby",
-      "headline": "Artemis II crew breaks Apollo 13 record for farthest human distance from Earth during lunar flyby.",
-      "details": [
-        "The crew officially surpassed the Apollo 13 record of 248,655 miles at 17:56 UTC.",
-        "Orion is currently performing a 7-hour lunar observation period to document 35 geological features.",
-        "The waste management system issues encountered on Day 2 have been fully resolved.",
-        "The spacecraft will reach its closest lunar approach of 6,550 km at 23:02 UTC."
-      ],
-      "sources": [
-        "NASA Mission Control",
-        "Artemis II Flight Log"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and performing lunar observations.",
-      "lastEvent": "Surpassed the Apollo 13 all-time human distance record from Earth at 17:56 UTC.",
-      "nextEvent": "40-minute Loss of Signal (LOS) during lunar far side passage starting at 22:44 UTC.",
-      "telemetry": {
-        "distanceFromEarth": 404589,
-        "distanceFromMoon": 13518,
-        "missionElapsedDay": 5,
-        "velocity": 4748
-      },
-      "fetchedAt": "2026-04-06T20:36:21.549Z"
     }
   ],
   "lastError": null
