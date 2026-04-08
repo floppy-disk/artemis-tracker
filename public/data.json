@@ -1,30 +1,31 @@
 {
   "update": {
-    "status": "caution",
+    "status": "nominal",
     "statusLabel": "Return Coast",
-    "currentPhase": "The crew is on a return trajectory toward Earth following a successful lunar flyby and is currently in the seventh day of the 10-day mission.",
-    "headline": "Artemis II crew begins return journey after setting a new record for human distance from Earth.",
+    "currentPhase": "Return Trajectory",
+    "headline": "Artemis II crew completes trajectory burn as they approach final stages of return journey.",
     "details": [
-      "On April 6, the crew reached a record distance of 406,771 km from Earth, surpassing the Apollo 13 record.",
-      "NASA is investigating a waste management issue involving a suspected debris blockage in the urine venting system.",
-      "The crew successfully performed a 15-second Return Trajectory Correction (RTC-1) burn on April 8 at 01:30 UTC.",
-      "Splashdown is currently targeted for April 11, 2026, at 00:07 UTC off the coast of San Diego."
+      "The spacecraft Integrity completed a 15-second Return Trajectory Correction burn to fine-tune its path for a Pacific splashdown.",
+      "Crew surpassed the all-time human distance record from Earth, reaching 252,756 miles during their lunar flyby.",
+      "A filter blockage has been identified in the Orion waste system; the crew is successfully utilizing backup bag-and-funnel procedures.",
+      "NASA and the USS John P. Murtha are preparing for a scheduled splashdown off the coast of San Diego on April 10."
     ],
     "sources": [
-      "NASA Mission Control Center Update",
-      "Artemis II Flight Status Report April 8, 2026"
+      "NASA Mission Status Report",
+      "Artemis Flight Operations Center",
+      "Artemis II Crew Log"
     ],
-    "alertMessage": "Engineers are monitoring the spacecraft waste management system due to a venting blockage; the system remains functional while a debris-related cause is investigated.",
-    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in good health.",
-    "lastEvent": "Completed the RTC-1 burn using Orion's reaction control thrusters to refine the return path to Earth.",
-    "nextEvent": "Second manual piloting demonstration and entry interface preparations.",
+    "alertMessage": null,
+    "crewStatus": "Crew is in good health and evaluating orthostatic garments to aid blood circulation during reentry.",
+    "lastEvent": "Successful completion of the Return Trajectory Correction 1 (RTC-1) burn.",
+    "nextEvent": "Manual piloting demonstrations and atmospheric reentry preparation.",
     "telemetry": {
       "distanceFromEarth": 406771,
       "distanceFromMoon": 6545,
       "missionElapsedDay": 7,
-      "velocity": 97947
+      "velocity": null
     },
-    "fetchedAt": "2026-04-08T05:10:08.375Z"
+    "fetchedAt": "2026-04-08T07:18:13.428Z"
   },
   "milestones": [
     {
@@ -223,7 +224,7 @@
     {
       "id": "waste-vent-issue",
       "label": "Urine Line Freeze",
-      "detail": "Cause identified as likely debris blockage from chemical reaction rather than ice accumulation.",
+      "detail": "Issue identified as a blocked filter rather than ice; crew utilizing backup systems.",
       "time": "2026-04-05T12:00:00.000Z",
       "day": 4,
       "icon": "❄️",
@@ -468,11 +469,21 @@
       "isNew": true
     },
     {
+      "id": "orthostatic-test",
+      "label": "Orthostatic Garment Test",
+      "detail": "Testing specialized garments designed to maintain circulation during transition to Earth gravity.",
+      "time": "2026-04-08T15:00:00.000Z",
+      "day": 7,
+      "icon": "👖",
+      "completed": true,
+      "isNew": true
+    },
+    {
       "id": "manual-pilot-demo-2",
       "label": "Manual Piloting Demonstration #2",
       "detail": "Secondary test of Orion's handling characteristics in the return corridor.",
-      "time": "2026-04-09T01:59:00.000Z",
-      "day": 8,
+      "time": "2026-04-08T22:00:00.000Z",
+      "day": 7,
       "icon": "🕹️",
       "completed": false,
       "isNew": true
@@ -496,6 +507,34 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Return Coast",
+      "currentPhase": "Return Trajectory",
+      "headline": "Artemis II crew completes trajectory burn as they approach final stages of return journey.",
+      "details": [
+        "The spacecraft Integrity completed a 15-second Return Trajectory Correction burn to fine-tune its path for a Pacific splashdown.",
+        "Crew surpassed the all-time human distance record from Earth, reaching 252,756 miles during their lunar flyby.",
+        "A filter blockage has been identified in the Orion waste system; the crew is successfully utilizing backup bag-and-funnel procedures.",
+        "NASA and the USS John P. Murtha are preparing for a scheduled splashdown off the coast of San Diego on April 10."
+      ],
+      "sources": [
+        "NASA Mission Status Report",
+        "Artemis Flight Operations Center",
+        "Artemis II Crew Log"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Crew is in good health and evaluating orthostatic garments to aid blood circulation during reentry.",
+      "lastEvent": "Successful completion of the Return Trajectory Correction 1 (RTC-1) burn.",
+      "nextEvent": "Manual piloting demonstrations and atmospheric reentry preparation.",
+      "telemetry": {
+        "distanceFromEarth": 406771,
+        "distanceFromMoon": 6545,
+        "missionElapsedDay": 7,
+        "velocity": null
+      },
+      "fetchedAt": "2026-04-08T07:18:13.428Z"
+    },
     {
       "status": "caution",
       "statusLabel": "Return Coast",
@@ -1004,33 +1043,6 @@
         "velocity": 4748
       },
       "fetchedAt": "2026-04-06T20:36:21.549Z"
-    },
-    {
-      "status": "caution",
-      "statusLabel": "Distance Record Broken",
-      "currentPhase": "Lunar Flyby and Far Side Observation",
-      "headline": "Artemis II crew officially breaks the all-time human distance record from Earth.",
-      "details": [
-        "Orion surpassed the Apollo 13 record of 248,655 miles at 1:57 PM EDT and is continuing toward a peak distance of 252,760 miles.",
-        "Crew members are performing a seven-hour observation of the lunar far side, including photography of terrain not seen by humans in over 50 years.",
-        "A frozen urine venting line has required the use of backup Collapsible Contingency Urinals, though mission safety remains unaffected.",
-        "Orion will pass within 4,070 miles of the lunar surface at 7:02 PM EDT tonight during its closest approach."
-      ],
-      "sources": [
-        "NASA Mission Control Center",
-        "Artemis II Flight Operations Daily Log"
-      ],
-      "alertMessage": "A frozen urine venting line is currently being managed using backup systems; no risk to crew health or vehicle integrity identified.",
-      "crewStatus": "Wiseman, Glover, Koch, and Hansen are in excellent health and high spirits; following microgravity fitness and emergency response protocols.",
-      "lastEvent": "Transitioned into the Lunar Sphere of Influence at 12:37 AM EDT.",
-      "nextEvent": "Closest approach to the lunar surface followed by a 40-minute total communication blackout as Orion passes behind the Moon.",
-      "telemetry": {
-        "distanceFromEarth": 400171,
-        "distanceFromMoon": 6550,
-        "missionElapsedDay": 5,
-        "velocity": 1846
-      },
-      "fetchedAt": "2026-04-06T19:53:49.762Z"
     }
   ],
   "lastError": null
