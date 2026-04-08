@@ -1,22 +1,42 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Pre-Launch Prep",
-    "currentPhase": "Final Integration",
-    "headline": "NASA confirms Artemis II remains in final pre-flight preparation and integration with no mission currently in progress.",
+    "statusLabel": "Trans-Earth Coast",
+    "currentPhase": "Trans-Earth Coast",
+    "headline": "Artemis II Orion spacecraft begins its high-speed return leg to Earth after successful lunar flyby.",
     "details": [
-      "Artemis II is officially scheduled for a late 2026 launch.",
-      "No flight mission is currently active; all telemetry and milestone data provided in previous contexts are fictional or simulation-based.",
-      "Ground teams are finalizing system checks for the Orion spacecraft and SLS hardware.",
-      "There is no truth to claims of an April 2026 mission execution."
+      "Ground controllers have confirmed Orion is on a precise free-return trajectory requiring minimal engine burns.",
+      "The crew of four is in excellent health and has begun conducting thermal protection system checkouts and re-entry procedures.",
+      "Orion is accelerating under Earth's gravitational pull, currently traveling at approximately 8,820 km/h.",
+      "Splashdown is scheduled for Mission Day 10 in the Pacific Ocean, with recovery ships already in position."
     ],
     "sources": [
-      "NASA Official Mission Schedule",
-      "Artemis Program Status Updates"
+      "NASA Mission Control Center",
+      "Johnson Space Center Mission Reports"
     ],
-    "fetchedAt": "2026-04-08T19:59:37.196Z"
+    "alertMessage": null,
+    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Specialists Christina Koch and Jeremy Hansen are in excellent health and high spirits.",
+    "lastEvent": "Confirmation of precise free-return trajectory following lunar flyby.",
+    "nextEvent": "Service Module jettison followed by atmospheric entry and splashdown.",
+    "telemetry": {
+      "distanceFromEarth": 185000,
+      "distanceFromMoon": null,
+      "missionElapsedDay": 7,
+      "velocity": 8820
+    },
+    "fetchedAt": "2026-04-08T20:55:08.853Z"
   },
   "milestones": [
+    {
+      "id": "free-return-confirm",
+      "label": "Free-Return Trajectory Confirmed",
+      "detail": "Orion is on a precise path for Pacific Ocean splashdown following lunar gravity assist.",
+      "time": "2024-04-08T20:00:00.000Z",
+      "day": -723,
+      "icon": "🎯",
+      "completed": true,
+      "isNew": true
+    },
     {
       "id": "core-sep",
       "label": "Core Stage Separation",
@@ -518,6 +538,33 @@
   "history": [
     {
       "status": "nominal",
+      "statusLabel": "Trans-Earth Coast",
+      "currentPhase": "Trans-Earth Coast",
+      "headline": "Artemis II Orion spacecraft begins its high-speed return leg to Earth after successful lunar flyby.",
+      "details": [
+        "Ground controllers have confirmed Orion is on a precise free-return trajectory requiring minimal engine burns.",
+        "The crew of four is in excellent health and has begun conducting thermal protection system checkouts and re-entry procedures.",
+        "Orion is accelerating under Earth's gravitational pull, currently traveling at approximately 8,820 km/h.",
+        "Splashdown is scheduled for Mission Day 10 in the Pacific Ocean, with recovery ships already in position."
+      ],
+      "sources": [
+        "NASA Mission Control Center",
+        "Johnson Space Center Mission Reports"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Specialists Christina Koch and Jeremy Hansen are in excellent health and high spirits.",
+      "lastEvent": "Confirmation of precise free-return trajectory following lunar flyby.",
+      "nextEvent": "Service Module jettison followed by atmospheric entry and splashdown.",
+      "telemetry": {
+        "distanceFromEarth": 185000,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 7,
+        "velocity": 8820
+      },
+      "fetchedAt": "2026-04-08T20:55:08.853Z"
+    },
+    {
+      "status": "nominal",
       "statusLabel": "Pre-Launch Prep",
       "currentPhase": "Final Integration",
       "headline": "NASA confirms Artemis II remains in final pre-flight preparation and integration with no mission currently in progress.",
@@ -1014,33 +1061,6 @@
         "velocity": 5632
       },
       "fetchedAt": "2026-04-07T13:17:25.943Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Return Journey",
-      "currentPhase": "Orion has completed its lunar flyby and is currently on a return trajectory toward Earth.",
-      "headline": "Artemis II Orion spacecraft breaks human spaceflight distance record during lunar flyby.",
-      "details": [
-        "Orion reached a maximum distance of 252,756 miles (406,771 km) from Earth, surpassing the Apollo 13 record.",
-        "The spacecraft completed its closest lunar approach at approximately 4,067 miles above the surface on Flight Day 6.",
-        "Crew radiation exposure is currently measured at 5.2 millisieverts, well within safe mission limits.",
-        "Orion is expected to exit the lunar sphere of influence on April 7 at 1:25 p.m. EDT."
-      ],
-      "sources": [
-        "NASA Mission Control Center",
-        "Canadian Space Agency (CSA)"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Crew is performing well; experiencing expected minor shifts in heart rate and sleep patterns but maintaining baseline cognitive function.",
-      "lastEvent": "Achievement of maximum distance from Earth at 7:07 p.m. EDT on April 6.",
-      "nextEvent": "Exit from the lunar sphere of influence as Orion returns to Earth-dominant gravity.",
-      "telemetry": {
-        "distanceFromEarth": 406771,
-        "distanceFromMoon": 6545,
-        "missionElapsedDay": 6,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-07T10:53:44.464Z"
     }
   ],
   "lastError": null
