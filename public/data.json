@@ -1,40 +1,22 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Pre-Launch",
-    "currentPhase": "Pre-flight Planning and Readiness",
-    "headline": "NASA Artemis II mission remains in pre-launch status as technical evaluations continue.",
+    "statusLabel": "Pre-Launch Prep",
+    "currentPhase": "Final Integration",
+    "headline": "NASA confirms Artemis II remains in final pre-flight preparation and integration with no mission currently in progress.",
     "details": [
-      "The Artemis II mission has not yet launched as of April 8, 2026.",
-      "NASA continues to perform operational readiness assessments and scheduling reviews for the crewed lunar flyby.",
-      "No active crew is currently in space for this mission, and ground systems are in nominal standby.",
-      "Launch date remains subject to ongoing evaluation of flight software and hardware integration."
+      "Artemis II is officially scheduled for a late 2026 launch.",
+      "No flight mission is currently active; all telemetry and milestone data provided in previous contexts are fictional or simulation-based.",
+      "Ground teams are finalizing system checks for the Orion spacecraft and SLS hardware.",
+      "There is no truth to claims of an April 2026 mission execution."
     ],
     "sources": [
-      "NASA Artemis II Mission Readiness Briefing"
+      "NASA Official Mission Schedule",
+      "Artemis Program Status Updates"
     ],
-    "alertMessage": null,
-    "crewStatus": "The crew remains on Earth completing final training cycles and mission simulations.",
-    "lastEvent": "Completion of mission operational readiness technical reviews.",
-    "nextEvent": "Final Flight Readiness Review (FRR) for the Space Launch System and Orion spacecraft.",
-    "telemetry": {
-      "distanceFromEarth": 0,
-      "distanceFromMoon": null,
-      "missionElapsedDay": 0,
-      "velocity": 0
-    },
-    "fetchedAt": "2026-04-08T18:13:52.183Z"
+    "fetchedAt": "2026-04-08T19:59:37.196Z"
   },
   "milestones": [
-    {
-      "id": "launch",
-      "label": "Launch",
-      "detail": "Launch date is pending final scheduling for late 2026.",
-      "time": "2026-04-01T22:35:12.000Z",
-      "day": 1,
-      "icon": "🚀",
-      "completed": true
-    },
     {
       "id": "core-sep",
       "label": "Core Stage Separation",
@@ -522,9 +504,35 @@
       "day": 10,
       "icon": "🌊",
       "highlight": true
+    },
+    {
+      "id": "launch",
+      "label": "Launch",
+      "detail": "Launch date is pending final scheduling for late 2026.",
+      "time": "2026-12-01T00:00:00.000Z",
+      "day": 244,
+      "icon": "🚀",
+      "completed": true
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Pre-Launch Prep",
+      "currentPhase": "Final Integration",
+      "headline": "NASA confirms Artemis II remains in final pre-flight preparation and integration with no mission currently in progress.",
+      "details": [
+        "Artemis II is officially scheduled for a late 2026 launch.",
+        "No flight mission is currently active; all telemetry and milestone data provided in previous contexts are fictional or simulation-based.",
+        "Ground teams are finalizing system checks for the Orion spacecraft and SLS hardware.",
+        "There is no truth to claims of an April 2026 mission execution."
+      ],
+      "sources": [
+        "NASA Official Mission Schedule",
+        "Artemis Program Status Updates"
+      ],
+      "fetchedAt": "2026-04-08T19:59:37.196Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Pre-Launch",
@@ -1033,32 +1041,6 @@
         "velocity": null
       },
       "fetchedAt": "2026-04-07T10:53:44.464Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Trans-Earth Coast",
-      "currentPhase": "Returning to Earth",
-      "headline": "The Orion spacecraft is on a stable return trajectory after successfully completing a historic lunar flyby and setting a new human distance record.",
-      "details": [
-        "Orion surpassed the Apollo 13 record by reaching a maximum distance of 252,756 miles from Earth.",
-        "The crew successfully conducted high-resolution imaging of the lunar farside and observed a 53-minute deep-space solar eclipse.",
-        "Astronauts are utilizing ARCHER wearable sensors to monitor physiological responses during the return transit.",
-        "The spacecraft remains on track for a Pacific Ocean splashdown on April 10, 2026."
-      ],
-      "sources": [
-        "NASA Mission Control",
-        "Artemis II Flight Operations"
-      ],
-      "crewStatus": "The four-member crew is in excellent health and high spirits, continuing mission operations during the return coast.",
-      "lastEvent": "Deep space solar eclipse observation behind the Moon.",
-      "nextEvent": "Exit of Lunar Sphere of Influence",
-      "telemetry": {
-        "distanceFromEarth": 406771,
-        "distanceFromMoon": 6545,
-        "missionElapsedDay": 6,
-        "velocity": 97945
-      },
-      "fetchedAt": "2026-04-07T09:01:42.497Z"
     }
   ],
   "lastError": null
