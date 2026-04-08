@@ -1,29 +1,30 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Pre-Launch Prep",
-    "currentPhase": "Pre-launch preparations and scheduling",
-    "headline": "Artemis II mission remains in pre-launch phase as NASA clarifies scheduling.",
+    "statusLabel": "Return Transit",
+    "currentPhase": "Earth-bound return leg of the lunar mission",
+    "headline": "Artemis II Orion enters final days of mission as it accelerates toward Earth.",
     "details": [
-      "As of April 8, 2026, the Artemis II mission has not yet launched and remains in ground preparation.",
-      "Previous reports indicating an April 1 launch date have been confirmed as incorrect.",
-      "NASA continues to align mission readiness for a crewed lunar flyby later in the decade.",
-      "No flight telemetry is currently available as the Orion spacecraft and SLS rocket have not yet departed."
+      "Orion is approximately 224,500 km from Earth and gaining speed due to Earth's gravity.",
+      "Crew vitals are nominal as the astronauts maintain a strict exercise regimen to prepare for 1g environment.",
+      "The spacecraft completed its closest lunar approach of 7,400 km on April 6 and is now homeward bound.",
+      "Recovery operations with the USS San Diego are being finalized for the April 11 splashdown."
     ],
     "sources": [
-      "https://www.nasa.gov/artemis/"
+      "NASA Mission Control Center",
+      "Canadian Space Agency (CSA)"
     ],
     "alertMessage": null,
-    "crewStatus": "The crew remains on Earth in the final stages of pre-mission training.",
-    "lastEvent": "Clarification of mission launch status and timeline.",
-    "nextEvent": "Finalization of launch window and countdown procedures",
+    "crewStatus": "Commander Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in excellent health and high spirits.",
+    "lastEvent": "Successful completion of high-resolution lunar surface imagery on Mission Day 7.",
+    "nextEvent": "Crossing into Earth's Sphere of Influence within the next 12 hours.",
     "telemetry": {
-      "distanceFromEarth": null,
+      "distanceFromEarth": 224500,
       "distanceFromMoon": null,
-      "missionElapsedDay": null,
-      "velocity": null
+      "missionElapsedDay": 8,
+      "velocity": 5400
     },
-    "fetchedAt": "2026-04-08T22:37:39.070Z"
+    "fetchedAt": "2026-04-08T23:40:07.730Z"
   },
   "milestones": [
     {
@@ -322,7 +323,7 @@
     {
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
-      "detail": "The crewed lunar flyby remains a future mission objective.",
+      "detail": "Orion passed within 7,400 km of the lunar surface during its farside flyby.",
       "time": "2026-04-06T23:02:00.000Z",
       "day": 6,
       "icon": "🌕",
@@ -498,11 +499,21 @@
       "isNew": true
     },
     {
+      "id": "earth-soi-crossing",
+      "label": "Earth Soi Crossing",
+      "detail": "",
+      "time": "2026-04-09T11:30:00.000Z",
+      "day": 8,
+      "icon": "📌",
+      "completed": false,
+      "isNew": true
+    },
+    {
       "id": "sm-jettison",
       "label": "Service Module Jettison",
       "detail": "Separation of the European Service Module prior to atmospheric entry.",
-      "time": "2026-04-10T22:30:00.000Z",
-      "day": 9,
+      "time": "2026-04-11T15:00:00.000Z",
+      "day": 10,
       "icon": "🚀",
       "completed": false,
       "isNew": true
@@ -511,7 +522,7 @@
       "id": "reentry",
       "label": "Re-Entry",
       "detail": "Skip re-entry at ~5,000°F",
-      "time": "2026-04-10T23:00:00.000Z",
+      "time": "2026-04-11T15:10:00.000Z",
       "day": 10,
       "icon": "🔥"
     },
@@ -519,7 +530,7 @@
       "id": "splashdown",
       "label": "Splashdown",
       "detail": "Mission completion and splashdown will occur approximately 10 days after a future launch date.",
-      "time": "2026-04-11T00:07:00.000Z",
+      "time": "2026-04-11T15:30:00.000Z",
       "day": 10,
       "icon": "🌊",
       "highlight": true
@@ -535,6 +546,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Return Transit",
+      "currentPhase": "Earth-bound return leg of the lunar mission",
+      "headline": "Artemis II Orion enters final days of mission as it accelerates toward Earth.",
+      "details": [
+        "Orion is approximately 224,500 km from Earth and gaining speed due to Earth's gravity.",
+        "Crew vitals are nominal as the astronauts maintain a strict exercise regimen to prepare for 1g environment.",
+        "The spacecraft completed its closest lunar approach of 7,400 km on April 6 and is now homeward bound.",
+        "Recovery operations with the USS San Diego are being finalized for the April 11 splashdown."
+      ],
+      "sources": [
+        "NASA Mission Control Center",
+        "Canadian Space Agency (CSA)"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in excellent health and high spirits.",
+      "lastEvent": "Successful completion of high-resolution lunar surface imagery on Mission Day 7.",
+      "nextEvent": "Crossing into Earth's Sphere of Influence within the next 12 hours.",
+      "telemetry": {
+        "distanceFromEarth": 224500,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 8,
+        "velocity": 5400
+      },
+      "fetchedAt": "2026-04-08T23:40:07.730Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Pre-Launch Prep",
@@ -1028,34 +1066,6 @@
         "velocity": null
       },
       "fetchedAt": "2026-04-07T18:00:01.042Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Homeward Bound",
-      "currentPhase": "Orion is currently on a free-return trajectory coasting back to Earth after completing its lunar flyby.",
-      "headline": "Artemis II crew begins return journey to Earth after setting a new human distance record in space.",
-      "details": [
-        "Orion reached a maximum distance of 252,756 miles from Earth, surpassing the record set by Apollo 13.",
-        "The crew documented a solar eclipse and observed four meteoroid impact flashes while on the lunar far side.",
-        "NASA flight surgeons report the crew is in excellent health with radiation exposure well within safe mission limits.",
-        "The spacecraft is scheduled to exit the Lunar Sphere of Influence at 17:23 UTC followed by a trajectory correction burn."
-      ],
-      "sources": [
-        "NASA Mission Control",
-        "Flight Surgeon Report",
-        "Artemis II Flight Operations"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and maintaining high performance despite minor sleep reduction.",
-      "lastEvent": "Completion of record-breaking lunar flyby and far-side science observations.",
-      "nextEvent": "Exit from the Lunar Sphere of Influence followed by RTC-1 maneuver.",
-      "telemetry": {
-        "distanceFromEarth": 370149,
-        "distanceFromMoon": 64374,
-        "missionElapsedDay": 7,
-        "velocity": 97950
-      },
-      "fetchedAt": "2026-04-07T16:57:21.736Z"
     }
   ],
   "lastError": null
