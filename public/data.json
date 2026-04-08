@@ -2,34 +2,34 @@
   "update": {
     "status": "nominal",
     "statusLabel": "Pre-Launch",
-    "currentPhase": "Planning and Preparation",
-    "headline": "Artemis II mission remains in planning stages as NASA confirms the mission has not yet launched.",
+    "currentPhase": "Pre-flight Planning and Readiness",
+    "headline": "NASA Artemis II mission remains in pre-launch status as technical evaluations continue.",
     "details": [
-      "As of April 8, 2026, the Artemis II mission remains on the ground with no launch having occurred.",
-      "NASA confirms that reports of an April 1, 2026 launch are inaccurate.",
-      "Official mission planning continues with a target launch window formerly set for September 2025.",
-      "Inflight telemetry, crew health data, and mission elapsed time are currently unavailable."
+      "The Artemis II mission has not yet launched as of April 8, 2026.",
+      "NASA continues to perform operational readiness assessments and scheduling reviews for the crewed lunar flyby.",
+      "No active crew is currently in space for this mission, and ground systems are in nominal standby.",
+      "Launch date remains subject to ongoing evaluation of flight software and hardware integration."
     ],
     "sources": [
-      "NASA Official Mission Schedules"
+      "NASA Artemis II Mission Readiness Briefing"
     ],
     "alertMessage": null,
-    "crewStatus": "The crew of four astronauts remains in the training and preparation phase on Earth.",
-    "lastEvent": "Mission hardware preparation and crew training.",
-    "nextEvent": "Official announcement of an updated target launch date.",
+    "crewStatus": "The crew remains on Earth completing final training cycles and mission simulations.",
+    "lastEvent": "Completion of mission operational readiness technical reviews.",
+    "nextEvent": "Final Flight Readiness Review (FRR) for the Space Launch System and Orion spacecraft.",
     "telemetry": {
-      "distanceFromEarth": null,
+      "distanceFromEarth": 0,
       "distanceFromMoon": null,
-      "missionElapsedDay": null,
-      "velocity": null
+      "missionElapsedDay": 0,
+      "velocity": 0
     },
-    "fetchedAt": "2026-04-08T17:00:29.694Z"
+    "fetchedAt": "2026-04-08T18:13:52.183Z"
   },
   "milestones": [
     {
       "id": "launch",
       "label": "Launch",
-      "detail": "The reported April 1, 2026 launch date was incorrect; the mission is still in pre-launch status.",
+      "detail": "Launch date is pending final scheduling for late 2026.",
       "time": "2026-04-01T22:35:12.000Z",
       "day": 1,
       "icon": "🚀",
@@ -74,7 +74,7 @@
     {
       "id": "tli",
       "label": "Translunar Injection",
-      "detail": "Translunar Injection cannot be confirmed without a verified launch event.",
+      "detail": "Translunar injection will occur approximately two hours after launch once flight is underway.",
       "time": "2026-04-02T23:49:00.000Z",
       "day": 2,
       "icon": "🌙",
@@ -321,7 +321,7 @@
     {
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
-      "detail": "Lunar flyby milestones are currently on hold due to launch status.",
+      "detail": "The crewed lunar flyby remains a future mission objective.",
       "time": "2026-04-06T23:02:00.000Z",
       "day": 6,
       "icon": "🌕",
@@ -517,7 +517,7 @@
     {
       "id": "splashdown",
       "label": "Splashdown",
-      "detail": "Revised target splashdown in the Pacific Ocean off the coast of San Diego.",
+      "detail": "Mission completion and splashdown will occur approximately 10 days after a future launch date.",
       "time": "2026-04-11T00:07:00.000Z",
       "day": 10,
       "icon": "🌊",
@@ -525,6 +525,32 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Pre-Launch",
+      "currentPhase": "Pre-flight Planning and Readiness",
+      "headline": "NASA Artemis II mission remains in pre-launch status as technical evaluations continue.",
+      "details": [
+        "The Artemis II mission has not yet launched as of April 8, 2026.",
+        "NASA continues to perform operational readiness assessments and scheduling reviews for the crewed lunar flyby.",
+        "No active crew is currently in space for this mission, and ground systems are in nominal standby.",
+        "Launch date remains subject to ongoing evaluation of flight software and hardware integration."
+      ],
+      "sources": [
+        "NASA Artemis II Mission Readiness Briefing"
+      ],
+      "alertMessage": null,
+      "crewStatus": "The crew remains on Earth completing final training cycles and mission simulations.",
+      "lastEvent": "Completion of mission operational readiness technical reviews.",
+      "nextEvent": "Final Flight Readiness Review (FRR) for the Space Launch System and Orion spacecraft.",
+      "telemetry": {
+        "distanceFromEarth": 0,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 0,
+        "velocity": 0
+      },
+      "fetchedAt": "2026-04-08T18:13:52.183Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Pre-Launch",
@@ -1033,33 +1059,6 @@
         "velocity": 97945
       },
       "fetchedAt": "2026-04-07T09:01:42.497Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Return Coast",
-      "currentPhase": "Earthbound Return Leg",
-      "headline": "Orion spacecraft Integrity is Earthbound after breaking the all-time human distance record from Earth.",
-      "details": [
-        "The crew reached a peak distance of 406,771 km from Earth, shattering the 56-year-old record held by Apollo 13.",
-        "Orion completed its closest lunar approach at a distance of 6,545 km from the surface.",
-        "Mission Control has officially transitioned the mission to the return phase as the spacecraft heads for a Friday splashdown.",
-        "Crew remains in excellent health with cumulative radiation doses well within safe operational limits at 5.2 mSv."
-      ],
-      "sources": [
-        "NASA Mission Control Center (MCC-H)",
-        "Artemis Flight Dynamics Officer (FIDO)"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in high spirits and maintaining baseline health.",
-      "lastEvent": "Re-acquisition of Earth communications and capture of Earthrise footage following lunar far-side flyby.",
-      "nextEvent": "Transition out of the lunar sphere of influence scheduled for 17:25Z today.",
-      "telemetry": {
-        "distanceFromEarth": 406771,
-        "distanceFromMoon": 6545,
-        "missionElapsedDay": 6,
-        "velocity": 97950
-      },
-      "fetchedAt": "2026-04-07T05:08:47.995Z"
     }
   ],
   "lastError": null
