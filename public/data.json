@@ -1,30 +1,26 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Homeward Bound",
-    "currentPhase": "Trans-Earth Coast",
-    "headline": "Orion exits lunar sphere of influence following record-breaking mission objectives.",
+    "statusLabel": "Nominal",
+    "currentPhase": "Return Transit",
+    "headline": "The Orion spacecraft is officially Earthbound following a successful Return Trajectory Correction (RTC-1) burn.",
     "details": [
-      "Orion officially departed the Moon's gravitational influence at 17:23 UTC, beginning its high-speed return to Earth.",
-      "The crew set a new human spaceflight distance record of 252,756 miles (406,771 km) from Earth, surpassing Apollo 13.",
-      "A historic 'moonship-to-spaceship' radio call was conducted between the Orion crew and the International Space Station.",
-      "A minor waste management system filter clog was reported; the crew is successfully using a backup bag-and-funnel system."
+      "Orion successfully performed a 15-second RTC-1 burn to refine the entry corridor for splashdown.",
+      "The crew is preparing for the final phase of the mission by testing orthostatic intolerance garments.",
+      "The spacecraft exited the lunar sphere of influence on April 7, shifting focus toward Earth recovery.",
+      "Recovery operations are underway with the USS John P. Murtha transiting to the Pacific splashdown site."
     ],
     "sources": [
-      "NASA Artemis Mission Control",
-      "Flight Day 7 Status Report"
+      "NASA Mission Control",
+      "Artemis II Flight Operations Updates"
     ],
-    "alertMessage": null,
-    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and high spirits.",
-    "lastEvent": "Exit Lunar Sphere of Influence",
-    "nextEvent": "Return Trajectory Correction (RTC) Burn 1",
+    "crewStatus": "The crew of four is in excellent health and high spirits as they transition toward re-entry preparation.",
+    "lastEvent": "Return Trajectory Correction (RTC-1) burn completed at 01:03 UTC on April 8.",
+    "nextEvent": "Manual Piloting Demonstration on April 9.",
     "telemetry": {
-      "distanceFromEarth": 386242,
-      "distanceFromMoon": null,
-      "missionElapsedDay": 7,
-      "velocity": null
+      "missionElapsedDay": 7
     },
-    "fetchedAt": "2026-04-07T23:36:38.371Z"
+    "fetchedAt": "2026-04-08T02:12:42.291Z"
   },
   "milestones": [
     {
@@ -460,7 +456,7 @@
     {
       "id": "rtc-1",
       "label": "Return Trajectory Correction 1",
-      "detail": "First of three return trajectory correction burns completed to refine splashdown path.",
+      "detail": "Orion executed a 15-second burn to refine the return trajectory for a targeted splashdown.",
       "time": "2026-04-08T01:03:00.000Z",
       "day": 7,
       "icon": "🔥",
@@ -471,11 +467,20 @@
       "id": "manual-pilot-demo-2",
       "label": "Manual Piloting Demonstration #2",
       "detail": "Secondary test of Orion's handling characteristics in the return corridor.",
-      "time": "2026-04-09T12:00:00.000Z",
+      "time": "2026-04-09T01:59:00.000Z",
       "day": 8,
       "icon": "🕹️",
       "completed": false,
       "isNew": true
+    },
+    {
+      "id": "splashdown",
+      "label": "Splashdown",
+      "detail": "Revised target splashdown in the Pacific Ocean off the coast of San Diego.",
+      "time": "2026-04-10T00:07:00.000Z",
+      "day": 9,
+      "icon": "🌊",
+      "highlight": true
     },
     {
       "id": "reentry",
@@ -484,18 +489,32 @@
       "time": "2026-04-10T14:40:00.000Z",
       "day": 9,
       "icon": "🔥"
-    },
-    {
-      "id": "splashdown",
-      "label": "Splashdown",
-      "detail": "Revised target splashdown in the Pacific Ocean off the coast of San Diego.",
-      "time": "2026-04-10T15:00:00.000Z",
-      "day": 9,
-      "icon": "🌊",
-      "highlight": true
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Nominal",
+      "currentPhase": "Return Transit",
+      "headline": "The Orion spacecraft is officially Earthbound following a successful Return Trajectory Correction (RTC-1) burn.",
+      "details": [
+        "Orion successfully performed a 15-second RTC-1 burn to refine the entry corridor for splashdown.",
+        "The crew is preparing for the final phase of the mission by testing orthostatic intolerance garments.",
+        "The spacecraft exited the lunar sphere of influence on April 7, shifting focus toward Earth recovery.",
+        "Recovery operations are underway with the USS John P. Murtha transiting to the Pacific splashdown site."
+      ],
+      "sources": [
+        "NASA Mission Control",
+        "Artemis II Flight Operations Updates"
+      ],
+      "crewStatus": "The crew of four is in excellent health and high spirits as they transition toward re-entry preparation.",
+      "lastEvent": "Return Trajectory Correction (RTC-1) burn completed at 01:03 UTC on April 8.",
+      "nextEvent": "Manual Piloting Demonstration on April 9.",
+      "telemetry": {
+        "missionElapsedDay": 7
+      },
+      "fetchedAt": "2026-04-08T02:12:42.291Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Homeward Bound",
@@ -1009,33 +1028,6 @@
         "velocity": 1851
       },
       "fetchedAt": "2026-04-06T18:57:12.780Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Approaching Lunar Flyby",
-      "currentPhase": "Lunar Slingshot and Record Distance Achievement",
-      "headline": "Artemis II is minutes away from breaking the all-time human distance record during its lunar flyby phase.",
-      "details": [
-        "Orion is set to surpass the Apollo 13 record of 248,655 miles from Earth at 17:56 UTC.",
-        "The crew is following a 'free-return trajectory' using lunar gravity to slingshot back toward Earth.",
-        "A technical issue with a frozen waste line in the Universal Waste Management System has been fully resolved.",
-        "Lunar observations of 35 specific surface targets, including Apollo landing sites, will begin at 18:45 UTC."
-      ],
-      "sources": [
-        "NASA Mission Control Daily Briefing",
-        "Artemis II Flight Log"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and high spirits.",
-      "lastEvent": "Entered the Moon's sphere of influence at 04:37 UTC today.",
-      "nextEvent": "Surpassing the Apollo 13 human distance record from Earth.",
-      "telemetry": {
-        "distanceFromEarth": 394932,
-        "distanceFromMoon": 29612,
-        "missionElapsedDay": 5,
-        "velocity": 1846
-      },
-      "fetchedAt": "2026-04-06T17:42:56.598Z"
     }
   ],
   "lastError": null
