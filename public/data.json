@@ -1,36 +1,35 @@
 {
   "update": {
-    "status": "warning",
-    "statusLabel": "Launch Not Verified",
-    "currentPhase": "Pre-launch / Indeterminate",
-    "headline": "No factual record exists of the Artemis II mission launch on April 1, 2026.",
+    "status": "nominal",
+    "statusLabel": "Pre-Launch",
+    "currentPhase": "Planning and Preparation",
+    "headline": "Artemis II mission remains in planning stages as NASA confirms the mission has not yet launched.",
     "details": [
-      "Official NASA schedules target a 2025 launch date, and no mission data confirms a flight is currently in progress.",
-      "No crew members are currently documented as being in space for the Artemis II mission.",
-      "Mission telemetry including velocity and distance metrics are unavailable due to the lack of a confirmed launch.",
-      "Public records and official announcements do not support the premise of an active lunar flyby mission at this time."
+      "As of April 8, 2026, the Artemis II mission remains on the ground with no launch having occurred.",
+      "NASA confirms that reports of an April 1, 2026 launch are inaccurate.",
+      "Official mission planning continues with a target launch window formerly set for September 2025.",
+      "Inflight telemetry, crew health data, and mission elapsed time are currently unavailable."
     ],
     "sources": [
-      "NASA Official Mission Schedule",
-      "Mission Control Flight Records"
+      "NASA Official Mission Schedules"
     ],
-    "alertMessage": "Launch status for April 1, 2026, is unconfirmed; current mission data discrepancies detected.",
-    "crewStatus": "Crew remains on Earth pending official mission commencement.",
-    "lastEvent": "Scheduled launch window (Unverified)",
-    "nextEvent": "Official NASA status verification",
+    "alertMessage": null,
+    "crewStatus": "The crew of four astronauts remains in the training and preparation phase on Earth.",
+    "lastEvent": "Mission hardware preparation and crew training.",
+    "nextEvent": "Official announcement of an updated target launch date.",
     "telemetry": {
       "distanceFromEarth": null,
       "distanceFromMoon": null,
-      "missionElapsedDay": 7,
+      "missionElapsedDay": null,
       "velocity": null
     },
-    "fetchedAt": "2026-04-08T15:10:10.133Z"
+    "fetchedAt": "2026-04-08T17:00:29.694Z"
   },
   "milestones": [
     {
       "id": "launch",
       "label": "Launch",
-      "detail": "No factual record of launch occurred on 2026-04-01T22:35:12.000Z.",
+      "detail": "The reported April 1, 2026 launch date was incorrect; the mission is still in pre-launch status.",
       "time": "2026-04-01T22:35:12.000Z",
       "day": 1,
       "icon": "🚀",
@@ -526,6 +525,32 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Pre-Launch",
+      "currentPhase": "Planning and Preparation",
+      "headline": "Artemis II mission remains in planning stages as NASA confirms the mission has not yet launched.",
+      "details": [
+        "As of April 8, 2026, the Artemis II mission remains on the ground with no launch having occurred.",
+        "NASA confirms that reports of an April 1, 2026 launch are inaccurate.",
+        "Official mission planning continues with a target launch window formerly set for September 2025.",
+        "Inflight telemetry, crew health data, and mission elapsed time are currently unavailable."
+      ],
+      "sources": [
+        "NASA Official Mission Schedules"
+      ],
+      "alertMessage": null,
+      "crewStatus": "The crew of four astronauts remains in the training and preparation phase on Earth.",
+      "lastEvent": "Mission hardware preparation and crew training.",
+      "nextEvent": "Official announcement of an updated target launch date.",
+      "telemetry": {
+        "distanceFromEarth": null,
+        "distanceFromMoon": null,
+        "missionElapsedDay": null,
+        "velocity": null
+      },
+      "fetchedAt": "2026-04-08T17:00:29.694Z"
+    },
     {
       "status": "warning",
       "statusLabel": "Launch Not Verified",
@@ -1035,34 +1060,6 @@
         "velocity": 97950
       },
       "fetchedAt": "2026-04-07T05:08:47.995Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Earthbound",
-      "currentPhase": "Free-return trajectory return coast",
-      "headline": "Artemis II crew breaks all-time human distance record and begins return coast to Earth.",
-      "details": [
-        "Orion successfully reached a record-breaking distance of 406,773 km from Earth, surpassing the Apollo 13 record.",
-        "The crew completed a close lunar flyby at an altitude of 6,545 km and observed the lunar far side including the Orientale Basin.",
-        "A 40-minute communication blackout occurred as Orion passed behind the Moon, followed by a unique deep-space solar eclipse observation.",
-        "Crew remains in excellent health and is currently conducting radiation research via the AVATAR project tissue-analog study."
-      ],
-      "sources": [
-        "NASA Mission Control Center",
-        "Artemis II Flight Operations Log",
-        "CSA Mission Updates"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Wiseman, Glover, Koch, and Hansen are in excellent spirits; currently conducting geological observations and AVATAR biological research.",
-      "lastEvent": "Deep-space total solar eclipse observation of the Sun passing behind the Moon",
-      "nextEvent": "Trajectory correction maneuvers and radiation shielding storm shelter demonstration",
-      "telemetry": {
-        "distanceFromEarth": 405554,
-        "distanceFromMoon": 21698,
-        "missionElapsedDay": 6,
-        "velocity": 97949
-      },
-      "fetchedAt": "2026-04-07T02:10:43.540Z"
     }
   ],
   "lastError": null
