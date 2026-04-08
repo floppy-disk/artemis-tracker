@@ -1,25 +1,29 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Pre-launch preparation",
-    "currentPhase": "Crew training and mission integration",
-    "headline": "The Artemis II mission has not launched, and the mission remains in the final preparation phase for a later 2026 liftoff.",
+    "statusLabel": "Pre-Launch Prep",
+    "currentPhase": "Pre-launch preparations and scheduling",
+    "headline": "Artemis II mission remains in pre-launch phase as NASA clarifies scheduling.",
     "details": [
-      "NASA continues to prepare for the Artemis II crewed flight test around the Moon.",
-      "The crew of Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen remains in active training.",
-      "Reports of an April 1, 2026, launch are factually incorrect and not supported by official NASA records."
+      "As of April 8, 2026, the Artemis II mission has not yet launched and remains in ground preparation.",
+      "Previous reports indicating an April 1 launch date have been confirmed as incorrect.",
+      "NASA continues to align mission readiness for a crewed lunar flyby later in the decade.",
+      "No flight telemetry is currently available as the Orion spacecraft and SLS rocket have not yet departed."
     ],
     "sources": [
       "https://www.nasa.gov/artemis/"
     ],
-    "crewStatus": "The crew remains in training for the upcoming mission.",
+    "alertMessage": null,
+    "crewStatus": "The crew remains on Earth in the final stages of pre-mission training.",
+    "lastEvent": "Clarification of mission launch status and timeline.",
+    "nextEvent": "Finalization of launch window and countdown procedures",
     "telemetry": {
       "distanceFromEarth": null,
       "distanceFromMoon": null,
       "missionElapsedDay": null,
       "velocity": null
     },
-    "fetchedAt": "2026-04-08T21:40:52.125Z"
+    "fetchedAt": "2026-04-08T22:37:39.070Z"
   },
   "milestones": [
     {
@@ -533,6 +537,32 @@
   "history": [
     {
       "status": "nominal",
+      "statusLabel": "Pre-Launch Prep",
+      "currentPhase": "Pre-launch preparations and scheduling",
+      "headline": "Artemis II mission remains in pre-launch phase as NASA clarifies scheduling.",
+      "details": [
+        "As of April 8, 2026, the Artemis II mission has not yet launched and remains in ground preparation.",
+        "Previous reports indicating an April 1 launch date have been confirmed as incorrect.",
+        "NASA continues to align mission readiness for a crewed lunar flyby later in the decade.",
+        "No flight telemetry is currently available as the Orion spacecraft and SLS rocket have not yet departed."
+      ],
+      "sources": [
+        "https://www.nasa.gov/artemis/"
+      ],
+      "alertMessage": null,
+      "crewStatus": "The crew remains on Earth in the final stages of pre-mission training.",
+      "lastEvent": "Clarification of mission launch status and timeline.",
+      "nextEvent": "Finalization of launch window and countdown procedures",
+      "telemetry": {
+        "distanceFromEarth": null,
+        "distanceFromMoon": null,
+        "missionElapsedDay": null,
+        "velocity": null
+      },
+      "fetchedAt": "2026-04-08T22:37:39.070Z"
+    },
+    {
+      "status": "nominal",
       "statusLabel": "Pre-launch preparation",
       "currentPhase": "Crew training and mission integration",
       "headline": "The Artemis II mission has not launched, and the mission remains in the final preparation phase for a later 2026 liftoff.",
@@ -1026,33 +1056,6 @@
         "velocity": 97950
       },
       "fetchedAt": "2026-04-07T16:57:21.736Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Homeward Bound",
-      "currentPhase": "The Orion spacecraft is on a free-return trajectory heading back to Earth.",
-      "headline": "Artemis II crew begins return transit following record-breaking lunar flyby.",
-      "details": [
-        "Orion reached a maximum distance from Earth of 252,756 miles (406,771 km), a new record for human spaceflight.",
-        "The crew successfully resolved a minor frozen toilet vent by rotating the spacecraft for a sunlight-induced 'sun-soak'.",
-        "Astronauts observed a 57-minute solar eclipse while positioned behind the Moon during their homeward slingshot.",
-        "The crew proposed naming two lunar craters 'Integrity' and 'Carroll' during an emotional downlink with Mission Control."
-      ],
-      "sources": [
-        "NASA Artemis Mission Control Report",
-        "Flight Day 6 Trajectory Analysis"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in excellent health and performing biomedical monitoring.",
-      "lastEvent": "The crew completed a 57-minute solar eclipse observation while behind the Moon.",
-      "nextEvent": "Orion will exit the lunar sphere of influence and transition back to Earth-dominant gravity.",
-      "telemetry": {
-        "distanceFromEarth": 342398,
-        "distanceFromMoon": 64373,
-        "missionElapsedDay": 6,
-        "velocity": 97950
-      },
-      "fetchedAt": "2026-04-07T15:08:29.368Z"
     }
   ],
   "lastError": null
