@@ -1,28 +1,30 @@
 {
   "update": {
-    "status": "nominal",
-    "statusLabel": "Return Phase",
-    "currentPhase": "Return cruise toward Earth re-entry",
-    "headline": "The Artemis II Orion spacecraft is in its final day of mission operations, preparing for atmospheric re-entry and Pacific Ocean splashdown.",
+    "status": "caution",
+    "statusLabel": "LOX Issue Monitored",
+    "currentPhase": "Earth Return Coast",
+    "headline": "Artemis II crew prepares for Earth re-entry as Orion monitors minor service module technical issue.",
     "details": [
-      "The crew is focused on final cabin configurations, gear stowage, and re-entry procedure reviews.",
-      "Orion will utilize a skip re-entry profile to manage thermal loads upon hitting the atmosphere.",
-      "The spacecraft is rapidly accelerating as it re-enters Earth's gravitational influence.",
-      "All four crew members are reported to be in excellent health for the upcoming high-G return."
+      "Mission control is monitoring a minor liquid oxygen pressurization issue in the Service Module; no risk to crew or return timeline.",
+      "The crew is testing orthostatic intolerance garments and stowing cabin gear for the high-G forces of splashdown.",
+      "A manual piloting demonstration scheduled for April 8 was canceled as a technical precaution.",
+      "Orion is accelerating toward Earth following its record-breaking lunar flyby that reached 252,760 miles from Earth."
     ],
     "sources": [
-      "NASA Mission Control",
-      "Artemis II Flight Operations"
+      "NASA Mission Control Center",
+      "Artemis II Flight Operations Press Briefing"
     ],
-    "crewStatus": "The crew remains in good health and has completed all required medical and physical preparations for re-entry.",
-    "lastEvent": "Final manual piloting demonstration completed.",
-    "nextEvent": "Atmospheric re-entry and splashdown off the coast of San Diego.",
+    "alertMessage": "Minor liquid oxygen pressurization issue detected in service module; manual piloting demo canceled.",
+    "crewStatus": "Crew in high spirits; performing flywheel exercises and testing compression suits.",
+    "lastEvent": "Exit from the Moon's sphere of influence on April 7.",
+    "nextEvent": "Return Trajectory Correction (RTC-2) burn scheduled for 9:53 p.m. EDT.",
     "telemetry": {
-      "distanceFromEarth": 233355,
+      "distanceFromEarth": 233350,
+      "distanceFromMoon": null,
       "missionElapsedDay": 9,
-      "velocity": 4506
+      "velocity": 4519
     },
-    "fetchedAt": "2026-04-09T20:51:48.620Z"
+    "fetchedAt": "2026-04-09T21:43:46.861Z"
   },
   "milestones": [
     {
@@ -291,7 +293,7 @@
     {
       "id": "crater-naming",
       "label": "Lunar Crater Naming Ceremony",
-      "detail": "The crew named a lunar crater 'Carroll' in honor of the Commander's late wife.",
+      "detail": "Crew unofficially named a lunar crater 'Carroll' in honor of Commander Wiseman's late wife.",
       "time": "2026-04-06T16:00:00.000Z",
       "day": 5,
       "icon": "🌑",
@@ -321,7 +323,7 @@
     {
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
-      "detail": "Orion achieved a record-breaking closest approach to the Moon.",
+      "detail": "Completed closest lunar approach at 4,070 miles.",
       "time": "2026-04-06T23:02:00.000Z",
       "day": 6,
       "icon": "🌕",
@@ -350,7 +352,7 @@
     {
       "id": "lunar-eclipse",
       "label": "Deep Space Solar Eclipse",
-      "detail": "Astronauts witnessed a total solar eclipse from the lunar far side during the flyby.",
+      "detail": "Crew witnessed 54-minute lunar solar eclipse from deep space.",
       "time": "2026-04-06T23:02:00.000Z",
       "day": 6,
       "icon": "🌑",
@@ -360,7 +362,7 @@
     {
       "id": "distance-record",
       "label": "Farthest Distance From Earth Record",
-      "detail": "Reached a maximum distance of approximately 400,000 km from Earth.",
+      "detail": "Surpassed Apollo 13 record, reaching 252,760 miles from Earth.",
       "time": "2026-04-06T23:07:00.000Z",
       "day": 6,
       "icon": "🗺️",
@@ -467,16 +469,6 @@
       "isNew": true
     },
     {
-      "id": "orthostatic-test",
-      "label": "Orthostatic Garment Test",
-      "detail": "Testing specialized garments designed to maintain circulation during transition to Earth gravity.",
-      "time": "2026-04-08T15:00:00.000Z",
-      "day": 7,
-      "icon": "👖",
-      "completed": true,
-      "isNew": true
-    },
-    {
       "id": "storm-shelter",
       "label": "Radiation Shelter Demo",
       "detail": "Crew practiced emergency radiation shelter construction using onboard equipment.",
@@ -489,7 +481,7 @@
     {
       "id": "manual-pilot-demo-2",
       "label": "Manual Piloting Demonstration #2",
-      "detail": "Secondary test of Orion's handling characteristics in the return corridor.",
+      "detail": "Canceled due to technical monitoring of LOX pressurization system.",
       "time": "2026-04-09T01:59:00.000Z",
       "day": 8,
       "icon": "🕹️",
@@ -514,6 +506,16 @@
       "day": 8,
       "icon": "📌",
       "completed": false,
+      "isNew": true
+    },
+    {
+      "id": "orthostatic-test",
+      "label": "Orthostatic Garment Test",
+      "detail": "Crew testing compression suits to maintain circulation during transition to 1G.",
+      "time": "2026-04-09T16:00:00.000Z",
+      "day": 8,
+      "icon": "👖",
+      "completed": true,
       "isNew": true
     },
     {
@@ -584,6 +586,33 @@
     }
   ],
   "history": [
+    {
+      "status": "caution",
+      "statusLabel": "LOX Issue Monitored",
+      "currentPhase": "Earth Return Coast",
+      "headline": "Artemis II crew prepares for Earth re-entry as Orion monitors minor service module technical issue.",
+      "details": [
+        "Mission control is monitoring a minor liquid oxygen pressurization issue in the Service Module; no risk to crew or return timeline.",
+        "The crew is testing orthostatic intolerance garments and stowing cabin gear for the high-G forces of splashdown.",
+        "A manual piloting demonstration scheduled for April 8 was canceled as a technical precaution.",
+        "Orion is accelerating toward Earth following its record-breaking lunar flyby that reached 252,760 miles from Earth."
+      ],
+      "sources": [
+        "NASA Mission Control Center",
+        "Artemis II Flight Operations Press Briefing"
+      ],
+      "alertMessage": "Minor liquid oxygen pressurization issue detected in service module; manual piloting demo canceled.",
+      "crewStatus": "Crew in high spirits; performing flywheel exercises and testing compression suits.",
+      "lastEvent": "Exit from the Moon's sphere of influence on April 7.",
+      "nextEvent": "Return Trajectory Correction (RTC-2) burn scheduled for 9:53 p.m. EDT.",
+      "telemetry": {
+        "distanceFromEarth": 233350,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 9,
+        "velocity": 4519
+      },
+      "fetchedAt": "2026-04-09T21:43:46.861Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Return Phase",
@@ -1065,34 +1094,6 @@
         "velocity": 97949
       },
       "fetchedAt": "2026-04-08T10:17:17.868Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Return Coast",
-      "currentPhase": "Trans-Earth Coast following lunar flyby",
-      "headline": "Orion spacecraft begins its return journey to Earth after shattering distance records and completing lunar science objectives.",
-      "details": [
-        "Successfully executed the first return trajectory correction burn (RTC-1) with a 15-second thruster fire.",
-        "The crew of Orion performed a historic long-distance call with the International Space Station while 230,000 miles apart.",
-        "Engineers are monitoring a clogged filter in the waste management system, though backup systems remain fully operational.",
-        "The spacecraft has exited the lunar sphere of influence and is now being pulled back toward Earth by gravity."
-      ],
-      "sources": [
-        "NASA Mission Control",
-        "Artemis II Flight Operations",
-        "ESA Space Operations Center"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Crew is in excellent health; currently preparing for orthostatic garment testing and manual piloting demonstrations.",
-      "lastEvent": "Return Trajectory Correction 1 (RTC-1) completed at 00:03 UTC on April 8.",
-      "nextEvent": "Orthostatic intolerance garment testing and secondary manual piloting demonstrations.",
-      "telemetry": {
-        "distanceFromEarth": 362102,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 7,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-08T08:59:57.338Z"
     }
   ],
   "lastError": null
