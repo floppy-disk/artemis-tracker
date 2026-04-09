@@ -1,28 +1,28 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Return Transit",
-    "currentPhase": "Return to Earth",
-    "headline": "The Orion spacecraft is on a nominal return trajectory to Earth following a successful lunar flyby, with splashdown scheduled for April 10.",
+    "statusLabel": "Returning Home",
+    "currentPhase": "Earth Return Trajectory",
+    "headline": "The Artemis II mission is in its final stages as the crew prepares for splashdown on April 10, 2026.",
     "details": [
-      "Orion is currently under 321,868 km from Earth and accelerating for upcoming re-entry.",
-      "The crew is focused on cabin stowage and radiation shielding experiments.",
-      "Manual piloting tests are scheduled for late this evening to verify spacecraft handling.",
-      "The crew remains in excellent health despite a minor, resolved issue with the waste venting system."
+      "The Orion spacecraft is approximately 321,869 km from Earth and proceeding toward a scheduled splashdown.",
+      "Crew members are in good health and currently performing manual piloting test procedures.",
+      "Mission control has scheduled a final crew press conference for this evening.",
+      "Recovery operations are prepared for the Pacific Ocean splashdown off the coast of San Diego."
     ],
     "sources": [
-      "NASA Mission Control Center",
-      "Johnson Space Center Status Briefing"
+      "NASA Mission Status Briefing",
+      "Artemis II Mission Updates"
     ],
-    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and high spirits.",
-    "lastEvent": "Final Cabin Stowage completion on Flight Day 8.",
-    "nextEvent": "Final NASA status briefing from Johnson Space Center at 5:00 p.m. ET.",
+    "crewStatus": "The crew is in good health and has completed morning post-sleep configuration.",
+    "lastEvent": "Crossed into the Earth's sphere of influence.",
+    "nextEvent": "NASA mission status briefing followed by the crew press conference.",
     "telemetry": {
-      "distanceFromEarth": 321868,
-      "missionElapsedDay": 8,
-      "velocity": 2735
+      "distanceFromEarth": 321869,
+      "missionElapsedDay": 9,
+      "velocity": 38367
     },
-    "fetchedAt": "2026-04-09T11:57:58.375Z"
+    "fetchedAt": "2026-04-09T13:46:59.052Z"
   },
   "milestones": [
     {
@@ -576,6 +576,31 @@
   "history": [
     {
       "status": "nominal",
+      "statusLabel": "Returning Home",
+      "currentPhase": "Earth Return Trajectory",
+      "headline": "The Artemis II mission is in its final stages as the crew prepares for splashdown on April 10, 2026.",
+      "details": [
+        "The Orion spacecraft is approximately 321,869 km from Earth and proceeding toward a scheduled splashdown.",
+        "Crew members are in good health and currently performing manual piloting test procedures.",
+        "Mission control has scheduled a final crew press conference for this evening.",
+        "Recovery operations are prepared for the Pacific Ocean splashdown off the coast of San Diego."
+      ],
+      "sources": [
+        "NASA Mission Status Briefing",
+        "Artemis II Mission Updates"
+      ],
+      "crewStatus": "The crew is in good health and has completed morning post-sleep configuration.",
+      "lastEvent": "Crossed into the Earth's sphere of influence.",
+      "nextEvent": "NASA mission status briefing followed by the crew press conference.",
+      "telemetry": {
+        "distanceFromEarth": 321869,
+        "missionElapsedDay": 9,
+        "velocity": 38367
+      },
+      "fetchedAt": "2026-04-09T13:46:59.052Z"
+    },
+    {
+      "status": "nominal",
       "statusLabel": "Return Transit",
       "currentPhase": "Return to Earth",
       "headline": "The Orion spacecraft is on a nominal return trajectory to Earth following a successful lunar flyby, with splashdown scheduled for April 10.",
@@ -1060,33 +1085,6 @@
         "missionElapsedDay": 7
       },
       "fetchedAt": "2026-04-08T02:12:42.291Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Homeward Bound",
-      "currentPhase": "Trans-Earth Coast",
-      "headline": "Orion exits lunar sphere of influence following record-breaking mission objectives.",
-      "details": [
-        "Orion officially departed the Moon's gravitational influence at 17:23 UTC, beginning its high-speed return to Earth.",
-        "The crew set a new human spaceflight distance record of 252,756 miles (406,771 km) from Earth, surpassing Apollo 13.",
-        "A historic 'moonship-to-spaceship' radio call was conducted between the Orion crew and the International Space Station.",
-        "A minor waste management system filter clog was reported; the crew is successfully using a backup bag-and-funnel system."
-      ],
-      "sources": [
-        "NASA Artemis Mission Control",
-        "Flight Day 7 Status Report"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and high spirits.",
-      "lastEvent": "Exit Lunar Sphere of Influence",
-      "nextEvent": "Return Trajectory Correction (RTC) Burn 1",
-      "telemetry": {
-        "distanceFromEarth": 386242,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 7,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-07T23:36:38.371Z"
     }
   ],
   "lastError": null
