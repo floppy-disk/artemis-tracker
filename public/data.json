@@ -1,29 +1,28 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Return Transit",
-    "currentPhase": "Final return and re-entry preparations",
-    "headline": "The Artemis II mission is in its final 24 hours, with the crew preparing for a successful splashdown in the Pacific Ocean.",
+    "statusLabel": "Return Phase",
+    "currentPhase": "Return cruise toward Earth re-entry",
+    "headline": "The Artemis II Orion spacecraft is in its final day of mission operations, preparing for atmospheric re-entry and Pacific Ocean splashdown.",
     "details": [
-      "Orion is on a nominal trajectory for return to Earth after a successful lunar flyby.",
-      "Crew members are currently stowing equipment and conducting final medical and experimental tests.",
-      "The final trajectory correction burn is scheduled for the evening of April 9.",
-      "Splashdown is targeted for April 10 at 8:07 p.m. EDT off the coast of San Diego."
+      "The crew is focused on final cabin configurations, gear stowage, and re-entry procedure reviews.",
+      "Orion will utilize a skip re-entry profile to manage thermal loads upon hitting the atmosphere.",
+      "The spacecraft is rapidly accelerating as it re-enters Earth's gravitational influence.",
+      "All four crew members are reported to be in excellent health for the upcoming high-G return."
     ],
     "sources": [
-      "NASA Mission Control Daily Briefing",
-      "Artemis II Mission Operations Report"
+      "NASA Mission Control",
+      "Artemis II Flight Operations"
     ],
-    "crewStatus": "The crew of Wiseman, Glover, Koch, and Hansen are in high spirits and performing nominal mission operations.",
-    "lastEvent": "Final cabin stowage completed on Flight Day 9.",
-    "nextEvent": "Second return trajectory correction (RTC-2) burn.",
+    "crewStatus": "The crew remains in good health and has completed all required medical and physical preparations for re-entry.",
+    "lastEvent": "Final manual piloting demonstration completed.",
+    "nextEvent": "Atmospheric re-entry and splashdown off the coast of San Diego.",
     "telemetry": {
-      "distanceFromEarth": 300000,
-      "distanceFromMoon": 150000,
+      "distanceFromEarth": 233355,
       "missionElapsedDay": 9,
-      "velocity": 28000
+      "velocity": 4506
     },
-    "fetchedAt": "2026-04-09T19:04:49.722Z"
+    "fetchedAt": "2026-04-09T20:51:48.620Z"
   },
   "milestones": [
     {
@@ -587,6 +586,31 @@
   "history": [
     {
       "status": "nominal",
+      "statusLabel": "Return Phase",
+      "currentPhase": "Return cruise toward Earth re-entry",
+      "headline": "The Artemis II Orion spacecraft is in its final day of mission operations, preparing for atmospheric re-entry and Pacific Ocean splashdown.",
+      "details": [
+        "The crew is focused on final cabin configurations, gear stowage, and re-entry procedure reviews.",
+        "Orion will utilize a skip re-entry profile to manage thermal loads upon hitting the atmosphere.",
+        "The spacecraft is rapidly accelerating as it re-enters Earth's gravitational influence.",
+        "All four crew members are reported to be in excellent health for the upcoming high-G return."
+      ],
+      "sources": [
+        "NASA Mission Control",
+        "Artemis II Flight Operations"
+      ],
+      "crewStatus": "The crew remains in good health and has completed all required medical and physical preparations for re-entry.",
+      "lastEvent": "Final manual piloting demonstration completed.",
+      "nextEvent": "Atmospheric re-entry and splashdown off the coast of San Diego.",
+      "telemetry": {
+        "distanceFromEarth": 233355,
+        "missionElapsedDay": 9,
+        "velocity": 4506
+      },
+      "fetchedAt": "2026-04-09T20:51:48.620Z"
+    },
+    {
+      "status": "nominal",
       "statusLabel": "Return Transit",
       "currentPhase": "Final return and re-entry preparations",
       "headline": "The Artemis II mission is in its final 24 hours, with the crew preparing for a successful splashdown in the Pacific Ocean.",
@@ -1069,34 +1093,6 @@
         "velocity": null
       },
       "fetchedAt": "2026-04-08T08:59:57.338Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Return Coast",
-      "currentPhase": "Return Trajectory",
-      "headline": "Artemis II crew completes trajectory burn as they approach final stages of return journey.",
-      "details": [
-        "The spacecraft Integrity completed a 15-second Return Trajectory Correction burn to fine-tune its path for a Pacific splashdown.",
-        "Crew surpassed the all-time human distance record from Earth, reaching 252,756 miles during their lunar flyby.",
-        "A filter blockage has been identified in the Orion waste system; the crew is successfully utilizing backup bag-and-funnel procedures.",
-        "NASA and the USS John P. Murtha are preparing for a scheduled splashdown off the coast of San Diego on April 10."
-      ],
-      "sources": [
-        "NASA Mission Status Report",
-        "Artemis Flight Operations Center",
-        "Artemis II Crew Log"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Crew is in good health and evaluating orthostatic garments to aid blood circulation during reentry.",
-      "lastEvent": "Successful completion of the Return Trajectory Correction 1 (RTC-1) burn.",
-      "nextEvent": "Manual piloting demonstrations and atmospheric reentry preparation.",
-      "telemetry": {
-        "distanceFromEarth": 406771,
-        "distanceFromMoon": 6545,
-        "missionElapsedDay": 7,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-08T07:18:13.428Z"
     }
   ],
   "lastError": null
