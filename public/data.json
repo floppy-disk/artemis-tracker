@@ -1,30 +1,28 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Nominal Return Coast",
-    "currentPhase": "Earth Return Phase",
-    "headline": "Artemis II crew enters final 48 hours of mission following historic lunar flyby and record distance.",
+    "statusLabel": "Return Cruise Phase",
+    "currentPhase": "Return cruise toward Earth splashdown",
+    "headline": "Orion spacecraft is in the final leg of its journey after successfully completing its lunar flyby.",
     "details": [
-      "Orion has successfully completed the Return Trajectory Correction (RTC-1) burn to refine its path to Earth.",
-      "The crew conducted radiation shelter demonstrations and manual piloting tests as they prepare for reentry.",
-      "Spacecraft is accelerating as it enters Earth's gravity well, with splashdown scheduled for April 10 off the San Diego coast.",
-      "Astronauts are currently performing final stowage of heavy gear to prepare for high-G reentry forces."
+      "The crew of Integrity is preparing for a manual piloting flight test today.",
+      "Mission Control reports all systems are healthy with the crew in excellent spirits.",
+      "Final preparations are underway for Earth atmospheric entry and splashdown tomorrow.",
+      "Spacecraft velocity is steadily increasing as it accelerates toward the Earth's atmosphere."
     ],
     "sources": [
-      "NASA Mission Control Daily Report",
-      "Canadian Space Agency (CSA) Mission Update"
+      "NASA Mission Control Houston",
+      "Artemis II Mission Briefing"
     ],
-    "alertMessage": null,
-    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in high spirits and excellent health.",
-    "lastEvent": "Successful manual piloting and radiation shelter construction demonstrations.",
-    "nextEvent": "Atmospheric reentry at approximately 25,000 mph followed by Pacific Ocean splashdown.",
+    "crewStatus": "All four crew members are in excellent health and high spirits.",
+    "lastEvent": "Final cabin stowage procedures completed.",
+    "nextEvent": "Crew news conference at 21:45 UTC",
     "telemetry": {
-      "distanceFromEarth": 321868,
-      "distanceFromMoon": null,
+      "distanceFromEarth": 291291,
       "missionElapsedDay": 8,
       "velocity": 2735
     },
-    "fetchedAt": "2026-04-09T05:08:30.600Z"
+    "fetchedAt": "2026-04-09T07:19:48.786Z"
   },
   "milestones": [
     {
@@ -519,6 +517,26 @@
       "isNew": true
     },
     {
+      "id": "crew-news-conference",
+      "label": "Crew News Conference",
+      "detail": "Live downlink session for the crew to answer reporter questions.",
+      "time": "2026-04-09T21:45:00.000Z",
+      "day": 8,
+      "icon": "📌",
+      "completed": false,
+      "isNew": true
+    },
+    {
+      "id": "manual-pilot-test-final",
+      "label": "Manual Pilot Test Final",
+      "detail": "Critical test to evaluate Orion's handling qualities in deep space.",
+      "time": "2026-04-09T22:55:00.000Z",
+      "day": 9,
+      "icon": "📌",
+      "completed": false,
+      "isNew": true
+    },
+    {
       "id": "reentry",
       "label": "Re-Entry",
       "detail": "Skip re-entry at ~5,000°F",
@@ -556,6 +574,31 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Return Cruise Phase",
+      "currentPhase": "Return cruise toward Earth splashdown",
+      "headline": "Orion spacecraft is in the final leg of its journey after successfully completing its lunar flyby.",
+      "details": [
+        "The crew of Integrity is preparing for a manual piloting flight test today.",
+        "Mission Control reports all systems are healthy with the crew in excellent spirits.",
+        "Final preparations are underway for Earth atmospheric entry and splashdown tomorrow.",
+        "Spacecraft velocity is steadily increasing as it accelerates toward the Earth's atmosphere."
+      ],
+      "sources": [
+        "NASA Mission Control Houston",
+        "Artemis II Mission Briefing"
+      ],
+      "crewStatus": "All four crew members are in excellent health and high spirits.",
+      "lastEvent": "Final cabin stowage procedures completed.",
+      "nextEvent": "Crew news conference at 21:45 UTC",
+      "telemetry": {
+        "distanceFromEarth": 291291,
+        "missionElapsedDay": 8,
+        "velocity": 2735
+      },
+      "fetchedAt": "2026-04-09T07:19:48.786Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Nominal Return Coast",
@@ -1049,33 +1092,6 @@
         "velocity": null
       },
       "fetchedAt": "2026-04-07T20:45:42.746Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Homeward Bound",
-      "currentPhase": "Return-to-Earth Phase",
-      "headline": "Orion begins its journey back to Earth after setting a new record for the farthest distance traveled by humans in deep space.",
-      "details": [
-        "Orion successfully exited the lunar sphere of influence at 17:23 UTC, returning to Earth's gravitational dominance.",
-        "The crew set a new all-time human distance record of 406,771 km (252,756 miles) from Earth on April 6.",
-        "Orion achieved its closest lunar approach of 6,545 km (4,067 miles) above the surface during its flyby.",
-        "Crew members Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen remain in excellent health following a 53-minute solar eclipse observation."
-      ],
-      "sources": [
-        "NASA Mission Update",
-        "Canadian Space Agency (CSA) Flight Status"
-      ],
-      "alertMessage": null,
-      "crewStatus": "The four-person crew is in excellent health and high spirits, currently focused on scientific data entry and preparing for return burns.",
-      "lastEvent": "Exit from the lunar sphere of influence on April 7 at 17:23 UTC.",
-      "nextEvent": "Return Trajectory Correction (RTC-1) thruster ignition to refine the path toward the San Diego splashdown zone.",
-      "telemetry": {
-        "distanceFromEarth": 379840,
-        "distanceFromMoon": 58397,
-        "missionElapsedDay": 7,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-07T19:15:10.037Z"
     }
   ],
   "lastError": null
