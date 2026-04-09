@@ -1,29 +1,28 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Nominal Return Phase",
-    "currentPhase": "Return coast to Earth",
-    "headline": "Orion is on a lofted return trajectory following a successful lunar flyby, with the crew preparing for final reentry on April 10.",
+    "statusLabel": "Return Transit",
+    "currentPhase": "Return to Earth",
+    "headline": "The Orion spacecraft is on a nominal return trajectory to Earth following a successful lunar flyby, with splashdown scheduled for April 10.",
     "details": [
-      "The crew is in excellent health and high spirits while conducting radiation experiments and final stowing procedures.",
-      "Orion has successfully transitioned into Earth's gravity, marking the final leg of the mission.",
-      "Manual piloting tests are scheduled for later today to verify spacecraft handling ahead of the atmospheric interface.",
-      "The mission is on track for a Pacific Ocean splashdown on April 10, 2026."
+      "Orion is currently under 321,868 km from Earth and accelerating for upcoming re-entry.",
+      "The crew is focused on cabin stowage and radiation shielding experiments.",
+      "Manual piloting tests are scheduled for late this evening to verify spacecraft handling.",
+      "The crew remains in excellent health despite a minor, resolved issue with the waste venting system."
     ],
     "sources": [
-      "NASA Mission Control Daily Briefing",
-      "Artemis II Flight Operations Report"
+      "NASA Mission Control Center",
+      "Johnson Space Center Status Briefing"
     ],
-    "crewStatus": "All four crew members are healthy, in high spirits, and engaged in end-of-mission activities.",
-    "lastEvent": "Final Cabin Stowage completed for reentry preparations.",
-    "nextEvent": "Manual flight control tests to verify handling characteristics.",
+    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and high spirits.",
+    "lastEvent": "Final Cabin Stowage completion on Flight Day 8.",
+    "nextEvent": "Final NASA status briefing from Johnson Space Center at 5:00 p.m. ET.",
     "telemetry": {
-      "distanceFromEarth": 306500,
-      "distanceFromMoon": 265000,
+      "distanceFromEarth": 321868,
       "missionElapsedDay": 8,
       "velocity": 2735
     },
-    "fetchedAt": "2026-04-09T10:57:47.955Z"
+    "fetchedAt": "2026-04-09T11:57:58.375Z"
   },
   "milestones": [
     {
@@ -322,7 +321,7 @@
     {
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
-      "detail": "Orion passed within 7,400 km of the lunar surface during its farside flyby.",
+      "detail": "Orion achieved a record-breaking closest approach to the Moon.",
       "time": "2026-04-06T23:02:00.000Z",
       "day": 6,
       "icon": "🌕",
@@ -540,7 +539,7 @@
     {
       "id": "reentry",
       "label": "Re-Entry",
-      "detail": "Skip re-entry at ~5,000°F",
+      "detail": "Spacecraft will enter Earth's atmosphere for a Pacific Ocean splashdown.",
       "time": "2026-04-10T23:53:00.000Z",
       "day": 10,
       "icon": "🔥"
@@ -548,7 +547,7 @@
     {
       "id": "splashdown",
       "label": "Splashdown",
-      "detail": "Mission completion and splashdown will occur approximately 10 days after a future launch date.",
+      "detail": "Final mission splashdown near San Diego with recovery support from USS John P. Murtha.",
       "time": "2026-04-11T00:07:00.000Z",
       "day": 10,
       "icon": "🌊",
@@ -575,6 +574,31 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Return Transit",
+      "currentPhase": "Return to Earth",
+      "headline": "The Orion spacecraft is on a nominal return trajectory to Earth following a successful lunar flyby, with splashdown scheduled for April 10.",
+      "details": [
+        "Orion is currently under 321,868 km from Earth and accelerating for upcoming re-entry.",
+        "The crew is focused on cabin stowage and radiation shielding experiments.",
+        "Manual piloting tests are scheduled for late this evening to verify spacecraft handling.",
+        "The crew remains in excellent health despite a minor, resolved issue with the waste venting system."
+      ],
+      "sources": [
+        "NASA Mission Control Center",
+        "Johnson Space Center Status Briefing"
+      ],
+      "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and high spirits.",
+      "lastEvent": "Final Cabin Stowage completion on Flight Day 8.",
+      "nextEvent": "Final NASA status briefing from Johnson Space Center at 5:00 p.m. ET.",
+      "telemetry": {
+        "distanceFromEarth": 321868,
+        "missionElapsedDay": 8,
+        "velocity": 2735
+      },
+      "fetchedAt": "2026-04-09T11:57:58.375Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Nominal Return Phase",
@@ -1063,33 +1087,6 @@
         "velocity": null
       },
       "fetchedAt": "2026-04-07T23:36:38.371Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Return Coast",
-      "currentPhase": "Orion is on a trans-Earth trajectory after exiting the lunar sphere of influence and is now accelerating toward splashdown.",
-      "headline": "Orion spacecraft begins return journey to Earth after shattering human distance records.",
-      "details": [
-        "Orion successfully completed its lunar flyby, passing within 4,067 miles of the surface and reaching a record distance of 252,756 miles from Earth.",
-        "The crew transitioned back to Earth's gravitational influence today at 17:23 UTC after exiting the lunar sphere of influence.",
-        "Medical data shows the crew is healthy and adapting well, despite expected minor shifts in sleep patterns and cardiovascular data.",
-        "A return trajectory correction maneuver (RTC-1) is scheduled for April 8 at 01:03 UTC to refine the re-entry path."
-      ],
-      "sources": [
-        "NASA Mission Control Center",
-        "Artemis II Flight Operations"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Crew is in excellent spirits; successfully completed an audio call with the ISS and designated a lunar feature 'Carroll' in a memorial gesture.",
-      "lastEvent": "Exited the Lunar Sphere of Influence (SOI) at 17:23 UTC on April 7, 2026.",
-      "nextEvent": "Return Trajectory Correction (RTC-1) to refine the flight path for Pacific Ocean splashdown.",
-      "telemetry": {
-        "distanceFromEarth": 379839,
-        "distanceFromMoon": 58397,
-        "missionElapsedDay": 7,
-        "velocity": 97949
-      },
-      "fetchedAt": "2026-04-07T22:37:21.951Z"
     }
   ],
   "lastError": null
