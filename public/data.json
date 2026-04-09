@@ -1,30 +1,30 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Return Transit",
-    "currentPhase": "Earth-bound return leg of the lunar mission",
-    "headline": "Artemis II Orion enters final days of mission as it accelerates toward Earth.",
+    "statusLabel": "Nominal Return Coast",
+    "currentPhase": "Earth Return Phase",
+    "headline": "Artemis II crew enters final 48 hours of mission following historic lunar flyby and record distance.",
     "details": [
-      "Orion is approximately 224,500 km from Earth and gaining speed due to Earth's gravity.",
-      "Crew vitals are nominal as the astronauts maintain a strict exercise regimen to prepare for 1g environment.",
-      "The spacecraft completed its closest lunar approach of 7,400 km on April 6 and is now homeward bound.",
-      "Recovery operations with the USS San Diego are being finalized for the April 11 splashdown."
+      "Orion has successfully completed the Return Trajectory Correction (RTC-1) burn to refine its path to Earth.",
+      "The crew conducted radiation shelter demonstrations and manual piloting tests as they prepare for reentry.",
+      "Spacecraft is accelerating as it enters Earth's gravity well, with splashdown scheduled for April 10 off the San Diego coast.",
+      "Astronauts are currently performing final stowage of heavy gear to prepare for high-G reentry forces."
     ],
     "sources": [
-      "NASA Mission Control Center",
-      "Canadian Space Agency (CSA)"
+      "NASA Mission Control Daily Report",
+      "Canadian Space Agency (CSA) Mission Update"
     ],
     "alertMessage": null,
-    "crewStatus": "Commander Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in excellent health and high spirits.",
-    "lastEvent": "Successful completion of high-resolution lunar surface imagery on Mission Day 7.",
-    "nextEvent": "Crossing into Earth's Sphere of Influence within the next 12 hours.",
+    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in high spirits and excellent health.",
+    "lastEvent": "Successful manual piloting and radiation shelter construction demonstrations.",
+    "nextEvent": "Atmospheric reentry at approximately 25,000 mph followed by Pacific Ocean splashdown.",
     "telemetry": {
-      "distanceFromEarth": 224500,
+      "distanceFromEarth": 321868,
       "distanceFromMoon": null,
       "missionElapsedDay": 8,
-      "velocity": 5400
+      "velocity": 2735
     },
-    "fetchedAt": "2026-04-08T23:40:07.730Z"
+    "fetchedAt": "2026-04-09T05:08:30.600Z"
   },
   "milestones": [
     {
@@ -350,6 +350,16 @@
       "completed": true
     },
     {
+      "id": "lunar-eclipse",
+      "label": "Deep Space Solar Eclipse",
+      "detail": "Astronauts witnessed a total solar eclipse from the lunar far side during the flyby.",
+      "time": "2026-04-06T23:02:00.000Z",
+      "day": 6,
+      "icon": "🌑",
+      "completed": true,
+      "isNew": true
+    },
+    {
       "id": "distance-record",
       "label": "Farthest Distance From Earth Record",
       "detail": "Reached a maximum distance of approximately 400,000 km from Earth.",
@@ -419,26 +429,6 @@
       "isNew": true
     },
     {
-      "id": "storm-shelter",
-      "label": "Radiation Shelter Demo",
-      "detail": "Crew will construct a temporary 'storm shelter' inside Orion to test solar particle event protection.",
-      "time": "2026-04-07T02:10:43.541Z",
-      "day": 6,
-      "icon": "🛡️",
-      "completed": false,
-      "isNew": true
-    },
-    {
-      "id": "lunar-eclipse",
-      "label": "Deep Space Solar Eclipse",
-      "detail": "The crew witnessed a total solar eclipse from their deep-space vantage point behind the Moon.",
-      "time": "2026-04-07T02:32:00.000Z",
-      "day": 6,
-      "icon": "🌑",
-      "completed": true,
-      "isNew": true
-    },
-    {
       "id": "public-engagement",
       "label": "Interactive Public Engagement",
       "detail": "Crew discussed the 'overview effect' and shared high-resolution lunar far side imagery.",
@@ -489,12 +479,32 @@
       "isNew": true
     },
     {
+      "id": "storm-shelter",
+      "label": "Radiation Shelter Demo",
+      "detail": "Crew practiced emergency radiation shelter construction using onboard equipment.",
+      "time": "2026-04-08T18:00:00.000Z",
+      "day": 7,
+      "icon": "🛡️",
+      "completed": true,
+      "isNew": true
+    },
+    {
       "id": "manual-pilot-demo-2",
       "label": "Manual Piloting Demonstration #2",
       "detail": "Secondary test of Orion's handling characteristics in the return corridor.",
       "time": "2026-04-09T01:59:00.000Z",
       "day": 8,
       "icon": "🕹️",
+      "completed": true,
+      "isNew": true
+    },
+    {
+      "id": "final-stowage",
+      "label": "Final Cabin Stowage",
+      "detail": "Securing loose gear and exercise equipment for high-G deceleration.",
+      "time": "2026-04-09T05:08:30.600Z",
+      "day": 8,
+      "icon": "📦",
       "completed": false,
       "isNew": true
     },
@@ -509,6 +519,23 @@
       "isNew": true
     },
     {
+      "id": "reentry",
+      "label": "Re-Entry",
+      "detail": "Skip re-entry at ~5,000°F",
+      "time": "2026-04-10T23:53:00.000Z",
+      "day": 10,
+      "icon": "🔥"
+    },
+    {
+      "id": "splashdown",
+      "label": "Splashdown",
+      "detail": "Mission completion and splashdown will occur approximately 10 days after a future launch date.",
+      "time": "2026-04-11T00:07:00.000Z",
+      "day": 10,
+      "icon": "🌊",
+      "highlight": true
+    },
+    {
       "id": "sm-jettison",
       "label": "Service Module Jettison",
       "detail": "Separation of the European Service Module prior to atmospheric entry.",
@@ -517,23 +544,6 @@
       "icon": "🚀",
       "completed": false,
       "isNew": true
-    },
-    {
-      "id": "reentry",
-      "label": "Re-Entry",
-      "detail": "Skip re-entry at ~5,000°F",
-      "time": "2026-04-11T15:10:00.000Z",
-      "day": 10,
-      "icon": "🔥"
-    },
-    {
-      "id": "splashdown",
-      "label": "Splashdown",
-      "detail": "Mission completion and splashdown will occur approximately 10 days after a future launch date.",
-      "time": "2026-04-11T15:30:00.000Z",
-      "day": 10,
-      "icon": "🌊",
-      "highlight": true
     },
     {
       "id": "launch",
@@ -546,6 +556,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Nominal Return Coast",
+      "currentPhase": "Earth Return Phase",
+      "headline": "Artemis II crew enters final 48 hours of mission following historic lunar flyby and record distance.",
+      "details": [
+        "Orion has successfully completed the Return Trajectory Correction (RTC-1) burn to refine its path to Earth.",
+        "The crew conducted radiation shelter demonstrations and manual piloting tests as they prepare for reentry.",
+        "Spacecraft is accelerating as it enters Earth's gravity well, with splashdown scheduled for April 10 off the San Diego coast.",
+        "Astronauts are currently performing final stowage of heavy gear to prepare for high-G reentry forces."
+      ],
+      "sources": [
+        "NASA Mission Control Daily Report",
+        "Canadian Space Agency (CSA) Mission Update"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in high spirits and excellent health.",
+      "lastEvent": "Successful manual piloting and radiation shelter construction demonstrations.",
+      "nextEvent": "Atmospheric reentry at approximately 25,000 mph followed by Pacific Ocean splashdown.",
+      "telemetry": {
+        "distanceFromEarth": 321868,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 8,
+        "velocity": 2735
+      },
+      "fetchedAt": "2026-04-09T05:08:30.600Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Return Transit",
@@ -1039,33 +1076,6 @@
         "velocity": null
       },
       "fetchedAt": "2026-04-07T19:15:10.037Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Homeward Bound",
-      "currentPhase": "Homeward bound return trajectory following lunar flyby",
-      "headline": "Artemis II Orion begins Earth return after breaking human distance records during lunar flyby.",
-      "details": [
-        "Orion exited the lunar sphere of influence at 17:25 UTC on April 7, 2026, and is now falling back toward Earth's gravity.",
-        "The mission achieved a record-breaking maximum distance from Earth of 252,756 miles (406,771 km) on April 6.",
-        "A first return trajectory correction burn (RTC-1) was successfully executed on April 7 at 00:03 UTC.",
-        "The crew remains in excellent health and reported being 'euphoric' following solar eclipse observations from the lunar far side."
-      ],
-      "sources": [
-        "NASA Mission Control Daily Briefing",
-        "Artemis II Flight Operations Report"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in excellent spirits and transition to return-flight procedures.",
-      "lastEvent": "Exited the lunar sphere of influence at 17:25 UTC on April 7, 2026.",
-      "nextEvent": "Second return trajectory correction burn (RTC-2) to fine-tune the atmospheric reentry angle.",
-      "telemetry": {
-        "distanceFromEarth": 386243,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 6,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-07T18:00:01.042Z"
     }
   ],
   "lastError": null
