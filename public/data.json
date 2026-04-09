@@ -1,28 +1,28 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Returning Home",
-    "currentPhase": "Earth Return Trajectory",
-    "headline": "The Artemis II mission is in its final stages as the crew prepares for splashdown on April 10, 2026.",
+    "statusLabel": "Returning to Earth",
+    "currentPhase": "Return trajectory and re-entry preparation",
+    "headline": "The Artemis II crew is in excellent health and final preparations as they approach Earth for splashdown.",
     "details": [
-      "The Orion spacecraft is approximately 321,869 km from Earth and proceeding toward a scheduled splashdown.",
-      "Crew members are in good health and currently performing manual piloting test procedures.",
-      "Mission control has scheduled a final crew press conference for this evening.",
-      "Recovery operations are prepared for the Pacific Ocean splashdown off the coast of San Diego."
+      "The crew is performing final cabin stowing and equipment security today for re-entry.",
+      "A second Return Trajectory Correction (RTC-2) burn is scheduled for 01:53 UTC on April 10.",
+      "The USS John P. Murtha is stationed in the Pacific Ocean awaiting the scheduled splashdown.",
+      "Life support systems remain within nominal parameters despite minor waste management issues."
     ],
     "sources": [
-      "NASA Mission Status Briefing",
-      "Artemis II Mission Updates"
+      "NASA Mission Control",
+      "Artemis II Flight Operations Updates"
     ],
-    "crewStatus": "The crew is in good health and has completed morning post-sleep configuration.",
-    "lastEvent": "Crossed into the Earth's sphere of influence.",
-    "nextEvent": "NASA mission status briefing followed by the crew press conference.",
+    "crewStatus": "The four crew members are in excellent health and high spirits.",
+    "lastEvent": "Earth SOI crossing confirmed earlier today.",
+    "nextEvent": "Return Trajectory Correction (RTC-2) burn.",
     "telemetry": {
-      "distanceFromEarth": 321869,
+      "distanceFromEarth": 237115,
       "missionElapsedDay": 9,
-      "velocity": 38367
+      "velocity": 2735
     },
-    "fetchedAt": "2026-04-09T13:46:59.052Z"
+    "fetchedAt": "2026-04-09T17:06:45.016Z"
   },
   "milestones": [
     {
@@ -537,19 +537,29 @@
       "isNew": true
     },
     {
+      "id": "rtc-2-burn",
+      "label": "Rtc 2 Burn",
+      "detail": "",
+      "time": "2026-04-10T01:53:00.000Z",
+      "day": 9,
+      "icon": "📌",
+      "completed": false,
+      "isNew": true
+    },
+    {
       "id": "reentry",
       "label": "Re-Entry",
       "detail": "Spacecraft will enter Earth's atmosphere for a Pacific Ocean splashdown.",
-      "time": "2026-04-10T23:53:00.000Z",
-      "day": 10,
+      "time": "2026-04-10T19:59:00.000Z",
+      "day": 9,
       "icon": "🔥"
     },
     {
       "id": "splashdown",
       "label": "Splashdown",
       "detail": "Final mission splashdown near San Diego with recovery support from USS John P. Murtha.",
-      "time": "2026-04-11T00:07:00.000Z",
-      "day": 10,
+      "time": "2026-04-10T20:07:00.000Z",
+      "day": 9,
       "icon": "🌊",
       "highlight": true
     },
@@ -574,6 +584,31 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Returning to Earth",
+      "currentPhase": "Return trajectory and re-entry preparation",
+      "headline": "The Artemis II crew is in excellent health and final preparations as they approach Earth for splashdown.",
+      "details": [
+        "The crew is performing final cabin stowing and equipment security today for re-entry.",
+        "A second Return Trajectory Correction (RTC-2) burn is scheduled for 01:53 UTC on April 10.",
+        "The USS John P. Murtha is stationed in the Pacific Ocean awaiting the scheduled splashdown.",
+        "Life support systems remain within nominal parameters despite minor waste management issues."
+      ],
+      "sources": [
+        "NASA Mission Control",
+        "Artemis II Flight Operations Updates"
+      ],
+      "crewStatus": "The four crew members are in excellent health and high spirits.",
+      "lastEvent": "Earth SOI crossing confirmed earlier today.",
+      "nextEvent": "Return Trajectory Correction (RTC-2) burn.",
+      "telemetry": {
+        "distanceFromEarth": 237115,
+        "missionElapsedDay": 9,
+        "velocity": 2735
+      },
+      "fetchedAt": "2026-04-09T17:06:45.016Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Returning Home",
@@ -1062,29 +1097,6 @@
         "velocity": 97947
       },
       "fetchedAt": "2026-04-08T05:10:08.375Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Nominal",
-      "currentPhase": "Return Transit",
-      "headline": "The Orion spacecraft is officially Earthbound following a successful Return Trajectory Correction (RTC-1) burn.",
-      "details": [
-        "Orion successfully performed a 15-second RTC-1 burn to refine the entry corridor for splashdown.",
-        "The crew is preparing for the final phase of the mission by testing orthostatic intolerance garments.",
-        "The spacecraft exited the lunar sphere of influence on April 7, shifting focus toward Earth recovery.",
-        "Recovery operations are underway with the USS John P. Murtha transiting to the Pacific splashdown site."
-      ],
-      "sources": [
-        "NASA Mission Control",
-        "Artemis II Flight Operations Updates"
-      ],
-      "crewStatus": "The crew of four is in excellent health and high spirits as they transition toward re-entry preparation.",
-      "lastEvent": "Return Trajectory Correction (RTC-1) burn completed at 01:03 UTC on April 8.",
-      "nextEvent": "Manual Piloting Demonstration on April 9.",
-      "telemetry": {
-        "missionElapsedDay": 7
-      },
-      "fetchedAt": "2026-04-08T02:12:42.291Z"
     }
   ],
   "lastError": null
