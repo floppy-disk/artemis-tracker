@@ -2,30 +2,29 @@
   "update": {
     "status": "nominal",
     "statusLabel": "Final Approach",
-    "currentPhase": "Pre-reentry and Final Approach",
-    "headline": "Artemis II crew prepares for Pacific splashdown following final return trajectory burn.",
+    "currentPhase": "Mission day 10: Final approach for atmospheric reentry and Pacific splashdown.",
+    "headline": "Artemis II crew prepares for splashdown following successful final trajectory correction burn.",
     "details": [
-      "Orion completed its third and final trajectory correction burn at 18:53 UTC to align for atmospheric entry.",
-      "The crew has donned OCSS pressure suits and completed cabin stowage in preparation for module separation.",
-      "Spacecraft will hit the atmosphere at Mach 35, enduring heat shield temperatures of 5,000°F.",
-      "Recovery forces including the USS John P. Murtha are on station for the target splashdown near San Diego."
+      "The crew completed the third and final return trajectory correction burn (RTC-3) to refine the reentry angle.",
+      "The Orion spacecraft 'Integrity' is rapidly accelerating toward Earth, currently within 61,326 miles at start of the crew day.",
+      "Recovery teams aboard the USS John P. Murtha are on station for the scheduled 8:07 p.m. ET splashdown.",
+      "The mission has successfully surpassed the Apollo 13 distance record, reaching 252,756 miles from Earth."
     ],
     "sources": [
-      "NASA Mission Control",
-      "CSA Astronautics",
-      "Flight Surgeon Reports"
+      "NASA Mission Control Center",
+      "Canadian Space Agency (CSA)"
     ],
     "alertMessage": null,
-    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and high spirits.",
-    "lastEvent": "Final return trajectory correction burn (RTC-3) completed at 18:53 UTC.",
-    "nextEvent": "Jettison of the Service Module scheduled for 23:33 UTC.",
+    "crewStatus": "Commander Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in excellent health and are securing the cabin for reentry.",
+    "lastEvent": "Completion of the third return trajectory correction burn at 18:53 UTC.",
+    "nextEvent": "Service Module jettison scheduled for 23:33 UTC (7:33 p.m. ET).",
     "telemetry": {
       "distanceFromEarth": 98695,
       "distanceFromMoon": null,
-      "missionElapsedDay": 9,
-      "velocity": 38624
+      "missionElapsedDay": 10,
+      "velocity": null
     },
-    "fetchedAt": "2026-04-10T21:35:42.169Z"
+    "fetchedAt": "2026-04-10T22:36:03.773Z"
   },
   "milestones": [
     {
@@ -362,7 +361,7 @@
     {
       "id": "distance-record",
       "label": "Farthest Distance From Earth Record",
-      "detail": "Reached a record distance of 406,773 km from Earth, surpassing the Apollo 13 record.",
+      "detail": "Reached human deep-space distance record of 252,756 miles (406,771 km) from Earth.",
       "time": "2026-04-06T23:07:00.000Z",
       "day": 6,
       "icon": "🗺️",
@@ -571,7 +570,7 @@
     {
       "id": "rtc-3",
       "label": "Rtc 3",
-      "detail": "8-second burn adjusting velocity by 4.2 fps for precise reentry alignment.",
+      "detail": "Final 8-second trajectory burn adjusted velocity by 4.2 feet per second for atmospheric entry.",
       "time": "2026-04-10T18:53:00.000Z",
       "day": 9,
       "icon": "📌",
@@ -627,6 +626,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Final Approach",
+      "currentPhase": "Mission day 10: Final approach for atmospheric reentry and Pacific splashdown.",
+      "headline": "Artemis II crew prepares for splashdown following successful final trajectory correction burn.",
+      "details": [
+        "The crew completed the third and final return trajectory correction burn (RTC-3) to refine the reentry angle.",
+        "The Orion spacecraft 'Integrity' is rapidly accelerating toward Earth, currently within 61,326 miles at start of the crew day.",
+        "Recovery teams aboard the USS John P. Murtha are on station for the scheduled 8:07 p.m. ET splashdown.",
+        "The mission has successfully surpassed the Apollo 13 distance record, reaching 252,756 miles from Earth."
+      ],
+      "sources": [
+        "NASA Mission Control Center",
+        "Canadian Space Agency (CSA)"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in excellent health and are securing the cabin for reentry.",
+      "lastEvent": "Completion of the third return trajectory correction burn at 18:53 UTC.",
+      "nextEvent": "Service Module jettison scheduled for 23:33 UTC (7:33 p.m. ET).",
+      "telemetry": {
+        "distanceFromEarth": 98695,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 10,
+        "velocity": null
+      },
+      "fetchedAt": "2026-04-10T22:36:03.773Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Final Approach",
@@ -1134,31 +1160,6 @@
         "velocity": 2735
       },
       "fetchedAt": "2026-04-09T17:06:45.016Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Returning Home",
-      "currentPhase": "Earth Return Trajectory",
-      "headline": "The Artemis II mission is in its final stages as the crew prepares for splashdown on April 10, 2026.",
-      "details": [
-        "The Orion spacecraft is approximately 321,869 km from Earth and proceeding toward a scheduled splashdown.",
-        "Crew members are in good health and currently performing manual piloting test procedures.",
-        "Mission control has scheduled a final crew press conference for this evening.",
-        "Recovery operations are prepared for the Pacific Ocean splashdown off the coast of San Diego."
-      ],
-      "sources": [
-        "NASA Mission Status Briefing",
-        "Artemis II Mission Updates"
-      ],
-      "crewStatus": "The crew is in good health and has completed morning post-sleep configuration.",
-      "lastEvent": "Crossed into the Earth's sphere of influence.",
-      "nextEvent": "NASA mission status briefing followed by the crew press conference.",
-      "telemetry": {
-        "distanceFromEarth": 321869,
-        "missionElapsedDay": 9,
-        "velocity": 38367
-      },
-      "fetchedAt": "2026-04-09T13:46:59.052Z"
     }
   ],
   "lastError": null
