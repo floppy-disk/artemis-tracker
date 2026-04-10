@@ -1,30 +1,27 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Final Approach",
-    "currentPhase": "Orion is in the pre-reentry phase, approaching Earth for atmospheric entry and splashdown in the Pacific Ocean.",
-    "headline": "Artemis II crew prepares for final trajectory burn and Pacific splashdown today.",
+    "statusLabel": "Returning Home",
+    "currentPhase": "Earth entry and recovery",
+    "headline": "The Orion spacecraft is on a final trajectory for a historic splashdown off the coast of San Diego today.",
     "details": [
-      "The crew is preparing to don launch and entry suits following the completion of cabin stowage.",
-      "A final trajectory correction burn (RTC-3) is scheduled for 17:53 UTC to optimize the reentry angle.",
-      "The mission achieved a record-breaking maximum distance from Earth of 406,773 km during its lunar flyby.",
-      "Splashdown is targeted for 00:07 UTC on April 11, approximately 60 miles off the coast of San Diego."
+      "Crew are in excellent health and high spirits while preparing for re-entry.",
+      "The USS John P. Murtha is on station in the Pacific for recovery operations.",
+      "Final return trajectory correction was successfully completed yesterday evening.",
+      "Crew spent the day stowing equipment and running through re-entry procedures."
     ],
     "sources": [
-      "NASA Mission Control",
-      "U.S. Navy Recovery Operations"
+      "NASA Artemis II Mission Updates",
+      "Artemis II Daily Status Report"
     ],
-    "alertMessage": null,
-    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are reported to be in great shape and high spirits.",
-    "lastEvent": "Completed stowage of cabin equipment and final pre-entry inspections.",
-    "nextEvent": "Return Trajectory Correction (RTC-3) burn at 17:53 UTC.",
+    "crewStatus": "Commander Wiseman, Pilot Glover, and Mission Specialists Koch and Hansen are in excellent health.",
+    "lastEvent": "AVATAR Investigation Conclusion",
+    "nextEvent": "Service Module Jettison",
     "telemetry": {
-      "distanceFromEarth": null,
-      "distanceFromMoon": null,
-      "missionElapsedDay": 9,
-      "velocity": 40000
+      "missionElapsedDay": 10,
+      "velocity": 38400
     },
-    "fetchedAt": "2026-04-10T16:51:01.888Z"
+    "fetchedAt": "2026-04-10T17:45:48.847Z"
   },
   "milestones": [
     {
@@ -618,6 +615,30 @@
   "history": [
     {
       "status": "nominal",
+      "statusLabel": "Returning Home",
+      "currentPhase": "Earth entry and recovery",
+      "headline": "The Orion spacecraft is on a final trajectory for a historic splashdown off the coast of San Diego today.",
+      "details": [
+        "Crew are in excellent health and high spirits while preparing for re-entry.",
+        "The USS John P. Murtha is on station in the Pacific for recovery operations.",
+        "Final return trajectory correction was successfully completed yesterday evening.",
+        "Crew spent the day stowing equipment and running through re-entry procedures."
+      ],
+      "sources": [
+        "NASA Artemis II Mission Updates",
+        "Artemis II Daily Status Report"
+      ],
+      "crewStatus": "Commander Wiseman, Pilot Glover, and Mission Specialists Koch and Hansen are in excellent health.",
+      "lastEvent": "AVATAR Investigation Conclusion",
+      "nextEvent": "Service Module Jettison",
+      "telemetry": {
+        "missionElapsedDay": 10,
+        "velocity": 38400
+      },
+      "fetchedAt": "2026-04-10T17:45:48.847Z"
+    },
+    {
+      "status": "nominal",
       "statusLabel": "Final Approach",
       "currentPhase": "Orion is in the pre-reentry phase, approaching Earth for atmospheric entry and splashdown in the Pacific Ocean.",
       "headline": "Artemis II crew prepares for final trajectory burn and Pacific splashdown today.",
@@ -1114,33 +1135,6 @@
         "velocity": 2735
       },
       "fetchedAt": "2026-04-09T07:19:48.786Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Nominal Return Coast",
-      "currentPhase": "Earth Return Phase",
-      "headline": "Artemis II crew enters final 48 hours of mission following historic lunar flyby and record distance.",
-      "details": [
-        "Orion has successfully completed the Return Trajectory Correction (RTC-1) burn to refine its path to Earth.",
-        "The crew conducted radiation shelter demonstrations and manual piloting tests as they prepare for reentry.",
-        "Spacecraft is accelerating as it enters Earth's gravity well, with splashdown scheduled for April 10 off the San Diego coast.",
-        "Astronauts are currently performing final stowage of heavy gear to prepare for high-G reentry forces."
-      ],
-      "sources": [
-        "NASA Mission Control Daily Report",
-        "Canadian Space Agency (CSA) Mission Update"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in high spirits and excellent health.",
-      "lastEvent": "Successful manual piloting and radiation shelter construction demonstrations.",
-      "nextEvent": "Atmospheric reentry at approximately 25,000 mph followed by Pacific Ocean splashdown.",
-      "telemetry": {
-        "distanceFromEarth": 321868,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 8,
-        "velocity": 2735
-      },
-      "fetchedAt": "2026-04-09T05:08:30.600Z"
     }
   ],
   "lastError": null
