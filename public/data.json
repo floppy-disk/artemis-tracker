@@ -1,30 +1,30 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Returning to Earth",
-    "currentPhase": "Mission conclusion; finalizing Earth approach for atmospheric reentry and splashdown.",
-    "headline": "Orion prepares for Pacific splashdown after successful final trajectory adjustment.",
+    "statusLabel": "Final Approach",
+    "currentPhase": "Return Coast",
+    "headline": "Orion Integrity enters final 24 hours of flight ahead of scheduled Pacific splashdown.",
     "details": [
-      "Completed a 9-second RTC-2 trajectory correction burn at 02:53 UTC to refine the entry path.",
-      "Communications restored following a two-hour downlink outage during a scheduled data rate change.",
-      "Crew is currently performing final cabin stowage and donning compression garments for reentry.",
-      "Splashdown is targeted for 00:07 UTC April 11 in the Pacific Ocean off the coast of San Diego."
+      "Crew has transitioned to wearing orthostatic intolerance garments and begun final cabin stowage management for re-entry.",
+      "A successful 9-second RTC-2 burn was completed at 02:53 UTC to refine the splashdown corridor near San Diego.",
+      "Flight controllers successfully resolved a brief unexpected return link loss during a data rate change prior to the maneuver.",
+      "Orion is accelerating toward Earth following its record-breaking lunar flyby and peak distance of 252,760 miles."
     ],
     "sources": [
-      "NASA Mission Control Update",
-      "Artemis II Flight Day 10 Mission Briefing"
+      "NASA Mission Control Center",
+      "Artemis II Flight Operations"
     ],
     "alertMessage": null,
-    "crewStatus": "Commander Wiseman and the crew are in excellent health and high spirits as they prepare for high-G entry forces.",
-    "lastEvent": "Completion of the second return trajectory correction burn (RTC-2).",
-    "nextEvent": "Final return trajectory correction burn (RTC-3) scheduled for 17:53 UTC.",
+    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in high spirits and excellent health.",
+    "lastEvent": "Successful completion of the second return trajectory correction (RTC-2) burn.",
+    "nextEvent": "Final trajectory correction burn (RTC-3) scheduled for 17:53 UTC.",
     "telemetry": {
-      "distanceFromEarth": 185074,
+      "distanceFromEarth": 225308,
       "distanceFromMoon": null,
       "missionElapsedDay": 9,
-      "velocity": 7242
+      "velocity": 6293
     },
-    "fetchedAt": "2026-04-10T05:24:12.748Z"
+    "fetchedAt": "2026-04-10T07:26:17.727Z"
   },
   "milestones": [
     {
@@ -362,7 +362,7 @@
     {
       "id": "distance-record",
       "label": "Farthest Distance From Earth Record",
-      "detail": "Surpassed Apollo 13 record, reaching 252,760 miles from Earth.",
+      "detail": "Reached peak mission distance of 252,760 miles (406,773 km) from Earth.",
       "time": "2026-04-06T23:07:00.000Z",
       "day": 6,
       "icon": "🗺️",
@@ -541,7 +541,7 @@
     {
       "id": "rtc-2-burn",
       "label": "Rtc 2 Burn",
-      "detail": "A 9-second burn provided a 5.3 feet per second velocity change for entry path refinement.",
+      "detail": "9-second thruster firing providing a delta-v of 5.3 feet per second to refine the approach path.",
       "time": "2026-04-10T02:53:00.000Z",
       "day": 9,
       "icon": "📌",
@@ -606,6 +606,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Final Approach",
+      "currentPhase": "Return Coast",
+      "headline": "Orion Integrity enters final 24 hours of flight ahead of scheduled Pacific splashdown.",
+      "details": [
+        "Crew has transitioned to wearing orthostatic intolerance garments and begun final cabin stowage management for re-entry.",
+        "A successful 9-second RTC-2 burn was completed at 02:53 UTC to refine the splashdown corridor near San Diego.",
+        "Flight controllers successfully resolved a brief unexpected return link loss during a data rate change prior to the maneuver.",
+        "Orion is accelerating toward Earth following its record-breaking lunar flyby and peak distance of 252,760 miles."
+      ],
+      "sources": [
+        "NASA Mission Control Center",
+        "Artemis II Flight Operations"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in high spirits and excellent health.",
+      "lastEvent": "Successful completion of the second return trajectory correction (RTC-2) burn.",
+      "nextEvent": "Final trajectory correction burn (RTC-3) scheduled for 17:53 UTC.",
+      "telemetry": {
+        "distanceFromEarth": 225308,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 9,
+        "velocity": 6293
+      },
+      "fetchedAt": "2026-04-10T07:26:17.727Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Returning to Earth",
@@ -1088,32 +1115,6 @@
         "velocity": 0
       },
       "fetchedAt": "2026-04-08T18:13:52.183Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Pre-Launch",
-      "currentPhase": "Planning and Preparation",
-      "headline": "Artemis II mission remains in planning stages as NASA confirms the mission has not yet launched.",
-      "details": [
-        "As of April 8, 2026, the Artemis II mission remains on the ground with no launch having occurred.",
-        "NASA confirms that reports of an April 1, 2026 launch are inaccurate.",
-        "Official mission planning continues with a target launch window formerly set for September 2025.",
-        "Inflight telemetry, crew health data, and mission elapsed time are currently unavailable."
-      ],
-      "sources": [
-        "NASA Official Mission Schedules"
-      ],
-      "alertMessage": null,
-      "crewStatus": "The crew of four astronauts remains in the training and preparation phase on Earth.",
-      "lastEvent": "Mission hardware preparation and crew training.",
-      "nextEvent": "Official announcement of an updated target launch date.",
-      "telemetry": {
-        "distanceFromEarth": null,
-        "distanceFromMoon": null,
-        "missionElapsedDay": null,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-08T17:00:29.694Z"
     }
   ],
   "lastError": null
