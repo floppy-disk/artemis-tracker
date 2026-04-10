@@ -303,7 +303,7 @@ function Timeline({ milestones }) {
       <h2 style={{ fontSize: 14, letterSpacing: 3, color: "#7fdbca", textTransform: "uppercase", marginBottom: 16, fontWeight: 600 }}>Timeline</h2>
       {Object.entries(groups).map(([day, items]) => (
         <div key={day} style={{ marginBottom: 20 }}>
-          <div style={{ fontSize: 11, letterSpacing: 2, color: "#5a8a9a", textTransform: "uppercase", marginBottom: 6, paddingLeft: 28, fontWeight: 600 }}>{day}</div>
+          <div style={{ fontSize: 11, letterSpacing: 2, color: "#8badc1", textTransform: "uppercase", marginBottom: 6, paddingLeft: 28, fontWeight: 600 }}>{day}</div>
           {items.map((m) => {
             const mTime = new Date(m.time);
             const isPast = m.completed || mTime.getTime() <= now;
@@ -313,17 +313,17 @@ function Timeline({ milestones }) {
                 display: "flex", gap: 10, alignItems: "flex-start", padding: "8px 10px", borderRadius: 8, marginBottom: 2,
                 background: isNext ? "rgba(127,219,202,0.08)" : m.isNew ? "rgba(199,146,234,0.06)" : "transparent",
                 borderLeft: isNext ? "2px solid #7fdbca" : m.isNew ? "2px solid rgba(199,146,234,0.4)" : "2px solid transparent",
-                opacity: isPast ? 0.45 : 1,
+                opacity: isPast ? 0.6 : 1,
               }}>
                 <div style={{ fontSize: 16, width: 24, textAlign: "center", flexShrink: 0 }}>{isPast ? "✓" : m.icon}</div>
                 <div style={{ flex: 1, minWidth: 0 }}>
                   <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
-                    <span style={{ fontSize: 12, fontWeight: 700, color: isPast ? "#5a8a9a" : m.highlight ? "#ffcb6b" : "#e6f1ff" }}>{m.label}</span>
+                    <span style={{ fontSize: 12, fontWeight: 700, color: isPast ? "#8badc1" : m.highlight ? "#ffcb6b" : "#e6f1ff" }}>{m.label}</span>
                     {m.isNew && <span style={{ fontSize: 9, background: "rgba(199,146,234,0.2)", color: "#c792ea", padding: "1px 5px", borderRadius: 4, fontWeight: 700 }}>NEW</span>}
                   </div>
-                  <div style={{ fontSize: 11, color: "#5a7a8a", marginTop: 1 }}>{m.detail}</div>
+                  <div style={{ fontSize: 11, color: "#7a9aaa", marginTop: 1 }}>{m.detail}</div>
                 </div>
-                <div style={{ fontSize: 10, fontFamily: "mono, 'Courier New', monospace", color: "#3d6a7a", flexShrink: 0 }}>
+                <div style={{ fontSize: 10, fontFamily: "mono, 'Courier New', monospace", color: isPast ? "#8badc1" : "#6b9eb5", flexShrink: 0 }}>
                   {mTime.toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })}
                 </div>
               </div>

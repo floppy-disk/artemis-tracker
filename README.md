@@ -67,3 +67,9 @@ node scripts/fetch-updates.js
 - **Duration:** ~10 Days.
 - **Distance:** ~685,000 miles.
 - **Launch Date:** April 1, 2026.
+
+---
+
+## 🤖 AI Contributions
+
+This project was originally built with **Google Gemini CLI**. During development, Gemini produced Timeline font colors with poor contrast against the dark background, resulting in nearly unreadable text. **Claude Opus 4.6** was used to diagnose the contrast issues and devise a fix that boosted the muted teal-gray palette while preserving the space aesthetic.
