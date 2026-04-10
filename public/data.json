@@ -1,30 +1,30 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Returning to Earth",
-    "currentPhase": "Stowage, configuration, and final return trajectory preparations.",
-    "headline": "Artemis II crew prepares for Pacific splashdown today after setting a new human distance record.",
+    "statusLabel": "Landing Day",
+    "currentPhase": "Return to Earth approach and reentry sequence",
+    "headline": "Orion is on a high-speed return trajectory for a planned Pacific Ocean splashdown this evening.",
     "details": [
-      "Orion is on a high-velocity trajectory for a target splashdown at 8:07 p.m. EDT off the coast of San Diego.",
-      "The crew is donning orthostatic intolerant garments to assist with the transition back to Earth's gravity.",
-      "A final trajectory correction burn (RTC-3) is scheduled for 1:53 p.m. EDT to refine the landing corridor.",
-      "The mission surpassed the Apollo 13 record, reaching a maximum distance of 406,773 km from Earth."
+      "Orion is approximately 110,000 miles from Earth, accelerating under planetary gravity for tonight's reentry.",
+      "The crew successfully completed the Return Trajectory Correction 2 (RTC-2) burn last night, fine-tuning the splashdown target.",
+      "The crew is currently in their final sleep period in space, with wake-up scheduled for 15:35 UTC.",
+      "Recovery operations are led by the USS John P. Murtha, which is already in position off the coast of San Diego."
     ],
     "sources": [
-      "NASA Artemis II Mission Control",
-      "Orion Spacecraft Telemetry Report"
+      "NASA Mission Control Center",
+      "Artemis II Flight Operations Report"
     ],
     "alertMessage": null,
-    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and high spirits.",
-    "lastEvent": "Completion of the second return trajectory correction (RTC-2) burn at 10:53 p.m. EDT on April 9.",
-    "nextEvent": "Final Return Trajectory Correction (RTC-3) burn at 1:53 p.m. EDT.",
+    "crewStatus": "Commander Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in high spirits and excellent health having completed all primary science objectives.",
+    "lastEvent": "Completion of the Return Trajectory Correction 2 (RTC-2) burn to adjust velocity by 5.3 feet per second.",
+    "nextEvent": "Crew wake-up and final Return Trajectory Correction (RTC-3) burn.",
     "telemetry": {
-      "distanceFromEarth": 406773,
-      "distanceFromMoon": 6545,
+      "distanceFromEarth": 177027,
+      "distanceFromMoon": null,
       "missionElapsedDay": 10,
-      "velocity": 38366
+      "velocity": null
     },
-    "fetchedAt": "2026-04-10T10:54:09.219Z"
+    "fetchedAt": "2026-04-10T11:48:10.148Z"
   },
   "milestones": [
     {
@@ -541,7 +541,7 @@
     {
       "id": "rtc-2-burn",
       "label": "Rtc 2 Burn",
-      "detail": "Successful 9-second burn performed to fine-tune the return flight path.",
+      "detail": "Successful 9-second thruster ignition to fine-tune the splashdown landing zone.",
       "time": "2026-04-10T02:53:00.000Z",
       "day": 9,
       "icon": "📌",
@@ -551,7 +551,7 @@
     {
       "id": "avatar-conclusion",
       "label": "AVATAR Investigation Conclusion",
-      "detail": "Final data collection for the organ-chip radiation study completed before cabin stowage.",
+      "detail": "Crew completed final physical and cognitive response observations for the AVATAR study.",
       "time": "2026-04-10T05:00:00.000Z",
       "day": 9,
       "icon": "📌",
@@ -606,6 +606,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Landing Day",
+      "currentPhase": "Return to Earth approach and reentry sequence",
+      "headline": "Orion is on a high-speed return trajectory for a planned Pacific Ocean splashdown this evening.",
+      "details": [
+        "Orion is approximately 110,000 miles from Earth, accelerating under planetary gravity for tonight's reentry.",
+        "The crew successfully completed the Return Trajectory Correction 2 (RTC-2) burn last night, fine-tuning the splashdown target.",
+        "The crew is currently in their final sleep period in space, with wake-up scheduled for 15:35 UTC.",
+        "Recovery operations are led by the USS John P. Murtha, which is already in position off the coast of San Diego."
+      ],
+      "sources": [
+        "NASA Mission Control Center",
+        "Artemis II Flight Operations Report"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in high spirits and excellent health having completed all primary science objectives.",
+      "lastEvent": "Completion of the Return Trajectory Correction 2 (RTC-2) burn to adjust velocity by 5.3 feet per second.",
+      "nextEvent": "Crew wake-up and final Return Trajectory Correction (RTC-3) burn.",
+      "telemetry": {
+        "distanceFromEarth": 177027,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 10,
+        "velocity": null
+      },
+      "fetchedAt": "2026-04-10T11:48:10.148Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Returning to Earth",
@@ -1098,33 +1125,6 @@
         "velocity": null
       },
       "fetchedAt": "2026-04-08T21:40:52.125Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Trans-Earth Coast",
-      "currentPhase": "Trans-Earth Coast",
-      "headline": "Artemis II Orion spacecraft begins its high-speed return leg to Earth after successful lunar flyby.",
-      "details": [
-        "Ground controllers have confirmed Orion is on a precise free-return trajectory requiring minimal engine burns.",
-        "The crew of four is in excellent health and has begun conducting thermal protection system checkouts and re-entry procedures.",
-        "Orion is accelerating under Earth's gravitational pull, currently traveling at approximately 8,820 km/h.",
-        "Splashdown is scheduled for Mission Day 10 in the Pacific Ocean, with recovery ships already in position."
-      ],
-      "sources": [
-        "NASA Mission Control Center",
-        "Johnson Space Center Mission Reports"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Specialists Christina Koch and Jeremy Hansen are in excellent health and high spirits.",
-      "lastEvent": "Confirmation of precise free-return trajectory following lunar flyby.",
-      "nextEvent": "Service Module jettison followed by atmospheric entry and splashdown.",
-      "telemetry": {
-        "distanceFromEarth": 185000,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 7,
-        "velocity": 8820
-      },
-      "fetchedAt": "2026-04-08T20:55:08.853Z"
     }
   ],
   "lastError": null
