@@ -186,12 +186,19 @@ function mergeMilestones(base, updates) {
   });
   
   // New milestones
+  const launchDate = new Date("2026-04-01T22:35:00Z");
   updates.forEach((upd) => {
     if (!upd || !upd.id) return;
     if (base.find((m) => m.id === upd.id)) return;
     const t = new Date(upd.completedTime || upd.updatedTime || Date.now());
     if (isNaN(t.getTime())) return;
-    
+
+    // Reject milestones with dates before launch or unreasonably far in the future (>30 days)
+    if (t < launchDate || t > new Date(launchDate.getTime() + 30 * 24 * 60 * 60 * 1000)) {
+      console.warn(`Rejecting milestone "${upd.id}" — date ${t.toISOString()} is outside mission window`);
+      return;
+    }
+
     const timeStr = t.toISOString();
     const day = calculateMissionDay(timeStr);
     

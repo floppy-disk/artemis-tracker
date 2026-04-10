@@ -25,14 +25,13 @@
   },
   "milestones": [
     {
-      "id": "free-return-confirm",
-      "label": "Free-Return Trajectory Confirmed",
-      "detail": "Orion is on a precise path for Pacific Ocean splashdown following lunar gravity assist.",
-      "time": "2024-04-08T20:00:00.000Z",
-      "day": -723,
-      "icon": "🎯",
-      "completed": true,
-      "isNew": true
+      "id": "launch",
+      "label": "Launch",
+      "detail": "Successful launch of SLS and Orion from KSC Pad 39B.",
+      "time": "2026-04-01T22:35:00.000Z",
+      "day": 1,
+      "icon": "🚀",
+      "completed": true
     },
     {
       "id": "core-sep",

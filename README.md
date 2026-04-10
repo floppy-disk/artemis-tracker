@@ -73,3 +73,5 @@ node scripts/fetch-updates.js
 ## 🤖 AI Contributions
 
 This project was originally built with **Google Gemini CLI**. During development, Gemini produced Timeline font colors with poor contrast against the dark background, resulting in nearly unreadable text. **Claude Opus 4.6** was used to diagnose the contrast issues and devise a fix that boosted the muted teal-gray palette while preserving the space aesthetic.
+
+**Claude Opus 4.6** also fixed a timeline hallucination bug where the Gemini-powered update engine injected real-world NASA schedule dates into the simulation's timeline. The AI found news about actual Artemis II delays (late 2026 launch) and appended them as new milestones, producing impossible Day -723 and Day 244 entries. The fix restored the missing `launch` milestone in `data.json` and added a date-range guard in `fetch-updates.js` that rejects any new milestone with a date before launch or more than 30 days after.
