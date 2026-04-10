@@ -1,30 +1,30 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Final Approach",
-    "currentPhase": "Mission day 10: Final approach for atmospheric reentry and Pacific splashdown.",
-    "headline": "Artemis II crew prepares for splashdown following successful final trajectory correction burn.",
+    "statusLabel": "Atmospheric Reentry",
+    "currentPhase": "Orion Crew Module has separated from the service module and is preparing for atmospheric reentry and splashdown.",
+    "headline": "Orion spacecraft 'Integrity' separates from service module in preparation for high-speed Earth reentry.",
     "details": [
-      "The crew completed the third and final return trajectory correction burn (RTC-3) to refine the reentry angle.",
-      "The Orion spacecraft 'Integrity' is rapidly accelerating toward Earth, currently within 61,326 miles at start of the crew day.",
-      "Recovery teams aboard the USS John P. Murtha are on station for the scheduled 8:07 p.m. ET splashdown.",
-      "The mission has successfully surpassed the Apollo 13 distance record, reaching 252,756 miles from Earth."
+      "Service module jettison occurred at 23:33 UTC, exposing the heat shield for entry interface.",
+      "The crew is strapped into their Orion Crew Survival System suits for a direct descent trajectory.",
+      "Entry interface at 400,000 feet is expected at 23:53 UTC, followed by a 6-minute plasma communications blackout.",
+      "Splashdown is targeted for 00:07 UTC on April 11 in the Pacific Ocean near San Diego."
     ],
     "sources": [
-      "NASA Mission Control Center",
-      "Canadian Space Agency (CSA)"
+      "NASA Artemis II Mission Control",
+      "Canadian Space Agency (CSA) Official Update"
     ],
     "alertMessage": null,
-    "crewStatus": "Commander Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in excellent health and are securing the cabin for reentry.",
-    "lastEvent": "Completion of the third return trajectory correction burn at 18:53 UTC.",
-    "nextEvent": "Service Module jettison scheduled for 23:33 UTC (7:33 p.m. ET).",
+    "crewStatus": "Commander Wiseman, Pilot Glover, Specialist Koch, and Specialist Hansen are in excellent spirits and have completed final leak checks on their survival suits.",
+    "lastEvent": "Successful separation of the Orion Crew Module from its service module at 23:33 UTC.",
+    "nextEvent": "Entry interface at 400,000 feet followed by a 6-minute communications blackout.",
     "telemetry": {
-      "distanceFromEarth": 98695,
+      "distanceFromEarth": 122,
       "distanceFromMoon": null,
       "missionElapsedDay": 10,
-      "velocity": null
+      "velocity": 39688
     },
-    "fetchedAt": "2026-04-10T22:36:03.773Z"
+    "fetchedAt": "2026-04-10T23:33:49.187Z"
   },
   "milestones": [
     {
@@ -361,7 +361,7 @@
     {
       "id": "distance-record",
       "label": "Farthest Distance From Earth Record",
-      "detail": "Reached human deep-space distance record of 252,756 miles (406,771 km) from Earth.",
+      "detail": "Reached a human distance record of 252,756 miles (406,773 km) from Earth.",
       "time": "2026-04-06T23:07:00.000Z",
       "day": 6,
       "icon": "🗺️",
@@ -590,11 +590,11 @@
     {
       "id": "sm-jettison",
       "label": "Service Module Jettison",
-      "detail": "Separation of the Orion crew module from the service module prior to entry.",
+      "detail": "The service module was jettisoned to expose the heat shield for atmospheric entry.",
       "time": "2026-04-10T23:33:00.000Z",
       "day": 10,
       "icon": "🚀",
-      "completed": false,
+      "completed": true,
       "isNew": true
     },
     {
@@ -626,6 +626,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Atmospheric Reentry",
+      "currentPhase": "Orion Crew Module has separated from the service module and is preparing for atmospheric reentry and splashdown.",
+      "headline": "Orion spacecraft 'Integrity' separates from service module in preparation for high-speed Earth reentry.",
+      "details": [
+        "Service module jettison occurred at 23:33 UTC, exposing the heat shield for entry interface.",
+        "The crew is strapped into their Orion Crew Survival System suits for a direct descent trajectory.",
+        "Entry interface at 400,000 feet is expected at 23:53 UTC, followed by a 6-minute plasma communications blackout.",
+        "Splashdown is targeted for 00:07 UTC on April 11 in the Pacific Ocean near San Diego."
+      ],
+      "sources": [
+        "NASA Artemis II Mission Control",
+        "Canadian Space Agency (CSA) Official Update"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Wiseman, Pilot Glover, Specialist Koch, and Specialist Hansen are in excellent spirits and have completed final leak checks on their survival suits.",
+      "lastEvent": "Successful separation of the Orion Crew Module from its service module at 23:33 UTC.",
+      "nextEvent": "Entry interface at 400,000 feet followed by a 6-minute communications blackout.",
+      "telemetry": {
+        "distanceFromEarth": 122,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 10,
+        "velocity": 39688
+      },
+      "fetchedAt": "2026-04-10T23:33:49.187Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Final Approach",
@@ -1135,31 +1162,6 @@
         "velocity": 28000
       },
       "fetchedAt": "2026-04-09T19:04:49.722Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Returning to Earth",
-      "currentPhase": "Return trajectory and re-entry preparation",
-      "headline": "The Artemis II crew is in excellent health and final preparations as they approach Earth for splashdown.",
-      "details": [
-        "The crew is performing final cabin stowing and equipment security today for re-entry.",
-        "A second Return Trajectory Correction (RTC-2) burn is scheduled for 01:53 UTC on April 10.",
-        "The USS John P. Murtha is stationed in the Pacific Ocean awaiting the scheduled splashdown.",
-        "Life support systems remain within nominal parameters despite minor waste management issues."
-      ],
-      "sources": [
-        "NASA Mission Control",
-        "Artemis II Flight Operations Updates"
-      ],
-      "crewStatus": "The four crew members are in excellent health and high spirits.",
-      "lastEvent": "Earth SOI crossing confirmed earlier today.",
-      "nextEvent": "Return Trajectory Correction (RTC-2) burn.",
-      "telemetry": {
-        "distanceFromEarth": 237115,
-        "missionElapsedDay": 9,
-        "velocity": 2735
-      },
-      "fetchedAt": "2026-04-09T17:06:45.016Z"
     }
   ],
   "lastError": null
