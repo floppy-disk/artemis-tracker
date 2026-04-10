@@ -1,30 +1,31 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Final Approach",
-    "currentPhase": "Final 24 hours of return flight",
-    "headline": "Orion spacecraft Integrity enters final 24-hour countdown to Earth splashdown.",
+    "statusLabel": "Final Return",
+    "currentPhase": "Return Coast (Final Approach)",
+    "headline": "Artemis II crew prepares for splashdown following record-breaking lunar mission.",
     "details": [
-      "The crew is securing the cabin and stowing all loose equipment, including exercise machinery, for high-G re-entry forces.",
-      "A final Return Trajectory Correction (RTC-2) burn is scheduled for tonight at 01:53 UTC to align for the entry interface.",
-      "Orion will utilize a lofted re-entry profile, skipping off the upper atmosphere to manage heat shield thermal stress.",
-      "The USS John P. Murtha is on station in the Pacific Ocean to recover the crew following the scheduled Friday splashdown."
+      "Orion is accelerating toward Earth for a high-speed splashdown scheduled for 00:07 UTC on April 11.",
+      "The crew has completed their final news conference and exercise sessions to mitigate muscle loss.",
+      "Spacecraft reached a record distance of 406,771 km from Earth during its lunar flyby on April 6.",
+      "Recovery forces led by the USS John P. Murtha are on station off the coast of San Diego."
     ],
     "sources": [
-      "NASA Artemis II Mission Update",
-      "Artemis Flight Operations Center"
+      "NASA Artemis Mission Update",
+      "Artemis II Media Briefing",
+      "Naval Recovery Force Operations"
     ],
     "alertMessage": null,
-    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and have completed final exercise sessions.",
-    "lastEvent": "Completion of final onboard physical conditioning sessions and initiation of cabin stowage procedures.",
-    "nextEvent": "Return Trajectory Correction (RTC-2) burn at 01:53 UTC",
+    "crewStatus": "Commander Wiseman, Pilot Glover, Specialists Koch and Hansen are in excellent health and preparing for re-entry.",
+    "lastEvent": "Completion of final orbital exercise sessions and equipment stowage.",
+    "nextEvent": "Separation of the European Service Module (ESM) at 23:33 UTC.",
     "telemetry": {
-      "distanceFromEarth": 231700,
+      "distanceFromEarth": 217000,
       "distanceFromMoon": null,
       "missionElapsedDay": 9,
-      "velocity": 4580
+      "velocity": 4500
     },
-    "fetchedAt": "2026-04-09T23:36:30.827Z"
+    "fetchedAt": "2026-04-10T02:24:51.656Z"
   },
   "milestones": [
     {
@@ -525,7 +526,7 @@
       "time": "2026-04-09T21:45:00.000Z",
       "day": 8,
       "icon": "📌",
-      "completed": false,
+      "completed": true,
       "isNew": true
     },
     {
@@ -549,11 +550,21 @@
       "isNew": true
     },
     {
+      "id": "sm-jettison",
+      "label": "Service Module Jettison",
+      "detail": "Separation of the European Service Module prior to atmospheric entry.",
+      "time": "2026-04-10T23:33:00.000Z",
+      "day": 10,
+      "icon": "🚀",
+      "completed": false,
+      "isNew": true
+    },
+    {
       "id": "reentry",
       "label": "Re-Entry",
       "detail": "Atmospheric interface and re-entry sequence for the Orion crew module.",
-      "time": "2026-04-10T19:59:00.000Z",
-      "day": 9,
+      "time": "2026-04-10T23:53:00.000Z",
+      "day": 10,
       "icon": "🔥"
     },
     {
@@ -566,16 +577,6 @@
       "highlight": true
     },
     {
-      "id": "sm-jettison",
-      "label": "Service Module Jettison",
-      "detail": "Separation of the European Service Module prior to atmospheric entry.",
-      "time": "2026-04-11T15:00:00.000Z",
-      "day": 10,
-      "icon": "🚀",
-      "completed": false,
-      "isNew": true
-    },
-    {
       "id": "launch",
       "label": "Launch",
       "detail": "Launch date is pending final scheduling for late 2026.",
@@ -586,6 +587,34 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Final Return",
+      "currentPhase": "Return Coast (Final Approach)",
+      "headline": "Artemis II crew prepares for splashdown following record-breaking lunar mission.",
+      "details": [
+        "Orion is accelerating toward Earth for a high-speed splashdown scheduled for 00:07 UTC on April 11.",
+        "The crew has completed their final news conference and exercise sessions to mitigate muscle loss.",
+        "Spacecraft reached a record distance of 406,771 km from Earth during its lunar flyby on April 6.",
+        "Recovery forces led by the USS John P. Murtha are on station off the coast of San Diego."
+      ],
+      "sources": [
+        "NASA Artemis Mission Update",
+        "Artemis II Media Briefing",
+        "Naval Recovery Force Operations"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Wiseman, Pilot Glover, Specialists Koch and Hansen are in excellent health and preparing for re-entry.",
+      "lastEvent": "Completion of final orbital exercise sessions and equipment stowage.",
+      "nextEvent": "Separation of the European Service Module (ESM) at 23:33 UTC.",
+      "telemetry": {
+        "distanceFromEarth": 217000,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 9,
+        "velocity": 4500
+      },
+      "fetchedAt": "2026-04-10T02:24:51.656Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Final Approach",
@@ -1066,34 +1095,6 @@
         "velocity": null
       },
       "fetchedAt": "2026-04-08T15:10:10.133Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Trans-Earth Coast",
-      "currentPhase": "Orion is currently in the return-to-Earth phase on a Trans-Earth Coast trajectory following a successful lunar flyby.",
-      "headline": "Artemis II crew begins high-speed return to Earth after record-breaking lunar approach.",
-      "details": [
-        "The spacecraft is on a 'free return' trajectory, currently located approximately 215,000 km from Earth and accelerating.",
-        "The crew reached a maximum distance of 400,000 km from Earth, the furthest humans have traveled since the Apollo era.",
-        "Astronauts completed a public engagement session on Mission Day 6, sharing imagery of the lunar far side.",
-        "Recovery forces, including the USS San Diego, are pre-positioning in the Pacific Ocean for the April 11 splashdown."
-      ],
-      "sources": [
-        "NASA Mission Status Report",
-        "Artemis II Crew Biometrics Update",
-        "U.S. Navy Recovery Team Log"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and following microgravity mitigation protocols.",
-      "lastEvent": "Successful completion of lunar flyby and entry into the free return trajectory.",
-      "nextEvent": "Separation of the Service Module followed by atmospheric re-entry at 40,000 km/h.",
-      "telemetry": {
-        "distanceFromEarth": 215000,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 7,
-        "velocity": 4800
-      },
-      "fetchedAt": "2026-04-08T11:55:40.225Z"
     }
   ],
   "lastError": null
