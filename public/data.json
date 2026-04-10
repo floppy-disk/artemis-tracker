@@ -2,29 +2,28 @@
   "update": {
     "status": "nominal",
     "statusLabel": "Final Approach",
-    "currentPhase": "Return Coast",
-    "headline": "Orion Integrity enters final 24 hours of flight ahead of scheduled Pacific splashdown.",
+    "currentPhase": "Trans-Earth Coast (Home Stretch)",
+    "headline": "Artemis II Orion spacecraft Integrity prepares for re-entry and splashdown after 10-day lunar mission.",
     "details": [
-      "Crew has transitioned to wearing orthostatic intolerance garments and begun final cabin stowage management for re-entry.",
-      "A successful 9-second RTC-2 burn was completed at 02:53 UTC to refine the splashdown corridor near San Diego.",
-      "Flight controllers successfully resolved a brief unexpected return link loss during a data rate change prior to the maneuver.",
-      "Orion is accelerating toward Earth following its record-breaking lunar flyby and peak distance of 252,760 miles."
+      "Orion is 159,487 km from Earth, positioned in the Scorpius constellation and accelerating for its return tonight.",
+      "The crew is in excellent health and has completed final gear stowage and orthostatic intolerance garment testing.",
+      "A final trajectory correction burn (RTC-3) is scheduled for 17:53 UTC to refine the Pacific Ocean splashdown path.",
+      "Recovery forces aboard the USS John P. Murtha are on-station off the San Diego coast for the 00:07 UTC return."
     ],
     "sources": [
-      "NASA Mission Control Center",
-      "Artemis II Flight Operations"
+      "NASA Mission Update April 10, 2026"
     ],
     "alertMessage": null,
-    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in high spirits and excellent health.",
-    "lastEvent": "Successful completion of the second return trajectory correction (RTC-2) burn.",
-    "nextEvent": "Final trajectory correction burn (RTC-3) scheduled for 17:53 UTC.",
+    "crewStatus": "Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in high spirits and excellent health, having completed final re-entry cabin configurations.",
+    "lastEvent": "Successful 9-second thruster burn (RTC-2) completed at 02:53 UTC to refine the return trajectory.",
+    "nextEvent": "Final Return Trajectory Correction burn (RTC-3) at 17:53 UTC today.",
     "telemetry": {
-      "distanceFromEarth": 225308,
+      "distanceFromEarth": 159487,
       "distanceFromMoon": null,
       "missionElapsedDay": 9,
-      "velocity": 6293
+      "velocity": null
     },
-    "fetchedAt": "2026-04-10T07:26:17.727Z"
+    "fetchedAt": "2026-04-10T09:07:25.289Z"
   },
   "milestones": [
     {
@@ -323,7 +322,7 @@
     {
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
-      "detail": "Successfully passed within 4,067 miles of the lunar surface.",
+      "detail": "Completed closest lunar approach at 6,545 km above the surface.",
       "time": "2026-04-06T23:02:00.000Z",
       "day": 6,
       "icon": "🌕",
@@ -401,7 +400,7 @@
     {
       "id": "apollo-13-record",
       "label": "Broke Apollo 13 Distance Record",
-      "detail": "Officially broke the 1970 record for farthest human travel from Earth.",
+      "detail": "Orion surpassed the Apollo 13 record by reaching a maximum distance of 406,771 km from Earth.",
       "time": "2026-04-06T23:56:00.000Z",
       "day": 6,
       "icon": "🏆",
@@ -535,7 +534,7 @@
       "time": "2026-04-09T22:55:00.000Z",
       "day": 9,
       "icon": "📌",
-      "completed": false,
+      "completed": true,
       "isNew": true
     },
     {
@@ -606,6 +605,32 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Final Approach",
+      "currentPhase": "Trans-Earth Coast (Home Stretch)",
+      "headline": "Artemis II Orion spacecraft Integrity prepares for re-entry and splashdown after 10-day lunar mission.",
+      "details": [
+        "Orion is 159,487 km from Earth, positioned in the Scorpius constellation and accelerating for its return tonight.",
+        "The crew is in excellent health and has completed final gear stowage and orthostatic intolerance garment testing.",
+        "A final trajectory correction burn (RTC-3) is scheduled for 17:53 UTC to refine the Pacific Ocean splashdown path.",
+        "Recovery forces aboard the USS John P. Murtha are on-station off the San Diego coast for the 00:07 UTC return."
+      ],
+      "sources": [
+        "NASA Mission Update April 10, 2026"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in high spirits and excellent health, having completed final re-entry cabin configurations.",
+      "lastEvent": "Successful 9-second thruster burn (RTC-2) completed at 02:53 UTC to refine the return trajectory.",
+      "nextEvent": "Final Return Trajectory Correction burn (RTC-3) at 17:53 UTC today.",
+      "telemetry": {
+        "distanceFromEarth": 159487,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 9,
+        "velocity": null
+      },
+      "fetchedAt": "2026-04-10T09:07:25.289Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Final Approach",
@@ -1089,32 +1114,6 @@
         "Artemis Program Status Updates"
       ],
       "fetchedAt": "2026-04-08T19:59:37.196Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Pre-Launch",
-      "currentPhase": "Pre-flight Planning and Readiness",
-      "headline": "NASA Artemis II mission remains in pre-launch status as technical evaluations continue.",
-      "details": [
-        "The Artemis II mission has not yet launched as of April 8, 2026.",
-        "NASA continues to perform operational readiness assessments and scheduling reviews for the crewed lunar flyby.",
-        "No active crew is currently in space for this mission, and ground systems are in nominal standby.",
-        "Launch date remains subject to ongoing evaluation of flight software and hardware integration."
-      ],
-      "sources": [
-        "NASA Artemis II Mission Readiness Briefing"
-      ],
-      "alertMessage": null,
-      "crewStatus": "The crew remains on Earth completing final training cycles and mission simulations.",
-      "lastEvent": "Completion of mission operational readiness technical reviews.",
-      "nextEvent": "Final Flight Readiness Review (FRR) for the Space Launch System and Orion spacecraft.",
-      "telemetry": {
-        "distanceFromEarth": 0,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 0,
-        "velocity": 0
-      },
-      "fetchedAt": "2026-04-08T18:13:52.183Z"
     }
   ],
   "lastError": null
