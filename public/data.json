@@ -1,30 +1,31 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Return Coast",
-    "currentPhase": "Final approach and reentry preparation",
-    "headline": "Orion spacecraft Integrity enters final hours of mission ahead of Pacific splashdown.",
+    "statusLabel": "Returning to Earth",
+    "currentPhase": "Pre-reentry operations and final approach",
+    "headline": "Orion spacecraft Integrity enters final hours of flight ahead of Pacific Ocean splashdown.",
     "details": [
-      "The crew completed a final 8-second trajectory correction burn at 18:53 UTC to refine their Earth entry point.",
-      "Astronauts Wiseman, Glover, Koch, and Hansen are suiting up in OCSS survival suits and securing the cabin for high-G reentry.",
-      "The USS John P. Murtha recovery ship is currently on station near San Diego to retrieve the crew and capsule.",
-      "Orion is accelerating under Earth's gravity and will hit the atmosphere at approximately 24,000 mph."
+      "Final trajectory correction burn (RTC-3) was successfully completed at 18:53 UTC to fine-tune entry path.",
+      "Orion is scheduled for atmospheric interface at 23:53 UTC at a speed of approximately 24,000 mph.",
+      "NASA and Navy recovery teams are in position off the San Diego coast for a 00:07 UTC splashdown.",
+      "Crew remains in excellent health after breaking the human deep-space distance record."
     ],
     "sources": [
-      "NASA Mission Control Center",
-      "Artemis II Flight Operations Report"
+      "NASA Mission Control",
+      "Artemis II Flight Log",
+      "U.S. Navy Recovery Operations"
     ],
     "alertMessage": null,
-    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and high spirits as they prepare for splashdown.",
-    "lastEvent": "Final 8-second trajectory correction burn completed at 18:53 UTC.",
-    "nextEvent": "Separation of the Orion Service Module at 23:25 UTC.",
+    "crewStatus": "Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in excellent health and high spirits.",
+    "lastEvent": "Final trajectory correction burn (RTC-3) completed at 18:53 UTC.",
+    "nextEvent": "Service Module jettison followed by atmospheric reentry and splashdown.",
     "telemetry": {
-      "distanceFromEarth": 93342,
+      "distanceFromEarth": 98695,
       "distanceFromMoon": null,
       "missionElapsedDay": 9,
       "velocity": 38624
     },
-    "fetchedAt": "2026-04-10T19:42:29.089Z"
+    "fetchedAt": "2026-04-10T20:34:40.827Z"
   },
   "milestones": [
     {
@@ -322,7 +323,7 @@
     {
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
-      "detail": "Closest approach of 4,067 miles from the lunar surface.",
+      "detail": "Completed closest lunar approach at a distance of 4,067 miles from the surface.",
       "time": "2026-04-06T23:02:00.000Z",
       "day": 6,
       "icon": "🌕",
@@ -400,7 +401,7 @@
     {
       "id": "apollo-13-record",
       "label": "Broke Apollo 13 Distance Record",
-      "detail": "Surpassed the human distance record from Earth set by Apollo 13.",
+      "detail": "Mission surpassed the Apollo 13 record by reaching a maximum distance of 252,756 miles from Earth.",
       "time": "2026-04-06T23:56:00.000Z",
       "day": 6,
       "icon": "🏆",
@@ -508,6 +509,16 @@
       "isNew": true
     },
     {
+      "id": "day9-comm-loss",
+      "label": "Day 9 Comm Blackout",
+      "detail": "A brief return link loss caused a temporary communication blackout that was quickly resolved.",
+      "time": "2026-04-09T18:00:00.000Z",
+      "day": 8,
+      "icon": "📡",
+      "completed": true,
+      "isNew": true
+    },
+    {
       "id": "reentry-prep",
       "label": "Reentry Configuration",
       "detail": "Crew configured the cabin and installed seats for high-G descent.",
@@ -560,7 +571,7 @@
     {
       "id": "rtc-3",
       "label": "Rtc 3",
-      "detail": "Final trajectory correction burn performed to refine landing coordinates.",
+      "detail": "Eight-second thruster ignition successfully adjusted velocity by 4.2 feet per second.",
       "time": "2026-04-10T18:53:00.000Z",
       "day": 9,
       "icon": "📌",
@@ -581,7 +592,7 @@
       "id": "sm-jettison",
       "label": "Service Module Jettison",
       "detail": "Separation of the Orion crew module from the service module prior to entry.",
-      "time": "2026-04-10T23:25:00.000Z",
+      "time": "2026-04-10T23:33:00.000Z",
       "day": 10,
       "icon": "🚀",
       "completed": false,
@@ -616,6 +627,34 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Returning to Earth",
+      "currentPhase": "Pre-reentry operations and final approach",
+      "headline": "Orion spacecraft Integrity enters final hours of flight ahead of Pacific Ocean splashdown.",
+      "details": [
+        "Final trajectory correction burn (RTC-3) was successfully completed at 18:53 UTC to fine-tune entry path.",
+        "Orion is scheduled for atmospheric interface at 23:53 UTC at a speed of approximately 24,000 mph.",
+        "NASA and Navy recovery teams are in position off the San Diego coast for a 00:07 UTC splashdown.",
+        "Crew remains in excellent health after breaking the human deep-space distance record."
+      ],
+      "sources": [
+        "NASA Mission Control",
+        "Artemis II Flight Log",
+        "U.S. Navy Recovery Operations"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in excellent health and high spirits.",
+      "lastEvent": "Final trajectory correction burn (RTC-3) completed at 18:53 UTC.",
+      "nextEvent": "Service Module jettison followed by atmospheric reentry and splashdown.",
+      "telemetry": {
+        "distanceFromEarth": 98695,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 9,
+        "velocity": 38624
+      },
+      "fetchedAt": "2026-04-10T20:34:40.827Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Return Coast",
@@ -1117,32 +1156,6 @@
         "velocity": 2735
       },
       "fetchedAt": "2026-04-09T11:57:58.375Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Nominal Return Phase",
-      "currentPhase": "Return coast to Earth",
-      "headline": "Orion is on a lofted return trajectory following a successful lunar flyby, with the crew preparing for final reentry on April 10.",
-      "details": [
-        "The crew is in excellent health and high spirits while conducting radiation experiments and final stowing procedures.",
-        "Orion has successfully transitioned into Earth's gravity, marking the final leg of the mission.",
-        "Manual piloting tests are scheduled for later today to verify spacecraft handling ahead of the atmospheric interface.",
-        "The mission is on track for a Pacific Ocean splashdown on April 10, 2026."
-      ],
-      "sources": [
-        "NASA Mission Control Daily Briefing",
-        "Artemis II Flight Operations Report"
-      ],
-      "crewStatus": "All four crew members are healthy, in high spirits, and engaged in end-of-mission activities.",
-      "lastEvent": "Final Cabin Stowage completed for reentry preparations.",
-      "nextEvent": "Manual flight control tests to verify handling characteristics.",
-      "telemetry": {
-        "distanceFromEarth": 306500,
-        "distanceFromMoon": 265000,
-        "missionElapsedDay": 8,
-        "velocity": 2735
-      },
-      "fetchedAt": "2026-04-09T10:57:47.955Z"
     }
   ],
   "lastError": null
