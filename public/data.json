@@ -1,31 +1,30 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Final Return",
-    "currentPhase": "Return Coast (Final Approach)",
-    "headline": "Artemis II crew prepares for splashdown following record-breaking lunar mission.",
+    "statusLabel": "Returning to Earth",
+    "currentPhase": "Mission conclusion; finalizing Earth approach for atmospheric reentry and splashdown.",
+    "headline": "Orion prepares for Pacific splashdown after successful final trajectory adjustment.",
     "details": [
-      "Orion is accelerating toward Earth for a high-speed splashdown scheduled for 00:07 UTC on April 11.",
-      "The crew has completed their final news conference and exercise sessions to mitigate muscle loss.",
-      "Spacecraft reached a record distance of 406,771 km from Earth during its lunar flyby on April 6.",
-      "Recovery forces led by the USS John P. Murtha are on station off the coast of San Diego."
+      "Completed a 9-second RTC-2 trajectory correction burn at 02:53 UTC to refine the entry path.",
+      "Communications restored following a two-hour downlink outage during a scheduled data rate change.",
+      "Crew is currently performing final cabin stowage and donning compression garments for reentry.",
+      "Splashdown is targeted for 00:07 UTC April 11 in the Pacific Ocean off the coast of San Diego."
     ],
     "sources": [
-      "NASA Artemis Mission Update",
-      "Artemis II Media Briefing",
-      "Naval Recovery Force Operations"
+      "NASA Mission Control Update",
+      "Artemis II Flight Day 10 Mission Briefing"
     ],
     "alertMessage": null,
-    "crewStatus": "Commander Wiseman, Pilot Glover, Specialists Koch and Hansen are in excellent health and preparing for re-entry.",
-    "lastEvent": "Completion of final orbital exercise sessions and equipment stowage.",
-    "nextEvent": "Separation of the European Service Module (ESM) at 23:33 UTC.",
+    "crewStatus": "Commander Wiseman and the crew are in excellent health and high spirits as they prepare for high-G entry forces.",
+    "lastEvent": "Completion of the second return trajectory correction burn (RTC-2).",
+    "nextEvent": "Final return trajectory correction burn (RTC-3) scheduled for 17:53 UTC.",
     "telemetry": {
-      "distanceFromEarth": 217000,
+      "distanceFromEarth": 185074,
       "distanceFromMoon": null,
       "missionElapsedDay": 9,
-      "velocity": 4500
+      "velocity": 7242
     },
-    "fetchedAt": "2026-04-10T02:24:51.656Z"
+    "fetchedAt": "2026-04-10T05:24:12.748Z"
   },
   "milestones": [
     {
@@ -542,8 +541,28 @@
     {
       "id": "rtc-2-burn",
       "label": "Rtc 2 Burn",
-      "detail": "Second return trajectory correction burn to align spacecraft for precise atmospheric re-entry.",
-      "time": "2026-04-10T01:53:00.000Z",
+      "detail": "A 9-second burn provided a 5.3 feet per second velocity change for entry path refinement.",
+      "time": "2026-04-10T02:53:00.000Z",
+      "day": 9,
+      "icon": "📌",
+      "completed": true,
+      "isNew": true
+    },
+    {
+      "id": "avatar-conclusion",
+      "label": "AVATAR Investigation Conclusion",
+      "detail": "Final data collection for the organ-chip radiation study completed before cabin stowage.",
+      "time": "2026-04-10T05:00:00.000Z",
+      "day": 9,
+      "icon": "📌",
+      "completed": true,
+      "isNew": true
+    },
+    {
+      "id": "rtc-3",
+      "label": "Rtc 3",
+      "detail": "",
+      "time": "2026-04-10T17:53:00.000Z",
       "day": 9,
       "icon": "📌",
       "completed": false,
@@ -587,6 +606,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Returning to Earth",
+      "currentPhase": "Mission conclusion; finalizing Earth approach for atmospheric reentry and splashdown.",
+      "headline": "Orion prepares for Pacific splashdown after successful final trajectory adjustment.",
+      "details": [
+        "Completed a 9-second RTC-2 trajectory correction burn at 02:53 UTC to refine the entry path.",
+        "Communications restored following a two-hour downlink outage during a scheduled data rate change.",
+        "Crew is currently performing final cabin stowage and donning compression garments for reentry.",
+        "Splashdown is targeted for 00:07 UTC April 11 in the Pacific Ocean off the coast of San Diego."
+      ],
+      "sources": [
+        "NASA Mission Control Update",
+        "Artemis II Flight Day 10 Mission Briefing"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Wiseman and the crew are in excellent health and high spirits as they prepare for high-G entry forces.",
+      "lastEvent": "Completion of the second return trajectory correction burn (RTC-2).",
+      "nextEvent": "Final return trajectory correction burn (RTC-3) scheduled for 17:53 UTC.",
+      "telemetry": {
+        "distanceFromEarth": 185074,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 9,
+        "velocity": 7242
+      },
+      "fetchedAt": "2026-04-10T05:24:12.748Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Final Return",
@@ -1068,33 +1114,6 @@
         "velocity": null
       },
       "fetchedAt": "2026-04-08T17:00:29.694Z"
-    },
-    {
-      "status": "warning",
-      "statusLabel": "Launch Not Verified",
-      "currentPhase": "Pre-launch / Indeterminate",
-      "headline": "No factual record exists of the Artemis II mission launch on April 1, 2026.",
-      "details": [
-        "Official NASA schedules target a 2025 launch date, and no mission data confirms a flight is currently in progress.",
-        "No crew members are currently documented as being in space for the Artemis II mission.",
-        "Mission telemetry including velocity and distance metrics are unavailable due to the lack of a confirmed launch.",
-        "Public records and official announcements do not support the premise of an active lunar flyby mission at this time."
-      ],
-      "sources": [
-        "NASA Official Mission Schedule",
-        "Mission Control Flight Records"
-      ],
-      "alertMessage": "Launch status for April 1, 2026, is unconfirmed; current mission data discrepancies detected.",
-      "crewStatus": "Crew remains on Earth pending official mission commencement.",
-      "lastEvent": "Scheduled launch window (Unverified)",
-      "nextEvent": "Official NASA status verification",
-      "telemetry": {
-        "distanceFromEarth": null,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 7,
-        "velocity": null
-      },
-      "fetchedAt": "2026-04-08T15:10:10.133Z"
     }
   ],
   "lastError": null
