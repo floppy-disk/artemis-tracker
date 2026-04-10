@@ -1,27 +1,31 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Returning Home",
-    "currentPhase": "Earth entry and recovery",
-    "headline": "The Orion spacecraft is on a final trajectory for a historic splashdown off the coast of San Diego today.",
+    "statusLabel": "Homeward Bound",
+    "currentPhase": "Return Coast & Re-entry Preparation",
+    "headline": "Artemis II crew enters final hours of historic lunar mission ahead of Pacific splashdown.",
     "details": [
-      "Crew are in excellent health and high spirits while preparing for re-entry.",
-      "The USS John P. Murtha is on station in the Pacific for recovery operations.",
-      "Final return trajectory correction was successfully completed yesterday evening.",
-      "Crew spent the day stowing equipment and running through re-entry procedures."
+      "Orion is approximately 98,695 km from Earth and accelerating as it enters the planet's gravitational well.",
+      "The crew has transitioned to 'Entry Configuration,' stowing loose equipment and donning survival suits.",
+      "The USS John P. Murtha and NASA recovery teams are on station near San Diego for the scheduled splashdown.",
+      "The mission has successfully achieved all primary flight objectives, including a record-breaking lunar flyby."
     ],
     "sources": [
-      "NASA Artemis II Mission Updates",
-      "Artemis II Daily Status Report"
+      "NASA Mission Control Center",
+      "U.S. Navy Recovery Force",
+      "Artemis II Flight Operations"
     ],
-    "crewStatus": "Commander Wiseman, Pilot Glover, and Mission Specialists Koch and Hansen are in excellent health.",
-    "lastEvent": "AVATAR Investigation Conclusion",
-    "nextEvent": "Service Module Jettison",
+    "alertMessage": null,
+    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and high spirits.",
+    "lastEvent": "Completion of the RTC-3 final trajectory correction burn to refine the splashdown target.",
+    "nextEvent": "Service Module Jettison prior to atmospheric entry.",
     "telemetry": {
+      "distanceFromEarth": 98695,
+      "distanceFromMoon": null,
       "missionElapsedDay": 10,
-      "velocity": 38400
+      "velocity": 39976
     },
-    "fetchedAt": "2026-04-10T17:45:48.847Z"
+    "fetchedAt": "2026-04-10T18:55:16.055Z"
   },
   "milestones": [
     {
@@ -567,11 +571,11 @@
     {
       "id": "rtc-3",
       "label": "Rtc 3",
-      "detail": "Final path refinement burn before atmospheric entry.",
+      "detail": "Final 'push' burn successfully completed to fine-tune the entry corridor.",
       "time": "2026-04-10T17:53:00.000Z",
       "day": 9,
       "icon": "📌",
-      "completed": false,
+      "completed": true,
       "isNew": true
     },
     {
@@ -593,6 +597,16 @@
       "icon": "🔥"
     },
     {
+      "id": "drogue-chutes",
+      "label": "Drogue Parachute Deployment",
+      "detail": "Two drogue parachutes will deploy at 22,000 feet to stabilize the capsule.",
+      "time": "2026-04-11T00:03:00.000Z",
+      "day": 10,
+      "icon": "🪂",
+      "completed": false,
+      "isNew": true
+    },
+    {
       "id": "splashdown",
       "label": "Splashdown",
       "detail": "Targeted splashdown off the coast of San Diego.",
@@ -603,6 +617,34 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Homeward Bound",
+      "currentPhase": "Return Coast & Re-entry Preparation",
+      "headline": "Artemis II crew enters final hours of historic lunar mission ahead of Pacific splashdown.",
+      "details": [
+        "Orion is approximately 98,695 km from Earth and accelerating as it enters the planet's gravitational well.",
+        "The crew has transitioned to 'Entry Configuration,' stowing loose equipment and donning survival suits.",
+        "The USS John P. Murtha and NASA recovery teams are on station near San Diego for the scheduled splashdown.",
+        "The mission has successfully achieved all primary flight objectives, including a record-breaking lunar flyby."
+      ],
+      "sources": [
+        "NASA Mission Control Center",
+        "U.S. Navy Recovery Force",
+        "Artemis II Flight Operations"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and high spirits.",
+      "lastEvent": "Completion of the RTC-3 final trajectory correction burn to refine the splashdown target.",
+      "nextEvent": "Service Module Jettison prior to atmospheric entry.",
+      "telemetry": {
+        "distanceFromEarth": 98695,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 10,
+        "velocity": 39976
+      },
+      "fetchedAt": "2026-04-10T18:55:16.055Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Returning Home",
@@ -1100,31 +1142,6 @@
         "velocity": 2735
       },
       "fetchedAt": "2026-04-09T09:05:43.467Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Return Cruise Phase",
-      "currentPhase": "Return cruise toward Earth splashdown",
-      "headline": "Orion spacecraft is in the final leg of its journey after successfully completing its lunar flyby.",
-      "details": [
-        "The crew of Integrity is preparing for a manual piloting flight test today.",
-        "Mission Control reports all systems are healthy with the crew in excellent spirits.",
-        "Final preparations are underway for Earth atmospheric entry and splashdown tomorrow.",
-        "Spacecraft velocity is steadily increasing as it accelerates toward the Earth's atmosphere."
-      ],
-      "sources": [
-        "NASA Mission Control Houston",
-        "Artemis II Mission Briefing"
-      ],
-      "crewStatus": "All four crew members are in excellent health and high spirits.",
-      "lastEvent": "Final cabin stowage procedures completed.",
-      "nextEvent": "Crew news conference at 21:45 UTC",
-      "telemetry": {
-        "distanceFromEarth": 291291,
-        "missionElapsedDay": 8,
-        "velocity": 2735
-      },
-      "fetchedAt": "2026-04-09T07:19:48.786Z"
     }
   ],
   "lastError": null
