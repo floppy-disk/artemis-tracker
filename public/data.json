@@ -2,29 +2,29 @@
   "update": {
     "status": "nominal",
     "statusLabel": "Mission Complete",
-    "currentPhase": "Recovery Phase",
-    "headline": "NASA’s Artemis II mission concludes with a successful Pacific Ocean splashdown of the Orion spacecraft.",
+    "currentPhase": "Post-Landing Recovery",
+    "headline": "Artemis II crew safely returns to Earth after historic 10-day lunar mission.",
     "details": [
-      "The Orion capsule Integrity splashed down at 00:07 UTC on April 10, 2026, after a 10-day lunar journey.",
-      "Crew members Wiseman, Glover, Koch, and Hansen are in excellent health and are currently traveling to Houston.",
-      "The mission set a new human spaceflight distance record, reaching 406,771 km from Earth on Day 6.",
-      "Orion survived re-entry speeds of 40,000 km/h and heat shield temperatures reaching 5,000°F."
+      "The Orion capsule Integrity successfully splashed down in the Pacific Ocean at 00:07 UTC on April 11, 2026, marking the first human lunar return in over 50 years.",
+      "Crew members Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in excellent health and are currently being transported to Houston.",
+      "The mission reached a record-breaking maximum distance of 406,771 km from Earth and completed a lunar far side flyby at an altitude of 6,545 km.",
+      "Orion's heat shield successfully endured re-entry temperatures of 2,760°C while traveling at peak velocities of over 40,000 km/h."
     ],
     "sources": [
       "NASA Mission Control",
-      "U.S. Navy Recovery Team"
+      "U.S. Navy Recovery Teams"
     ],
     "alertMessage": null,
-    "crewStatus": "The four crew members are in excellent health and good spirits, currently re-adapting to gravity aboard the USS John P. Murtha.",
-    "lastEvent": "The Orion capsule was successfully secured in the well deck of the USS John P. Murtha.",
-    "nextEvent": "Crew arrival at Johnson Space Center for a formal welcome ceremony and family reunion.",
+    "crewStatus": "The four-person crew is in excellent health and high spirits; they were extracted via helicopter and are currently aboard the USS John P. Murtha.",
+    "lastEvent": "Successful splashdown and recovery of the Orion spacecraft and crew by the USS John P. Murtha.",
+    "nextEvent": "Post-flight crew press conference and homecoming at Johnson Space Center.",
     "telemetry": {
       "distanceFromEarth": 0,
       "distanceFromMoon": null,
       "missionElapsedDay": 10,
       "velocity": 0
     },
-    "fetchedAt": "2026-04-11T21:28:09.608Z"
+    "fetchedAt": "2026-04-11T22:27:45.576Z"
   },
   "milestones": [
     {
@@ -400,7 +400,7 @@
     {
       "id": "apollo-13-record",
       "label": "Broke Apollo 13 Distance Record",
-      "detail": "Mission reached a record-breaking distance of 406,771 km from Earth.",
+      "detail": "Orion officially surpassed the Apollo 13 distance record, reaching a peak of 406,771 km from Earth.",
       "time": "2026-04-06T23:56:00.000Z",
       "day": 6,
       "icon": "🏆",
@@ -600,7 +600,7 @@
     {
       "id": "reentry",
       "label": "Re-Entry",
-      "detail": "Orion hit the Earth's atmosphere at 40,000 km/h for a 13-minute descent.",
+      "detail": "Spacecraft entered the atmosphere at 40,000 km/h, surviving peak heating phase before parachute deployment.",
       "time": "2026-04-10T23:53:00.000Z",
       "day": 10,
       "icon": "🔥",
@@ -619,7 +619,7 @@
     {
       "id": "splashdown",
       "label": "Splashdown",
-      "detail": "Successful splashdown in the Pacific Ocean off the coast of San Diego.",
+      "detail": "Successful splashdown off the coast of San Diego at 8:07 p.m. EDT.",
       "time": "2026-04-11T00:07:27.000Z",
       "day": 10,
       "icon": "🌊",
@@ -629,7 +629,7 @@
     {
       "id": "crew-recovery",
       "label": "Crew Recovery",
-      "detail": "Crew extracted and transported via helicopter to the USS John P. Murtha.",
+      "detail": "Crew extraction completed via helicopter approximately one hour after splashdown.",
       "time": "2026-04-11T01:37:00.000Z",
       "day": 10,
       "icon": "🚢",
@@ -668,6 +668,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Mission Complete",
+      "currentPhase": "Post-Landing Recovery",
+      "headline": "Artemis II crew safely returns to Earth after historic 10-day lunar mission.",
+      "details": [
+        "The Orion capsule Integrity successfully splashed down in the Pacific Ocean at 00:07 UTC on April 11, 2026, marking the first human lunar return in over 50 years.",
+        "Crew members Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in excellent health and are currently being transported to Houston.",
+        "The mission reached a record-breaking maximum distance of 406,771 km from Earth and completed a lunar far side flyby at an altitude of 6,545 km.",
+        "Orion's heat shield successfully endured re-entry temperatures of 2,760°C while traveling at peak velocities of over 40,000 km/h."
+      ],
+      "sources": [
+        "NASA Mission Control",
+        "U.S. Navy Recovery Teams"
+      ],
+      "alertMessage": null,
+      "crewStatus": "The four-person crew is in excellent health and high spirits; they were extracted via helicopter and are currently aboard the USS John P. Murtha.",
+      "lastEvent": "Successful splashdown and recovery of the Orion spacecraft and crew by the USS John P. Murtha.",
+      "nextEvent": "Post-flight crew press conference and homecoming at Johnson Space Center.",
+      "telemetry": {
+        "distanceFromEarth": 0,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 10,
+        "velocity": 0
+      },
+      "fetchedAt": "2026-04-11T22:27:45.576Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Mission Complete",
@@ -1193,34 +1220,6 @@
         "velocity": null
       },
       "fetchedAt": "2026-04-10T22:36:03.773Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Final Approach",
-      "currentPhase": "Pre-reentry and Final Approach",
-      "headline": "Artemis II crew prepares for Pacific splashdown following final return trajectory burn.",
-      "details": [
-        "Orion completed its third and final trajectory correction burn at 18:53 UTC to align for atmospheric entry.",
-        "The crew has donned OCSS pressure suits and completed cabin stowage in preparation for module separation.",
-        "Spacecraft will hit the atmosphere at Mach 35, enduring heat shield temperatures of 5,000°F.",
-        "Recovery forces including the USS John P. Murtha are on station for the target splashdown near San Diego."
-      ],
-      "sources": [
-        "NASA Mission Control",
-        "CSA Astronautics",
-        "Flight Surgeon Reports"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and high spirits.",
-      "lastEvent": "Final return trajectory correction burn (RTC-3) completed at 18:53 UTC.",
-      "nextEvent": "Jettison of the Service Module scheduled for 23:33 UTC.",
-      "telemetry": {
-        "distanceFromEarth": 98695,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 9,
-        "velocity": 38624
-      },
-      "fetchedAt": "2026-04-10T21:35:42.169Z"
     }
   ],
   "lastError": null
