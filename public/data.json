@@ -2,30 +2,30 @@
   "update": {
     "status": "nominal",
     "statusLabel": "Mission Complete",
-    "currentPhase": "Post-mission Recovery and Evaluation",
-    "headline": "Artemis II crew safely returns to Earth after historic 9-day lunar flyby mission.",
+    "currentPhase": "Post-Landing Recovery",
+    "headline": "Artemis II mission concludes successfully with historic Pacific Ocean splashdown.",
     "details": [
-      "Orion spacecraft 'Integrity' splashed down in the Pacific Ocean at 00:07 UTC on April 11, 2026.",
-      "The crew set a new human deep-space distance record, reaching 406,777 km from Earth.",
-      "Astronauts are currently undergoing medical evaluations aboard the USS John P. Murtha and are in good health.",
-      "Recovery teams have secured the capsule in the ship's well deck for transport to San Diego."
+      "The Orion spacecraft 'Integrity' splashed down on target at 00:07 UTC on April 11, concluding a 9-day, 1-hour, and 32-minute mission.",
+      "Crew members Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in excellent health and adapting to 1g aboard the USS John P. Murtha.",
+      "The mission set a new record for farthest human travel from Earth, reaching a maximum distance of 406,771 km (252,756 miles).",
+      "NASA and Navy teams have secured the spacecraft and are preparing the crew for their return to Houston today."
     ],
     "sources": [
       "NASA Mission Control Center",
-      "United States Navy Recovery Operations",
-      "Artemis II Flight Director Briefing"
+      "U.S. Navy Recovery Task Force",
+      "Artemis II Mission Management Team"
     ],
     "alertMessage": null,
-    "crewStatus": "Wiseman, Glover, Koch, and Hansen are in good shape and spirits; they are undergoing standard post-landing health checks.",
-    "lastEvent": "Successful extraction of the crew from the Orion capsule followed by recovery of the spacecraft.",
-    "nextEvent": "Transport of the crew from the USS John P. Murtha to Johnson Space Center in Houston.",
+    "crewStatus": "The four-person crew is in excellent health and high spirits; they are currently aboard the recovery vessel awaiting transport to Houston.",
+    "lastEvent": "Crew was successfully recovered by the USS John P. Murtha and completed initial medical evaluations.",
+    "nextEvent": "Homecoming ceremony at Ellington Field in Houston, scheduled between 20:00 UTC and 01:00 UTC.",
     "telemetry": {
       "distanceFromEarth": 0,
       "distanceFromMoon": null,
       "missionElapsedDay": 10,
       "velocity": 0
     },
-    "fetchedAt": "2026-04-11T11:30:03.464Z"
+    "fetchedAt": "2026-04-11T12:45:35.235Z"
   },
   "milestones": [
     {
@@ -620,7 +620,7 @@
     {
       "id": "splashdown",
       "label": "Splashdown",
-      "detail": "The mission successfully concluded with a splashdown southwest of San Diego.",
+      "detail": "Orion achieved a bullseye splashdown in the Pacific Ocean off the coast of San Diego.",
       "time": "2026-04-11T00:07:27.000Z",
       "day": 10,
       "icon": "🌊",
@@ -630,7 +630,7 @@
     {
       "id": "crew-recovery",
       "label": "Crew Recovery",
-      "detail": "Crew was safely hoisted to the USS John P. Murtha for medical evaluation.",
+      "detail": "The crew was safely extracted from the capsule and transferred to the recovery ship.",
       "time": "2026-04-11T01:37:00.000Z",
       "day": 10,
       "icon": "🚢",
@@ -659,6 +659,34 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Mission Complete",
+      "currentPhase": "Post-Landing Recovery",
+      "headline": "Artemis II mission concludes successfully with historic Pacific Ocean splashdown.",
+      "details": [
+        "The Orion spacecraft 'Integrity' splashed down on target at 00:07 UTC on April 11, concluding a 9-day, 1-hour, and 32-minute mission.",
+        "Crew members Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in excellent health and adapting to 1g aboard the USS John P. Murtha.",
+        "The mission set a new record for farthest human travel from Earth, reaching a maximum distance of 406,771 km (252,756 miles).",
+        "NASA and Navy teams have secured the spacecraft and are preparing the crew for their return to Houston today."
+      ],
+      "sources": [
+        "NASA Mission Control Center",
+        "U.S. Navy Recovery Task Force",
+        "Artemis II Mission Management Team"
+      ],
+      "alertMessage": null,
+      "crewStatus": "The four-person crew is in excellent health and high spirits; they are currently aboard the recovery vessel awaiting transport to Houston.",
+      "lastEvent": "Crew was successfully recovered by the USS John P. Murtha and completed initial medical evaluations.",
+      "nextEvent": "Homecoming ceremony at Ellington Field in Houston, scheduled between 20:00 UTC and 01:00 UTC.",
+      "telemetry": {
+        "distanceFromEarth": 0,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 10,
+        "velocity": 0
+      },
+      "fetchedAt": "2026-04-11T12:45:35.235Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Mission Complete",
@@ -1177,33 +1205,6 @@
         "velocity": null
       },
       "fetchedAt": "2026-04-10T11:48:10.148Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Returning to Earth",
-      "currentPhase": "Stowage, configuration, and final return trajectory preparations.",
-      "headline": "Artemis II crew prepares for Pacific splashdown today after setting a new human distance record.",
-      "details": [
-        "Orion is on a high-velocity trajectory for a target splashdown at 8:07 p.m. EDT off the coast of San Diego.",
-        "The crew is donning orthostatic intolerant garments to assist with the transition back to Earth's gravity.",
-        "A final trajectory correction burn (RTC-3) is scheduled for 1:53 p.m. EDT to refine the landing corridor.",
-        "The mission surpassed the Apollo 13 record, reaching a maximum distance of 406,773 km from Earth."
-      ],
-      "sources": [
-        "NASA Artemis II Mission Control",
-        "Orion Spacecraft Telemetry Report"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and high spirits.",
-      "lastEvent": "Completion of the second return trajectory correction (RTC-2) burn at 10:53 p.m. EDT on April 9.",
-      "nextEvent": "Final Return Trajectory Correction (RTC-3) burn at 1:53 p.m. EDT.",
-      "telemetry": {
-        "distanceFromEarth": 406773,
-        "distanceFromMoon": 6545,
-        "missionElapsedDay": 10,
-        "velocity": 38366
-      },
-      "fetchedAt": "2026-04-10T10:54:09.219Z"
     }
   ],
   "lastError": null
