@@ -1,30 +1,31 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Mission Complete",
-    "currentPhase": "Post-flight recovery and evaluation",
-    "headline": "Artemis II successfully concludes as the Orion spacecraft splashes down in the Pacific Ocean.",
+    "statusLabel": "Mission Success",
+    "currentPhase": "Post-splashdown recovery",
+    "headline": "Artemis II successfully concludes with Pacific Ocean splashdown, setting new human deep-space records.",
     "details": [
-      "Orion spacecraft 'Integrity' splashed down at 00:07 UTC on April 11 off the coast of San Diego, ending a 10-day mission.",
-      "The crew was successfully recovered within an hour of splashdown and is reported to be in excellent health.",
-      "The mission achieved a historic human distance record of 252,756 miles from Earth.",
-      "Orion's heat shield successfully withstood atmospheric re-entry temperatures of 5,000°F at speeds of Mach 33."
+      "The Orion spacecraft 'Integrity' splashed down in the Pacific Ocean at 00:07 UTC on April 11, 2026, after a 9-day lunar mission.",
+      "The crew reached a record-breaking distance of 406,771 km from Earth, surpassing the 1970 record held by Apollo 13.",
+      "Astronauts Wiseman, Glover, Koch, and Hansen are in excellent health aboard the USS John P. Murtha recovery ship.",
+      "NASA confirms Artemis III remains on track for a 2028 target following the performance success of the Orion spacecraft."
     ],
     "sources": [
       "NASA Mission Control",
-      "Canadian Space Agency"
+      "United States Navy Recovery Team",
+      "Kennedy Space Center Post-Flight Operations"
     ],
     "alertMessage": null,
-    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and high spirits aboard the USS John P. Murtha.",
-    "lastEvent": "Successful splashdown in the Pacific Ocean followed by safe crew recovery and medical evaluation.",
-    "nextEvent": "Crew return to NASA’s Johnson Space Center in Houston to reunite with families.",
+    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Specialists Christina Koch and Jeremy Hansen are in excellent health and currently undergoing medical evaluations.",
+    "lastEvent": "Successful splashdown and recovery of the Orion capsule and crew by the USS John P. Murtha.",
+    "nextEvent": "Arrival of the crew at NASA's Johnson Space Center in Houston for family reunions.",
     "telemetry": {
       "distanceFromEarth": 0,
-      "distanceFromMoon": 384400,
+      "distanceFromMoon": null,
       "missionElapsedDay": 10,
       "velocity": 0
     },
-    "fetchedAt": "2026-04-11T09:35:57.697Z"
+    "fetchedAt": "2026-04-11T10:29:53.292Z"
   },
   "milestones": [
     {
@@ -322,7 +323,7 @@
     {
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
-      "detail": "Flew 4,067 miles above the lunar far side during closest approach.",
+      "detail": "Orion reached closest approach of 6,545 km above the lunar surface.",
       "time": "2026-04-06T23:00:00.000Z",
       "day": 6,
       "icon": "🌕",
@@ -400,7 +401,7 @@
     {
       "id": "apollo-13-record",
       "label": "Broke Apollo 13 Distance Record",
-      "detail": "Reached a record-breaking 252,756 miles from Earth, surpassing the Apollo 13 record.",
+      "detail": "Surpassed the Apollo 13 record for farthest distance from Earth.",
       "time": "2026-04-06T23:56:00.000Z",
       "day": 6,
       "icon": "🏆",
@@ -600,7 +601,7 @@
     {
       "id": "reentry",
       "label": "Re-Entry",
-      "detail": "Entered Earth's atmosphere at a velocity of 39,688 km/h (Mach 33).",
+      "detail": "Orion entered atmosphere at 40,000 km/h withstanding temperatures of 2,760°C.",
       "time": "2026-04-10T23:53:00.000Z",
       "day": 10,
       "icon": "🔥",
@@ -658,6 +659,34 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Mission Success",
+      "currentPhase": "Post-splashdown recovery",
+      "headline": "Artemis II successfully concludes with Pacific Ocean splashdown, setting new human deep-space records.",
+      "details": [
+        "The Orion spacecraft 'Integrity' splashed down in the Pacific Ocean at 00:07 UTC on April 11, 2026, after a 9-day lunar mission.",
+        "The crew reached a record-breaking distance of 406,771 km from Earth, surpassing the 1970 record held by Apollo 13.",
+        "Astronauts Wiseman, Glover, Koch, and Hansen are in excellent health aboard the USS John P. Murtha recovery ship.",
+        "NASA confirms Artemis III remains on track for a 2028 target following the performance success of the Orion spacecraft."
+      ],
+      "sources": [
+        "NASA Mission Control",
+        "United States Navy Recovery Team",
+        "Kennedy Space Center Post-Flight Operations"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Specialists Christina Koch and Jeremy Hansen are in excellent health and currently undergoing medical evaluations.",
+      "lastEvent": "Successful splashdown and recovery of the Orion capsule and crew by the USS John P. Murtha.",
+      "nextEvent": "Arrival of the crew at NASA's Johnson Space Center in Houston for family reunions.",
+      "telemetry": {
+        "distanceFromEarth": 0,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 10,
+        "velocity": 0
+      },
+      "fetchedAt": "2026-04-11T10:29:53.292Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Mission Complete",
@@ -1173,33 +1202,6 @@
         "velocity": null
       },
       "fetchedAt": "2026-04-10T09:07:25.289Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Final Approach",
-      "currentPhase": "Return Coast",
-      "headline": "Orion Integrity enters final 24 hours of flight ahead of scheduled Pacific splashdown.",
-      "details": [
-        "Crew has transitioned to wearing orthostatic intolerance garments and begun final cabin stowage management for re-entry.",
-        "A successful 9-second RTC-2 burn was completed at 02:53 UTC to refine the splashdown corridor near San Diego.",
-        "Flight controllers successfully resolved a brief unexpected return link loss during a data rate change prior to the maneuver.",
-        "Orion is accelerating toward Earth following its record-breaking lunar flyby and peak distance of 252,760 miles."
-      ],
-      "sources": [
-        "NASA Mission Control Center",
-        "Artemis II Flight Operations"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in high spirits and excellent health.",
-      "lastEvent": "Successful completion of the second return trajectory correction (RTC-2) burn.",
-      "nextEvent": "Final trajectory correction burn (RTC-3) scheduled for 17:53 UTC.",
-      "telemetry": {
-        "distanceFromEarth": 225308,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 9,
-        "velocity": 6293
-      },
-      "fetchedAt": "2026-04-10T07:26:17.727Z"
     }
   ],
   "lastError": null
