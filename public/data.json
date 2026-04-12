@@ -2,29 +2,30 @@
   "update": {
     "status": "nominal",
     "statusLabel": "Mission Complete",
-    "currentPhase": "Post-flight analysis",
-    "headline": "The Artemis II mission successfully concluded with a safe splashdown of the Orion spacecraft in the Pacific Ocean.",
+    "currentPhase": "Post-mission recovery and crew reconditioning",
+    "headline": "Artemis II crew returns to Houston following a historic 10-day lunar journey and record-breaking distance.",
     "details": [
-      "The Integrity spacecraft splashed down on April 10, 2026, and the crew was safely recovered by the USS John P. Murtha.",
-      "Astronauts have arrived in Houston and are undergoing post-flight reconditioning and medical debriefs.",
-      "The crew set a new record for the farthest distance from Earth ever traveled by a human spacecraft.",
-      "Engineers are preparing the Orion capsule for transit to Kennedy Space Center for comprehensive inspections."
+      "The Orion capsule 'Integrity' successfully splashed down in the Pacific Ocean on April 10 at 8:07 p.m. EDT.",
+      "All four crew members have received a clean bill of health and are beginning reconditioning at Johnson Space Center.",
+      "Mission set a new human deep-space distance record of 252,756 miles (406,771 km) from Earth.",
+      "The USS John P. Murtha recovered the crew and capsule; Orion's heat shield successfully endured re-entry temperatures of 2,760°C."
     ],
     "sources": [
-      "NASA",
-      "Artemis II Mission Command"
+      "NASA Mission Control",
+      "Johnson Space Center",
+      "U.S. Navy Recovery Team"
     ],
     "alertMessage": null,
-    "crewStatus": "The four-member crew is in excellent health and high spirits following their return to Earth.",
-    "lastEvent": "Arrival of crew at Ellington Field near NASA Johnson Space Center.",
-    "nextEvent": "Detailed heat shield and systems inspection at Kennedy Space Center.",
+    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and reunited with their families in Houston.",
+    "lastEvent": "The crew arrived at Ellington Field in Houston on April 11 for a formal welcome ceremony.",
+    "nextEvent": "Detailed human performance and lunar science debriefs over the next two weeks at Johnson Space Center.",
     "telemetry": {
       "distanceFromEarth": 0,
-      "distanceFromMoon": 384400,
+      "distanceFromMoon": null,
       "missionElapsedDay": 11,
       "velocity": 0
     },
-    "fetchedAt": "2026-04-12T21:30:15.790Z"
+    "fetchedAt": "2026-04-12T22:29:36.303Z"
   },
   "milestones": [
     {
@@ -332,7 +333,7 @@
     {
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
-      "detail": "Orion passed 6,545 km above the lunar far-side surface.",
+      "detail": "Closest approach of 6,545 km above the lunar surface.",
       "time": "2026-04-06T23:00:00.000Z",
       "day": 6,
       "icon": "🌕",
@@ -371,7 +372,7 @@
     {
       "id": "distance-record",
       "label": "Farthest Distance From Earth Record",
-      "detail": "Reached a maximum distance of 406,771 km from Earth, setting a new human spaceflight record.",
+      "detail": "Surpassed Apollo 13 record, reaching a maximum distance of 406,771 km from Earth.",
       "time": "2026-04-06T23:07:00.000Z",
       "day": 6,
       "icon": "🗺️",
@@ -590,7 +591,7 @@
     {
       "id": "reentry",
       "label": "Re-Entry",
-      "detail": "Orion entered Earth's atmosphere at 40,000 km/h, enduring 5,000 degrees Fahrenheit.",
+      "detail": "Atmospheric entry at 38,625 km/h successfully tested the advanced thermal protection system.",
       "time": "2026-04-10T21:47:00.000Z",
       "day": 9,
       "icon": "🔥",
@@ -619,7 +620,7 @@
     {
       "id": "splashdown",
       "label": "Splashdown",
-      "detail": "Orion splashed down in the Pacific Ocean at 5:07 p.m. PDT.",
+      "detail": "Precision bullseye splashdown in the Pacific Ocean off the coast of San Diego.",
       "time": "2026-04-11T00:07:00.000Z",
       "day": 10,
       "icon": "🌊",
@@ -649,7 +650,7 @@
     {
       "id": "houston-arrival",
       "label": "Houston Crew Arrival",
-      "detail": "The four-person crew arrived at Ellington Field to a celebratory welcome.",
+      "detail": "Crew returned to Ellington Field to begin post-flight medical evaluations.",
       "time": "2026-04-11T22:00:00.000Z",
       "day": 10,
       "icon": "✈️",
@@ -675,9 +676,47 @@
       "icon": "🔍",
       "completed": false,
       "isNew": true
+    },
+    {
+      "id": "science-debriefs",
+      "label": "Scientific Debriefs",
+      "detail": "Crew will provide detailed observations of the lunar far side to science teams over the next two weeks.",
+      "time": "2026-04-25T12:00:00.000Z",
+      "day": 24,
+      "icon": "📝",
+      "completed": false,
+      "isNew": true
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Mission Complete",
+      "currentPhase": "Post-mission recovery and crew reconditioning",
+      "headline": "Artemis II crew returns to Houston following a historic 10-day lunar journey and record-breaking distance.",
+      "details": [
+        "The Orion capsule 'Integrity' successfully splashed down in the Pacific Ocean on April 10 at 8:07 p.m. EDT.",
+        "All four crew members have received a clean bill of health and are beginning reconditioning at Johnson Space Center.",
+        "Mission set a new human deep-space distance record of 252,756 miles (406,771 km) from Earth.",
+        "The USS John P. Murtha recovered the crew and capsule; Orion's heat shield successfully endured re-entry temperatures of 2,760°C."
+      ],
+      "sources": [
+        "NASA Mission Control",
+        "Johnson Space Center",
+        "U.S. Navy Recovery Team"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and reunited with their families in Houston.",
+      "lastEvent": "The crew arrived at Ellington Field in Houston on April 11 for a formal welcome ceremony.",
+      "nextEvent": "Detailed human performance and lunar science debriefs over the next two weeks at Johnson Space Center.",
+      "telemetry": {
+        "distanceFromEarth": 0,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 11,
+        "velocity": 0
+      },
+      "fetchedAt": "2026-04-12T22:29:36.303Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Mission Complete",
@@ -1199,33 +1238,6 @@
         "velocity": 0
       },
       "fetchedAt": "2026-04-11T22:27:45.576Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Mission Complete",
-      "currentPhase": "Recovery Phase",
-      "headline": "NASA’s Artemis II mission concludes with a successful Pacific Ocean splashdown of the Orion spacecraft.",
-      "details": [
-        "The Orion capsule Integrity splashed down at 00:07 UTC on April 10, 2026, after a 10-day lunar journey.",
-        "Crew members Wiseman, Glover, Koch, and Hansen are in excellent health and are currently traveling to Houston.",
-        "The mission set a new human spaceflight distance record, reaching 406,771 km from Earth on Day 6.",
-        "Orion survived re-entry speeds of 40,000 km/h and heat shield temperatures reaching 5,000°F."
-      ],
-      "sources": [
-        "NASA Mission Control",
-        "U.S. Navy Recovery Team"
-      ],
-      "alertMessage": null,
-      "crewStatus": "The four crew members are in excellent health and good spirits, currently re-adapting to gravity aboard the USS John P. Murtha.",
-      "lastEvent": "The Orion capsule was successfully secured in the well deck of the USS John P. Murtha.",
-      "nextEvent": "Crew arrival at Johnson Space Center for a formal welcome ceremony and family reunion.",
-      "telemetry": {
-        "distanceFromEarth": 0,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 10,
-        "velocity": 0
-      },
-      "fetchedAt": "2026-04-11T21:28:09.608Z"
     }
   ],
   "lastError": null
