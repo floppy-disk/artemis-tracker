@@ -1,31 +1,31 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Mission Completed",
-    "currentPhase": "Post-flight reconditioning and technical debriefing",
-    "headline": "Artemis II crew returns home safely following historic lunar flyby mission.",
+    "statusLabel": "Mission Complete",
+    "currentPhase": "Post-mission debriefing and medical follow-up at Johnson Space Center",
+    "headline": "Artemis II crew safely returns to Houston following historic record-breaking lunar mission.",
     "details": [
-      "Orion capsule 'Integrity' successfully splashed down in the Pacific Ocean on April 10, concluding a 10-day journey.",
-      "The mission set a new human spaceflight record for farthest distance from Earth at 406,771 km.",
-      "Crew members Wiseman, Glover, Koch, and Hansen arrived in Houston for a public homecoming ceremony on April 11.",
-      "NASA is now analyzing heat shield data and crew performance to finalize plans for the Artemis III lunar landing."
+      "The crew of Orion Integrity successfully splashed down in the Pacific Ocean on April 10, concluding the 10-day mission.",
+      "Astronauts Wiseman, Glover, Koch, and Hansen reached a record-breaking distance of 406,771 km from Earth on Day 6.",
+      "NASA flight surgeons confirmed the crew is in excellent health after real-time biological monitoring via the AVATAR investigation.",
+      "Post-flight data analysis is underway to clear the path for the Artemis III lunar landing mission targeted for 2027-2028."
     ],
     "sources": [
-      "NASA Mission Update",
-      "Johnson Space Center Press Release",
-      "Official Artemis II Flight Log"
+      "NASA Official Mission Update",
+      "Johnson Space Center Flight Surgeon Report",
+      "Artemis II Post-Recovery Briefing"
     ],
     "alertMessage": null,
-    "crewStatus": "All four crew members have received a clean bill of health and have been reunited with their families in Houston.",
-    "lastEvent": "Public homecoming ceremony at Ellington Field in Houston, Texas.",
-    "nextEvent": "Transport of the Orion spacecraft to Kennedy Space Center for detailed heat shield analysis.",
+    "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and high spirits back in Houston.",
+    "lastEvent": "Crew arrival and homecoming ceremony at Ellington Field in Houston on April 11.",
+    "nextEvent": "Detailed post-flight analysis of the Orion heat shield and life support systems at Kennedy Space Center.",
     "telemetry": {
       "distanceFromEarth": 0,
       "distanceFromMoon": null,
       "missionElapsedDay": 11,
       "velocity": 0
     },
-    "fetchedAt": "2026-04-12T09:42:24.357Z"
+    "fetchedAt": "2026-04-12T10:35:21.890Z"
   },
   "milestones": [
     {
@@ -323,7 +323,7 @@
     {
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
-      "detail": "Completed a close approach of 6,545 km from the lunar surface.",
+      "detail": "Orion passed within 6,545 km of the lunar surface during its closest approach.",
       "time": "2026-04-06T23:00:00.000Z",
       "day": 6,
       "icon": "🌕",
@@ -401,7 +401,7 @@
     {
       "id": "apollo-13-record",
       "label": "Broke Apollo 13 Distance Record",
-      "detail": "Officially surpassed the farthest distance record set by the Apollo 13 mission in 1970.",
+      "detail": "The crew broke the record for farthest distance from Earth at 406,771 km.",
       "time": "2026-04-06T23:56:00.000Z",
       "day": 6,
       "icon": "🏆",
@@ -601,7 +601,7 @@
     {
       "id": "reentry",
       "label": "Re-Entry",
-      "detail": "Orion entered Earth's atmosphere at 38,624 kph, subjecting the heat shield to 5,000°F.",
+      "detail": "Orion successfully endured 2,760°C and a re-entry velocity of 39,912 km/h.",
       "time": "2026-04-10T23:53:00.000Z",
       "day": 10,
       "icon": "🔥",
@@ -620,8 +620,8 @@
     {
       "id": "splashdown",
       "label": "Splashdown",
-      "detail": "Orion splashed down off the coast of San Diego at 8:07 p.m. EDT.",
-      "time": "2026-04-11T00:07:27.000Z",
+      "detail": "Successful splashdown in the Pacific Ocean off the coast of San Diego.",
+      "time": "2026-04-11T00:07:00.000Z",
       "day": 10,
       "icon": "🌊",
       "highlight": true,
@@ -630,7 +630,7 @@
     {
       "id": "crew-recovery",
       "label": "Crew Recovery",
-      "detail": "Crew successfully recovered by the USS John P. Murtha.",
+      "detail": "Crew recovered by the USS John P. Murtha and transported to San Diego.",
       "time": "2026-04-11T01:37:00.000Z",
       "day": 10,
       "icon": "🚢",
@@ -650,7 +650,7 @@
     {
       "id": "houston-arrival",
       "label": "Houston Crew Arrival",
-      "detail": "The crew arrived at Ellington Field for a public ceremony and family reunions.",
+      "detail": "The four astronauts arrived at Ellington Field to reunite with families and NASA officials.",
       "time": "2026-04-11T22:00:00.000Z",
       "day": 10,
       "icon": "✈️",
@@ -669,6 +669,34 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Mission Complete",
+      "currentPhase": "Post-mission debriefing and medical follow-up at Johnson Space Center",
+      "headline": "Artemis II crew safely returns to Houston following historic record-breaking lunar mission.",
+      "details": [
+        "The crew of Orion Integrity successfully splashed down in the Pacific Ocean on April 10, concluding the 10-day mission.",
+        "Astronauts Wiseman, Glover, Koch, and Hansen reached a record-breaking distance of 406,771 km from Earth on Day 6.",
+        "NASA flight surgeons confirmed the crew is in excellent health after real-time biological monitoring via the AVATAR investigation.",
+        "Post-flight data analysis is underway to clear the path for the Artemis III lunar landing mission targeted for 2027-2028."
+      ],
+      "sources": [
+        "NASA Official Mission Update",
+        "Johnson Space Center Flight Surgeon Report",
+        "Artemis II Post-Recovery Briefing"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and high spirits back in Houston.",
+      "lastEvent": "Crew arrival and homecoming ceremony at Ellington Field in Houston on April 11.",
+      "nextEvent": "Detailed post-flight analysis of the Orion heat shield and life support systems at Kennedy Space Center.",
+      "telemetry": {
+        "distanceFromEarth": 0,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 11,
+        "velocity": 0
+      },
+      "fetchedAt": "2026-04-12T10:35:21.890Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Mission Completed",
@@ -1193,34 +1221,6 @@
         "velocity": 0
       },
       "fetchedAt": "2026-04-11T09:35:57.697Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Mission Complete",
-      "currentPhase": "Splashdown and Recovery",
-      "headline": "Artemis II successfully concludes with Pacific Ocean splashdown, returning humans to Earth from the Moon for the first time in 50 years.",
-      "details": [
-        "Orion spacecraft 'Integrity' splashed down 60 miles off San Diego at 00:07:27 UTC, ending the 10-day lunar mission.",
-        "Crew members Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in excellent health aboard the USS John P. Murtha.",
-        "The mission reached a peak distance of 406,771 km, breaking the record for the farthest humans have ever traveled from Earth.",
-        "The Orion capsule is being secured in the ship's well deck for transport to Naval Base San Diego and Kennedy Space Center."
-      ],
-      "sources": [
-        "NASA Mission Control",
-        "USS John P. Murtha Recovery Team",
-        "Johnson Space Center"
-      ],
-      "alertMessage": null,
-      "crewStatus": "The crew is in excellent health and high spirits; they are currently aboard the USS John P. Murtha and will soon fly to Houston.",
-      "lastEvent": "Successful parachute-assisted splashdown and crew recovery by the USS John P. Murtha.",
-      "nextEvent": "Crew arrival at Johnson Space Center in Houston to reunite with families and begin re-adaptation.",
-      "telemetry": {
-        "distanceFromEarth": 0,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 10,
-        "velocity": 0
-      },
-      "fetchedAt": "2026-04-11T08:38:18.170Z"
     }
   ],
   "lastError": null
