@@ -2,30 +2,30 @@
   "update": {
     "status": "nominal",
     "statusLabel": "Mission Complete",
-    "currentPhase": "Post-flight crew reconditioning and spacecraft recovery",
-    "headline": "Artemis II crew returns to Houston following historic lunar mission and successful splashdown.",
+    "currentPhase": "Post-Mission Recovery & Analysis",
+    "headline": "Artemis II mission successfully concludes with a Pacific Ocean splashdown and crew return.",
     "details": [
-      "The Orion spacecraft 'Integrity' splashed down in the Pacific Ocean on April 11 at 00:07 UTC, concluding a 9-day journey.",
-      "Commander Reid Wiseman and his crew are in excellent health and have begun post-flight medical evaluations and science debriefs.",
-      "Orion hit the atmosphere at 40,000 km/h, successfully testing the heat shield against temperatures of 5,000°F.",
-      "The mission set a new record for human spaceflight, reaching a maximum distance of 406,771 km from Earth."
+      "The Orion capsule Integrity splashed down at 00:07 UTC on April 11, 2026, ending the 10-day lunar mission.",
+      "Crew members Wiseman, Glover, Koch, and Hansen are in excellent health and are currently in Houston for reconditioning.",
+      "The mission reached a record-breaking 406,771 km from Earth, the farthest distance ever traveled by a crewed spacecraft.",
+      "Orion hit the atmosphere at 38,367 kph, testing the heat shield with temperatures up to 2,760°C."
     ],
     "sources": [
-      "NASA Mission Control Center",
-      "Johnson Space Center Press Office",
+      "NASA Official Mission Update",
+      "Johnson Space Center Flight Operations",
       "U.S. Navy Recovery Team"
     ],
     "alertMessage": null,
-    "crewStatus": "The crew of four is 'happy and healthy' at Ellington Field, Houston, undergoing 10 days of physical reconditioning and human performance science.",
-    "lastEvent": "Crew arrival and homecoming celebration at Ellington Field near NASA’s Johnson Space Center on April 11.",
-    "nextEvent": "Post-flight technical debrief and release of high-resolution mission imagery.",
+    "crewStatus": "Commander Wiseman and his crew are in excellent health and high spirits, reunited with families and undergoing medical evaluations at JSC.",
+    "lastEvent": "Homecoming ceremony for the crew at Ellington Field in Houston, Texas.",
+    "nextEvent": "Transport of the Integrity capsule to Kennedy Space Center for post-flight system analysis.",
     "telemetry": {
       "distanceFromEarth": 0,
       "distanceFromMoon": null,
       "missionElapsedDay": 11,
       "velocity": 0
     },
-    "fetchedAt": "2026-04-12T13:58:25.268Z"
+    "fetchedAt": "2026-04-12T14:42:00.483Z"
   },
   "milestones": [
     {
@@ -323,7 +323,7 @@
     {
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
-      "detail": "Closest approach of 6,545 km from the lunar surface during free-return trajectory.",
+      "detail": "Passed within 6,545 km of the lunar surface during the free-return trajectory.",
       "time": "2026-04-06T23:00:00.000Z",
       "day": 6,
       "icon": "🌕",
@@ -401,7 +401,7 @@
     {
       "id": "apollo-13-record",
       "label": "Broke Apollo 13 Distance Record",
-      "detail": "Broke the 56-year-old record by reaching 406,771 km from Earth.",
+      "detail": "Surpassed the Apollo 13 record, reaching a maximum human distance from Earth of 406,771 km.",
       "time": "2026-04-06T23:56:00.000Z",
       "day": 6,
       "icon": "🏆",
@@ -591,7 +591,7 @@
     {
       "id": "reentry",
       "label": "Re-Entry",
-      "detail": "Spacecraft endured 5,000°F during reentry at a peak velocity of 39,692 km/h.",
+      "detail": "Successfully hit Earth's atmosphere at 38,367 kph with peak heat shield temperatures of 2,760°C.",
       "time": "2026-04-10T21:47:00.000Z",
       "day": 9,
       "icon": "🔥",
@@ -620,8 +620,8 @@
     {
       "id": "splashdown",
       "label": "Splashdown",
-      "detail": "Textbook parachute-assisted splashdown in the Pacific Ocean off the coast of San Diego.",
-      "time": "2026-04-11T00:07:27.000Z",
+      "detail": "Orion capsule splashed down in the Pacific Ocean off the coast of San Diego at 8:07 p.m. EDT.",
+      "time": "2026-04-11T00:07:00.000Z",
       "day": 10,
       "icon": "🌊",
       "highlight": true,
@@ -630,7 +630,7 @@
     {
       "id": "crew-recovery",
       "label": "Crew Recovery",
-      "detail": "Crew recovered by U.S. Navy divers and transported to the USS John P. Murtha.",
+      "detail": "Crew extracted via helicopter and recovered by the USS John P. Murtha (LPD-26).",
       "time": "2026-04-11T01:15:00.000Z",
       "day": 10,
       "icon": "🚢",
@@ -650,7 +650,7 @@
     {
       "id": "houston-arrival",
       "label": "Houston Crew Arrival",
-      "detail": "Crew returned to Houston for families and medical reconditioning.",
+      "detail": "Astronauts arrived at Ellington Field in Houston to be reunited with their families.",
       "time": "2026-04-11T22:00:00.000Z",
       "day": 10,
       "icon": "✈️",
@@ -679,6 +679,34 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Mission Complete",
+      "currentPhase": "Post-Mission Recovery & Analysis",
+      "headline": "Artemis II mission successfully concludes with a Pacific Ocean splashdown and crew return.",
+      "details": [
+        "The Orion capsule Integrity splashed down at 00:07 UTC on April 11, 2026, ending the 10-day lunar mission.",
+        "Crew members Wiseman, Glover, Koch, and Hansen are in excellent health and are currently in Houston for reconditioning.",
+        "The mission reached a record-breaking 406,771 km from Earth, the farthest distance ever traveled by a crewed spacecraft.",
+        "Orion hit the atmosphere at 38,367 kph, testing the heat shield with temperatures up to 2,760°C."
+      ],
+      "sources": [
+        "NASA Official Mission Update",
+        "Johnson Space Center Flight Operations",
+        "U.S. Navy Recovery Team"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Wiseman and his crew are in excellent health and high spirits, reunited with families and undergoing medical evaluations at JSC.",
+      "lastEvent": "Homecoming ceremony for the crew at Ellington Field in Houston, Texas.",
+      "nextEvent": "Transport of the Integrity capsule to Kennedy Space Center for post-flight system analysis.",
+      "telemetry": {
+        "distanceFromEarth": 0,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 11,
+        "velocity": 0
+      },
+      "fetchedAt": "2026-04-12T14:42:00.483Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Mission Complete",
@@ -1202,34 +1230,6 @@
         "velocity": 0
       },
       "fetchedAt": "2026-04-11T13:53:08.580Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Mission Complete",
-      "currentPhase": "Post-Landing Recovery",
-      "headline": "Artemis II mission concludes successfully with historic Pacific Ocean splashdown.",
-      "details": [
-        "The Orion spacecraft 'Integrity' splashed down on target at 00:07 UTC on April 11, concluding a 9-day, 1-hour, and 32-minute mission.",
-        "Crew members Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in excellent health and adapting to 1g aboard the USS John P. Murtha.",
-        "The mission set a new record for farthest human travel from Earth, reaching a maximum distance of 406,771 km (252,756 miles).",
-        "NASA and Navy teams have secured the spacecraft and are preparing the crew for their return to Houston today."
-      ],
-      "sources": [
-        "NASA Mission Control Center",
-        "U.S. Navy Recovery Task Force",
-        "Artemis II Mission Management Team"
-      ],
-      "alertMessage": null,
-      "crewStatus": "The four-person crew is in excellent health and high spirits; they are currently aboard the recovery vessel awaiting transport to Houston.",
-      "lastEvent": "Crew was successfully recovered by the USS John P. Murtha and completed initial medical evaluations.",
-      "nextEvent": "Homecoming ceremony at Ellington Field in Houston, scheduled between 20:00 UTC and 01:00 UTC.",
-      "telemetry": {
-        "distanceFromEarth": 0,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 10,
-        "velocity": 0
-      },
-      "fetchedAt": "2026-04-11T12:45:35.235Z"
     }
   ],
   "lastError": null
