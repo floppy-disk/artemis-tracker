@@ -1,31 +1,31 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Mission Complete",
-    "currentPhase": "Post-mission crew reconditioning and system debriefs in Houston.",
-    "headline": "Artemis II crew returns to Houston following record-breaking lunar mission and successful Pacific splashdown.",
+    "statusLabel": "Mission Completed",
+    "currentPhase": "Post-flight reconditioning and technical debriefing",
+    "headline": "Artemis II crew returns home safely following historic lunar flyby mission.",
     "details": [
-      "The Orion spacecraft 'Integrity' successfully splashed down on April 11 at 00:07 UTC after a 10-day mission.",
-      "Crew members Wiseman, Glover, Koch, and Hansen are in excellent health and have returned to the Johnson Space Center.",
-      "Artemis II set a new human distance record, reaching 406,771 km from Earth on April 6, 2026.",
-      "NASA engineers have begun analyzing heat shield performance and life support data to finalize plans for the Artemis III lunar landing."
+      "Orion capsule 'Integrity' successfully splashed down in the Pacific Ocean on April 10, concluding a 10-day journey.",
+      "The mission set a new human spaceflight record for farthest distance from Earth at 406,771 km.",
+      "Crew members Wiseman, Glover, Koch, and Hansen arrived in Houston for a public homecoming ceremony on April 11.",
+      "NASA is now analyzing heat shield data and crew performance to finalize plans for the Artemis III lunar landing."
     ],
     "sources": [
-      "NASA Mission Update April 12, 2026",
-      "USS John P. Murtha Recovery Log",
-      "Johnson Space Center Crew Status Report"
+      "NASA Mission Update",
+      "Johnson Space Center Press Release",
+      "Official Artemis II Flight Log"
     ],
     "alertMessage": null,
-    "crewStatus": "The crew is in excellent health; they are currently undergoing physical therapy to readapt to Earth's gravity and providing debriefs on Orion systems.",
-    "lastEvent": "Arrival at Ellington Field in Houston, Texas on the afternoon of April 11, 2026.",
-    "nextEvent": "Comprehensive mission data review and Artemis III hardware readiness milestones.",
+    "crewStatus": "All four crew members have received a clean bill of health and have been reunited with their families in Houston.",
+    "lastEvent": "Public homecoming ceremony at Ellington Field in Houston, Texas.",
+    "nextEvent": "Transport of the Orion spacecraft to Kennedy Space Center for detailed heat shield analysis.",
     "telemetry": {
       "distanceFromEarth": 0,
       "distanceFromMoon": null,
-      "missionElapsedDay": 10,
+      "missionElapsedDay": 11,
       "velocity": 0
     },
-    "fetchedAt": "2026-04-12T08:42:27.402Z"
+    "fetchedAt": "2026-04-12T09:42:24.357Z"
   },
   "milestones": [
     {
@@ -323,7 +323,7 @@
     {
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
-      "detail": "Orion passed approximately 6,545 km above the lunar surface during its closest approach.",
+      "detail": "Completed a close approach of 6,545 km from the lunar surface.",
       "time": "2026-04-06T23:00:00.000Z",
       "day": 6,
       "icon": "🌕",
@@ -362,7 +362,7 @@
     {
       "id": "distance-record",
       "label": "Farthest Distance From Earth Record",
-      "detail": "Reached a record-breaking maximum distance of 406,771 km (252,756 miles) from Earth.",
+      "detail": "Reached a record distance of 406,771 km from Earth, surpassing all previous crewed missions.",
       "time": "2026-04-06T23:07:00.000Z",
       "day": 6,
       "icon": "🗺️",
@@ -401,7 +401,7 @@
     {
       "id": "apollo-13-record",
       "label": "Broke Apollo 13 Distance Record",
-      "detail": "Officially eclipsed the previous distance record set by the Apollo 13 crew in 1970.",
+      "detail": "Officially surpassed the farthest distance record set by the Apollo 13 mission in 1970.",
       "time": "2026-04-06T23:56:00.000Z",
       "day": 6,
       "icon": "🏆",
@@ -601,7 +601,7 @@
     {
       "id": "reentry",
       "label": "Re-Entry",
-      "detail": "Atmospheric entry at 38,625 kph with heat shield temperatures reaching 2,760 degrees Celsius.",
+      "detail": "Orion entered Earth's atmosphere at 38,624 kph, subjecting the heat shield to 5,000°F.",
       "time": "2026-04-10T23:53:00.000Z",
       "day": 10,
       "icon": "🔥",
@@ -620,7 +620,7 @@
     {
       "id": "splashdown",
       "label": "Splashdown",
-      "detail": "Precision landing in the Pacific Ocean off the coast of Baja California.",
+      "detail": "Orion splashed down off the coast of San Diego at 8:07 p.m. EDT.",
       "time": "2026-04-11T00:07:27.000Z",
       "day": 10,
       "icon": "🌊",
@@ -650,7 +650,7 @@
     {
       "id": "houston-arrival",
       "label": "Houston Crew Arrival",
-      "detail": "Crew arrived at Ellington Field to begin post-flight medical evaluations.",
+      "detail": "The crew arrived at Ellington Field for a public ceremony and family reunions.",
       "time": "2026-04-11T22:00:00.000Z",
       "day": 10,
       "icon": "✈️",
@@ -669,6 +669,34 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "Mission Completed",
+      "currentPhase": "Post-flight reconditioning and technical debriefing",
+      "headline": "Artemis II crew returns home safely following historic lunar flyby mission.",
+      "details": [
+        "Orion capsule 'Integrity' successfully splashed down in the Pacific Ocean on April 10, concluding a 10-day journey.",
+        "The mission set a new human spaceflight record for farthest distance from Earth at 406,771 km.",
+        "Crew members Wiseman, Glover, Koch, and Hansen arrived in Houston for a public homecoming ceremony on April 11.",
+        "NASA is now analyzing heat shield data and crew performance to finalize plans for the Artemis III lunar landing."
+      ],
+      "sources": [
+        "NASA Mission Update",
+        "Johnson Space Center Press Release",
+        "Official Artemis II Flight Log"
+      ],
+      "alertMessage": null,
+      "crewStatus": "All four crew members have received a clean bill of health and have been reunited with their families in Houston.",
+      "lastEvent": "Public homecoming ceremony at Ellington Field in Houston, Texas.",
+      "nextEvent": "Transport of the Orion spacecraft to Kennedy Space Center for detailed heat shield analysis.",
+      "telemetry": {
+        "distanceFromEarth": 0,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 11,
+        "velocity": 0
+      },
+      "fetchedAt": "2026-04-12T09:42:24.357Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Mission Complete",
@@ -1193,34 +1221,6 @@
         "velocity": 0
       },
       "fetchedAt": "2026-04-11T08:38:18.170Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Mission Complete",
-      "currentPhase": "Crew recovery and post-flight medical evaluations",
-      "headline": "Artemis II mission concludes successfully with record-breaking splashdown in the Pacific Ocean.",
-      "details": [
-        "Orion spacecraft 'Integrity' completed a bullseye splashdown at 00:07 UTC on April 11, 2026, after a 9-day mission.",
-        "The mission set a new record for the farthest humans have traveled from Earth, reaching 406,778 km (252,760 miles).",
-        "All four crew members are in excellent health and were recovered by the USS John P. Murtha within two hours.",
-        "The heat shield successfully withstood re-entry temperatures of 5,000°F while traveling at 39,750 km/h."
-      ],
-      "sources": [
-        "NASA Mission Control Center",
-        "Canadian Space Agency (CSA) News",
-        "U.S. Navy Recovery Team Reports"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Wiseman, Pilot Glover, Specialist Koch, and Specialist Hansen are in excellent health and walked unaided onto the recovery ship.",
-      "lastEvent": "Crew recovery and extraction to the USS John P. Murtha.",
-      "nextEvent": "Crew transfer from the recovery ship to Houston and detailed post-flight debriefs.",
-      "telemetry": {
-        "distanceFromEarth": 0,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 10,
-        "velocity": 0
-      },
-      "fetchedAt": "2026-04-11T07:04:22.718Z"
     }
   ],
   "lastError": null
