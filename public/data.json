@@ -2,30 +2,29 @@
   "update": {
     "status": "nominal",
     "statusLabel": "Mission Complete",
-    "currentPhase": "Post-flight reconditioning and medical evaluations",
-    "headline": "Artemis II crew returns to Houston following record-breaking 9-day lunar mission.",
+    "currentPhase": "Post-mission analysis and crew medical recovery",
+    "headline": "The Artemis II mission successfully concluded with a safe splashdown of the Orion spacecraft in the Pacific Ocean on April 11, 2026.",
     "details": [
-      "The Orion spacecraft 'Integrity' successfully splashed down in the Pacific Ocean on April 11, 2026, at 00:07 UTC.",
-      "Astronauts Wiseman, Glover, Koch, and Hansen are in excellent health and undergoing post-mission performance evaluations at JSC.",
-      "The mission set a new human spaceflight distance record, reaching 252,756 miles from Earth.",
-      "Engineering teams have begun analyzing the performance of the heat shield after it endured 5,000°F during reentry."
+      "All four crew members are in excellent health and have arrived at Johnson Space Center for post-flight evaluation.",
+      "The mission achieved a new human spaceflight distance record of 406,771 km from Earth.",
+      "Engineers are currently analyzing heat shield data from the 'Integrity' capsule to prepare for future lunar landing missions.",
+      "NASA and partners are shifting focus to the Artemis III mission, currently targeted for mid-2027."
     ],
     "sources": [
-      "NASA Mission Control Center",
-      "Johnson Space Center (JSC)",
-      "USS John P. Murtha Recovery Log"
+      "NASA Artemis II Mission Updates",
+      "Johnson Space Center Mission Control"
     ],
     "alertMessage": null,
-    "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in excellent health and high spirits at Johnson Space Center.",
-    "lastEvent": "Crew homecoming ceremony and reunion with families at Ellington Field on April 11.",
-    "nextEvent": "Release of high-resolution imagery and 'Earthset' video from the lunar far side.",
+    "crewStatus": "All four crew members are healthy and undergoing post-flight reconditioning at Johnson Space Center.",
+    "lastEvent": "Arrival of the crew at NASA’s Johnson Space Center in Houston on April 11, 2026.",
+    "nextEvent": "Orion capsule post-flight inspection scheduled for April 20, 2026.",
     "telemetry": {
       "distanceFromEarth": 0,
-      "distanceFromMoon": null,
+      "distanceFromMoon": 384400,
       "missionElapsedDay": 11,
       "velocity": 0
     },
-    "fetchedAt": "2026-04-12T16:33:21.917Z"
+    "fetchedAt": "2026-04-12T17:30:59.742Z"
   },
   "milestones": [
     {
@@ -682,6 +681,33 @@
     {
       "status": "nominal",
       "statusLabel": "Mission Complete",
+      "currentPhase": "Post-mission analysis and crew medical recovery",
+      "headline": "The Artemis II mission successfully concluded with a safe splashdown of the Orion spacecraft in the Pacific Ocean on April 11, 2026.",
+      "details": [
+        "All four crew members are in excellent health and have arrived at Johnson Space Center for post-flight evaluation.",
+        "The mission achieved a new human spaceflight distance record of 406,771 km from Earth.",
+        "Engineers are currently analyzing heat shield data from the 'Integrity' capsule to prepare for future lunar landing missions.",
+        "NASA and partners are shifting focus to the Artemis III mission, currently targeted for mid-2027."
+      ],
+      "sources": [
+        "NASA Artemis II Mission Updates",
+        "Johnson Space Center Mission Control"
+      ],
+      "alertMessage": null,
+      "crewStatus": "All four crew members are healthy and undergoing post-flight reconditioning at Johnson Space Center.",
+      "lastEvent": "Arrival of the crew at NASA’s Johnson Space Center in Houston on April 11, 2026.",
+      "nextEvent": "Orion capsule post-flight inspection scheduled for April 20, 2026.",
+      "telemetry": {
+        "distanceFromEarth": 0,
+        "distanceFromMoon": 384400,
+        "missionElapsedDay": 11,
+        "velocity": 0
+      },
+      "fetchedAt": "2026-04-12T17:30:59.742Z"
+    },
+    {
+      "status": "nominal",
+      "statusLabel": "Mission Complete",
       "currentPhase": "Post-flight reconditioning and medical evaluations",
       "headline": "Artemis II crew returns to Houston following record-breaking 9-day lunar mission.",
       "details": [
@@ -1201,34 +1227,6 @@
         "velocity": 0
       },
       "fetchedAt": "2026-04-11T16:31:52.555Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Mission Accomplished",
-      "currentPhase": "Post-Landing Recovery and De-servicing",
-      "headline": "Artemis II Orion spacecraft splashes down safely, concluding a historic 10-day lunar journey.",
-      "details": [
-        "The Orion capsule Integrity successfully splashed down in the Pacific Ocean at 00:07:27 UTC on April 11, 2026.",
-        "Crew members Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in excellent health aboard the USS John P. Murtha.",
-        "The mission lasted 9 days, 1 hour, 32 minutes, and 15 seconds, setting a new human distance record from Earth.",
-        "Orion will be transported to Kennedy Space Center for a detailed post-flight analysis of the heat shield and flight systems."
-      ],
-      "sources": [
-        "NASA Mission Control",
-        "US Navy Recovery Teams",
-        "Artemis Program Public Affairs"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Wiseman, Pilot Glover, and Specialists Koch and Hansen are in high spirits and adjusting to Earth's gravity.",
-      "lastEvent": "Successful splashdown and crew recovery by the USS John P. Murtha southwest of San Diego.",
-      "nextEvent": "Crew arrival at Ellington Field in Houston for family reunions and medical monitoring.",
-      "telemetry": {
-        "distanceFromEarth": 0,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 10,
-        "velocity": 0
-      },
-      "fetchedAt": "2026-04-11T15:29:27.319Z"
     }
   ],
   "lastError": null
