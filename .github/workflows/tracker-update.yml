@@ -1,8 +1,10 @@
+# ARCHIVED: This workflow is disabled. The project was retired on 2026-04-13.
+# It previously ran hourly to fetch Artemis II mission updates via Google Gemini AI.
 name: Tracker Update
 on:
-  schedule:
-    - cron: '0 * * * *'
-  workflow_dispatch:
+  # Triggers removed — workflow archived
+  # Previously: schedule (hourly cron) and workflow_dispatch
+  workflow_dispatch: # kept for reference but repo will be archived/read-only
 
 permissions:
   contents: write

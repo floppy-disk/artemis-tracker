@@ -1,13 +1,11 @@
+# ARCHIVED: This workflow is disabled. The project was retired on 2026-04-13.
+# The existing GitHub Pages deployment remains live as a frozen snapshot.
 name: Deploy Static Site to Pages
 
 on:
-  push:
-    branches: ["main"]
-  workflow_dispatch:
-  workflow_run:
-    workflows: ["Tracker Update"]
-    types:
-      - completed
+  # Triggers removed — workflow archived
+  # Previously: push to main, workflow_dispatch, and chained from Tracker Update
+  workflow_dispatch: # kept for reference but repo will be archived/read-only
 
 permissions:
   contents: read

@@ -1,5 +1,7 @@
 # Artemis II Tracker
 
+> **Archived Project** — This project was retired on April 13, 2026. The live site remains available as a frozen snapshot with data last updated on April 10, 2026 (Mission Day 10). The automated AI update pipeline and deployment workflows have been disabled. No further updates will be made.
+
 A real-time, AI-powered mission tracker for NASA's Artemis II lunar flyby. This project provides a visually immersive dashboard that automatically stays up-to-date with the latest mission news, telemetry, and milestones using Google's Gemini AI.
 
 ## 🚀 How It Works
