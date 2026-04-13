@@ -4,6 +4,9 @@ import "./index.css";
 
 // ━━━ CONSTANTS ━━━
 const LAUNCH_TIME = new Date("2026-04-01T22:35:00Z");
+// ARCHIVE: Freeze all timers at splashdown. The mission is complete and the
+// project is retired — clocks should show the final MET, not keep ticking.
+const SPLASHDOWN_TIME = new Date("2026-04-11T00:07:00Z");
 
 const CREW = [
   { name: "Reid Wiseman", role: "Commander", agency: "NASA" },
@@ -39,9 +42,8 @@ function StarField() {
 }
 
 function METClock() {
-  const [now, setNow] = useState(Date.now());
-  useEffect(() => { const t = setInterval(() => setNow(Date.now()), 1000); return () => clearInterval(t); }, []);
-  const met = now - LAUNCH_TIME.getTime();
+  // ARCHIVE: Clock frozen at splashdown MET instead of ticking live.
+  const met = SPLASHDOWN_TIME.getTime() - LAUNCH_TIME.getTime();
   const abs = Math.abs(met);
   const d = Math.floor(abs / 86400000);
   const h = Math.floor((abs % 86400000) / 3600000);
@@ -230,9 +232,8 @@ function LiveBriefing({ update, fetchState }) {
 }
 
 function ProgressBar() {
-  const [now, setNow] = useState(Date.now());
-  useEffect(() => { const t = setInterval(() => setNow(Date.now()), 1000); return () => clearInterval(t); }, []);
-  const pct = Math.min(100, Math.max(0, ((now - LAUNCH_TIME.getTime()) / (10 * 86400000)) * 100));
+  // ARCHIVE: Progress bar frozen at 100% — mission complete.
+  const pct = 100;
   return (
     <div style={{ marginBottom: 16 }}>
       <div style={{ height: 6, borderRadius: 3, background: "rgba(130,170,255,0.1)", overflow: "hidden" }}>
@@ -250,12 +251,10 @@ function ProgressBar() {
 }
 
 function Stats({ milestones }) {
-  const [now, setNow] = useState(Date.now());
-  useEffect(() => { const t = setInterval(() => setNow(Date.now()), 5000); return () => clearInterval(t); }, []);
-  const elapsed = now - LAUNCH_TIME.getTime();
-  const day = Math.min(10, Math.max(1, Math.ceil(elapsed / 86400000)));
-  const done = milestones.filter((m) => m.completed || new Date(m.time).getTime() <= now).length;
-  const pct = Math.min(100, Math.max(0, (elapsed / (10 * 86400000)) * 100));
+  // ARCHIVE: All stats frozen at mission-complete values.
+  const day = 10;
+  const done = milestones.filter((m) => m.completed).length;
+  const pct = 100;
   return (
     <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 10, marginBottom: 16 }}>
       {[
@@ -294,10 +293,16 @@ function PollConfig({ interval, setInterval: setInt }) {
 }
 
 function Timeline({ milestones }) {
-  const now = Date.now();
+  // ARCHIVE: All milestones are shown as completed. Post-splashdown items
+  // (post-mission analysis, inspections, etc.) are listed under "Upcoming"
+  // since they hadn't occurred when the tracker was archived.
+  const splashdownMs = SPLASHDOWN_TIME.getTime();
+  const completed = milestones.filter((m) => new Date(m.time).getTime() <= splashdownMs);
+  const upcoming = milestones.filter((m) => new Date(m.time).getTime() > splashdownMs);
+
   const groups = {};
-  milestones.forEach((m) => { const k = `Day ${m.day}`; if (!groups[k]) groups[k] = []; groups[k].push(m); });
-  const nextIdx = milestones.findIndex((m) => !m.completed && new Date(m.time).getTime() > now);
+  completed.forEach((m) => { const k = `Day ${m.day}`; if (!groups[k]) groups[k] = []; groups[k].push(m); });
+
   return (
     <div style={{ background: "rgba(10,22,40,0.5)", border: "1px solid rgba(130,170,255,0.1)", borderRadius: 20, padding: 24 }}>
       <h2 style={{ fontSize: 14, letterSpacing: 3, color: "#7fdbca", textTransform: "uppercase", marginBottom: 16, fontWeight: 600 }}>Timeline</h2>
@@ -306,24 +311,21 @@ function Timeline({ milestones }) {
           <div style={{ fontSize: 11, letterSpacing: 2, color: "#8badc1", textTransform: "uppercase", marginBottom: 6, paddingLeft: 28, fontWeight: 600 }}>{day}</div>
           {items.map((m) => {
             const mTime = new Date(m.time);
-            const isPast = m.completed || mTime.getTime() <= now;
-            const isNext = milestones.indexOf(m) === nextIdx;
             return (
               <div key={m.id} style={{
                 display: "flex", gap: 10, alignItems: "flex-start", padding: "8px 10px", borderRadius: 8, marginBottom: 2,
-                background: isNext ? "rgba(127,219,202,0.08)" : m.isNew ? "rgba(199,146,234,0.06)" : "transparent",
-                borderLeft: isNext ? "2px solid #7fdbca" : m.isNew ? "2px solid rgba(199,146,234,0.4)" : "2px solid transparent",
-                opacity: isPast ? 0.6 : 1,
+                background: m.isNew ? "rgba(199,146,234,0.06)" : "transparent",
+                borderLeft: m.isNew ? "2px solid rgba(199,146,234,0.4)" : "2px solid transparent",
+                opacity: 0.6,
               }}>
-                <div style={{ fontSize: 16, width: 24, textAlign: "center", flexShrink: 0 }}>{isPast ? "✓" : m.icon}</div>
+                <div style={{ fontSize: 16, width: 24, textAlign: "center", flexShrink: 0 }}>✓</div>
                 <div style={{ flex: 1, minWidth: 0 }}>
                   <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
-                    <span style={{ fontSize: 12, fontWeight: 700, color: isPast ? "#8badc1" : m.highlight ? "#ffcb6b" : "#e6f1ff" }}>{m.label}</span>
-                    {m.isNew && <span style={{ fontSize: 9, background: "rgba(199,146,234,0.2)", color: "#c792ea", padding: "1px 5px", borderRadius: 4, fontWeight: 700 }}>NEW</span>}
+                    <span style={{ fontSize: 12, fontWeight: 700, color: "#8badc1" }}>{m.label}</span>
                   </div>
                   <div style={{ fontSize: 11, color: "#7a9aaa", marginTop: 1 }}>{m.detail}</div>
                 </div>
-                <div style={{ fontSize: 10, fontFamily: "mono, 'Courier New', monospace", color: isPast ? "#8badc1" : "#6b9eb5", flexShrink: 0 }}>
+                <div style={{ fontSize: 10, fontFamily: "mono, 'Courier New', monospace", color: "#8badc1", flexShrink: 0 }}>
                   {mTime.toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })}
                 </div>
               </div>
@@ -331,6 +333,25 @@ function Timeline({ milestones }) {
           })}
         </div>
       ))}
+
+      {/* ARCHIVE: Post-splashdown milestones that hadn't occurred yet */}
+      {upcoming.length > 0 && (
+        <div style={{ marginTop: 20 }}>
+          <div style={{ fontSize: 11, letterSpacing: 2, color: "#8badc1", textTransform: "uppercase", marginBottom: 6, paddingLeft: 28, fontWeight: 600 }}>Upcoming:</div>
+          {upcoming.map((m) => (
+            <div key={m.id} style={{
+              display: "flex", gap: 10, alignItems: "flex-start", padding: "8px 10px", borderRadius: 8, marginBottom: 2,
+              borderLeft: "2px solid transparent",
+            }}>
+              <div style={{ fontSize: 16, width: 24, textAlign: "center", flexShrink: 0 }}>{m.icon}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <span style={{ fontSize: 12, fontWeight: 700, color: "#e6f1ff" }}>{m.label}</span>
+                <div style={{ fontSize: 11, color: "#7a9aaa", marginTop: 1 }}>{m.detail}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
