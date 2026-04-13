@@ -1,31 +1,30 @@
 {
   "update": {
     "status": "nominal",
-    "statusLabel": "Mission Complete",
-    "currentPhase": "Post-flight reconditioning and medical evaluations",
-    "headline": "Artemis II crew returns to Houston following historic 10-day lunar mission.",
+    "statusLabel": "MISSION COMPLETE",
+    "currentPhase": "Post-mission recovery and data analysis",
+    "headline": "Artemis II crew returns safely to Earth after record-breaking lunar mission.",
     "details": [
-      "The Orion spacecraft 'Integrity' splashed down in the Pacific Ocean on April 10, 2026, at 5:07 p.m. PDT.",
-      "The mission established a new human distance record of 406,771 km from Earth, surpassing Apollo 13.",
-      "Crew members Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen are in excellent health and began physical reconditioning in Houston on April 12.",
-      "Orion successfully endured re-entry temperatures of 5,000°F (2,760°C) and a velocity of Mach 32."
+      "The Orion spacecraft 'Integrity' splashed down in the Pacific Ocean on April 10, marking the first human lunar-vicinity mission in over 50 years.",
+      "Crew members Wiseman, Glover, Koch, and Hansen are in excellent health and have returned to Johnson Space Center in Houston.",
+      "Mission data and results from the AVATAR bone marrow organ-chip experiments are currently under analysis by NASA scientists.",
+      "Orion is being transported to Kennedy Space Center for post-flight inspection while NASA shifts focus to the Artemis III mission scheduled for 2027."
     ],
     "sources": [
       "NASA Mission Control",
-      "Artemis II Recovery Team",
-      "USS John P. Murtha"
+      "Canadian Space Agency (CSA)"
     ],
     "alertMessage": null,
-    "crewStatus": "All four crew members are reported in 'green' condition and are undergoing postflight medical evaluations and physical reconditioning.",
-    "lastEvent": "Crew arrival and homecoming ceremony at Ellington Field in Houston, Texas.",
-    "nextEvent": "NASA 'Mission Complete' review and official announcement regarding the Artemis III crew selection.",
+    "crewStatus": "Commander Wiseman, Pilot Glover, Specialist Koch, and Specialist Hansen are in excellent health and undergoing standard post-mission physical recovery.",
+    "lastEvent": "Crew homecoming celebration at NASA’s Johnson Space Center in Houston.",
+    "nextEvent": "Detailed post-flight inspection of the Orion capsule at Kennedy Space Center.",
     "telemetry": {
       "distanceFromEarth": 0,
-      "distanceFromMoon": 384400,
-      "missionElapsedDay": 11,
+      "distanceFromMoon": null,
+      "missionElapsedDay": 12,
       "velocity": 0
     },
-    "fetchedAt": "2026-04-12T23:30:34.937Z"
+    "fetchedAt": "2026-04-13T02:10:54.175Z"
   },
   "milestones": [
     {
@@ -303,7 +302,7 @@
     {
       "id": "apollo-13-record",
       "label": "Broke Apollo 13 Distance Record",
-      "detail": "Crew surpassed the 248,655-mile record set by Apollo 13 at approximately 12:56 p.m. CDT.",
+      "detail": "Surpassed the Apollo 13 record for farthest human distance from Earth.",
       "time": "2026-04-06T17:56:00.000Z",
       "day": 5,
       "icon": "🏆",
@@ -333,7 +332,7 @@
     {
       "id": "lunar-flyby",
       "label": "Lunar Flyby",
-      "detail": "Orion flew within 6,545 km (4,067 miles) of the lunar far-side surface.",
+      "detail": "Achieved closest lunar approach of 6,545 km from the surface.",
       "time": "2026-04-06T23:00:00.000Z",
       "day": 6,
       "icon": "🌕",
@@ -372,7 +371,7 @@
     {
       "id": "distance-record",
       "label": "Farthest Distance From Earth Record",
-      "detail": "Reached a record-breaking maximum distance of 406,771 km (252,756 miles) from Earth.",
+      "detail": "Reached a peak distance from Earth of 406,771 km (252,756 miles).",
       "time": "2026-04-06T23:07:00.000Z",
       "day": 6,
       "icon": "🗺️",
@@ -620,7 +619,7 @@
     {
       "id": "splashdown",
       "label": "Splashdown",
-      "detail": "Successful splashdown in the Pacific Ocean off the coast of San Diego at 5:07 p.m. PDT.",
+      "detail": "Orion splashed down successfully off the coast of San Diego at 5:07 p.m. PDT.",
       "time": "2026-04-11T00:07:00.000Z",
       "day": 10,
       "icon": "🌊",
@@ -630,7 +629,7 @@
     {
       "id": "crew-recovery",
       "label": "Crew Recovery",
-      "detail": "Crew safely recovered by the USS John P. Murtha and transported to the ship's well deck.",
+      "detail": "The crew was safely recovered by the USS John P. Murtha.",
       "time": "2026-04-11T01:15:00.000Z",
       "day": 10,
       "icon": "🚢",
@@ -650,7 +649,7 @@
     {
       "id": "houston-arrival",
       "label": "Houston Crew Arrival",
-      "detail": "Astronauts returned to Ellington Field in Houston for a homecoming ceremony with family and colleagues.",
+      "detail": "The four astronauts arrived back at Johnson Space Center for a family homecoming.",
       "time": "2026-04-11T22:00:00.000Z",
       "day": 10,
       "icon": "✈️",
@@ -699,6 +698,33 @@
     }
   ],
   "history": [
+    {
+      "status": "nominal",
+      "statusLabel": "MISSION COMPLETE",
+      "currentPhase": "Post-mission recovery and data analysis",
+      "headline": "Artemis II crew returns safely to Earth after record-breaking lunar mission.",
+      "details": [
+        "The Orion spacecraft 'Integrity' splashed down in the Pacific Ocean on April 10, marking the first human lunar-vicinity mission in over 50 years.",
+        "Crew members Wiseman, Glover, Koch, and Hansen are in excellent health and have returned to Johnson Space Center in Houston.",
+        "Mission data and results from the AVATAR bone marrow organ-chip experiments are currently under analysis by NASA scientists.",
+        "Orion is being transported to Kennedy Space Center for post-flight inspection while NASA shifts focus to the Artemis III mission scheduled for 2027."
+      ],
+      "sources": [
+        "NASA Mission Control",
+        "Canadian Space Agency (CSA)"
+      ],
+      "alertMessage": null,
+      "crewStatus": "Commander Wiseman, Pilot Glover, Specialist Koch, and Specialist Hansen are in excellent health and undergoing standard post-mission physical recovery.",
+      "lastEvent": "Crew homecoming celebration at NASA’s Johnson Space Center in Houston.",
+      "nextEvent": "Detailed post-flight inspection of the Orion capsule at Kennedy Space Center.",
+      "telemetry": {
+        "distanceFromEarth": 0,
+        "distanceFromMoon": null,
+        "missionElapsedDay": 12,
+        "velocity": 0
+      },
+      "fetchedAt": "2026-04-13T02:10:54.175Z"
+    },
     {
       "status": "nominal",
       "statusLabel": "Mission Complete",
@@ -1221,34 +1247,6 @@
         "velocity": 0
       },
       "fetchedAt": "2026-04-12T02:06:14.647Z"
-    },
-    {
-      "status": "nominal",
-      "statusLabel": "Mission Complete",
-      "currentPhase": "Post-mission recovery and crew evaluation",
-      "headline": "Artemis II mission successfully concludes with Orion splashdown and crew recovery.",
-      "details": [
-        "The Orion spacecraft 'Integrity' splashed down in the Pacific Ocean at 00:07:27 UTC on April 11, 2026.",
-        "Crew members Wiseman, Glover, Koch, and Hansen are in excellent health and high spirits following their 10-day mission.",
-        "Artemis II set a new human deep-space distance record of 406,771 km (252,756 miles) from Earth.",
-        "The crew has arrived at Johnson Space Center while the spacecraft is being transported to San Diego."
-      ],
-      "sources": [
-        "NASA Mission Control Center",
-        "U.S. Navy Recovery Team (USS John P. Murtha)",
-        "Canadian Space Agency (CSA)"
-      ],
-      "alertMessage": null,
-      "crewStatus": "Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialists Christina Koch and Jeremy Hansen are in excellent health and have returned to Houston.",
-      "lastEvent": "Crew arrival at Ellington Field/Johnson Space Center in Houston.",
-      "nextEvent": "Arrival of the Orion capsule at Naval Base San Diego for offloading and transport to Kennedy Space Center.",
-      "telemetry": {
-        "distanceFromEarth": 0,
-        "distanceFromMoon": null,
-        "missionElapsedDay": 11,
-        "velocity": 0
-      },
-      "fetchedAt": "2026-04-11T23:29:23.647Z"
     }
   ],
   "lastError": null
